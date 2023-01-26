@@ -68,7 +68,10 @@ export default function Document() {
           <link href="/css/owl.carousel.min.css" rel="stylesheet" />
           <link href="/css/owl.theme.default.min.css" rel="stylesheet" />
           {/* ON SCROLL ANIMATION */}
-          <link href="/css/animate.css" rel="stylesheet" />
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+          />
           {/* TEMPLATE CSS */}
           <link href="/css/style.css" rel="stylesheet" />
           {/* RESPONSIVE CSS */}
@@ -78,8 +81,8 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        {/* 
-        <script src="/js/jquery-3.6.0.min.js"></script>
+
+        {/* <script src="/js/jquery-3.6.0.min.js"></script>
         <script src="/js/bootstrap.min.js"></script>
         <script src="/js/modernizr.custom.js"></script>
         <script src="/js/jquery.easing.js"></script>
@@ -94,9 +97,9 @@ export default function Document() {
         <script src="/js/request-form.js"></script>
         <script src="/js/jquery.validate.min.js"></script>
         <script src="/js/jquery.ajaxchimp.min.js"></script>
-        <script src="/js/wow.js"></script>
+        <script src="/js/wow.js"></script> */}
 
-        <script src="/js/custom.js"></script> */}
+        <script src="/js/custom.js"></script>
       </body>
     </Html>
   );
