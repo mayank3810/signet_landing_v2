@@ -4,6 +4,13 @@ import { useInView } from "react-intersection-observer";
 function Features() {
   const [containerRef, inContainerView] = useInView({ threshold: 0.2 });
 
+  const [init, setInit] = useState(false);
+  useEffect(() => {
+    if (!init && inContainerView) {
+      setInit(true);
+    }
+  }, [inContainerView]);
+
   return (
     <section
       ref={containerRef}
@@ -18,7 +25,7 @@ function Features() {
             <div className="col">
               <div
                 className={
-                  inContainerView
+                  init
                     ? "fbox-2 mb-40 animate__animated animate__fadeInUp"
                     : "fbox-2 mb-40 animate__animated"
                 }
@@ -49,7 +56,7 @@ function Features() {
             <div className="col">
               <div
                 className={
-                  inContainerView
+                  init
                     ? "fbox-2 mb-40 animate__animated animate__fadeInUp"
                     : "fbox-2 mb-40 animate__animated"
                 }
@@ -80,7 +87,7 @@ function Features() {
             <div className="col">
               <div
                 className={
-                  inContainerView
+                  init
                     ? "fbox-2 mb-40 animate__animated animate__fadeInUp"
                     : "fbox-2 mb-40 animate__animated"
                 }
