@@ -54,7 +54,7 @@ function CustomerEngagement() {
                           ? "animate__animated animate__fadeIn"
                           : "animate__animated"
                       }
-                      src="//unsplash.it/600/600"
+                      src="/images/customers/6.png"
                       style={{ animationDelay: "2s" }}
                     />
                   </div>
@@ -70,7 +70,7 @@ function CustomerEngagement() {
                           : "animate__animated"
                       }
                       style={{ animationDelay: "1.75s" }}
-                      src="//unsplash.it/500/500"
+                      src="/images/customers/8.png"
                     />
                   </div>
 
@@ -82,7 +82,7 @@ function CustomerEngagement() {
                           : "animate__animated"
                       }
                       style={{ animationDuration: "1s" }}
-                      src="//unsplash.it/800/800"
+                      src="/images/customers/7.png"
                     />
                   </div>
                   <div className="brick height-100"></div>
@@ -95,7 +95,7 @@ function CustomerEngagement() {
                           : "animate__animated"
                       }
                       style={{ animationDelay: "1.25s" }}
-                      src="//unsplash.it/600/500"
+                      src="/images/customers/9.png"
                     />
                   </div>
                   <div className="brick">
@@ -106,7 +106,7 @@ function CustomerEngagement() {
                           : "animate__animated"
                       }
                       style={{ animationDelay: "1.75s" }}
-                      src="//unsplash.it/200/200"
+                      src="/images/customers/10.png"
                     />
                   </div>
                 </div>
