@@ -34,7 +34,7 @@ export default function Home() {
                 <div className="rel img-block left-column wow fadeInRight">
                   <img
                     className="img-fluid"
-                    src="/images/img-10.png"
+                    src="/images/metaverse.png"
                     alt="content-image"
                   />
                 </div>
@@ -43,14 +43,19 @@ export default function Home() {
               <div className="col-md-7 col-lg-6">
                 <div className="txt-block right-column white-color wow fadeInLeft">
                   {/* Title */}
-                  <h2 className="h2-xs">Make it simpler with Quick Commands</h2>
+                  <h2 className="h2-xs">
+                    Sell your merchandise on stores and Metaverse
+                  </h2>
                   {/* List */}
                   <ul className="simple-list">
                     <li className="list-item">
                       <p className="p-lg">
-                        Fringilla risus, luctus mauris orci auctor euismod
-                        iaculis luctus magna purus pretium ligula purus undo
-                        quaerat tempor sapien rutrum mauris quaerat ultrice
+                        Signet tags with direct NFC connection allows an
+                        immediate check of product authenticity and integrity.
+                        An instant interaction with the product grants access to
+                        its history, characteristics and sustainability
+                        certifications. Faster and safer than any solution based
+                        on QR code or image recognition.
                       </p>
                     </li>
                     <li className="list-item">
