@@ -20,7 +20,7 @@ function Hero() {
         <VideoPopup
           open={open}
           setOpen={setOpen}
-          link={"https://www.youtube.com/embed/SZEflIVnhH8"}
+          link={"https://www.youtube.com/embed/YQUjE2koNRI"}
         />
       )}
 

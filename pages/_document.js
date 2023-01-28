@@ -99,7 +99,7 @@ export default function Document() {
         <script src="/js/jquery.ajaxchimp.min.js"></script>
         <script src="/js/wow.js"></script> */}
 
-        <script src="/js/custom.js"></script>
+        {/* <script src="/js/custom.js"></script> */}
       </body>
     </Html>
   );

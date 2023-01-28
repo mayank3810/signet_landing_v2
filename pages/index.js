@@ -6,7 +6,9 @@ import Content4 from "@/components/Home/Content4";
 import CustomerEngagement from "@/components/Home/CustomerEngagement";
 import Features from "@/components/Home/Features";
 import Hero from "@/components/Home/Hero";
+import { generateAccessToken } from "@/squidex";
 import { Inter } from "@next/font/google";
+import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -14,14 +16,25 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   const [headerRef, inHeaderView] = useInView();
 
+  useEffect(() => {
+    // token = localStorage.getItem
+    // getToken();
+  }, []);
+
+  // const getToken = async () => {
+  //   const token = await generateAccessToken();
+  //   console.log(token);
+  // };
+
   return (
     <>
       <div id="page" className="page">
         <Header scroll={inHeaderView} />
         <Hero />
+
+        <Features />
+        <hr className="divider" />
         <div ref={headerRef}>
-          <Features />
-          <hr className="divider" />
           <Content2 />
           <Content3 />
           <Content4 />
