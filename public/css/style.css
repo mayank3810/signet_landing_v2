@@ -809,7 +809,7 @@ body {
   background-color: #c73e9b;
 }
 .bg-deepyellow {
-  background-color: #ffa755;
+  background-color: #d7a241;
 }
 
 /*------------------------------------------*/
@@ -1749,8 +1749,8 @@ ol.digit-list p {
 .scroll .yellow-hover:hover,
 .white-color .yellow-hover:hover {
   color: #1d293f !important;
-  background-color: #ffb30c !important;
-  border-color: #ffb30c !important;
+  background-color: #d7a241 !important;
+  border-color: #d7a241 !important;
 }
 
 .btn-tra-yellow,
@@ -1761,7 +1761,7 @@ ol.digit-list p {
 .white-color .tra-yellow-hover:hover {
   color: #1d293f !important;
   background-color: transparent !important;
-  border-color: #ffb30c !important;
+  border-color: #d7a241 !important;
 }
 
 /*------------------------------------------*/
@@ -2747,7 +2747,7 @@ span.os-version {
 .yellow-color i,
 .yellow-color span,
 .white-color .yellow-color {
-  color: #ffb30c;
+  color: #d7a241;
 }
 
 /*------------------------------------------*/
@@ -4600,7 +4600,8 @@ p.terms-txt a,
 #hero-23 {
   position: relative;
   z-index: 3;
-  background-image: url(../images/hero-23.jpg);
+  /* background-image: url(../images/hero-23.jpg); */
+  background-image: url(../images/hero-3.jpg);
   padding-top: 160px;
   padding-bottom: 100px;
 }
@@ -4625,6 +4626,8 @@ p.terms-txt a,
   -webkit-border-radius: 16px;
   -moz-border-radius: 16px;
   border-radius: 16px;
+  margin-bottom: 50px;
+  max-height: 500px;
 }
 
 /*------------------------------------------*/
