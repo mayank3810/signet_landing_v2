@@ -120,7 +120,7 @@ function Content4() {
                 <div className="cbox-2 mt-20 mb-30">
                   {/* Icon */}
                   <div className="cbox-2-ico">
-                    <div className="ico-40 orange-red-color">
+                    <div className="ico-40 dark-color">
                       <span className="flaticon-speech-bubble-4" />
                     </div>
                   </div>
@@ -134,7 +134,7 @@ function Content4() {
                 <div className="cbox-2">
                   {/* Icon */}
                   <div className="cbox-2-ico">
-                    <div className="ico-40 orange-red-color">
+                    <div className="ico-40 dark-color">
                       <span className="flaticon-analytics-4" />
                     </div>
                   </div>

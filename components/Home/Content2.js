@@ -46,19 +46,17 @@ function Content2() {
               style={{ animationDuration: "1.75s" }}
             >
               {/* Title */}
-              <h2 className="h2-xs">Share files, media, and locations</h2>
+              <h2 className="h2-xs">Proof of authenticity in seconds</h2>
               {/* Text */}
               <p className="p-lg">
-                Quaerat sodales sapien euismod blandit purus a purus ipsum
-                primis in cubilia laoreet augue luctus magna dolor luctus and
-                egestas sapien egestas vitae nemo volute
+                Signet tags with direct NFC connection provides an easy and quick way to check product authenticity and integrity.
+                 Interacting with the product directly grants access to its history, characteristics and sustainability certifications. 
+
               </p>
               {/* Text */}
               <p className="p-lg">
-                Quaerat sodales sapien euismod blandit at vitae ipsum primis
-                undo and cubilia laoreet augue and luctus magna dolor luctus at
-                egestas sapien vitae nemo egestas volute and turpis dolores
-                aliquam quaerat sodales a sapien
+              Our solution is faster and safer than any solution based on QR code or image recognition.
+                No App download required.
               </p>
             </div>
           </div>{" "}

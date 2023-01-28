@@ -34,17 +34,15 @@ function Content3() {
                 >
                   {/* Icon */}
                   <div className="cbox-ico">
-                    <div className="orange-red-color ico-65">
+                    <div className="dark-color ico-65">
                       <span className="flaticon-speech-bubble-2" />
                     </div>
                   </div>
                   {/* Text */}
                   <div className="cbox-txt">
-                    <h5 className="h5-md">Text, Voice &amp; Video Calls</h5>
+                    <h5 className="h5-md"> NTAG 424 DNA </h5>
                     <p className="p-lg">
-                      Ligula risus auctor tempus dolor feugiat undo lacinia
-                      purus lipsum quaerat primis ultrice tellus and viverra
-                      purus suscipit
+                    Advanced Security and Privacy for Trusted IoT Applications. Secure NFC tags with random changing keys
                     </p>
                   </div>
                 </div>
@@ -59,17 +57,15 @@ function Content3() {
                 >
                   {/* Icon */}
                   <div className="cbox-ico">
-                    <div className="orange-red-color ico-65">
+                    <div className="dark-color ico-65">
                       <span className="flaticon-tongue" />
                     </div>
                   </div>
                   {/* Text */}
                   <div className="cbox-txt">
-                    <h5 className="h5-md">Stickers, Emojis, Themes</h5>
+                    <h5 className="h5-md">Blockchain</h5>
                     <p className="p-lg">
-                      Ligula risus auctor tempus dolor feugiat undo lacinia
-                      purus lipsum quaerat primis ultrice tellus and viverra
-                      purus suscipit
+                    Digital blockchain assets that cannot be duplicated, ensuring transparent and immutable information.
                     </p>
                   </div>
                 </div>
@@ -84,17 +80,15 @@ function Content3() {
                 >
                   {/* Icon */}
                   <div className="cbox-ico">
-                    <div className="orange-red-color ico-65">
+                    <div className="dark-color ico-65">
                       <span className="flaticon-shield-2" />
                     </div>
                   </div>
                   {/* Text */}
                   <div className="cbox-txt">
-                    <h5 className="h5-md">Spam Protection</h5>
+                    <h5 className="h5-md">Experience</h5>
                     <p className="p-lg">
-                      Ligula risus auctor tempus dolor feugiat undo lacinia
-                      purus lipsum quaerat primis ultrice tellus and viverra
-                      purus suscipit
+                    Easy check of authenticity for consumers. No special app download required.
                     </p>
                   </div>
                 </div>

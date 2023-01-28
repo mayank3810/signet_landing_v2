@@ -32,7 +32,7 @@ function Features() {
                 style={{ animationDuration: "1.75s" }}
               >
                 {/* Icon */}
-                <div className="fbox-ico-center ico-65 shape-ico orange-red-color">
+                <div className="fbox-ico-center ico-65 shape-ico dark-color">
                   <img
                     className="ico-bkg"
                     src="/images/ico-bkg.png"
@@ -43,11 +43,11 @@ function Features() {
                 {/* Text */}
                 <div className="fbox-txt-center">
                   {/* Title */}
-                  <h5 className="h5-md">Blockchain Solution</h5>
+                  <h5 className="h5-md">Powered by Blockchain</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Feugiat primis ultrice a semper lacus cursus feugiat a
-                    primis ultrice a ligula risus auctor tempus feugiat felis
+                    Signet Tags utilizes the full potential of blockchain technology to create
+                    unique, uncloneable & verifiable tags
                   </p>
                 </div>
               </div>
@@ -63,7 +63,7 @@ function Features() {
                 style={{ animationDuration: "1.75s" }}
               >
                 {/* Icon */}
-                <div className="fbox-ico-center ico-65 shape-ico orange-red-color">
+                <div className="fbox-ico-center ico-65 shape-ico dark-color">
                   <img
                     className="ico-bkg"
                     src="/images/ico-bkg.png"
@@ -77,8 +77,7 @@ function Features() {
                   <h5 className="h5-md">Clone Resistant</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Feugiat primis ultrice a semper lacus cursus feugiat a
-                    primis ultrice a ligula risus auctor tempus feugiat felis
+                    Signet Tags uses secure, unclonable NFC tags which ensure physical product authentication & security.
                   </p>
                 </div>
               </div>
@@ -94,7 +93,7 @@ function Features() {
                 style={{ animationDuration: "1.75s" }}
               >
                 {/* Icon */}
-                <div className="fbox-ico-center ico-65 shape-ico orange-red-color">
+                <div className="fbox-ico-center ico-65 shape-ico dark-color">
                   <img
                     className="ico-bkg"
                     src="/images/ico-bkg.png"
@@ -108,8 +107,7 @@ function Features() {
                   <h5 className="h5-md">Works without App</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Feugiat primis ultrice a semper lacus cursus feugiat a
-                    primis ultrice a ligula risus auctor tempus feugiat felis
+                    Signet authentication doesnot require users to download any app and works directly on tapping the tag.
                   </p>
                 </div>
               </div>
