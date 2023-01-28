@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header() {
+function Header({ scroll }) {
   return (
     <header id="header" className="header tra-menu navbar-light">
       <div className="header-wrapper">
@@ -14,7 +14,13 @@ function Header() {
           </a>
         </div>
         {/* NAVIGATION MENU */}
-        <div className="wsmainfull menu clearfix">
+        <div
+          className={
+            scroll
+              ? "wsmainfull menu clearfix scroll"
+              : "wsmainfull menu clearfix"
+          }
+        >
           <div className="wsmainwp clearfix">
             {/* HEADER LOGO */}
             <div className="desktoplogo">
@@ -55,7 +61,7 @@ function Header() {
                     </li>
                   </ul>
                 </li>
-               
+
                 <li className="nl-simple" aria-haspopup="true">
                   <a href="#features-8">Technology</a>
                 </li>
@@ -65,8 +71,10 @@ function Header() {
                 </li>
                 {/* HEADER BUTTON */}
                 <li className="nl-simple" aria-haspopup="true">
-                  <a href="#content-4"
-                    className="btn btn-tra-white orange-red-hover last-link">
+                  <a
+                    href="#content-4"
+                    className="btn btn-tra-white orange-red-hover last-link"
+                  >
                     Schedule a Demo
                   </a>
                 </li>

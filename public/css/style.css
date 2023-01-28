@@ -1748,9 +1748,15 @@ ol.digit-list p {
 .yellow-hover:hover,
 .scroll .yellow-hover:hover,
 .white-color .yellow-hover:hover {
-  color: #1d293f !important;
+  /* color: #1d293f !important;
   background-color: #d7a241 !important;
-  border-color: #d7a241 !important;
+  border-color: #d7a241 !important; */
+
+  background: #fbce71;
+  background: -webkit-linear-gradient(left, #fbce71 0%, #d7a241 100%);
+  background: linear-gradient(to right, #fbce71 0%, #d7a241 100%);
+  border-color: #fbce71;
+  color: #1d293f !important;
 }
 
 .btn-tra-yellow,
@@ -3776,7 +3782,7 @@ p.terms-txt a,
 .white-menu .wsmainfull.scroll,
 .dark-menu.dark-scroll .wsmainfull.scroll {
   background-color: #fff !important;
-  padding: 0;
+  padding: 10px;
   -webkit-box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
   -moz-box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
   box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
@@ -8687,6 +8693,6 @@ nav a#pull {
   margin-bottom: 0px !important;
 }
 
-.height-100{
-  height:100px;
+.height-100 {
+  height: 100px;
 }
