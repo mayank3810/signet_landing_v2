@@ -17,9 +17,7 @@ function Header({ scroll }) {
   }, [router.pathname]);
 
   function fetchActiveRoute() {
-    if (router.pathname.includes("blog")) {
-      setActiveRoute("blog");
-    } else if (router.pathname.includes("industries")) {
+    if (router.pathname.includes("industries")) {
       setActiveRoute("industries");
     } else if (router.pathname.includes("technology")) {
       setActiveRoute("technology");
@@ -132,15 +130,7 @@ function Header({ scroll }) {
                     Technology
                   </Link>
                 </li>
-                <li className="nl-simple" aria-haspopup="true">
-                  <Link
-                    className={activeRoute === "blog" ? "active-link" : ""}
-                    href={"/blog"}
-                  >
-                    Blog
-                  </Link>
-                  {/* <a href="#features-8"></a> */}
-                </li>
+
                 {/* SIMPLE NAVIGATION LINK */}
                 <li className="nl-simple" aria-haspopup="true">
                   <Link
