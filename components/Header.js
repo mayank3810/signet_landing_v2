@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 
 function Header({ scroll }) {
   const [activeRoute, setActiveRoute] = useState();
+  const [mobNav, setMobNav] = useState(false);
 
   const router = useRouter();
 
@@ -27,6 +28,16 @@ function Header({ scroll }) {
     }
   }
 
+  const toggleNav = () => {
+    if (mobNav) {
+      document.body.classList.remove("wsactive");
+      setMobNav(false);
+    } else {
+      document.body.classList.add("wsactive");
+      setMobNav(true);
+    }
+  };
+
   return (
     <header id="header" className="header tra-menu navbar-light">
       <div className="header-wrapper">
@@ -37,7 +48,13 @@ function Header({ scroll }) {
               <img src="/images/logo_dark.svg" alt="mobile-logo" />
             </Link>
           </span>
-          <a id="wsnavtoggle" className="wsanimated-arrow">
+          <a
+            onClick={() => {
+              toggleNav();
+            }}
+            id="wsnavtoggle"
+            className="wsanimated-arrow"
+          >
             <span />
           </a>
         </div>
@@ -62,7 +79,11 @@ function Header({ scroll }) {
               </Link>
             </div>
             {/* MAIN MENU */}
-            <nav className="wsmenu clearfix">
+            <nav
+              style={mobNav ? { height: "100vh" } : {}}
+              className="wsmenu clearfix"
+            >
+              {mobNav && <div className="overlapblackbg"></div>}
               <ul className="wsmenu-list nav-orange-red-hover">
                 <li className="nl-simple" aria-haspopup="true">
                   <Link
