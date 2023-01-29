@@ -42,7 +42,8 @@ function Content3() {
                   <div className="cbox-txt">
                     <h5 className="h5-md"> NTAG 424 DNA </h5>
                     <p className="p-lg">
-                    Advanced Security and Privacy for Trusted IoT Applications. Secure NFC tags with random changing keys
+                      Advanced Security and Privacy for Trusted IoT
+                      Applications. Secure NFC tags with random changing keys
                     </p>
                   </div>
                 </div>
@@ -65,7 +66,8 @@ function Content3() {
                   <div className="cbox-txt">
                     <h5 className="h5-md">Blockchain</h5>
                     <p className="p-lg">
-                    Digital blockchain assets that cannot be duplicated, ensuring transparent and immutable information.
+                      Digital blockchain assets that cannot be duplicated,
+                      ensuring transparent and immutable information.
                     </p>
                   </div>
                 </div>
@@ -88,7 +90,8 @@ function Content3() {
                   <div className="cbox-txt">
                     <h5 className="h5-md">Experience</h5>
                     <p className="p-lg">
-                    Easy check of authenticity for consumers. No special app download required.
+                      Easy check of authenticity for consumers. No special app
+                      download required.
                     </p>
                   </div>
                 </div>

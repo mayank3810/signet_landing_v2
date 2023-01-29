@@ -46,8 +46,8 @@ function Features() {
                   <h5 className="h5-md">Powered by Blockchain</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Signet Tags utilizes the full potential of blockchain technology to create
-                    unique, uncloneable & verifiable tags
+                    Signet Tags utilizes the full potential of blockchain
+                    technology to create unique, uncloneable & verifiable tags
                   </p>
                 </div>
               </div>
@@ -77,7 +77,8 @@ function Features() {
                   <h5 className="h5-md">Clone Resistant</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Signet Tags uses secure, unclonable NFC tags which ensure physical product authentication & security.
+                    Signet Tags uses secure, unclonable NFC tags which ensure
+                    physical product authentication & security.
                   </p>
                 </div>
               </div>
@@ -107,7 +108,8 @@ function Features() {
                   <h5 className="h5-md">Works without App</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Signet authentication doesnot require users to download any app and works directly on tapping the tag.
+                    Signet authentication doesnot require users to download any
+                    app and works directly on tapping the tag.
                   </p>
                 </div>
               </div>

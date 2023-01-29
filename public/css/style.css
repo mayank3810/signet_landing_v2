@@ -775,6 +775,9 @@ body {
 .bg-skyblue {
   background-color: #0195ff;
 }
+.bg-yellow {
+  background-color: #fbce71;
+}
 .bg-stateblue {
   background-color: #6064e3;
 }
@@ -1757,6 +1760,7 @@ ol.digit-list p {
   background: linear-gradient(to right, #fbce71 0%, #d7a241 100%);
   border-color: #fbce71;
   color: #1d293f !important;
+  transition: all 0.3s ease;
 }
 
 .btn-tra-yellow,
@@ -1825,8 +1829,19 @@ ol.digit-list p {
 .tra-grey-hover:hover,
 .scroll .tra-grey-hover:hover {
   color: #1d293f !important;
+  background: transparent !important;
   background-color: transparent !important;
   border-color: #ccc !important;
+  transition: all 0.3s ease;
+}
+
+.tra-yellow-hover:hover,
+.scroll .tra-yellow-hover:hover {
+  color: #000 !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  border-color: #fbce71 !important;
+  transition: all 0.3s ease;
 }
 
 /*------------------------------------------*/
@@ -8049,7 +8064,7 @@ img.footer-logo {
 }
 
 #download-page {
-  background-image: url(../images/download-page.jpg);
+  /* background-image: url(../images/download-page.jpg); */
 }
 
 #faqs-page {

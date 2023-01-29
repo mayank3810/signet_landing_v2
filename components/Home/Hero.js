@@ -70,7 +70,7 @@ function Hero() {
                 {/* Preview Image */}
                 <img
                   className="img-fluid hero-23-img"
-                  src="images/proof_authenticity.jpeg"
+                  src="/images/proof_authenticity.jpeg"
                   alt="video-preview"
                 />
               </div>

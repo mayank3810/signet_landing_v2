@@ -9,7 +9,7 @@ function Header({ scroll }) {
 
   useEffect(() => {
     fetchActiveRoute();
-    console.log(router.pathname);
+    // console.log(router.pathname);
     // console.log(router.pathname.includes("feed"));
   }, [router.pathname]);
 
@@ -33,7 +33,9 @@ function Header({ scroll }) {
         {/* MOBILE HEADER */}
         <div className="wsmobileheader clearfix">
           <span className="smllogo">
-            <img src="/images/logo_dark.svg" alt="mobile-logo" />
+            <Link href="/">
+              <img src="/images/logo_dark.svg" alt="mobile-logo" />
+            </Link>
           </span>
           <a id="wsnavtoggle" className="wsanimated-arrow">
             <span />
@@ -50,14 +52,14 @@ function Header({ scroll }) {
           <div className="wsmainwp clearfix">
             {/* HEADER LOGO */}
             <div className="desktoplogo">
-              <a href="#hero-1" className="logo-black">
+              <Link href="/" className="logo-black">
                 <img src="/images/logo_dark.svg" alt="header-logo" />
-              </a>
+              </Link>
             </div>
             <div className="desktoplogo">
-              <a href="#hero-1" className="logo-white">
+              <Link href="/" className="logo-white">
                 <img src="/images/logo_light.svg" alt="header-logo" />
-              </a>
+              </Link>
             </div>
             {/* MAIN MENU */}
             <nav className="wsmenu clearfix">

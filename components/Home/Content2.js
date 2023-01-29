@@ -49,14 +49,15 @@ function Content2() {
               <h2 className="h2-xs">Proof of authenticity in seconds</h2>
               {/* Text */}
               <p className="p-lg">
-                Signet tags with direct NFC connection provides an easy and quick way to check product authenticity and integrity.
-                 Interacting with the product directly grants access to its history, characteristics and sustainability certifications. 
-
+                Signet tags with direct NFC connection provides an easy and
+                quick way to check product authenticity and integrity.
+                Interacting with the product directly grants access to its
+                history, characteristics and sustainability certifications.
               </p>
               {/* Text */}
               <p className="p-lg">
-              Our solution is faster and safer than any solution based on QR code or image recognition.
-                No App download required.
+                Our solution is faster and safer than any solution based on QR
+                code or image recognition. No App download required.
               </p>
             </div>
           </div>{" "}
