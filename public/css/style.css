@@ -8696,3 +8696,17 @@ nav a#pull {
 .height-100 {
   height: 100px;
 }
+
+.p-lg p {
+  font-size: 1.35rem;
+}
+
+.single-post-txt img {
+  max-width: 100%;
+  height: auto;
+
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -o-border-radius: 16px;
+  border-radius: 16px;
+}
