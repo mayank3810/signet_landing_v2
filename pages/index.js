@@ -6,7 +6,6 @@ import Content4 from "@/components/Home/Content4";
 import CustomerEngagement from "@/components/Home/CustomerEngagement";
 import Features from "@/components/Home/Features";
 import Hero from "@/components/Home/Hero";
-import { generateAccessToken } from "@/squidex";
 import { Inter } from "@next/font/google";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
@@ -40,7 +39,6 @@ export default function Home() {
           <Content4 />
           <hr className="divider" />
           <CustomerEngagement />
-
           <section
             id="content-10"
             className="content-10 wide-100 content-section division"
@@ -51,10 +49,13 @@ export default function Home() {
                 <div className="col-lg-10 col-xl-8">
                   <div className="section-title title-01 mb-70">
                     {/* Title */}
-                    <h2 className="h2-md">Flexible and scalable across industries</h2>
+                    <h2 className="h2-md">
+                      Flexible and scalable across industries
+                    </h2>
                     {/* Text */}
                     <p className="p-xl">
-                      Our product authentication solution is flexible and scalable across industries
+                      Our product authentication solution is flexible and
+                      scalable across industries
                     </p>
                   </div>
                 </div>
@@ -99,7 +100,6 @@ export default function Home() {
               </div>
             </div>{" "}
           </section>{" "}
-
           <section
             id="content-9"
             className="content-9 bg-01 pt-100 content-section division"
@@ -113,9 +113,13 @@ export default function Home() {
                       Get started with a free trial account. <br />
                     </h2>
                     <p className="p-xl">
-                      Get a Free Authenticity Tags Kit to experience the technology yourself before you decide to scale.
-                      The NFC Starter Kit comes with 10-20 secure, unclonable NXP 424 DNA NFC tags, a free account on the Qliktag Platform & links to online help resources,
-                      documentation on encoding the tags and all you would need to to setup a small pilot with your own products & custom experiences.
+                      Get a Free Authenticity Tags Kit to experience the
+                      technology yourself before you decide to scale. The NFC
+                      Starter Kit comes with 10-20 secure, unclonable NXP 424
+                      DNA NFC tags, a free account on the Qliktag Platform &
+                      links to online help resources, documentation on encoding
+                      the tags and all you would need to to setup a small pilot
+                      with your own products & custom experiences.
                     </p>
                   </div>
                 </div>
@@ -147,8 +151,6 @@ export default function Home() {
             </div>{" "}
             {/* End container */}
           </section>{" "}
-
-
           <section id="faqs-2" className="wide-60 faqs-section division">
             <div className="container">
               {/* SECTION TITLE */}
@@ -159,7 +161,8 @@ export default function Home() {
                     <h2 className="h2-md">Got Questions? Look Here</h2>
                     {/* Text */}
                     <p className="p-xl">
-                     Get your common questions answered. If you have more queries, please reach out to us using our contact page.
+                      Get your common questions answered. If you have more
+                      queries, please reach out to us using our contact page.
                     </p>
                   </div>
                 </div>
@@ -299,7 +302,6 @@ export default function Home() {
             </div>{" "}
             {/* End container */}
           </section>{" "}
-
           <Footer />
         </div>
       </div>{" "}
