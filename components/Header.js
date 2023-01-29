@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 
 function Header({ scroll }) {
   const [activeRoute, setActiveRoute] = useState();
-  const [mobNav, setMobNav] = useState(false);
+  const [mobNav, setMobNav] = useState(true);
 
   const router = useRouter();
 
@@ -12,6 +12,8 @@ function Header({ scroll }) {
     fetchActiveRoute();
     // console.log(router.pathname);
     // console.log(router.pathname.includes("feed"));
+
+    toggleNav();
   }, [router.pathname]);
 
   function fetchActiveRoute() {
