@@ -6,6 +6,33 @@ const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
 });
 
 function Testimonials() {
+  const options = {
+    margin: 30,
+    responsiveClass: true,
+    nav: false,
+    dots: false,
+    autoplay: true,
+    smartSpeed: 1000,
+    autoplayTimeout: 3000,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      400: {
+        items: 1,
+      },
+      600: {
+        items: 2,
+      },
+      700: {
+        items: 3,
+      },
+      1000: {
+        items: 3,
+      },
+    },
+  };
+
   return (
     <section
       id="reviews-1"
@@ -31,7 +58,7 @@ function Testimonials() {
         <div className="row">
           <div className="col">
             <div className="reviews-1-wrapper">
-              <OwlCarousel autoplay={true} loop={true} autoplayTimeout={3000}>
+              <OwlCarousel {...options}>
                 {/* TESTIMONIAL #1 */}
                 <div className="review-1">
                   {/* Quote Icon */}
