@@ -100,13 +100,14 @@ function Header({ scroll }) {
                 </li>
 
                 <li className="nl-simple" aria-haspopup="true">
-                  <a
+                  <Link
+                    href={"/technology"}
                     className={
                       activeRoute === "technology" ? "active-link" : ""
                     }
                   >
                     Technology
-                  </a>
+                  </Link>
                 </li>
                 <li className="nl-simple" aria-haspopup="true">
                   <Link
