@@ -1452,6 +1452,10 @@ ol.digit-list p {
   color: #fff;
 }
 
+a.btn.btn-yellow.tra-yellow-hover.color-white.mr-15:hover {
+  color: #fff;
+}
+
 .dark-color.btn.btn-transparent:focus {
   color: #1d293f !important;
 }
@@ -1769,7 +1773,7 @@ ol.digit-list p {
 .tra-yellow-hover:hover,
 .scroll .tra-yellow-hover:hover,
 .white-color .tra-yellow-hover:hover {
-  color: #1d293f !important;
+  color: #1d293f;
   background-color: transparent !important;
   border-color: #d7a241 !important;
 }
@@ -4559,6 +4563,7 @@ p.terms-txt a,
   background-image: url(../images/hero-20.jpg);
   padding-top: 170px;
   padding-bottom: 100px;
+  height:100vh;
 }
 
 .hero-20-txt {

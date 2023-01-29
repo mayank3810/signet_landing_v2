@@ -24,21 +24,15 @@ function Hero() {
         />
       )}
 
-      <section id="hero-23" className="bg-scroll hero-section division">
+      <section id="hero-20" className="bg-fixed hero-section division">
         <div className="container">
           <div className="row d-flex align-items-center">
             {/* HERO TEXT */}
-            <div className="col-lg-6">
-              <div
-                className="hero-23-txt white-color wow fadeInRight"
-                style={{ visibility: "visible", animationName: "fadeInRight" }}
-              >
+            <div className="col-md-8 col-lg-6">
+              <div className="hero-20-txt white-color">
                 {/* Title */}
-                <h2 className="h2-sm">
-                  Anti counterfeit,
-                  <br />
-                  Authenticity and <br />
-                  Customer Engagment{" "}
+                <h2 className="h2-md">
+                  Protect yourself from counterfeits and fake products
                 </h2>
                 {/* Text */}
                 <p className="p-xl">
@@ -46,35 +40,24 @@ function Hero() {
                   ownership. The blockchain solution to ensure authenticity and
                   increase customer engagement.
                 </p>
-                {/* Button */}
-                <a href="#" className="btn btn-yellow tra-white-hover">
-                  Try Signet for Free
-                </a>
+                {/* Buttons Group */}
+                <div className="btns-group">
+                  <a
+                    href="#cta-3"
+                    className="btn btn-yellow tra-yellow-hover color-white mr-15"
+                  >
+                    Get Started
+                  </a>
+                  <a
+                    onClick={() => setOpen(!open)}
+                    className="video-popup2 btn btn-md btn-transparent ico-20 ico-left"
+                  >
+                    <span className="flaticon-play" /> See Signet in Action
+                  </a>
+                </div>
               </div>
             </div>{" "}
             {/* END HERO TEXT */}
-            {/* HERO IMAGE */}
-            <div className="col-lg-6">
-              <div
-                className="hero-23-img video-preview wow fadeInLeft"
-                style={{ visibility: "visible", animationName: "fadeInLeft" }}
-              >
-                {/* Play Icon */}
-                <a onClick={() => setOpen(!open)} className="video-popup1">
-                  <div className="video-btn video-btn-xl bg-deepyellow ico-90">
-                    <div className="video-block-wrapper">
-                      <span className="flaticon-play-button" />
-                    </div>
-                  </div>
-                </a>
-                {/* Preview Image */}
-                <img
-                  className="img-fluid hero-23-img"
-                  src="/images/proof_authenticity.jpeg"
-                  alt="video-preview"
-                />
-              </div>
-            </div>
           </div>{" "}
           {/* End row */}
         </div>{" "}
