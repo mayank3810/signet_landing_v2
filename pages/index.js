@@ -27,264 +27,7 @@ export default function Home() {
           <Content4 />
           <hr className="divider" />
           <CustomerEngagement />
-          <section
-            id="content-2a"
-            className="content-2 bg-04 wide-60 content-section division"
-          >
-            <div className="container">
-              <div className="row d-flex align-items-center">
-                {/* IMAGE BLOCK */}
-                <div className="col-md-5 col-lg-6">
-                  <div className="rel img-block left-column wow fadeInRight">
-                    <img
-                      className="img-fluid"
-                      src="/images/metaverse.png"
-                      alt="content-image"
-                    />
-                  </div>
-                </div>
-                {/* TEXT BLOCK */}
-                <div className="col-md-7 col-lg-6">
-                  <div className="txt-block right-column white-color wow fadeInLeft">
-                    {/* Title */}
-                    <h2 className="h2-xs">
-                      Sell your merchandise on stores and Metaverse
-                    </h2>
-                    {/* List */}
-                    <ul className="simple-list">
-                      <li className="list-item">
-                        <p className="p-lg">
-                          Signet tags with direct NFC connection allows an
-                          immediate check of product authenticity and integrity.
-                          An instant interaction with the product grants access
-                          to its history, characteristics and sustainability
-                          certifications. Faster and safer than any solution
-                          based on QR code or image recognition.
-                        </p>
-                      </li>
-                      <li className="list-item">
-                        <p className="p-lg">
-                          Quaerat sodales sapien euismod purus blandit
-                        </p>
-                      </li>
-                      <li className="list-item">
-                        <p className="p-lg">
-                          Nemo ipsam egestas volute turpis dolores undo ultrice
-                          aliquam quaerat at sodales sapien purus
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>{" "}
-                {/* END TEXT BLOCK */}
-              </div>{" "}
-              {/* End row */}
-            </div>{" "}
-            {/* End container */}
-          </section>
-          {/* FEATURES-8
-			============================================= */}
-          <section
-            id="features-8"
-            className="wide-60 features-section division"
-          >
-            <div className="container">
-              {/* SECTION TITLE */}
-              <div className="row justify-content-center">
-                <div className="col-lg-10 col-xl-8">
-                  <div className="section-title title-01 mb-70">
-                    {/* Title */}
-                    <h2 className="h2-md">We’re Better. Here’s Why…</h2>
-                    {/* Text */}
-                    <p className="p-xl">
-                      Aliquam a augue suscipit, luctus neque purus ipsum neque
-                      dolor primis a libero tempus, blandit and cursus varius
-                      and magnis sapien
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/* FEATURES-8 WRAPPER */}
-              <div className="fbox-8-wrapper text-center">
-                <div className="row row-cols-1 row-cols-md-3">
-                  {/* FEATURE BOX #1 */}
-                  <div className="col">
-                    <div className="fbox-8 mb-40 wow fadeInUp">
-                      {/* Image */}
-                      <div className="fbox-img bg-whitesmoke-gradient">
-                        <img
-                          className="img-fluid"
-                          src="/images/img-21.png"
-                          alt="feature-icon"
-                        />
-                      </div>
-                      {/* Title */}
-                      <h5 className="h5-md">Friendly Interface</h5>
-                      {/* Text */}
-                      <p className="p-lg">
-                        Feugiat primis ultrice semper lacus cursus feugiat undo
-                        primis ultrice a ligula an auctor tempus magnis
-                      </p>
-                    </div>
-                  </div>
-                  {/* FEATURE BOX #2 */}
-                  <div className="col">
-                    <div className="fbox-8 mb-40 wow fadeInUp">
-                      {/* Image */}
-                      <div className="fbox-img bg-whitesmoke-gradient">
-                        <img
-                          className="img-fluid"
-                          src="/images/img-22.png"
-                          alt="feature-icon"
-                        />
-                      </div>
-                      {/* Title */}
-                      <h5 className="h5-md">Extremely Flexible</h5>
-                      {/* Text */}
-                      <p className="p-lg">
-                        Feugiat primis ultrice semper lacus cursus feugiat undo
-                        primis ultrice a ligula an auctor tempus magnis
-                      </p>
-                    </div>
-                  </div>
-                  {/* FEATURE BOX #3 */}
-                  <div className="col">
-                    <div className="fbox-8 mb-40 wow fadeInUp">
-                      {/* Image */}
-                      <div className="fbox-img bg-whitesmoke-gradient">
-                        <img
-                          className="img-fluid"
-                          src="/images/img-23.png"
-                          alt="feature-icon"
-                        />
-                      </div>
-                      {/* Title */}
-                      <h5 className="h5-md">Strong Encryption</h5>
-                      {/* Text */}
-                      <p className="p-lg">
-                        Feugiat primis ultrice semper lacus cursus feugiat undo
-                        primis ultrice a ligula an auctor tempus magnis
-                      </p>
-                    </div>
-                  </div>
-                </div>{" "}
-                {/* End row */}
-              </div>{" "}
-              {/* END FEATURES-8 WRAPPER */}
-            </div>{" "}
-            {/* End container */}
-          </section>{" "}
-          {/* END FEATURES-8 */}
-          {/* CONTENT-1
-			============================================= */}
-          <section
-            id="content-1"
-            className="content-1 bg-snow wide-60 content-section division"
-          >
-            <div className="container">
-              <div className="row d-flex align-items-center">
-                {/* TEXT BLOCK */}
-                <div className="col-lg-6 order-last order-lg-2">
-                  <div className="txt-block slim-column left-column wow fadeInRight">
-                    {/* Title */}
-                    <h2 className="h2-xs">
-                      Keep your favourite people close to you
-                    </h2>
-                    {/* List */}
-                    <ul className="simple-list">
-                      <li className="list-item">
-                        <p className="p-lg">
-                          Fringilla risus, luctus mauris orci auctor euismod
-                          iaculis luctus magna purus pretium ligula purus undo
-                          quaerat tempor sapien rutrum mauris quaerat ultrice
-                        </p>
-                      </li>
-                      <li className="list-item">
-                        <p className="p-lg">
-                          Quaerat sodales sapien euismod purus blandit
-                        </p>
-                      </li>
-                      <li className="list-item">
-                        <p className="p-lg">
-                          Nemo ipsam egestas volute turpis dolores undo ultrice
-                          aliquam quaerat at sodales sapien purus
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>{" "}
-                {/* END TEXT BLOCK */}
-                {/* CB WRAPPER */}
-                <div className="col-lg-6 order-first order-lg-2">
-                  <div className="cb-wrapper">
-                    {/* CB HOLDER */}
-                    <div className="cb-holder wow fadeInLeft">
-                      {/* CB BOX #1 */}
-                      <div className="cb-single-box">
-                        <p className="p-lg cb-header">Tempor Euismod</p>
-                        <h2 className="h2-title-xs statistic-number">
-                          <sup>+</sup>
-                          <span className="count-element">784</span>
-                        </h2>
-                        <p className="p-md mt-5 ico-10">
-                          <span className="violet-red-color">
-                            <span className="flaticon-" /> 4.6%
-                          </span>{" "}
-                          vs last 7 days
-                        </p>
-                      </div>
-                      <hr className="divider" />
-                      {/* CB BOX #2 */}
-                      <div className="cb-single-box">
-                        <ul className="simple-list">
-                          <li className="list-item">
-                            <p className="p-md">
-                              Fringilla risus luctus mauris auctor and purus
-                              euismod purus
-                            </p>
-                          </li>
-                          <li className="list-item">
-                            <p className="p-md">
-                              Nemo ipsam volute turpis dolores ut quaerat
-                              sodales sapien
-                            </p>
-                          </li>
-                        </ul>
-                      </div>
-                      {/* CB BOX #3 */}
-                      <div className="cb-single-box cb-box-rounded bg-violet-red white-color mt-25">
-                        <h4 className="h4-lg">98.245</h4>
-                        <p className="p-lg">Ligula risus auctor tempus</p>
-                      </div>
-                    </div>{" "}
-                    {/* END CB HOLDER */}
-                    {/* CB SHAPE */}
-                    <div className="cb-shape-1">
-                      <img
-                        className="img-fluid"
-                        src="/images/bg-shape-1.png"
-                        alt="content-image"
-                      />
-                    </div>
-                    {/* CB SHAPE */}
-                    <div className="cb-shape-2">
-                      <img
-                        className="img-fluid"
-                        src="/images/bg-shape-2.png"
-                        alt="content-image"
-                      />
-                    </div>
-                  </div>
-                </div>{" "}
-                {/* END CB WRAPPER */}
-              </div>{" "}
-              {/* End row */}
-            </div>{" "}
-            {/* End container */}
-          </section>{" "}
-          {/* END CONTENT-1 */}
-          {/* CONTENT-10
-			============================================= */}
+
           <section
             id="content-10"
             className="content-10 wide-100 content-section division"
@@ -295,12 +38,10 @@ export default function Home() {
                 <div className="col-lg-10 col-xl-8">
                   <div className="section-title title-01 mb-70">
                     {/* Title */}
-                    <h2 className="h2-md">Share Moments. Share Life.</h2>
+                    <h2 className="h2-md">Flexible and scalable across industries</h2>
                     {/* Text */}
                     <p className="p-xl">
-                      Aliquam a augue suscipit, luctus neque purus ipsum neque
-                      dolor primis a libero tempus, blandit and cursus varius
-                      and magnis sapien
+                      Our product authentication solution is flexible and scalable across industries
                     </p>
                   </div>
                 </div>
@@ -344,17 +85,8 @@ export default function Home() {
                 </div>
               </div>
             </div>{" "}
-            {/* End container */}
           </section>{" "}
-          {/* END CONTENT-10 */}
-          {/* TESTIMONIALS-1
-			============================================= */}{" "}
-          {/* END TESTIMONIALS-1 */}
-          {/* CONTENT-6
-			============================================= */}{" "}
-          {/* END CONTENT-6 */}
-          {/* CONTENT-9
-			============================================= */}
+
           <section
             id="content-9"
             className="content-9 bg-01 pt-100 content-section division"
@@ -365,8 +97,13 @@ export default function Home() {
                 <div className="col-md-10 col-lg-8">
                   <div className="section-title title-02 mb-60">
                     <h2 className="h2-xs">
-                      Discover powerful features to boost your productivity
+                      Get started with a free trial account. <br />
                     </h2>
+                    <p className="p-xl">
+                      Get a Free Authenticity Tags Kit to experience the technology yourself before you decide to scale.
+                      The NFC Starter Kit comes with 10-20 secure, unclonable NXP 424 DNA NFC tags, a free account on the Qliktag Platform & links to online help resources,
+                      documentation on encoding the tags and all you would need to to setup a small pilot with your own products & custom experiences.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -397,65 +134,8 @@ export default function Home() {
             </div>{" "}
             {/* End container */}
           </section>{" "}
-          {/* END CONTENT-9 */}
-          {/* STATISTIC-2
-			============================================= */}
-          <section
-            id="statistic-2"
-            className="wide-100 statistic-section division"
-          >
-            <div className="container">
-              <div className="row d-flex align-items-center">
-                {/* TEXT BLOCK */}
-                <div className="col-lg-6">
-                  <div className="txt-block right-column wow fadeInLeft">
-                    <h3 className="h3-xs">
-                      More than 65,000 users around the world are already using
-                      Signet actively
-                    </h3>
-                  </div>
-                </div>
-                {/* STATISTIC BLOCK #1 */}
-                <div className="col-sm-5 col-md-4 col-lg-3 offset-sm-1 offset-md-2 offset-lg-1">
-                  <div className="statistic-block wow fadeInUp">
-                    {/* Text */}
-                    <h2 className="h2-title-xs statistic-number">
-                      <span className="count-element">65</span>K
-                    </h2>
-                    <p className="p-lg mt-20">
-                      Active downloads <br /> from the community
-                    </p>
-                  </div>
-                </div>
-                {/* STATISTIC BLOCK #2 */}
-                <div className="col-sm-5 col-md-4 col-lg-2">
-                  <div className="statistic-block wow fadeInUp">
-                    {/* Text */}
-                    <h2 className="h2-title-xs statistic-number">
-                      <span className="count-element">4</span>.
-                      <span className="count-element">86</span>
-                    </h2>
-                    {/* Rating */}
-                    <div className="txt-block-rating ico-15 yellow-color">
-                      <span className="flaticon-star-1" />
-                      <span className="flaticon-star-1" />
-                      <span className="flaticon-star-1" />
-                      <span className="flaticon-star-1" />
-                      <span className="flaticon-star-half-empty" />
-                    </div>
-                    <p className="p-lg txt-400">8,376 Rating</p>
-                  </div>
-                </div>
-              </div>{" "}
-              {/* End row */}
-            </div>{" "}
-            {/* End container */}
-          </section>{" "}
-          {/* END STATISTIC-2 */}
-          {/* DIVIDER LINE */}
-          <hr className="divider" />
-          {/* FAQs-2
-			============================================= */}
+
+
           <section id="faqs-2" className="wide-60 faqs-section division">
             <div className="container">
               {/* SECTION TITLE */}
@@ -466,9 +146,7 @@ export default function Home() {
                     <h2 className="h2-md">Got Questions? Look Here</h2>
                     {/* Text */}
                     <p className="p-xl">
-                      Aliquam a augue suscipit, luctus neque purus ipsum neque
-                      dolor primis a libero tempus, blandit and cursus varius
-                      and magnis sapien
+                     Get your common questions answered. If you have more queries, please reach out to us using our contact page.
                     </p>
                   </div>
                 </div>
@@ -608,88 +286,10 @@ export default function Home() {
             </div>{" "}
             {/* End container */}
           </section>{" "}
-          {/* END FAQs-2 */}
-          {/* CONTENT-4
-			============================================= */}
-          <section id="content-4" className="content-4 pt-80 content-section">
-            <div className="bg-inner bg-whitesmoke-gradient division">
-              <div className="container">
-                <div className="row d-flex align-items-center">
-                  {/* IMAGE BLOCK */}
-                  <div className="col-md-5 col-lg-6 order-end order-md-2">
-                    <div className="content-4-img left-column wow fadeInRight">
-                      <img
-                        className="img-fluid"
-                        src="/images/img-01.png"
-                        alt="content-image"
-                      />
-                    </div>
-                  </div>
-                  {/* TEXT BLOCK */}
-                  <div className="col-md-7 col-lg-6 order-first order-md-2">
-                    <div className="txt-block right-column wow fadeInLeft">
-                      {/* Title */}
-                      <h2 className="h2-xs">
-                        Unlimited calling, texting and picture messaging
-                      </h2>
-                      {/* Text */}
-                      <p className="p-lg">
-                        Quaerat sodales sapien euismod blandit at vitae ipsum
-                        primis undo and cubilia laoreet augue and luctus magna
-                        dolor luctus at egestas sapien vitae nemo egestas
-                      </p>
-                      {/* Buttons Group */}
-                      <div className="btns-group mb-30">
-                        <a
-                          href="download.html"
-                          className="btn btn-orange-red tra-orange-red-hover mr-15"
-                        >
-                          Let's Get Started
-                        </a>
-                        <a
-                          href="pricing.html"
-                          className="btn btn-tra-grey tra-orange-red-hover"
-                        >
-                          View Pricing
-                        </a>
-                      </div>
-                      {/* Advantages List */}
-                      <ul className="advantages clearfix">
-                        <li className="first-li">
-                          <p>Free 14 days trial</p>
-                        </li>
-                        <li>
-                          <p>Exclusive Support</p>
-                        </li>
-                        <li className="last-li">
-                          <p>No Fees</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>{" "}
-                  {/* END CONTENT TXT */}
-                </div>{" "}
-                {/* End row */}
-              </div>{" "}
-              {/* End container */}
-            </div>{" "}
-            {/* End Inner Background */}
-          </section>{" "}
-          {/* END CONTENT-4 */}
-          {/* FOOTER-1
-			============================================= */}
+
           <Footer />
         </div>
-        {/* END FOOTER-1 */}
       </div>{" "}
-      {/* END PAGE CONTENT */}
-      {/* EXTERNAL SCRIPTS
-		============================================= */}
-      {/* Custom Script */}
-      {/* Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. */}
-      {/*
-		
-		*/}
     </>
   );
 }
