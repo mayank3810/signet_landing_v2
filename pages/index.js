@@ -116,9 +116,7 @@ export default function Home() {
                       Get a Free Authenticity Tags Kit to experience the
                       technology yourself before you decide to scale. The NFC
                       Starter Kit comes with 10-20 secure, unclonable NXP 424
-                      DNA NFC tags, a free account on the Qliktag Platform &
-                      links to online help resources, documentation on encoding
-                      the tags and all you would need to to setup a small pilot
+                      DNA NFC tags, a free account to setup a small pilot
                       with your own products & custom experiences.
                     </p>
                   </div>

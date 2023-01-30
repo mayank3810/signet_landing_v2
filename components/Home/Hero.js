@@ -28,11 +28,11 @@ function Hero() {
         <div className="container">
           <div className="row d-flex align-items-center">
             {/* HERO TEXT */}
-            <div className="col-md-8 col-lg-6">
+            <div className="col-md-8 col-lg-8">
               <div className="hero-20-txt white-color">
                 {/* Title */}
                 <h2 className="h2-md">
-                  Protect yourself from counterfeits and fake products
+                  Stop counterfeits & collect insights directly from consumers
                 </h2>
                 {/* Text */}
                 <p className="p-xl">
