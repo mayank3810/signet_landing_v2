@@ -17,9 +17,7 @@ function Footer() {
               />
               {/* Text */}
               <p className="p-md">
-                Aliquam nullam tempor sapien donec and gravida congue an ipsum
-                porta justo velna auctor magna and laoreet augue an auctor
-                gravida donec
+              Signet Tags - Blockchain-based authenticity and Brand protection solution
               </p>
             </div>
           </div>
@@ -42,12 +40,12 @@ function Footer() {
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Press &amp; Media</a>
+                    <a href="#">Contact Us</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Contact Us</a>
+                    <a href="#">Privacy Policy</a>
                   </p>
                 </li>
               </ul>
@@ -67,17 +65,12 @@ function Footer() {
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Advertising</a>
-                  </p>
-                </li>
-                <li>
-                  <p className="p-md">
                     <a href="#">Plans &amp; Pricing</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Testimonials</a>
+                    <a href="#">API & Resources</a>
                   </p>
                 </li>
               </ul>
@@ -87,27 +80,33 @@ function Footer() {
           <div className="col-sm-6 col-md-3 col-lg-2">
             <div className="footer-links mb-40">
               {/* Title */}
-              <h6 className="h6-xl">Legal</h6>
+              <h6 className="h6-xl">Industries</h6>
               {/* Footer List */}
               <ul className="foo-links text-secondary clearfix">
                 <li>
                   <p className="p-md">
-                    <a href="#">Terms of Use</a>
+                    <a href="#">Pharmaceuticals</a>
+                  </p>
+                </li>
+                
+                <li>
+                  <p className="p-md">
+                    <a href="#">Cosmetics & Perfumes</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Privacy Policy</a>
+                    <a href="#">Food & Beverages</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Cookie Policy</a>
+                    <a href="#">Food & Beverages</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Site Map</a>
+                    <a href="#">Auto Parts</a>
                   </p>
                 </li>
               </ul>
@@ -117,27 +116,27 @@ function Footer() {
           <div className="col-sm-6 col-md-3 col-lg-2">
             <div className="footer-links mb-40">
               {/* Title */}
-              <h6 className="h6-xl">Support</h6>
+              <h6 className="h6-xl">Links</h6>
               {/* Footer Links */}
               <ul className="foo-links text-secondary clearfix">
                 <li>
                   <p className="p-md">
-                    <a href="#">FAQs</a>
+                    <a href="#">Request Demo</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Editor Help</a>
+                    <a href="#">Free Trial</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Community</a>
+                    <a href="#">All Videos</a>
                   </p>
                 </li>
                 <li>
                   <p className="p-md">
-                    <a href="#">Live Chatting</a>
+                    <a href="#">Patent Status</a>
                   </p>
                 </li>
               </ul>
@@ -160,7 +159,7 @@ function Footer() {
               <ul className="bottom-footer-list text-secondary text-end">
                 <li className="first-li">
                   <p>
-                    <a href="#">Facebook</a>
+                    <a href="#">Youtube</a>
                   </p>
                 </li>
                 <li>
@@ -168,14 +167,9 @@ function Footer() {
                     <a href="#">Twitter</a>
                   </p>
                 </li>
-                <li>
-                  <p>
-                    <a href="#">LinkedIn</a>
-                  </p>
-                </li>
                 <li className="last-li">
                   <p>
-                    <a href="#">Dribbble</a>
+                    <a href="#">LinkedIn</a>
                   </p>
                 </li>
               </ul>

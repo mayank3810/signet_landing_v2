@@ -179,10 +179,7 @@ export default function Home() {
                         </h5>
                         {/* Answer */}
                         <p className="p-lg">
-                          Etiam amet mauris suscipit in odio integer congue
-                          metus vitae arcu mollis blandit ultrice ligula egestas
-                          and magna suscipit lectus magna suscipit luctus
-                          blandit vitae
+                         Yes, you can get a free Authenticity Tags Kit to experience the technology yourself before you decide to scale.
                         </p>
                       </div>
                       {/* QUESTION #2 */}
@@ -193,9 +190,7 @@ export default function Home() {
                         </h5>
                         {/* Answer */}
                         <p className="p-lg">
-                          An enim nullam tempor sapien gravida a donec ipsum
-                          enim an porta justo integer at velna vitae auctor
-                          integer congue undo magna at pretium purus pretium
+                          There are no specific requirements to add brand authentication. 
                         </p>
                       </div>
                       {/* QUESTION #3 */}
@@ -208,16 +203,12 @@ export default function Home() {
                         <ul className="simple-list">
                           <li className="list-item">
                             <p className="p-lg">
-                              Fringilla risus, luctus mauris orci auctor purus
-                              ligula euismod pretium purus pretium rutrum tempor
-                              sapien
+                              Yes, Our signet tags works on all major smartphones, ios and android.
                             </p>
                           </li>
                           <li className="list-item">
                             <p className="p-lg">
-                              Nemo ipsam egestas volute turpis dolores ut
-                              aliquam quaerat sodales sapien undo pretium a
-                              purus
+                             Our admin app to manage products works on any browser and tablets.
                             </p>
                           </li>
                         </ul>
@@ -234,10 +225,7 @@ export default function Home() {
                         <h5 className="h5-md">Do you have a free trial?</h5>
                         {/* Answer */}
                         <p className="p-lg">
-                          Cubilia laoreet augue egestas and luctus donec
-                          curabite diam vitae dapibus libero and quisque gravida
-                          donec and neque. Blandit justo aliquam molestie nunc
-                          sapien
+                         Yes, we offer a 30 day free trial on our starter kit. 
                         </p>
                       </div>
                       {/* QUESTION #5 */}
@@ -248,35 +236,20 @@ export default function Home() {
                         </h5>
                         {/* Answer */}
                         <p className="p-lg">
-                          Etiam amet mauris suscipit sit amet in odio. Integer
-                          congue leo metus. Vitae arcu mollis blandit ultrice
-                          ligula
-                        </p>
-                        {/* Answer */}
-                        <p className="p-lg">
-                          An enim nullam tempor sapien gravida donec congue leo
-                          metus. Vitae arcu mollis blandit integer at velna
+                         Signet is designed with privacy first approach. We comply with GDPR, CCPA and LGPD privacy laws.
                         </p>
                       </div>
                       {/* QUESTION #6 */}
                       <div className="question wow fadeInUp">
                         {/* Question */}
                         <h5 className="h5-md">
-                          I have an issue with my account
+                          Can I integrate Signet with my existing software?
                         </h5>
                         {/* Answer */}
                         <ul className="simple-list">
-                          <li className="list-item">
                             <p className="p-lg">
-                              Fringilla risus, luctus mauris orci auctor purus
+                             Yes. Signet is designed on a API first pattern, which can be used across any existing platform for seamless integration.
                             </p>
-                          </li>
-                          <li className="list-item">
-                            <p className="p-lg">
-                              Quaerat sodales sapien euismod blandit purus and
-                              ipsum primis in cubilia laoreet augue luctus
-                            </p>
-                          </li>
                         </ul>
                       </div>
                     </div>
