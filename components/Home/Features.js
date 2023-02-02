@@ -38,7 +38,12 @@ function Features() {
                     src="/images/ico-bkg.png"
                     alt="ico-bkg"
                   />
-                  <span className="flaticon-double-click" />
+                  <span>
+                    <img
+                      src="/images/icons8-blockchain-technology-80.png"
+                      alt="ico-bkg"
+                    />
+                  </span>
                 </div>
                 {/* Text */}
                 <div className="fbox-txt-center">
@@ -69,7 +74,12 @@ function Features() {
                     src="/images/ico-bkg.png"
                     alt="ico-bkg"
                   />
-                  <span className="flaticon-web-browser" />
+                   <span>
+                    <img
+                      src="/images/icons8-clone-64.png"
+                      alt="ico-bkg"
+                    />
+                  </span>
                 </div>
                 {/* Text */}
                 <div className="fbox-txt-center">
@@ -100,7 +110,12 @@ function Features() {
                     src="/images/ico-bkg.png"
                     alt="ico-bkg"
                   />
-                  <span className="flaticon-web-programming" />
+                  <span>
+                    <img
+                      src="/images/without-app.png"
+                      alt="ico-bkg"
+                    />
+                  </span>
                 </div>
                 {/* Text */}
                 <div className="fbox-txt-center">

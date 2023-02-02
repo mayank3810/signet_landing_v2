@@ -57,6 +57,11 @@ function Hero() {
                 </div>
               </div>
             </div>{" "}
+            <div className="col-md-4 col-lg-4">
+              <div className="hero-1-img wow fadeInLeft" >
+                <img className="img-fluid" src="images/header-top.png" alt="hero-image" />
+              </div>
+            </div>
             {/* END HERO TEXT */}
           </div>{" "}
           {/* End row */}
