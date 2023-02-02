@@ -30,7 +30,7 @@ function Content2() {
             >
               <img
                 className="img-fluid"
-                src="/images/img-09.png"
+                src="/images/scanning-theme.png"
                 alt="content-image"
               />
             </div>
