@@ -35,7 +35,12 @@ function Content3() {
                   {/* Icon */}
                   <div className="cbox-ico">
                     <div className="dark-color ico-65">
-                      <span className="flaticon-speech-bubble-2" />
+                      <span>
+                        <img
+                          src="/images/nfc-logo.png"
+                          alt="ico-bkg"
+                        />
+                      </span>
                     </div>
                   </div>
                   {/* Text */}
@@ -59,7 +64,12 @@ function Content3() {
                   {/* Icon */}
                   <div className="cbox-ico">
                     <div className="dark-color ico-65">
-                      <span className="flaticon-tongue" />
+                      <span>
+                        <img
+                          src="/images/icons8-blockchain-technology-80.png"
+                          alt="ico-bkg"
+                        />
+                      </span>
                     </div>
                   </div>
                   {/* Text */}
@@ -83,7 +93,12 @@ function Content3() {
                   {/* Icon */}
                   <div className="cbox-ico">
                     <div className="dark-color ico-65">
-                      <span className="flaticon-shield-2" />
+                    <span>
+                        <img
+                          src="/images/icons8-authentic-64.png"
+                          alt="ico-bkg"
+                        />
+                      </span>
                     </div>
                   </div>
                   {/* Text */}
@@ -110,7 +125,7 @@ function Content3() {
               >
                 <img
                   className="img-fluid"
-                  src="/images/img-12.png"
+                  src="/images/nfc-blockchain.jpg"
                   alt="content-image"
                 />
               </div>

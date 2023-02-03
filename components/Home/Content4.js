@@ -47,7 +47,7 @@ function Content4() {
               >
                 <img
                   className="img-fluid"
-                  src="/images/img-05.png"
+                  src="/images/digital-experience.jpg"
                   alt="content-image"
                 />
               </div>
