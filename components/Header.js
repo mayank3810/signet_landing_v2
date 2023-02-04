@@ -107,8 +107,9 @@ function Header({ scroll }) {
                     <li aria-haspopup="true">
                       <a href="#content-2">Agriculture</a>
                     </li>
-                    <li aria-haspopup="true">
-                      <a href="#content-5">Pharma</a>
+                    <li>
+                      <Link href={"/industries/pharma"}>Pharma</Link>
+                      {/* <a href="#content-5"></a> */}
                     </li>
                     <li aria-haspopup="true">
                       <a href="#content-10">Consumer Goods</a>

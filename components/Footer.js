@@ -38,7 +38,7 @@ function Footer() {
                 <ul className="foo-links text-secondary clearfix">
                   <li>
                     <p className="p-md">
-                      <a href="#">About Us</a>
+                      <Link href={"/technology"}>About Us</Link>
                     </p>
                   </li>
                   <li>
@@ -53,7 +53,7 @@ function Footer() {
                   </li>
                   <li>
                     <p className="p-md">
-                      <a href="#">Privacy Policy</a>
+                      <Link href={"/privacy-policy"}>Privacy Policy</Link>
                     </p>
                   </li>
                 </ul>
@@ -68,12 +68,12 @@ function Footer() {
                 <ul className="foo-links text-secondary clearfix">
                   <li>
                     <p className="p-md">
-                      <a href="#">Our Blog</a>
+                      <Link href={"/blog"}>Our Blog</Link>
                     </p>
                   </li>
                   <li>
                     <p className="p-md">
-                      <a href="#">Plans &amp; Pricing</a>
+                      <Link href={"/pricing"}>Plans &amp; Pricing</Link>
                     </p>
                   </li>
                   <li>
@@ -139,7 +139,12 @@ function Footer() {
                   </li>
                   <li>
                     <p className="p-md">
-                      <a href="#">All Videos</a>
+                      <a
+                        href="https://www.youtube.com/@signettags"
+                        target="_blank"
+                      >
+                        All Videos
+                      </a>
                     </p>
                   </li>
                   <li>
