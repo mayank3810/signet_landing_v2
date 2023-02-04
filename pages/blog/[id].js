@@ -66,8 +66,6 @@ function BlogDetail(props) {
           </div>
         </div>
       </section>
-
-      <Footer />
     </>
   );
 }

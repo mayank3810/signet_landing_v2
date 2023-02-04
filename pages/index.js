@@ -62,13 +62,17 @@ export default function Home() {
               </div>
               {/* IMAGE BLOCK */}
               <div className="row">
-
                 <div className="container">
                   <div className="fbox-1-wrapper text-center">
                     <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
-
                       <div className="col">
-                        <div className="fbox-1 mb-40 wow fadeInUp" style={{ visibility: 'visible', animationName: 'fadeInUp' }}>
+                        <div
+                          className="fbox-1 mb-40 wow fadeInUp"
+                          style={{
+                            visibility: "visible",
+                            animationName: "fadeInUp",
+                          }}
+                        >
                           <div className="fbox-ico-center ico-60">
                             <img
                               src="/images/industries/perfume-bottle-100.png"
@@ -78,13 +82,20 @@ export default function Home() {
                           <div className="fbox-txt-center">
                             <h5 className="h5-sm">Cosmetics & Perfumes</h5>
                             <p className="p-lg">
-                              Engage your consumers with fun, informative, smart packaging that also protects your brand
+                              Engage your consumers with fun, informative, smart
+                              packaging that also protects your brand
                             </p>
                           </div>
                         </div>
                       </div>
                       <div className="col">
-                        <div className="fbox-1 mb-40 wow fadeInUp" style={{ visibility: 'visible', animationName: 'fadeInUp' }}>
+                        <div
+                          className="fbox-1 mb-40 wow fadeInUp"
+                          style={{
+                            visibility: "visible",
+                            animationName: "fadeInUp",
+                          }}
+                        >
                           <div className="fbox-ico-center ico-60">
                             <img
                               src="/images/industries/wine-bottle-100.png"
@@ -94,14 +105,21 @@ export default function Home() {
                           <div className="fbox-txt-center">
                             <h5 className="h5-sm">Food & Beverages</h5>
                             <p className="p-lg">
-                              Customer Engagement + Anti-Counterfeit Protection for Food & Beverages Brands
+                              Customer Engagement + Anti-Counterfeit Protection
+                              for Food & Beverages Brands
                             </p>
                           </div>
                         </div>
                       </div>
 
                       <div className="col">
-                        <div className="fbox-1 mb-40 wow fadeInUp" style={{ visibility: 'visible', animationName: 'fadeInUp' }}>
+                        <div
+                          className="fbox-1 mb-40 wow fadeInUp"
+                          style={{
+                            visibility: "visible",
+                            animationName: "fadeInUp",
+                          }}
+                        >
                           <div className="fbox-ico-center ico-60">
                             <img
                               src="/images/industries/pesticide-100.png"
@@ -110,14 +128,22 @@ export default function Home() {
                           </div>
                           <div className="fbox-txt-center">
                             <h5 className="h5-sm">Agriculture</h5>
-                            <p className="p-lg">Tag, track, and instantaneously authenticate agrochemical products</p>
+                            <p className="p-lg">
+                              Tag, track, and instantaneously authenticate
+                              agrochemical products
+                            </p>
                           </div>
                         </div>
                       </div>
 
-
                       <div className="col">
-                        <div className="fbox-1 mb-40 wow fadeInUp" style={{ visibility: 'visible', animationName: 'fadeInUp' }}>
+                        <div
+                          className="fbox-1 mb-40 wow fadeInUp"
+                          style={{
+                            visibility: "visible",
+                            animationName: "fadeInUp",
+                          }}
+                        >
                           <div className="fbox-ico-center ico-60">
                             <img
                               src="/images/industries/wheel-100.png"
@@ -126,13 +152,22 @@ export default function Home() {
                           </div>
                           <div className="fbox-txt-center">
                             <h5 className="h5-sm">Auto Parts</h5>
-                            <p className="p-lg">Protect your automotive brand and your customers from counterfeit automotive parts</p>
+                            <p className="p-lg">
+                              Protect your automotive brand and your customers
+                              from counterfeit automotive parts
+                            </p>
                           </div>
                         </div>
                       </div>
 
                       <div className="col">
-                        <div className="fbox-1 mb-40 wow fadeInUp" style={{ visibility: 'visible', animationName: 'fadeInUp' }}>
+                        <div
+                          className="fbox-1 mb-40 wow fadeInUp"
+                          style={{
+                            visibility: "visible",
+                            animationName: "fadeInUp",
+                          }}
+                        >
                           <div className="fbox-ico-center ico-60">
                             <img
                               src="/images/industries/medicines-100.png"
@@ -142,14 +177,22 @@ export default function Home() {
                           <div className="fbox-txt-center">
                             <h5 className="h5-sm">Pharmaceuticals</h5>
                             <p className="p-lg">
-                              Smart packaging for Pharmaceuticals brands opens a new channel to engage, protect and build trust with your customers.
+                              Smart packaging for Pharmaceuticals brands opens a
+                              new channel to engage, protect and build trust
+                              with your customers.
                             </p>
                           </div>
                         </div>
                       </div>
 
                       <div className="col">
-                        <div className="fbox-1 mb-40 wow fadeInUp" style={{ visibility: 'visible', animationName: 'fadeInUp' }}>
+                        <div
+                          className="fbox-1 mb-40 wow fadeInUp"
+                          style={{
+                            visibility: "visible",
+                            animationName: "fadeInUp",
+                          }}
+                        >
                           <div className="fbox-ico-center ico-60">
                             <img
                               src="/images/industries/cannabis-100.png"
@@ -158,13 +201,23 @@ export default function Home() {
                           </div>
                           <div className="fbox-txt-center">
                             <h5 className="h5-sm">Cannabis</h5>
-                            <p className="p-lg">Smart packaging for Cannabis brands opens a new channel to engage, protect, and build trust with your customers.</p>
+                            <p className="p-lg">
+                              Smart packaging for Cannabis brands opens a new
+                              channel to engage, protect, and build trust with
+                              your customers.
+                            </p>
                           </div>
                         </div>
                       </div>
 
                       <div className="col">
-                        <div className="fbox-1 mb-40 wow fadeInUp" style={{ visibility: 'visible', animationName: 'fadeInUp' }}>
+                        <div
+                          className="fbox-1 mb-40 wow fadeInUp"
+                          style={{
+                            visibility: "visible",
+                            animationName: "fadeInUp",
+                          }}
+                        >
                           <div className="fbox-ico-center ico-60">
                             <img
                               src="/images/industries/soccer-ball-100.png"
@@ -173,13 +226,22 @@ export default function Home() {
                           </div>
                           <div className="fbox-txt-center">
                             <h5 className="h5-sm">Sports Equipments</h5>
-                            <p className="p-lg">Tag, track, and instantaneously authenticate products with Signet Tags</p>
+                            <p className="p-lg">
+                              Tag, track, and instantaneously authenticate
+                              products with Signet Tags
+                            </p>
                           </div>
                         </div>
                       </div>
 
                       <div className="col">
-                        <div className="fbox-1 mb-40 wow fadeInUp" style={{ visibility: 'visible', animationName: 'fadeInUp' }}>
+                        <div
+                          className="fbox-1 mb-40 wow fadeInUp"
+                          style={{
+                            visibility: "visible",
+                            animationName: "fadeInUp",
+                          }}
+                        >
                           <div className="fbox-ico-center ico-60">
                             <img
                               src="/images/industries/diploma-100.png"
@@ -188,13 +250,22 @@ export default function Home() {
                           </div>
                           <div className="fbox-txt-center">
                             <h5 className="h5-sm">Document Security</h5>
-                            <p className="p-lg">Providing document security solutions for simple to complex requirements.</p>
+                            <p className="p-lg">
+                              Providing document security solutions for simple
+                              to complex requirements.
+                            </p>
                           </div>
                         </div>
                       </div>
                       <div className="col"> </div>
                       <div className="col">
-                        <div className="fbox-1 mb-40 wow fadeInUp" style={{ visibility: 'visible', animationName: 'fadeInUp' }}>
+                        <div
+                          className="fbox-1 mb-40 wow fadeInUp"
+                          style={{
+                            visibility: "visible",
+                            animationName: "fadeInUp",
+                          }}
+                        >
                           <div className="fbox-ico-center ico-60">
                             <img
                               src="/images/industries/t-shirt-100.png"
@@ -203,13 +274,23 @@ export default function Home() {
                           </div>
                           <div className="fbox-txt-center">
                             <h5 className="h5-sm">Apparel and clothing</h5>
-                            <p className="p-lg">Smart packaging for clothing brands opens a new channel to engage, protect, and build trust with your customers.</p>
+                            <p className="p-lg">
+                              Smart packaging for clothing brands opens a new
+                              channel to engage, protect, and build trust with
+                              your customers.
+                            </p>
                           </div>
                         </div>
                       </div>
 
                       <div className="col">
-                        <div className="fbox-1 mb-40 wow fadeInUp" style={{ visibility: 'visible', animationName: 'fadeInUp' }}>
+                        <div
+                          className="fbox-1 mb-40 wow fadeInUp"
+                          style={{
+                            visibility: "visible",
+                            animationName: "fadeInUp",
+                          }}
+                        >
                           <div className="fbox-ico-center ico-60">
                             <img
                               src="/images/industries/sneaker-60.png"
@@ -218,16 +299,17 @@ export default function Home() {
                           </div>
                           <div className="fbox-txt-center">
                             <h5 className="h5-sm">Shoes and footwear</h5>
-                            <p className="p-lg"> Customer Engagement + Anti-Counterfeit Protection for Shoes and footwear Brands</p>
+                            <p className="p-lg">
+                              {" "}
+                              Customer Engagement + Anti-Counterfeit Protection
+                              for Shoes and footwear Brands
+                            </p>
                           </div>
                         </div>
                       </div>
-
-
                     </div>
                   </div>
                 </div>
-
               </div>
               {/* ACTION BUTTON */}
               <div className="row">
@@ -273,8 +355,8 @@ export default function Home() {
                       Get a Free Authenticity Tags Kit to experience the
                       technology yourself before you decide to scale. The NFC
                       Starter Kit comes with 10-20 secure, unclonable NXP 424
-                      DNA NFC tags, a free account to setup a small pilot
-                      with your own products & custom experiences.
+                      DNA NFC tags, a free account to setup a small pilot with
+                      your own products & custom experiences.
                     </p>
                   </div>
                 </div>
@@ -283,7 +365,16 @@ export default function Home() {
               <div className="row">
                 <div className="col">
                   <div className="content-9-img video-preview wow fadeInUp">
-                    <iframe style={{"borderRadius" : "20px"}} width="860" height="515" src="https://www.youtube.com/embed/YQUjE2koNRI" title="Signet Demo Video" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe
+                      style={{ borderRadius: "20px" }}
+                      width="860"
+                      height="515"
+                      src="https://www.youtube.com/embed/YQUjE2koNRI"
+                      title="Signet Demo Video"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
                   </div>
                 </div>
               </div>
@@ -320,7 +411,9 @@ export default function Home() {
                         </h5>
                         {/* Answer */}
                         <p className="p-lg">
-                          Yes, you can get a free Authenticity Tags Kit to experience the technology yourself before you decide to scale.
+                          Yes, you can get a free Authenticity Tags Kit to
+                          experience the technology yourself before you decide
+                          to scale.
                         </p>
                       </div>
                       {/* QUESTION #2 */}
@@ -331,7 +424,8 @@ export default function Home() {
                         </h5>
                         {/* Answer */}
                         <p className="p-lg">
-                          There are no specific requirements to add brand authentication.
+                          There are no specific requirements to add brand
+                          authentication.
                         </p>
                       </div>
                       {/* QUESTION #3 */}
@@ -344,12 +438,14 @@ export default function Home() {
                         <ul className="simple-list">
                           <li className="list-item">
                             <p className="p-lg">
-                              Yes, Our signet tags works on all major smartphones, ios and android.
+                              Yes, Our signet tags works on all major
+                              smartphones, ios and android.
                             </p>
                           </li>
                           <li className="list-item">
                             <p className="p-lg">
-                              Our admin app to manage products works on any browser and tablets.
+                              Our admin app to manage products works on any
+                              browser and tablets.
                             </p>
                           </li>
                         </ul>
@@ -377,7 +473,8 @@ export default function Home() {
                         </h5>
                         {/* Answer */}
                         <p className="p-lg">
-                          Signet is designed with privacy first approach. We comply with GDPR, CCPA and LGPD privacy laws.
+                          Signet is designed with privacy first approach. We
+                          comply with GDPR, CCPA and LGPD privacy laws.
                         </p>
                       </div>
                       {/* QUESTION #6 */}
@@ -389,7 +486,9 @@ export default function Home() {
                         {/* Answer */}
                         <ul className="simple-list">
                           <p className="p-lg">
-                            Yes. Signet is designed on a API first pattern, which can be used across any existing platform for seamless integration.
+                            Yes. Signet is designed on a API first pattern,
+                            which can be used across any existing platform for
+                            seamless integration.
                           </p>
                         </ul>
                       </div>
@@ -414,7 +513,6 @@ export default function Home() {
             </div>{" "}
             {/* End container */}
           </section>{" "}
-          <Footer />
         </div>
       </div>{" "}
     </>

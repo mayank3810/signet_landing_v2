@@ -2,17 +2,18 @@ import React, { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
 function Content2() {
-  const [containerRef, inContainerView] = useInView({ threshold: 0.2 });
-  const [init, setInit] = useState(false);
-  useEffect(() => {
-    if (!init && inContainerView) {
-      setInit(true);
-    }
-  }, [inContainerView]);
+  // const [containerRef, inContainerView] = useInView({ threshold: 0.2 });
+  // const inContainerView = true;
+  const [init, setInit] = useState(true);
+  // useEffect(() => {
+  //   if (!init && inContainerView) {
+  //     setInit(true);
+  //   }
+  // }, [inContainerView]);
 
   return (
     <section
-      ref={containerRef}
+      // ref={containerRef}
       id="content-2"
       className="content-2 wide-60 content-section division"
     >

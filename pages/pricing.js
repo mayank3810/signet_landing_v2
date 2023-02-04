@@ -611,7 +611,6 @@ function Pricing() {
         {/* END FAQs-2 */}
         <Testimonials />
         {/* END TESTIMONIALS-1 */}
-        <Footer />
       </div>
     </>
   );

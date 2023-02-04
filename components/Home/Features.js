@@ -2,18 +2,18 @@ import React, { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
 function Features() {
-  const [containerRef, inContainerView] = useInView({ threshold: 0.2 });
+  // const [containerRef, inContainerView] = useInView({ threshold: 0.2 });
 
-  const [init, setInit] = useState(false);
-  useEffect(() => {
-    if (!init && inContainerView) {
-      setInit(true);
-    }
-  }, [inContainerView]);
+  const [init, setInit] = useState(true);
+  // useEffect(() => {
+  //   if (!init && inContainerView) {
+  //     setInit(true);
+  //   }
+  // }, [inContainerView]);
 
   return (
     <section
-      ref={containerRef}
+      // ref={containerRef}
       id="features-2"
       className="wide-60 features-section division"
     >
@@ -74,11 +74,8 @@ function Features() {
                     src="/images/ico-bkg.png"
                     alt="ico-bkg"
                   />
-                   <span>
-                    <img
-                      src="/images/icons8-clone-64.png"
-                      alt="ico-bkg"
-                    />
+                  <span>
+                    <img src="/images/icons8-clone-64.png" alt="ico-bkg" />
                   </span>
                 </div>
                 {/* Text */}
@@ -111,10 +108,7 @@ function Features() {
                     alt="ico-bkg"
                   />
                   <span>
-                    <img
-                      src="/images/without-app.png"
-                      alt="ico-bkg"
-                    />
+                    <img src="/images/without-app.png" alt="ico-bkg" />
                   </span>
                 </div>
                 {/* Text */}

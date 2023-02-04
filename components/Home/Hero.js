@@ -1,18 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import VideoPopup from "../VideoPopup";
 
 function Hero() {
   // const [containerRef, inContainerView] = useInView({ threshold: 0.1 });
 
-  const [addclass, setAddClass] = useState(false);
-
   const [open, setOpen] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setAddClass(true);
-    }, 300);
-  }, []);
 
   return (
     <>
@@ -56,16 +48,20 @@ function Hero() {
                   </a>
                 </div>
               </div>
-            </div>{" "}
+            </div>
             <div className="col-md-4 col-lg-4">
-              <div className="hero-1-img wow fadeInLeft" >
-                <img className="img-fluid" src="images/header-top.png" alt="hero-image" />
+              <div className="hero-1-img wow fadeInLeft">
+                <img
+                  className="img-fluid"
+                  src="images/header-top.png"
+                  alt="hero-image"
+                />
               </div>
             </div>
             {/* END HERO TEXT */}
-          </div>{" "}
+          </div>
           {/* End row */}
-        </div>{" "}
+        </div>
         {/* End container */}
       </section>
     </>

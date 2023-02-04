@@ -2,18 +2,18 @@ import React, { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
 function Content3() {
-  const [containerRef, inContainerView] = useInView({ threshold: 0.2 });
+  // const [containerRef, inContainerView] = useInView({ threshold: 0.2 });
 
-  const [init, setInit] = useState(false);
-  useEffect(() => {
-    if (!init && inContainerView) {
-      setInit(true);
-    }
-  }, [inContainerView]);
+  const [init, setInit] = useState(true);
+  // useEffect(() => {
+  //   if (!init && inContainerView) {
+  //     setInit(true);
+  //   }
+  // }, [inContainerView]);
 
   return (
     <section
-      ref={containerRef}
+      // ref={containerRef}
       id="content-5"
       className="content-5 ws-wrapper content-section division"
     >
@@ -36,10 +36,7 @@ function Content3() {
                   <div className="cbox-ico">
                     <div className="dark-color ico-65">
                       <span>
-                        <img
-                          src="/images/nfc-logo.png"
-                          alt="ico-bkg"
-                        />
+                        <img src="/images/nfc-logo.png" alt="ico-bkg" />
                       </span>
                     </div>
                   </div>
@@ -93,7 +90,7 @@ function Content3() {
                   {/* Icon */}
                   <div className="cbox-ico">
                     <div className="dark-color ico-65">
-                    <span>
+                      <span>
                         <img
                           src="/images/icons8-authentic-64.png"
                           alt="ico-bkg"

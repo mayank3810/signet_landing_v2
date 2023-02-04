@@ -918,8 +918,6 @@ function Technology() {
         {/* END BRANDS-2 */}
         <CallToAction />
       </>
-
-      <Footer />
     </>
   );
 }

@@ -98,8 +98,6 @@ function Blog(props) {
         </div>{" "}
         {/* End container */}
       </section>
-
-      <Footer />
     </>
   );
 }
