@@ -7,6 +7,7 @@ import CustomerEngagement from "@/components/Home/CustomerEngagement";
 import Features from "@/components/Home/Features";
 import Hero from "@/components/Home/Hero";
 import { Inter } from "@next/font/google";
+import Link from "next/link";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
@@ -300,7 +301,6 @@ export default function Home() {
                           <div className="fbox-txt-center">
                             <h5 className="h5-sm">Shoes and footwear</h5>
                             <p className="p-lg">
-                              {" "}
                               Customer Engagement + Anti-Counterfeit Protection
                               for Shoes and footwear Brands
                             </p>
@@ -337,8 +337,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </div>{" "}
-          </section>{" "}
+            </div>
+          </section>
           <section
             id="content-9"
             className="content-9 bg-01 pt-100 content-section division"
@@ -373,14 +373,14 @@ export default function Home() {
                       title="Signet Demo Video"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
+                      allowFullScreen
                     ></iframe>
                   </div>
                 </div>
               </div>
-            </div>{" "}
+            </div>
             {/* End container */}
-          </section>{" "}
+          </section>
           <section id="faqs-2" className="wide-60 faqs-section division">
             <div className="container">
               {/* SECTION TITLE */}
@@ -451,7 +451,7 @@ export default function Home() {
                         </ul>
                       </div>
                     </div>
-                  </div>{" "}
+                  </div>
                   {/* END QUESTIONS HOLDER */}
                   {/* QUESTIONS HOLDER */}
                   <div className="col">
@@ -493,28 +493,28 @@ export default function Home() {
                         </ul>
                       </div>
                     </div>
-                  </div>{" "}
+                  </div>
                   {/* END QUESTIONS HOLDER */}
-                </div>{" "}
+                </div>
                 {/* End row */}
-              </div>{" "}
+              </div>
               {/* END FAQs-2 QUESTIONS */}
               {/* MORE QUESTIONS BUTTON */}
               <div className="row">
                 <div className="col">
                   <div className="more-questions">
                     <h5 className="h5-sm">
-                      Have more questions?{" "}
-                      <a href="contacts.html">Ask your question here</a>
+                      Have more questions?
+                      <Link href={"/contact"}>Ask your question here</Link>
                     </h5>
                   </div>
                 </div>
               </div>
-            </div>{" "}
+            </div>
             {/* End container */}
-          </section>{" "}
+          </section>
         </div>
-      </div>{" "}
+      </div>
     </>
   );
 }

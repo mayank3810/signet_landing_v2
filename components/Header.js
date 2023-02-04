@@ -87,7 +87,7 @@ function Header({ scroll }) {
             >
               {mobNav && <div className="overlapblackbg"></div>}
               <ul className="wsmenu-list nav-orange-red-hover">
-                <li className="nl-simple" aria-haspopup="true">
+                <li className="nl-simple">
                   <Link
                     className={activeRoute === "home" ? "active-link" : ""}
                     href={"/"}
@@ -95,7 +95,7 @@ function Header({ scroll }) {
                     Home
                   </Link>
                 </li>
-                <li aria-haspopup="true">
+                <li>
                   <a
                     className={
                       activeRoute === "industries" ? "active-link" : ""
@@ -104,26 +104,28 @@ function Header({ scroll }) {
                     Industries <span className="wsarrow" />
                   </a>
                   <ul className="sub-menu">
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="#content-2">Agriculture</a>
                     </li>
                     <li>
-                      <Link href={"/industries/pharma"}>Pharma</Link>
+                      <Link href={"/industries/pharmaceuticals"}>
+                        Pharmaceuticals
+                      </Link>
                       {/* <a href="#content-5"></a> */}
                     </li>
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="#content-10">Consumer Goods</a>
                     </li>
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="#reviews-1">Ticketing</a>
                     </li>
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="#faqs-2">Arts and Collectibles</a>
                     </li>
                   </ul>
                 </li>
 
-                <li className="nl-simple" aria-haspopup="true">
+                <li className="nl-simple">
                   <Link
                     href={"/technology"}
                     className={
@@ -135,7 +137,7 @@ function Header({ scroll }) {
                 </li>
 
                 {/* SIMPLE NAVIGATION LINK */}
-                <li className="nl-simple" aria-haspopup="true">
+                <li className="nl-simple">
                   <Link
                     className={activeRoute === "pricing" ? "active-link" : ""}
                     href={"/pricing"}
@@ -143,7 +145,7 @@ function Header({ scroll }) {
                     Pricing
                   </Link>
                 </li>
-                <li className="nl-simple" aria-haspopup="true">
+                <li className="nl-simple">
                   <Link
                     className={activeRoute === "blog" ? "active-link" : ""}
                     href={"/blog"}
@@ -153,7 +155,7 @@ function Header({ scroll }) {
                   {/* <a href="#features-8"></a> */}
                 </li>
                 {/* HEADER BUTTON */}
-                <li className="nl-simple" aria-haspopup="true">
+                <li className="nl-simple">
                   <a className="btn btn-tra-white orange-red-hover last-link">
                     Schedule a Demo
                   </a>

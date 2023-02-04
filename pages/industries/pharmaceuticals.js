@@ -1,13 +1,13 @@
 import Header from "@/components/Header";
 import React from "react";
 
-function Pharma() {
+function Pharmaceuticals() {
   return (
     <>
       <Header scroll={true} />
-      <div>Pharma</div>
+      <div>Pharmaceuticals</div>
     </>
   );
 }
 
-export default Pharma;
+export default Pharmaceuticals;
