@@ -74,19 +74,21 @@ export default function Home() {
                             animationName: "fadeInUp",
                           }}
                         >
-                          <div className="fbox-ico-center ico-60">
-                            <img
-                              src="/images/industries/perfume-bottle-100.png"
-                              alt="ico-bkg"
-                            />
-                          </div>
-                          <div className="fbox-txt-center">
-                            <h5 className="h5-sm">Cosmetics & Perfumes</h5>
-                            <p className="p-lg">
-                              Engage your consumers with fun, informative, smart
-                              packaging that also protects your brand
-                            </p>
-                          </div>
+                          <Link href={"/industries/cosmetics-and-perfumes"}>
+                            <div className="fbox-ico-center ico-60">
+                              <img
+                                src="/images/industries/perfume-bottle-100.png"
+                                alt="ico-bkg"
+                              />
+                            </div>
+                            <div className="fbox-txt-center">
+                              <h5 className="h5-sm">Cosmetics & Perfumes</h5>
+                              <p className="p-lg">
+                                Engage your consumers with fun, informative,
+                                smart packaging that also protects your brand
+                              </p>
+                            </div>
+                          </Link>
                         </div>
                       </div>
                       <div className="col">
@@ -97,43 +99,21 @@ export default function Home() {
                             animationName: "fadeInUp",
                           }}
                         >
-                          <div className="fbox-ico-center ico-60">
-                            <img
-                              src="/images/industries/wine-bottle-100.png"
-                              alt="ico-bkg"
-                            />
-                          </div>
-                          <div className="fbox-txt-center">
-                            <h5 className="h5-sm">Food & Beverages</h5>
-                            <p className="p-lg">
-                              Customer Engagement + Anti-Counterfeit Protection
-                              for Food & Beverages Brands
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="col">
-                        <div
-                          className="fbox-1 mb-40 wow fadeInUp"
-                          style={{
-                            visibility: "visible",
-                            animationName: "fadeInUp",
-                          }}
-                        >
-                          <div className="fbox-ico-center ico-60">
-                            <img
-                              src="/images/industries/pesticide-100.png"
-                              alt="ico-bkg"
-                            />
-                          </div>
-                          <div className="fbox-txt-center">
-                            <h5 className="h5-sm">Agriculture</h5>
-                            <p className="p-lg">
-                              Tag, track, and instantaneously authenticate
-                              agrochemical products
-                            </p>
-                          </div>
+                          <Link href={"/industries/food-and-beverages"}>
+                            <div className="fbox-ico-center ico-60">
+                              <img
+                                src="/images/industries/wine-bottle-100.png"
+                                alt="ico-bkg"
+                              />
+                            </div>
+                            <div className="fbox-txt-center">
+                              <h5 className="h5-sm">Food & Beverages</h5>
+                              <p className="p-lg">
+                                Customer Engagement + Anti-Counterfeit
+                                Protection for Food & Beverages Brands
+                              </p>
+                            </div>
+                          </Link>
                         </div>
                       </div>
 
@@ -145,19 +125,21 @@ export default function Home() {
                             animationName: "fadeInUp",
                           }}
                         >
-                          <div className="fbox-ico-center ico-60">
-                            <img
-                              src="/images/industries/wheel-100.png"
-                              alt="ico-bkg"
-                            />
-                          </div>
-                          <div className="fbox-txt-center">
-                            <h5 className="h5-sm">Auto Parts</h5>
-                            <p className="p-lg">
-                              Protect your automotive brand and your customers
-                              from counterfeit automotive parts
-                            </p>
-                          </div>
+                          <Link href={"/industries/agriculture"}>
+                            <div className="fbox-ico-center ico-60">
+                              <img
+                                src="/images/industries/pesticide-100.png"
+                                alt="ico-bkg"
+                              />
+                            </div>
+                            <div className="fbox-txt-center">
+                              <h5 className="h5-sm">Agriculture</h5>
+                              <p className="p-lg">
+                                Tag, track, and instantaneously authenticate
+                                agrochemical products
+                              </p>
+                            </div>
+                          </Link>
                         </div>
                       </div>
 
@@ -169,20 +151,21 @@ export default function Home() {
                             animationName: "fadeInUp",
                           }}
                         >
-                          <div className="fbox-ico-center ico-60">
-                            <img
-                              src="/images/industries/medicines-100.png"
-                              alt="ico-bkg"
-                            />
-                          </div>
-                          <div className="fbox-txt-center">
-                            <h5 className="h5-sm">Pharmaceuticals</h5>
-                            <p className="p-lg">
-                              Smart packaging for Pharmaceuticals brands opens a
-                              new channel to engage, protect and build trust
-                              with your customers.
-                            </p>
-                          </div>
+                          <Link href={"/industries/auto-parts"}>
+                            <div className="fbox-ico-center ico-60">
+                              <img
+                                src="/images/industries/wheel-100.png"
+                                alt="ico-bkg"
+                              />
+                            </div>
+                            <div className="fbox-txt-center">
+                              <h5 className="h5-sm">Auto Parts</h5>
+                              <p className="p-lg">
+                                Protect your automotive brand and your customers
+                                from counterfeit automotive parts
+                              </p>
+                            </div>
+                          </Link>
                         </div>
                       </div>
 
@@ -194,20 +177,22 @@ export default function Home() {
                             animationName: "fadeInUp",
                           }}
                         >
-                          <div className="fbox-ico-center ico-60">
-                            <img
-                              src="/images/industries/cannabis-100.png"
-                              alt="ico-bkg"
-                            />
-                          </div>
-                          <div className="fbox-txt-center">
-                            <h5 className="h5-sm">Cannabis</h5>
-                            <p className="p-lg">
-                              Smart packaging for Cannabis brands opens a new
-                              channel to engage, protect, and build trust with
-                              your customers.
-                            </p>
-                          </div>
+                          <Link href={"/industries/pharmaceuticals"}>
+                            <div className="fbox-ico-center ico-60">
+                              <img
+                                src="/images/industries/medicines-100.png"
+                                alt="ico-bkg"
+                              />
+                            </div>
+                            <div className="fbox-txt-center">
+                              <h5 className="h5-sm">Pharmaceuticals</h5>
+                              <p className="p-lg">
+                                Smart packaging for Pharmaceuticals brands opens
+                                a new channel to engage, protect and build trust
+                                with your customers.
+                              </p>
+                            </div>
+                          </Link>
                         </div>
                       </div>
 
@@ -219,19 +204,22 @@ export default function Home() {
                             animationName: "fadeInUp",
                           }}
                         >
-                          <div className="fbox-ico-center ico-60">
-                            <img
-                              src="/images/industries/soccer-ball-100.png"
-                              alt="ico-bkg"
-                            />
-                          </div>
-                          <div className="fbox-txt-center">
-                            <h5 className="h5-sm">Sports Equipments</h5>
-                            <p className="p-lg">
-                              Tag, track, and instantaneously authenticate
-                              products with Signet Tags
-                            </p>
-                          </div>
+                          <Link href={"/industries/cannabis"}>
+                            <div className="fbox-ico-center ico-60">
+                              <img
+                                src="/images/industries/cannabis-100.png"
+                                alt="ico-bkg"
+                              />
+                            </div>
+                            <div className="fbox-txt-center">
+                              <h5 className="h5-sm">Cannabis</h5>
+                              <p className="p-lg">
+                                Smart packaging for Cannabis brands opens a new
+                                channel to engage, protect, and build trust with
+                                your customers.
+                              </p>
+                            </div>
+                          </Link>
                         </div>
                       </div>
 
@@ -243,19 +231,47 @@ export default function Home() {
                             animationName: "fadeInUp",
                           }}
                         >
-                          <div className="fbox-ico-center ico-60">
-                            <img
-                              src="/images/industries/diploma-100.png"
-                              alt="ico-bkg"
-                            />
-                          </div>
-                          <div className="fbox-txt-center">
-                            <h5 className="h5-sm">Document Security</h5>
-                            <p className="p-lg">
-                              Providing document security solutions for simple
-                              to complex requirements.
-                            </p>
-                          </div>
+                          <Link href={"/industries/sports-equipments"}>
+                            <div className="fbox-ico-center ico-60">
+                              <img
+                                src="/images/industries/soccer-ball-100.png"
+                                alt="ico-bkg"
+                              />
+                            </div>
+                            <div className="fbox-txt-center">
+                              <h5 className="h5-sm">Sports Equipments</h5>
+                              <p className="p-lg">
+                                Tag, track, and instantaneously authenticate
+                                products with Signet Tags
+                              </p>
+                            </div>
+                          </Link>
+                        </div>
+                      </div>
+
+                      <div className="col">
+                        <div
+                          className="fbox-1 mb-40 wow fadeInUp"
+                          style={{
+                            visibility: "visible",
+                            animationName: "fadeInUp",
+                          }}
+                        >
+                          <Link href={"/industries/document-security"}>
+                            <div className="fbox-ico-center ico-60">
+                              <img
+                                src="/images/industries/diploma-100.png"
+                                alt="ico-bkg"
+                              />
+                            </div>
+                            <div className="fbox-txt-center">
+                              <h5 className="h5-sm">Document Security</h5>
+                              <p className="p-lg">
+                                Providing document security solutions for simple
+                                to complex requirements.
+                              </p>
+                            </div>
+                          </Link>
                         </div>
                       </div>
                       <div className="col"> </div>
@@ -267,20 +283,23 @@ export default function Home() {
                             animationName: "fadeInUp",
                           }}
                         >
-                          <div className="fbox-ico-center ico-60">
-                            <img
-                              src="/images/industries/t-shirt-100.png"
-                              alt="ico-bkg"
-                            />
-                          </div>
-                          <div className="fbox-txt-center">
-                            <h5 className="h5-sm">Apparel and clothing</h5>
-                            <p className="p-lg">
-                              Smart packaging for clothing brands opens a new
-                              channel to engage, protect, and build trust with
-                              your customers.
-                            </p>
-                          </div>
+                          <Link href={"/industries/apparel-and-clothing"}>
+                            <div className="fbox-ico-center ico-60">
+                              <img
+                                src="/images/industries/t-shirt-100.png"
+                                alt="ico-bkg"
+                              />
+                            </div>
+                            <div className="fbox-txt-center">
+                              <h5 className="h5-sm">Apparel and clothing</h5>
+
+                              <p className="p-lg">
+                                Smart packaging for clothing brands opens a new
+                                channel to engage, protect, and build trust with
+                                your customers.
+                              </p>
+                            </div>
+                          </Link>
                         </div>
                       </div>
 
@@ -292,19 +311,21 @@ export default function Home() {
                             animationName: "fadeInUp",
                           }}
                         >
-                          <div className="fbox-ico-center ico-60">
-                            <img
-                              src="/images/industries/sneaker-60.png"
-                              alt="ico-bkg"
-                            />
-                          </div>
-                          <div className="fbox-txt-center">
-                            <h5 className="h5-sm">Shoes and footwear</h5>
-                            <p className="p-lg">
-                              Customer Engagement + Anti-Counterfeit Protection
-                              for Shoes and footwear Brands
-                            </p>
-                          </div>
+                          <Link href={"/industries/shoes-and-footwear"}>
+                            <div className="fbox-ico-center ico-60">
+                              <img
+                                src="/images/industries/sneaker-60.png"
+                                alt="ico-bkg"
+                              />
+                            </div>
+                            <div className="fbox-txt-center">
+                              <h5 className="h5-sm">Shoes and footwear</h5>
+                              <p className="p-lg">
+                                Customer Engagement + Anti-Counterfeit
+                                Protection for Shoes and footwear Brands
+                              </p>
+                            </div>
+                          </Link>
                         </div>
                       </div>
                     </div>
