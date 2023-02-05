@@ -10,9 +10,6 @@ function Patent() {
         className="bg-snow wide-20 download-section division"
       >
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-md-10 col-lg-8"></div>
-          </div>
           <div className="row justify-content-center pt-100">
             <div className="col-md-12 col-lg-10">
               <div className="about-2-title">

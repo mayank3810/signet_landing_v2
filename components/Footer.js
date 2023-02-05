@@ -78,7 +78,7 @@ function Footer() {
                   </li>
                   <li>
                     <p className="p-md">
-                      <a href="#">API & Resources</a>
+                      <Link href={"/api-doc"}>API & Resources</Link>
                     </p>
                   </li>
                 </ul>
