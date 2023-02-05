@@ -149,7 +149,7 @@ function Footer() {
                   </li>
                   <li>
                     <p className="p-md">
-                      <a href="#">Patent Status</a>
+                      <Link href={"/patent"}>Patent Status</Link>
                     </p>
                   </li>
                 </ul>
