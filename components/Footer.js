@@ -129,7 +129,7 @@ function Footer() {
                 <ul className="foo-links text-secondary clearfix">
                   <li>
                     <p className="p-md">
-                      <a href="#">Request Demo</a>
+                      <Link href={"/request-demo"}>Request Demo</Link>
                     </p>
                   </li>
                   <li>
