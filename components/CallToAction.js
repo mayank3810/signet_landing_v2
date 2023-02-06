@@ -1,9 +1,9 @@
+import Link from "next/link";
 import React from "react";
 
 function CallToAction() {
   return (
     <section id="cta-4" className="cta-section division">
-      <div className="cta-4-holder bg-snow">
         <div className="container">
           <div className="bg-white cta-4-wrapper">
             <div className="row d-flex align-items-center">
@@ -11,24 +11,22 @@ function CallToAction() {
               <div className="col-lg-7 col-lg-8">
                 <div className="cta-4-txt">
                   <h4 className="h4-xl">
-                    Try Signet free for 14 days. Start your trial now and pick a
-                    plan later
+                    Need Help Getting Started?
                   </h4>
+                  <p>
+                    Our experts are here to help your organization figure out your first move.
+                  </p>
                 </div>
               </div>
               {/* CALL TO ACTION BUTTON */}
               <div className="col-lg-4">
                 <div className="text-end">
                   <div className="cta-4-btn text-center">
-                    <a
-                      href="pricing.html"
-                      className="btn btn-yellow tra-yellow-hover"
-                    >
-                      Get Started Now
-                    </a>
-                    <p>
-                      <a href="faqs.html">Read The FAQs</a>
-                    </p>
+                    <Link href={"/onboarding"}>
+                      <button className="btn btn-yellow tra-yellow-hover">
+                        Get Started
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -36,8 +34,6 @@ function CallToAction() {
           </div>{" "}
           {/* End row */}
         </div>{" "}
-        {/* End container */}
-      </div>
     </section>
   );
 }
