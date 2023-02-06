@@ -282,8 +282,8 @@ function Technology() {
                 <div className="col-md-5 col-lg-6 order-first order-md-2">
                   <div className="img-block left-column wow fadeInLeft">
                     <img
-                      className="img-fluid"
-                      src="images/img-16.png"
+                      className="img-fluid rounded"
+                      src="images/nfc-technology-banner.jpg"
                       alt="content-image"
                     />
                   </div>
@@ -298,8 +298,8 @@ function Technology() {
                 <div className="col-md-5 col-lg-6">
                   <div className="img-block left-column wow fadeInRight">
                     <img
-                      className="img-fluid"
-                      src="images/img-17.png"
+                      className="img-fluid rounded"
+                      src="images/blockchain-security.jpg"
                       alt="video-preview"
                     />
                   </div>

@@ -23,9 +23,9 @@ function PageTitle({ image, title, subtitle }) {
         </div>{" "}
         {/* End container */}
       </div>{" "}
-      {/* End hero-overlay */}
-      {/* WAVE SHAPE BOTTOM */}
-      <div className="wave-shape-bottom">
+
+
+      {/* <div className="wave-shape-bottom">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80">
           <path
             fill="#ffffff"
@@ -33,7 +33,9 @@ function PageTitle({ image, title, subtitle }) {
             d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
           />
         </svg>
-      </div>
+      </div> */}
+
+      
     </div>
   );
 }

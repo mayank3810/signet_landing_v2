@@ -105,22 +105,54 @@ function Header({ scroll }) {
                   </a>
                   <ul className="sub-menu">
                     <li>
-                      <a href="#content-2">Agriculture</a>
+                      <Link href={"/industries/cosmetics-and-perfumes"}>
+                        Cosmetics & Perfumes
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href={"/industries/food-and-beverages"}>
+                        Food & Beverages
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href={"/industries/agriculture"}>
+                        Agriculture
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href={"/industries/auto-parts"}>
+                        Auto Parts
+                      </Link>
                     </li>
                     <li>
                       <Link href={"/industries/pharmaceuticals"}>
                         Pharmaceuticals
                       </Link>
-                      {/* <a href="#content-5"></a> */}
                     </li>
                     <li>
-                      <a href="#content-10">Consumer Goods</a>
+                      <Link href={"/industries/cannabis"}>
+                        Cannabis
+                      </Link>
                     </li>
                     <li>
-                      <a href="#reviews-1">Ticketing</a>
+                      <Link href={"/industries/sports-equipments"}>
+                        Sports Equipments
+                      </Link>
                     </li>
                     <li>
-                      <a href="#faqs-2">Arts and Collectibles</a>
+                      <Link href={"/industries/document-security"}>
+                        Document Security
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href={"/industries/apparel-and-clothing"}>
+                        Apparel and Clothing
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href={"/industries/shoes-and-footwear"}>
+                        Shoes and footwear
+                      </Link>
                     </li>
                   </ul>
                 </li>
