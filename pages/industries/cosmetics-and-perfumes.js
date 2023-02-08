@@ -64,7 +64,7 @@ function CosmeticsAndPerfumes() {
                 {/* END TEXT BLOCK */}
               </div>
             </div>
-           
+
           </div>
           {/* End container */}
         </section>
@@ -82,9 +82,9 @@ function CosmeticsAndPerfumes() {
                     The real problem <br />
                   </h2>
                   <p className="p-xl">
-                  7.8% of annual sales in the personal care sector is lost due to counterfeiting
-                  According to the OECD, in 2016 the international counterfeit makeup trade was estimated to be worth $5.4 billion. Today it is still increasing.
-                  
+                    7.8% of annual sales in the personal care sector is lost due to counterfeiting
+                    According to the OECD, in 2016 the international counterfeit makeup trade was estimated to be worth $5.4 billion. Today it is still increasing.
+
                   </p>
                 </div>
               </div>
@@ -117,10 +117,11 @@ function CosmeticsAndPerfumes() {
               <div className="col-lg-10 col-xl-8">
                 <div className="section-title title-01 mb-70">
                   {/* Title */}
-                  <h2 className="h2-md">Solutions to protect your products</h2>
+                  <h2 className="h2-md">Why Signet Tags</h2>
                   {/* Text */}
                   <p className="p-xl">
-                  Protect your product against fraudulent refilling and allow instantaneous verification without the need for any app or downloads
+                    While other authentication companies protect the package,
+                    Signet Tags protects the product against fraudulent refilling and allows instantaneous verification without the need for specific tools or expertise in the field
                   </p>
                 </div>
               </div>
@@ -132,19 +133,16 @@ function CosmeticsAndPerfumes() {
                 <div className="col">
                   <div className="fbox-8 mb-40 wow fadeInUp">
                     {/* Image */}
-                    <div className="fbox-img bg-whitesmoke-gradient">
-                      <img
-                        className="img-fluid"
-                        src="/images/img-21.png"
-                        alt="feature-icon"
-                      />
-                    </div>
+                    <img
+                      className="img-fluid rounded"
+                      src="/images/industries/brand-protection.jpg"
+                      alt="feature-icon"
+                    />
                     {/* Title */}
-                    <h5 className="h5-md">Friendly Interface</h5>
+                    <h5 className="h5-md mt-4 ">Brand Protection</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Feugiat primis ultrice semper lacus cursus feugiat undo
-                      primis ultrice a ligula an auctor tempus magnis
+                      Defend your IPRs and your Brand Equity. Feel free to develop and promote new products safely
                     </p>
                   </div>
                 </div>
@@ -152,39 +150,31 @@ function CosmeticsAndPerfumes() {
                 <div className="col">
                   <div className="fbox-8 mb-40 wow fadeInUp">
                     {/* Image */}
-                    <div className="fbox-img bg-whitesmoke-gradient">
-                      <img
-                        className="img-fluid"
-                        src="/images/img-22.png"
-                        alt="feature-icon"
-                      />
-                    </div>
+                    <img
+                      className="img-fluid rounded"
+                      src="/images/industries/marketing.jpg"
+                      alt="feature-icon"
+                    />
                     {/* Title */}
-                    <h5 className="h5-md">Extremely Flexible</h5>
+                    <h5 className="h5-md mt-4">Marketing Insights</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Feugiat primis ultrice semper lacus cursus feugiat undo
-                      primis ultrice a ligula an auctor tempus magnis
+                      Track your products until the final customer. Detect product infiltrations and original stolen products
                     </p>
                   </div>
                 </div>
                 {/* FEATURE BOX #3 */}
                 <div className="col">
                   <div className="fbox-8 mb-40 wow fadeInUp">
-                    {/* Image */}
-                    <div className="fbox-img bg-whitesmoke-gradient">
-                      <img
-                        className="img-fluid"
-                        src="/images/img-24.png"
-                        alt="feature-icon"
-                      />
-                    </div>
-                    {/* Title */}
-                    <h5 className="h5-md">Easy To Customize</h5>
+                    <img
+                      className="img-fluid rounded"
+                      src="/images/industries/feedback.jpg"
+                      alt="feature-icon"
+                    />
+                    <h5 className="h5-md mt-4 ">Connect directly</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Feugiat primis ultrice semper lacus cursus feugiat undo
-                      primis ultrice a ligula an auctor tempus magnis
+                      Connect directly to your customers using push notifications and alerts. Collect valuable feedbacks directly from customers.
                     </p>
                   </div>
                 </div>
@@ -206,29 +196,30 @@ function CosmeticsAndPerfumes() {
               <div className="col-md-7 col-lg-6 order-last order-md-2">
                 <div className="txt-block left-column wow fadeInRight">
                   {/* Section ID */}
-                  <span className="section-id txt-upcase">Pixel Perfect</span>
+                  <span className="section-id txt-upcase">SMART NFC PACKAGING</span>
                   {/* Title */}
                   <h2 className="h2-xs">
-                    We're making design better for everyone
+                    Plain packaging doesn't work anymore.
                   </h2>
                   {/* List */}
                   <ul className="simple-list">
                     <li className="list-item">
                       <p className="p-lg">
-                        Fringilla risus, luctus mauris orci auctor euismod
-                        iaculis luctus magna purus pretium ligula purus undo
-                        quaerat tempor sapien rutrum mauris quaerat ultrice
+                        Getting customers to engage with your brand is a vital part of running any successful business,
+                        and Cosmetics And Perfumes industries are no exception.
                       </p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        Quaerat sodales sapien euismod purus blandit
+                        Smart packaging transforms your Cosmetics And Perfumes
+                        products into a new marketing channel for customers to engage with your Cosmetics And Perfumes
+                        brand. *According to Gallup research, a highly engaged customer brings in 23% more revenue than the average customer.
                       </p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        Nemo ipsam egestas volute turpis dolores undo ultrice
-                        aliquam quaerat at sodales sapien purus
+                        YPB has a range of smart packaging solutions to fit any Cosmetics And Perfumes
+                        brand’s requirements including cryptographic serialised QR codes, anti-copy codes, or invisible smartphone readable technology. YPB solutions can be non-app based or app-based depending on your requirements
                       </p>
                     </li>
                   </ul>
@@ -240,7 +231,7 @@ function CosmeticsAndPerfumes() {
                 <div className="rel img-block right-column wow fadeInLeft">
                   <img
                     className="img-fluid"
-                    src="/images/img-07.png"
+                    src="/images/signet-mobile-app.jpg"
                     alt="content-image"
                   />
                 </div>
@@ -252,18 +243,33 @@ function CosmeticsAndPerfumes() {
         </section>
 
         <Benefits />
-        <Stats
-          tagLine={
-            "More than 65,000 users around the world are already suffering due to counterfeit"
-          }
-          amount={"65K"}
-          rating={4}
-        />
 
-        <Testimonials />
-        <Brands />
+        <section id="statistic-2" className="wide-100 statistic-section division">
+          <div className="container">
+            <div className="row d-flex align-items-center">
+              <div className="col-lg-6">
+                <div className="txt-block right-column wow fadeInLeft">
+                  <h3 className="h3-xs"> The international counterfeit makeup trade was estimated to be worth $5.4 billion. Still increasing. </h3>
+                </div>
+              </div>
+              <div className="col-sm-5 col-md-4 col-lg-3 offset-sm-2 offset-md-3 offset-lg-2">
+                <div className="statistic-block wow fadeInUp">
+                  <h2 className="h2-title-xs statistic-number">
+                    <span className="count-element">7.8%</span>
+                  </h2>
+                  <p className="p-lg mt-20">
+                    annual sales in the personal care sector is lost due to counterfeiting
+                  </p>
+                </div>
+              </div>
+        
+            </div>{" "}
+          </div>{" "}
+        </section>
+
+
+
         <CallToAction />
-        {/* END TESTIMONIALS-1 */}
       </div>
     </>
   );

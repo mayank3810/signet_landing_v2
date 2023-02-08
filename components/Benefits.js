@@ -12,24 +12,22 @@ function Benefits() {
               <div className="fbox-4 pr-25 mb-40 wow fadeInUp">
                 {/* Icon */}
                 <div className="fbox-ico">
-                  <div className="ico-65 shape-ico violet-red-color">
+                  <div className="ico-65 shape-ico dark-color">
                     <img
                       className="ico-bkg"
                       src="/images/ico-bkg.png"
                       alt="ico-bkg"
                     />
-                    <span className="flaticon-shield-2" />
+                   <img src="/images/industries/icons8-connected-100.png" />
                   </div>
                 </div>
                 {/* Text */}
                 <div className="fbox-txt">
                   {/* Title */}
-                  <h5 className="h5-md">Protect Data Traffic</h5>
+                  <h5 className="h5-md">Digitally Connected Products</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Every product becomes digitally connected
                   </p>
                 </div>
               </div>
@@ -39,24 +37,23 @@ function Benefits() {
               <div className="fbox-4 pl-25 mb-40 wow fadeInUp">
                 {/* Icon */}
                 <div className="fbox-ico">
-                  <div className="ico-65 shape-ico violet-red-color">
+                  <div className="ico-65 shape-ico dark-color">
                     <img
                       className="ico-bkg"
                       src="/images/ico-bkg.png"
                       alt="ico-bkg"
                     />
-                    <span className="flaticon-fingerprint-scan" />
+                   <img src="/images/industries/icons8-combo-chart-100.png" />
+
                   </div>
                 </div>
                 {/* Text */}
                 <div className="fbox-txt">
                   {/* Title */}
-                  <h5 className="h5-md">Manage Access</h5>
+                  <h5 className="h5-md">Valuabe Marketing Insights</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Capture valuable marketing insights and consented first-party data
                   </p>
                 </div>
               </div>
@@ -66,24 +63,22 @@ function Benefits() {
               <div className="fbox-4 pr-25 mb-40 wow fadeInUp">
                 {/* Icon */}
                 <div className="fbox-ico">
-                  <div className="ico-65 shape-ico violet-red-color">
+                  <div className="ico-65 shape-ico dark-color">
                     <img
                       className="ico-bkg"
                       src="/images/ico-bkg.png"
                       alt="ico-bkg"
                     />
-                    <span className="flaticon-smartphone-1" />
+                    <img src="/images/industries/icons8-knight-shield-100.png" />
                   </div>
                 </div>
                 {/* Text */}
                 <div className="fbox-txt">
                   {/* Title */}
-                  <h5 className="h5-md">Protect Every Device</h5>
+                  <h5 className="h5-md">Protect your Brand</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Drive out counterfeited perfumes from the market and safeguard your customers’ health and money
                   </p>
                 </div>
               </div>
@@ -93,24 +88,22 @@ function Benefits() {
               <div className="fbox-4 pl-25 mb-40 wow fadeInUp">
                 {/* Icon */}
                 <div className="fbox-ico">
-                  <div className="ico-65 shape-ico violet-red-color">
+                  <div className="ico-65 shape-ico dark-color">
                     <img
                       className="ico-bkg"
                       src="/images/ico-bkg.png"
                       alt="ico-bkg"
                     />
-                    <span className="flaticon-desktop" />
+                      <img src="/images/industries/icons8-opera-glasses-100.png" />
                   </div>
                 </div>
                 {/* Text */}
                 <div className="fbox-txt">
                   {/* Title */}
-                  <h5 className="h5-md">Protect Data Everywhere</h5>
+                  <h5 className="h5-md">Montitor Products</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Track your products until the final customer. Detect product infiltrations and original stolen products
                   </p>
                 </div>
               </div>
@@ -120,24 +113,22 @@ function Benefits() {
               <div className="fbox-4 pr-25 mb-40 wow fadeInUp">
                 {/* Icon */}
                 <div className="fbox-ico">
-                  <div className="ico-65 shape-ico violet-red-color">
+                  <div className="ico-65 shape-ico dark-color">
                     <img
                       className="ico-bkg"
                       src="/images/ico-bkg.png"
                       alt="ico-bkg"
                     />
-                    <span className="flaticon-command-line" />
+                      <img src="/images/industries/icons8-defend-100.png" />
                   </div>
                 </div>
                 {/* Text */}
                 <div className="fbox-txt">
                   {/* Title */}
-                  <h5 className="h5-md">Remote Access</h5>
+                  <h5 className="h5-md">Defend Distributors</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                    Protect your official commercial partners from product diversion and illicit markets
                   </p>
                 </div>
               </div>
@@ -147,24 +138,22 @@ function Benefits() {
               <div className="fbox-4 pl-25 mb-40 wow fadeInUp">
                 {/* Icon */}
                 <div className="fbox-ico">
-                  <div className="ico-65 shape-ico violet-red-color">
+                  <div className="ico-65 shape-ico dark-color">
                     <img
                       className="ico-bkg"
                       src="/images/ico-bkg.png"
                       alt="ico-bkg"
                     />
-                    <span className="flaticon-secure" />
+                    <img src="/images/industries/icons8-no-filling-100.png" />
                   </div>
                 </div>
                 {/* Text */}
                 <div className="fbox-txt">
                   {/* Title */}
-                  <h5 className="h5-md">Third-party Authentication</h5>
+                  <h5 className="h5-md">Detect fraudulent refilling</h5>
                   {/* Text */}
                   <p className="p-lg">
-                    Porta semper lacus cursus feugiat primis ultrice ligula
-                    risus auctor tempus feugiat impedit undo auctor felis augue
-                    mauris aoreet tempor
+                   Easily detect if the products have been tampered, using tag tamper detecting tags.
                   </p>
                 </div>
               </div>

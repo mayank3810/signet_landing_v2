@@ -8738,3 +8738,7 @@ nav a#pull {
 .active-link {
   color: #fbce71 !important;
 }
+
+.rounded {
+  border-radius: 1rem!important;
+}
