@@ -18,10 +18,11 @@ function CosmeticsAndPerfumes() {
       <PageTitle
         image="/images/industries/cosmetics_banner.jpg"
         title={"Cosmetics And Perfumes"}
-        subtitle={"Engage your consumers with fun, informative, smart packaging that also protects your brand"}
+        subtitle={
+          "Engage your consumers with fun, informative, smart packaging that also protects your brand"
+        }
       />
       <div ref={containerRef}>
-
         <section
           id="content-3"
           className="bg-whitesmoke content-3 wide-60 content-section division"
@@ -43,28 +44,31 @@ function CosmeticsAndPerfumes() {
                 {/* TEXT BLOCK */}
                 <div className="col-md-7 col-lg-6">
                   <div className="txt-block right-column wow fadeInLeft">
-
                     {/* Title */}
-                    <h2 className="h2-xs">
-                      Tag, track and authenticate
-                    </h2>
+                    <h2 className="h2-xs">Tag, track and authenticate</h2>
                     {/* Text */}
                     <p className="p-lg">
-                      Our patent pending NFC tag leverages encrypted tamper-proof blockchain technology to track each single item from production to product opening and features refilling protection and anti-peeling.
-                      Its style can be customized for a perfect integration with your label, package or bottle design.
-
+                      Our patent pending NFC tag leverages encrypted
+                      tamper-proof blockchain technology to track each single
+                      item from production to product opening and features
+                      refilling protection and anti-peeling. Its style can be
+                      customized for a perfect integration with your label,
+                      package or bottle design.
                     </p>
 
                     <p className="p-lg">
-                      Our app or a direct NFC connection allows consumers to check the authenticity of each single purchase they are about to make.
-                      A simple tap grants instant access to product history, certifications and intended applications. Faster and safer than any solution based on QR code or image recognition.
+                      Our app or a direct NFC connection allows consumers to
+                      check the authenticity of each single purchase they are
+                      about to make. A simple tap grants instant access to
+                      product history, certifications and intended applications.
+                      Faster and safer than any solution based on QR code or
+                      image recognition.
                     </p>
                   </div>
                 </div>
                 {/* END TEXT BLOCK */}
               </div>
             </div>
-
           </div>
           {/* End container */}
         </section>
@@ -82,9 +86,10 @@ function CosmeticsAndPerfumes() {
                     The real problem <br />
                   </h2>
                   <p className="p-xl">
-                    7.8% of annual sales in the personal care sector is lost due to counterfeiting
-                    According to the OECD, in 2016 the international counterfeit makeup trade was estimated to be worth $5.4 billion. Today it is still increasing.
-
+                    7.8% of annual sales in the personal care sector is lost due
+                    to counterfeiting According to the OECD, in 2016 the
+                    international counterfeit makeup trade was estimated to be
+                    worth $5.4 billion. Today it is still increasing.
                   </p>
                 </div>
               </div>
@@ -121,7 +126,9 @@ function CosmeticsAndPerfumes() {
                   {/* Text */}
                   <p className="p-xl">
                     While other authentication companies protect the package,
-                    Signet Tags protects the product against fraudulent refilling and allows instantaneous verification without the need for specific tools or expertise in the field
+                    Signet Tags protects the product against fraudulent
+                    refilling and allows instantaneous verification without the
+                    need for specific tools or expertise in the field
                   </p>
                 </div>
               </div>
@@ -142,7 +149,8 @@ function CosmeticsAndPerfumes() {
                     <h5 className="h5-md mt-4 ">Brand Protection</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Defend your IPRs and your Brand Equity. Feel free to develop and promote new products safely
+                      Defend your IPRs and your Brand Equity. Feel free to
+                      develop and promote new products safely
                     </p>
                   </div>
                 </div>
@@ -159,7 +167,8 @@ function CosmeticsAndPerfumes() {
                     <h5 className="h5-md mt-4">Marketing Insights</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Track your products until the final customer. Detect product infiltrations and original stolen products
+                      Track your products until the final customer. Detect
+                      product infiltrations and original stolen products
                     </p>
                   </div>
                 </div>
@@ -174,7 +183,9 @@ function CosmeticsAndPerfumes() {
                     <h5 className="h5-md mt-4 ">Connect directly</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Connect directly to your customers using push notifications and alerts. Collect valuable feedbacks directly from customers.
+                      Connect directly to your customers using push
+                      notifications and alerts. Collect valuable feedbacks
+                      directly from customers.
                     </p>
                   </div>
                 </div>
@@ -196,7 +207,9 @@ function CosmeticsAndPerfumes() {
               <div className="col-md-7 col-lg-6 order-last order-md-2">
                 <div className="txt-block left-column wow fadeInRight">
                   {/* Section ID */}
-                  <span className="section-id txt-upcase">SMART NFC PACKAGING</span>
+                  <span className="section-id txt-upcase">
+                    SMART NFC PACKAGING
+                  </span>
                   {/* Title */}
                   <h2 className="h2-xs">
                     Plain packaging doesn't work anymore.
@@ -205,21 +218,28 @@ function CosmeticsAndPerfumes() {
                   <ul className="simple-list">
                     <li className="list-item">
                       <p className="p-lg">
-                        Getting customers to engage with your brand is a vital part of running any successful business,
-                        and Cosmetics And Perfumes industries are no exception.
+                        Getting customers to engage with your brand is a vital
+                        part of running any successful business, and Cosmetics
+                        And Perfumes industries are no exception.
                       </p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
                         Smart packaging transforms your Cosmetics And Perfumes
-                        products into a new marketing channel for customers to engage with your Cosmetics And Perfumes
-                        brand. *According to Gallup research, a highly engaged customer brings in 23% more revenue than the average customer.
+                        products into a new marketing channel for customers to
+                        engage with your Cosmetics And Perfumes brand.
+                        *According to Gallup research, a highly engaged customer
+                        brings in 23% more revenue than the average customer.
                       </p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        YPB has a range of smart packaging solutions to fit any Cosmetics And Perfumes
-                        brand’s requirements including cryptographic serialised QR codes, anti-copy codes, or invisible smartphone readable technology. YPB solutions can be non-app based or app-based depending on your requirements
+                        YPB has a range of smart packaging solutions to fit any
+                        Cosmetics And Perfumes brand’s requirements including
+                        cryptographic serialised QR codes, anti-copy codes, or
+                        invisible smartphone readable technology. YPB solutions
+                        can be non-app based or app-based depending on your
+                        requirements
                       </p>
                     </li>
                   </ul>
@@ -244,12 +264,19 @@ function CosmeticsAndPerfumes() {
 
         <Benefits />
 
-        <section id="statistic-2" className="wide-100 statistic-section division">
+        <section
+          id="statistic-2"
+          className="wide-100 statistic-section division"
+        >
           <div className="container">
             <div className="row d-flex align-items-center">
               <div className="col-lg-6">
                 <div className="txt-block right-column wow fadeInLeft">
-                  <h3 className="h3-xs"> The international counterfeit makeup trade was estimated to be worth $5.4 billion. Still increasing. </h3>
+                  <h3 className="h3-xs">
+                    {" "}
+                    The international counterfeit makeup trade was estimated to
+                    be worth $5.4 billion. Still increasing.{" "}
+                  </h3>
                 </div>
               </div>
               <div className="col-sm-5 col-md-4 col-lg-3 offset-sm-2 offset-md-3 offset-lg-2">
@@ -258,16 +285,14 @@ function CosmeticsAndPerfumes() {
                     <span className="count-element">7.8%</span>
                   </h2>
                   <p className="p-lg mt-20">
-                    annual sales in the personal care sector is lost due to counterfeiting
+                    annual sales in the personal care sector is lost due to
+                    counterfeiting
                   </p>
                 </div>
               </div>
-        
             </div>{" "}
           </div>{" "}
         </section>
-
-
 
         <CallToAction />
       </div>

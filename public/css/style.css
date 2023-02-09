@@ -802,6 +802,11 @@ body {
 .bg-red {
   background-color: #f6412d;
 }
+
+.text-red {
+ color: #f6412d;
+}
+
 .bg-salmon {
   background-color: #ff523d;
 }
@@ -8207,8 +8212,6 @@ img.footer-logo {
 #signup-2 {
   background-color: #f2f6f8;
   min-height: 100vh;
-  padding-top: 80px;
-  padding-bottom: 50px;
 }
 
 #login-3,
@@ -8459,7 +8462,7 @@ p.forgot-password {
 /*------------------------------------------*/
 
 .register-form .form-control {
-  height: 60px;
+  height: 50px;
   background-color: #f8f9fa;
   border: 1px solid #e5e5e5;
   color: #333;
@@ -8740,5 +8743,64 @@ nav a#pull {
 }
 
 .rounded {
-  border-radius: 1rem!important;
+  border-radius: 1rem !important;
+}
+
+.side-bar {
+  background-color: #fff;
+  height: 100vh;
+  /* border-radius: 0 16px 16px 0; */
+  box-shadow: 15px 20px 20px 0px rgb(5 5 5 / 5%);
+}
+
+.tab-group {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 20px 30px;
+  margin: 20px;
+  box-shadow: 0px 15px 20px 0px rgb(5 5 5 / 5%);
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: #fbce71;
+}
+
+.tab h5 {
+  margin-bottom: 0px !important;
+}
+
+.register-form {
+  display: flex;
+  /* align-content: center; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn-yellow-outline {
+  background: transparent !important;
+  background-color: transparent !important;
+  border-color: #d7a241 !important;
+  color: #000;
+}
+
+.plans {
+  display: flex;
+}
+
+.plans .btn {
+  margin: 10px;
 }
