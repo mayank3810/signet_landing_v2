@@ -1,4 +1,7 @@
 import Header from "@/components/Header";
+import Form1 from "@/components/Onboarding/Form1";
+import Form2 from "@/components/Onboarding/Form2";
+import LeftText from "@/components/Onboarding/LeftText";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -62,15 +65,20 @@ function Onboarding() {
       <section id="login-2" className="login-section division">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-md-4 col-lg-4 side-bar">
+            <div className="col-md-5 col-lg-5 side-bar">
               <div className="login-page-logo pt-30">
                 <Link href="/" className="logo-black">
                   <img src="/images/logo_dark.svg" alt="header-logo" />
                 </Link>
-                <p className="p-xl pt-20">Start your free trial</p>
               </div>
+              <LeftText
+                heading={"Get started For Free with Signet Tags"}
+                subheading={
+                  " Best solution to tag, track and <br /> authenticate your products."
+                }
+              />
 
-              <div className="tab-group">
+              {/* <div className="tab-group">
                 <div className="tab active ">
                   <h5 className="h5-md">Step-1</h5>
                   <span className="ico-25 green-color">
@@ -79,122 +87,20 @@ function Onboarding() {
                 </div>
                 <div className="tab ">
                   <h5 className="h5-md">Step-2</h5>
-                  {/* <span className="ico-25 green-color ">
-                    <span className="flaticon-check"></span>
-                  </span> */}
+                  
                 </div>
                 <div className="tab">
                   <h5 className="h5-md">Step-3</h5>
-                  {/* <span className="ico-25 green-color">
-                    <span className="flaticon-check"></span>
-                  </span> */}
+                  
                 </div>
-              </div>
+              </div> */}
             </div>
-            <div className="col-md-8 col-lg-8">
+            <div className="col-md-7 col-lg-7">
               {/* LOGO */}
               {/* SIGN IN FORM */}
               <div className="register-form">
-                <form
-                  name="signinform"
-                  className="row sign-in-form"
-                  noValidate="novalidate"
-                >
-                  {/* Title*/}
-                  <div className="col-md-12">
-                    <div className="register-form-title text-center">
-                      <h4 className="h4-lg">Hello!</h4>
-                      <p className="p-xl">
-                        Please fill some details about yourself
-                      </p>
-                    </div>
-                  </div>
-
-                  {/* Form Input */}
-                  <div className="col-md-12 pb-25">
-                    <label>
-                      <h5 class="h5-xxs">
-                        Choose a plan <sup className="text-red">*</sup>
-                      </h5>
-                    </label>
-                    <div className="plans">
-                      <button className="btn btn-orange-red">Basic</button>
-                      <button className="btn btn-yellow-outline">
-                        Advance
-                      </button>
-                      <button className="btn btn-yellow-outline">
-                        Business
-                      </button>
-                    </div>
-                  </div>
-                  <div className="col-md-12 pb-3">
-                    <label>
-                      <h5 class="h5-xxs">
-                        Name <sup className="text-red">*</sup>
-                      </h5>
-                    </label>
-                    <input
-                      className="form-control text"
-                      type="text"
-                      name="name"
-                      placeholder="Jhon Doe"
-                    />
-                    {/* <div className="wrap-input">
-                      <span className="btn-show-pass ico-20">
-                        <span className="flaticon-visible eye-pass" />
-                      </span>
-                      <input
-                        className="form-control password"
-                        type="password"
-                        name="password"
-                        placeholder="Password"
-                      />
-                    </div> */}
-                  </div>
-                  <div className="col-md-12 pb-3">
-                    <div className="row">
-                      <div className="col-6">
-                        <label>
-                          <h5 class="h5-xxs">
-                            Email <sup className="text-red">*</sup>
-                          </h5>
-                        </label>
-                        <input
-                          className="form-control email"
-                          type="email"
-                          name="email"
-                          placeholder="example@example.com"
-                        />
-                      </div>
-                      <div className="col-6">
-                        <label>
-                          <h5 class="h5-xxs">
-                            Contact <sup className="text-red">*</sup>
-                          </h5>
-                        </label>
-                        <input
-                          className="form-control email"
-                          type="email"
-                          name="email"
-                          placeholder="example@example.com"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  {/* Form Input */}
-
-                  {/* Form Submit Button */}
-                  <div className="col-md-12">
-                    <button
-                      type="submit"
-                      className="btn btn-outline btn-md btn-yellow tra-yellow-hover submit"
-                    >
-                      Log In
-                    </button>
-                  </div>
-                  {/* Form Data  */}
-                </form>
-              </div>{" "}
+                <Form1 />
+              </div>
             </div>
           </div>
         </div>
