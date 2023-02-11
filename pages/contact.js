@@ -28,19 +28,22 @@ function Contact() {
     }
     setLoading(true);
 
-    const rawResponse = await fetch(process.env.NEXT_PUBLIC_CONTACT_API_URL, {
-      method: "POST",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        email: email.data,
-        name: name.data,
-        subject: subject.data,
-        message: message.data,
-      }),
-    });
+    const rawResponse = await fetch(
+      process.env.NEXT_PUBLIC_API_URL + "general/email/contact",
+      {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email: email.data,
+          name: name.data,
+          subject: subject.data,
+          message: message.data,
+        }),
+      }
+    );
     if (rawResponse.ok) {
       const content = await rawResponse.json();
       setLoading(false);

@@ -3,7 +3,7 @@ import React from "react";
 function LeftText({ heading, subheading }) {
   return (
     <div className="txt-box p-5">
-      <h3 class="h3-xl mb-5">{heading}</h3>
+      <h3 className="h3-xl mb-5">{heading}</h3>
 
       <h5
         className="h5-lg mt-20"
