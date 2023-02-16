@@ -40,7 +40,7 @@ function Pricing() {
                       </div>
                       {/* Price */}
                       <sup className="dark-color">$</sup>
-                      <span className="dark-color">1.99</span>
+                      <span className="dark-color">2.99</span>
                       <sup className="validity dark-color">
                         per tag
                       </sup>
@@ -91,7 +91,7 @@ function Pricing() {
                       </div>
                       {/* Price */}
                       <sup className="dark-color">$</sup>
-                      <span className="dark-color">0.99</span>
+                      <span className="dark-color">1.99</span>
                       <sup className="validity dark-color">
                         per tag
                       </sup>
@@ -196,14 +196,74 @@ function Pricing() {
                         <tr>
                           <th style={{ width: "34%" }} />
                           <th style={{ width: "22%" }}>Basic</th>
-                          <th style={{ width: "22%" }}>Agency</th>
                           <th style={{ width: "22%" }}>Advanced</th>
+                          <th style={{ width: "22%" }}>Enterprise</th>
                         </tr>
                       </thead>
                       <tbody>
+                      <tr>
+                          <th scope="row" className="text-start">
+                            Anti Clone DNA 424 NFC Tags
+                          </th>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                        </tr>
+                       
                         <tr>
                           <th scope="row" className="text-start">
-                            25 Projects
+                            Tag Tamper Detection
+                          </th>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <th scope="row" className="text-start">
+                            User Location Detection
+                          </th>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <th scope="row" className="text-start">
+                            Colors and Theme Customisation
+                          </th>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                        </tr>
+                       
+                        <tr>
+                          <th scope="row" className="text-start">
+                            Advanced Analytics Dashboard
                           </th>
                           <td className="ico-15 green-color">
                             <span className="flaticon-check" />
@@ -217,7 +277,52 @@ function Pricing() {
                         </tr>
                         <tr>
                           <th scope="row" className="text-start">
-                            100 Projects
+                           Customer Push Notification
+                          </th>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <th scope="row" className="text-start">
+                           Feedback and Surveys
+                          </th>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <th scope="row" className="text-start">
+                           Track user location
+                          </th>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                          <td className="ico-15 green-color">
+                            <span className="flaticon-check" />
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <th scope="row" className="text-start">
+                            Insights on Tag Users
                           </th>
                           <td className="ico-10 disabled-option">
                             <span className="flaticon-cancel" />
@@ -231,7 +336,7 @@ function Pricing() {
                         </tr>
                         <tr>
                           <th scope="row" className="text-start">
-                            Unlimited
+                            Run Contests and Offers
                           </th>
                           <td className="ico-10 disabled-option">
                             <span className="flaticon-cancel" />
@@ -243,9 +348,10 @@ function Pricing() {
                             <span className="flaticon-check" />
                           </td>
                         </tr>
+                       
                         <tr>
                           <th scope="row" className="text-start">
-                            10 mySQL Database
+                            Multiple Language Support
                           </th>
                           <td className="ico-10 disabled-option">
                             <span className="flaticon-cancel" />
@@ -257,12 +363,13 @@ function Pricing() {
                             <span className="flaticon-check" />
                           </td>
                         </tr>
+                      
                         <tr>
                           <th scope="row" className="text-start">
-                            25 mySQL Database
+                            Multiple users
                           </th>
-                          <td className="ico-15 green-color">
-                            <span className="flaticon-check" />
+                          <td className="ico-10 disabled-option">
+                            <span className="flaticon-cancel" />
                           </td>
                           <td className="ico-15 green-color">
                             <span className="flaticon-check" />
@@ -271,65 +378,70 @@ function Pricing() {
                             <span className="flaticon-check" />
                           </td>
                         </tr>
+
                         <tr>
                           <th scope="row" className="text-start">
-                            50 mySQL Database
+                            Priority Support
                           </th>
+                          <td className="ico-10 disabled-option">
+                            <span className="flaticon-cancel" />
+                          </td>
                           <td className="ico-10 disabled-option">
                             <span className="flaticon-cancel" />
                           </td>
                           <td className="ico-15 green-color">
                             <span className="flaticon-check" />
                           </td>
-                          <td className="ico-15 green-color">
-                            <span className="flaticon-check" />
-                          </td>
                         </tr>
+
                         <tr>
                           <th scope="row" className="text-start">
-                            25 GB of Storage
+                            White label Solution
                           </th>
+                          <td className="ico-10 disabled-option">
+                            <span className="flaticon-cancel" />
+                          </td>
                           <td className="ico-10 disabled-option">
                             <span className="flaticon-cancel" />
                           </td>
                           <td className="ico-15 green-color">
                             <span className="flaticon-check" />
                           </td>
-                          <td className="ico-15 green-color">
-                            <span className="flaticon-check" />
-                          </td>
                         </tr>
+
                         <tr>
                           <th scope="row" className="text-start">
-                            80 GB of Storage
+                           Integrate with existing CRM/ERP
                           </th>
-                          <td className="ico-15 green-color">
-                            <span className="flaticon-check" />
+                          <td className="ico-10 disabled-option">
+                            <span className="flaticon-cancel" />
                           </td>
-                          <td className="ico-15 green-color">
-                            <span className="flaticon-check" />
+                          <td className="ico-10 disabled-option">
+                            <span className="flaticon-cancel" />
                           </td>
                           <td className="ico-15 green-color">
                             <span className="flaticon-check" />
                           </td>
                         </tr>
+
                         <tr>
                           <th scope="row" className="text-start">
-                            500 mySQL Database
+                          Single Sign on
                           </th>
+                          <td className="ico-10 disabled-option">
+                            <span className="flaticon-cancel" />
+                          </td>
                           <td className="ico-10 disabled-option">
                             <span className="flaticon-cancel" />
                           </td>
                           <td className="ico-15 green-color">
                             <span className="flaticon-check" />
                           </td>
-                          <td className="ico-15 green-color">
-                            <span className="flaticon-check" />
-                          </td>
                         </tr>
+
                         <tr>
                           <th scope="row" className="text-start">
-                            Premium Support
+                            Access to APIs
                           </th>
                           <td className="ico-10 disabled-option">
                             <span className="flaticon-cancel" />
@@ -341,20 +453,7 @@ function Pricing() {
                             <span className="flaticon-check" />
                           </td>
                         </tr>
-                        <tr>
-                          <th scope="row" className="text-start">
-                            VIP Support
-                          </th>
-                          <td className="ico-10 disabled-option">
-                            <span className="flaticon-cancel" />
-                          </td>
-                          <td className="ico-10 disabled-option">
-                            <span className="flaticon-cancel" />
-                          </td>
-                          <td className="ico-15 green-color">
-                            <span className="flaticon-check" />
-                          </td>
-                        </tr>
+
                       </tbody>
                     </table>
                   </div>{" "}
@@ -403,24 +502,14 @@ function Pricing() {
                           alt="payment-icon"
                         />
                       </li>
-                      <li>
-                        <img
-                          src="/images/png-icons/paypal.png"
-                          alt="payment-icon"
-                        />
-                      </li>
+                     
                       <li>
                         <img
                           src="/images/png-icons/jcb.png"
                           alt="payment-icon"
                         />
                       </li>
-                      <li>
-                        <img
-                          src="/images/png-icons/shopify.png"
-                          alt="payment-icon"
-                        />
-                      </li>
+                      
                     </ul>
                   </div>
                 </div>
@@ -431,7 +520,7 @@ function Pricing() {
                     <h6 className="h6-md">Money Back Guarantee</h6>
                     {/* Text */}
                     <p>
-                      Explore Signet Premium for 14 days. If it’s not a perfect
+                      Explore Signet Platform for 30 days. If it’s not a perfect
                       fit, receive a full refund.
                     </p>
                   </div>

@@ -3,9 +3,9 @@ import React from "react";
 
 function CallToAction() {
   return (
-    <section id="cta-4" className="cta-section division">
+    <section id="cta-4" className="cta-section division pt-4">
         <div className="container">
-          <div className="bg-white cta-4-wrapper">
+          <div className="bg-white cta-4-wrapper ">
             <div className="row d-flex align-items-center">
               {/* CALL TO ACTION TEXT */}
               <div className="col-lg-7 col-lg-8">
