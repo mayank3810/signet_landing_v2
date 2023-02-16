@@ -5,6 +5,7 @@ import PageTitle from "@/components/PageTitle";
 import Testimonials from "@/components/Testimonials";
 import React from "react";
 import { useInView } from "react-intersection-observer";
+import Link from "next/link";
 
 function Pricing() {
   const [containerRef, inContainerView] = useInView({ rootMargin: "-350px" });
@@ -70,12 +71,11 @@ function Pricing() {
                       </li>
                     </ul>
                     {/* Pricing Plan Button */}
-                    <a
-                      href="#"
-                      className="btn btn-sm btn-tra-grey tra-yellow-hover"
-                    >
-                      Select Plan
-                    </a>
+                    <Link href={"/onboarding"}>
+                      <button className="btn btn-sm btn-tra-grey tra-yellow-hover">
+                        Start Free Trial
+                      </button>
+                    </Link>
                   </div>
                 </div>{" "}
                 {/* END BASIC PLAN */}
@@ -121,12 +121,11 @@ function Pricing() {
                       </li>
                     </ul>
                     {/* Pricing Plan Button */}
-                    <a
-                      href="#"
-                      className="btn btn-sm btn-tra-grey tra-yellow-hover"
-                    >
-                      Select Plan
-                    </a>
+                    <Link href={"/onboarding"}>
+                      <button className="btn btn-sm btn-tra-grey tra-yellow-hover">
+                        Start Free Trial
+                      </button>
+                    </Link>
                   </div>
                 </div>{" "}
                 {/* END AGENCY PLAN  */}
@@ -169,12 +168,12 @@ function Pricing() {
                       </li>
                     </ul>
                     {/* Pricing Plan Button */}
-                    <a
-                      href="#"
-                      className="btn btn-sm btn-yellow tra-yellow-hover"
-                    >
-                      Select Plan
-                    </a>
+
+                    <Link href={"/onboarding"}>
+                      <button className="btn btn-sm btn-yellow tra-yellow-hover">
+                        Start Free Trial
+                      </button>
+                    </Link>
                   </div>
                 </div>{" "}
                 {/* END ADVANCED PLAN */}
