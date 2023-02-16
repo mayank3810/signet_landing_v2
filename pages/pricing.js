@@ -40,17 +40,17 @@ function Pricing() {
                       </div>
                       {/* Price */}
                       <sup className="dark-color">$</sup>
-                      <span className="dark-color">250</span>
+                      <span className="dark-color">1.99</span>
                       <sup className="validity dark-color">
-                         / month
+                        per tag
                       </sup>
-                      <p className="p-md">Billed annually</p>
+                      <p className="p-md">Min: 5000 pieces</p>
                     </div>
                     {/* Plan Features  */}
                     <ul className="features">
                       <li>
                         <p className="p-md">
-                          <span>5000</span> Tags
+                          <span>Basic</span> Features
                         </p>
                       </li>
                       <li>
@@ -91,17 +91,17 @@ function Pricing() {
                       </div>
                       {/* Price */}
                       <sup className="dark-color">$</sup>
-                      <span className="dark-color">500</span>
+                      <span className="dark-color">0.99</span>
                       <sup className="validity dark-color">
-                        / month
+                        per tag
                       </sup>
-                      <p className="p-md">Billed annually</p>
+                      <p className="p-md">Min: 100,000 pieces</p>
                     </div>
                     {/* Plan Features  */}
                     <ul className="features">
                       <li>
                         <p className="p-md">
-                          <span>25000</span> Tags
+                          <span>All</span> Features
                         </p>
                       </li>
                       <li>
@@ -111,7 +111,7 @@ function Pricing() {
                       </li>
                       <li>
                         <p className="p-md">
-                          <span>10 year</span> Tag Validity
+                          <span>1 year</span> Tag Validity
                         </p>
                       </li>
                       <li>
@@ -142,8 +142,8 @@ function Pricing() {
                       </div>
                       {/* Price */}
                       <sup className="dark-color"></sup>
-                      <span className="dark-color" style={{margin:'54px 0px', display : 'block', fontSize: '2.5rem' }}>Contact us</span>
-                    
+                      <span className="dark-color" style={{ margin: '54px 0px', display: 'block', fontSize: '2.5rem' }}>Contact us</span>
+
                     </div>
                     {/* Plan Features  */}
                     <ul className="features">
