@@ -14,8 +14,8 @@ function Pricing() {
       <Header scroll={inContainerView} />
       <PageTitle
         image="../images/download-page.jpg"
-        title={"Simple And Flexible Pricing"}
-        subtitle={"No credit card required. Change or cancel your plan anytime"}
+        title={"Start with a free trial"}
+        subtitle={"Choose a plan that is right for your business"}
       />
       <div ref={containerRef}>
         {/* PRICING-2
@@ -36,36 +36,36 @@ function Pricing() {
                       {/* Plan Title */}
                       <div className="pricing-plan-title">
                         <h5 className="h5-xs">Basic</h5>
-                        <h6 className="h6-sm bg-lightgrey">Save 30%</h6>
+                        <h6 className="h6-sm bg-lightgrey">Save 10%</h6>
                       </div>
                       {/* Price */}
                       <sup className="dark-color">$</sup>
-                      <span className="dark-color">7</span>
+                      <span className="dark-color">250</span>
                       <sup className="validity dark-color">
-                        <span>.99</span> / month
+                         / month
                       </sup>
-                      <p className="p-md">Billed as $96 per year</p>
+                      <p className="p-md">Billed annually</p>
                     </div>
                     {/* Plan Features  */}
                     <ul className="features">
                       <li>
                         <p className="p-md">
-                          <span>25</span> Projects
+                          <span>5000</span> Tags
                         </p>
                       </li>
                       <li>
                         <p className="p-md">
-                          <span>10</span> mySQL Database
+                          <span>1</span> User Login
                         </p>
                       </li>
                       <li>
                         <p className="p-md">
-                          <span>25 GB</span> of Storage
+                          <span>1 year</span> Tag Validity
                         </p>
                       </li>
                       <li>
                         <p className="p-md">
-                          <span>Premium</span> Support
+                          <span>Basic</span> Support
                         </p>
                       </li>
                     </ul>
@@ -86,32 +86,32 @@ function Pricing() {
                     <div className="pricing-plan">
                       {/* Plan Title */}
                       <div className="pricing-plan-title">
-                        <h5 className="h5-xs">Agency</h5>
+                        <h5 className="h5-xs">Advanced</h5>
                         <h6 className="h6-sm bg-lightgrey">Save 25%</h6>
                       </div>
                       {/* Price */}
                       <sup className="dark-color">$</sup>
-                      <span className="dark-color">11</span>
+                      <span className="dark-color">500</span>
                       <sup className="validity dark-color">
-                        <span>.25</span> / month
+                        / month
                       </sup>
-                      <p className="p-md">Billed as $135 per year</p>
+                      <p className="p-md">Billed annually</p>
                     </div>
                     {/* Plan Features  */}
                     <ul className="features">
                       <li>
                         <p className="p-md">
-                          <span>100</span> Projects
+                          <span>25000</span> Tags
                         </p>
                       </li>
                       <li>
                         <p className="p-md">
-                          <span>25</span> mySQL Database
+                          <span>Unlimited</span> User Login
                         </p>
                       </li>
                       <li>
                         <p className="p-md">
-                          <span>80 GB</span> of Storage
+                          <span>10 year</span> Tag Validity
                         </p>
                       </li>
                       <li>
@@ -137,32 +137,29 @@ function Pricing() {
                     <div className="pricing-plan highlight">
                       {/* Plan Title */}
                       <div className="pricing-plan-title">
-                        <h5 className="h5-xs">Advanced</h5>
+                        <h5 className="h5-xs">Enterprise</h5>
                         <h6 className="h6-sm bg-yellow black-color">Popular</h6>
                       </div>
                       {/* Price */}
-                      <sup className="dark-color">$</sup>
-                      <span className="dark-color">15</span>
-                      <sup className="validity dark-color">
-                        <span>.99</span> / month
-                      </sup>
-                      <p className="p-md">Billed as $199 per year</p>
+                      <sup className="dark-color"></sup>
+                      <span className="dark-color" style={{margin:'54px 0px', display : 'block', fontSize: '2.5rem' }}>Contact us</span>
+                    
                     </div>
                     {/* Plan Features  */}
                     <ul className="features">
                       <li>
                         <p className="p-md">
-                          <span>Unlimited</span> Projects
+                          <span>Order</span> Tags on Demand
                         </p>
                       </li>
                       <li>
                         <p className="p-md">
-                          <span>50</span> mySQL Database
+                          <span>Unlimited</span> User Login
                         </p>
                       </li>
                       <li>
                         <p className="p-md">
-                          <span>500 GB</span> of Storage
+                          <span>50 year</span> Tag Validity
                         </p>
                       </li>
                       <li>

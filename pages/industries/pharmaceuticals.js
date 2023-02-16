@@ -22,7 +22,7 @@ function Pharmaceuticals() {
       <div ref={containerRef}>
         <section
           id="content-3"
-          className="bg-snow content-3 wide-60 content-section division"
+          className="bg-whitesmoke content-3 wide-60 content-section division"
         >
           <div className="container">
             {/* TOP ROW */}
@@ -33,7 +33,7 @@ function Pharmaceuticals() {
                   <div className="img-block left-column wow fadeInRight">
                     <img
                       className="img-fluid"
-                      src="/images/img-09.png"
+                      src="/images/nfc-blockchain.jpg"
                       alt="content-image"
                     />
                   </div>
@@ -41,150 +41,77 @@ function Pharmaceuticals() {
                 {/* TEXT BLOCK */}
                 <div className="col-md-7 col-lg-6">
                   <div className="txt-block right-column wow fadeInLeft">
-                    {/* Section ID */}
-                    <span className="section-id txt-upcase">
-                      Totally Optimized
-                    </span>
                     {/* Title */}
-                    <h2 className="h2-xs">
-                      Work smarter with powerful features
-                    </h2>
+                    <h2 className="h2-xs">Tag, track and authenticate</h2>
                     {/* Text */}
                     <p className="p-lg">
-                      Quaerat sodales sapien euismod blandit at vitae ipsum
-                      primis undo and cubilia laoreet augue and luctus magna
-                      dolor luctus at egestas sapien vitae nemo egestas volute
-                      and turpis dolores aliquam quaerat sodales a sapien
+                      Our patent pending NFC tag leverages encrypted
+                      tamper-proof blockchain technology to track each single
+                      item from production to product opening and features
+                      refilling protection and anti-peeling. Its style can be
+                      customized for a perfect integration with your label,
+                      package or bottle design.
                     </p>
-                    {/* Tools List */}
-                    <div className="tools-list ico-40 mt-30">
-                      {/* Text */}
-                      <h6 className="h6-xl">Technologies We Use:</h6>
-                      {/* Icons */}
-                      <span className="flaticon-html-5 text-black-50" />
-                      <span className="flaticon-css-3 text-black-50" />
-                      <span className="flaticon-wordpress-logo text-black-50" />
-                      <span className="flaticon-js text-black-50" />
-                      <span className="flaticon-diamond-1 text-black-50" />
-                    </div>
+
+                    <p className="p-lg">
+                      Our app or a direct NFC connection allows consumers to
+                      check the authenticity of each single purchase they are
+                      about to make. A simple tap grants instant access to
+                      product history, certifications and intended applications.
+                      Faster and safer than any solution based on QR code or
+                      image recognition.
+                    </p>
                   </div>
                 </div>
                 {/* END TEXT BLOCK */}
               </div>
             </div>
-            {/* END TOP ROW */}
-            {/* BOTTOM ROW */}
-            <div className="bottom-row">
-              <div className="row d-flex align-items-center">
-                {/* TEXT BLOCK */}
-                <div className="col-lg-6 order-last order-lg-2">
-                  <div className="txt-block slim-column left-column wow fadeInRight">
-                    {/* TEXT BOX */}
-                    <div className="txt-box mb-20">
-                      {/* Title */}
-                      <h5 className="h5-lg">Advanced Performance Made Easy</h5>
-                      {/* Text */}
-                      <p className="p-lg">
-                        Quaerat sodales sapien euismod blandit at vitae ipsum
-                        primis undo and cubilia laoreet augue and luctus magna
-                        dolor luctus at egestas sapien vitae nemo egestas volute
-                        and turpis dolores aliquam quaerat sodales a sapien
-                      </p>
-                    </div>
-                    {/* TEXT BOX */}
-                    <div className="txt-box">
-                      {/* Title */}
-                      <h5 className="h5-lg">The Complete Software Solution</h5>
-                      {/* List */}
-                      <ul className="simple-list">
-                        <li className="list-item">
-                          <p className="p-lg">
-                            Fringilla risus, luctus mauris auctor euismod an
-                            iaculis luctus magna purus pretium ligula purus and
-                            quaerat
-                          </p>
-                        </li>
-                        <li className="list-item">
-                          <p className="p-lg">
-                            Nemo ipsam egestas volute turpis dolores undo
-                            ultrice aliquam quaerat at sodales sapien purus
-                          </p>
-                        </li>
-                      </ul>
-                    </div>
-                    {/* END TEXT BOX */}
-                  </div>
-                </div>
-                {/* END TEXT BLOCK */}
-                {/* CB WRAPPER */}
-                <div className="col-lg-6 order-first order-lg-2">
-                  <div className="cb-wrapper">
-                    {/* CB HOLDER */}
-                    <div className="cb-holder wow fadeInLeft">
-                      {/* CB BOX #1 */}
-                      <div className="cb-single-box">
-                        <p className="p-lg cb-header">New Customers</p>
-                        <h2 className="h2-title-xs statistic-number">
-                          <sup>+</sup>
-                          <span className="count-element">784</span>
-                        </h2>
-                        <p className="p-md mt-5 ico-10">
-                          <span className="green-color">
-                            <span className="flaticon-" /> 4.6%
-                          </span>
-                          vs last 7 days
-                        </p>
-                      </div>
-                      <hr className="divider" />
-                      {/* CB BOX #2 */}
-                      <div className="cb-single-box">
-                        <ul className="simple-list">
-                          <li className="list-item">
-                            <p className="p-md">
-                              Fringilla risus luctus mauris auctor and purus
-                              euismod purus
-                            </p>
-                          </li>
-                          <li className="list-item">
-                            <p className="p-md">
-                              Nemo ipsam volute turpis dolores ut quaerat
-                              sodales sapien
-                            </p>
-                          </li>
-                        </ul>
-                      </div>
-                      {/* CB BOX #3 */}
-                      <div className="cb-single-box cb-box-rounded bg-green white-color mt-25">
-                        <h4 className="h4-lg">98.245</h4>
-                        <p className="p-lg">Ligula risus auctor tempus</p>
-                      </div>
-                    </div>
-                    {/* END CB HOLDER */}
-                    {/* CB SHAPE */}
-                    <div className="cb-shape-1">
-                      <img
-                        className="img-fluid"
-                        src="/images/bg-shape-1.png"
-                        alt="content-image"
-                      />
-                    </div>
-                    {/* CB SHAPE */}
-                    <div className="cb-shape-2">
-                      <img
-                        className="img-fluid"
-                        src="/images/bg-shape-2.png"
-                        alt="content-image"
-                      />
-                    </div>
-                  </div>
-                </div>
-                {/* END CB WRAPPER */}
-              </div>
-            </div>
-            {/* END BOTTOM ROW */}
           </div>
           {/* End container */}
         </section>
+
+        <section
+          id="content-9"
+          className="content-9 bg-01 pt-100 content-section division"
+        >
+          <div className="container white-color">
+            {/* SECTION TITLE */}
+            <div className="row justify-content-center">
+              <div className="col-md-10 col-lg-8">
+                <div className="section-title title-02 mb-60">
+                  <h2 className="h2-xs">
+                    The real problem <br />
+                  </h2>
+                  <p className="p-xl">
+                    7.8% of annual sales in the personal care sector is lost due
+                    to counterfeiting According to the OECD, in 2016 the
+                    international counterfeit makeup trade was estimated to be
+                    worth $5.4 billion. Today it is still increasing.
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* IMAGE BLOCK */}
+            <div className="row">
+              <div className="col">
+                <div className="content-9-img video-preview wow fadeInUp">
+                  <iframe
+                    style={{ borderRadius: "20px" }}
+                    width="860"
+                    height="515"
+                    src="https://www.youtube.com/embed/YQUjE2koNRI"
+                    title="Signet Demo Video"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* End container */}
+        </section>
+
         <section id="features-8" className="wide-60 features-section division">
           <div className="container">
             {/* SECTION TITLE */}
@@ -192,12 +119,13 @@ function Pharmaceuticals() {
               <div className="col-lg-10 col-xl-8">
                 <div className="section-title title-01 mb-70">
                   {/* Title */}
-                  <h2 className="h2-md">We’re Better. Here’s Why…</h2>
+                  <h2 className="h2-md">Why Signet Tags</h2>
                   {/* Text */}
                   <p className="p-xl">
-                    Aliquam a augue suscipit, luctus neque purus ipsum neque
-                    dolor primis a libero tempus, blandit and cursus varius and
-                    magnis sapien
+                    While other authentication companies protect the package,
+                    Signet Tags protects the product against fraudulent
+                    refilling and allows instantaneous verification without the
+                    need for specific tools or expertise in the field
                   </p>
                 </div>
               </div>
@@ -209,19 +137,17 @@ function Pharmaceuticals() {
                 <div className="col">
                   <div className="fbox-8 mb-40 wow fadeInUp">
                     {/* Image */}
-                    <div className="fbox-img bg-whitesmoke-gradient">
-                      <img
-                        className="img-fluid"
-                        src="/images/img-21.png"
-                        alt="feature-icon"
-                      />
-                    </div>
+                    <img
+                      className="img-fluid rounded"
+                      src="/images/industries/brand-protection.jpg"
+                      alt="feature-icon"
+                    />
                     {/* Title */}
-                    <h5 className="h5-md">Friendly Interface</h5>
+                    <h5 className="h5-md mt-4 ">Brand Protection</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Feugiat primis ultrice semper lacus cursus feugiat undo
-                      primis ultrice a ligula an auctor tempus magnis
+                      Defend your IPRs and your Brand Equity. Feel free to
+                      develop and promote new products safely
                     </p>
                   </div>
                 </div>
@@ -229,39 +155,34 @@ function Pharmaceuticals() {
                 <div className="col">
                   <div className="fbox-8 mb-40 wow fadeInUp">
                     {/* Image */}
-                    <div className="fbox-img bg-whitesmoke-gradient">
-                      <img
-                        className="img-fluid"
-                        src="/images/img-22.png"
-                        alt="feature-icon"
-                      />
-                    </div>
+                    <img
+                      className="img-fluid rounded"
+                      src="/images/industries/marketing.jpg"
+                      alt="feature-icon"
+                    />
                     {/* Title */}
-                    <h5 className="h5-md">Extremely Flexible</h5>
+                    <h5 className="h5-md mt-4">Marketing Insights</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Feugiat primis ultrice semper lacus cursus feugiat undo
-                      primis ultrice a ligula an auctor tempus magnis
+                      Track your products until the final customer. Detect
+                      product infiltrations and original stolen products
                     </p>
                   </div>
                 </div>
                 {/* FEATURE BOX #3 */}
                 <div className="col">
                   <div className="fbox-8 mb-40 wow fadeInUp">
-                    {/* Image */}
-                    <div className="fbox-img bg-whitesmoke-gradient">
-                      <img
-                        className="img-fluid"
-                        src="/images/img-24.png"
-                        alt="feature-icon"
-                      />
-                    </div>
-                    {/* Title */}
-                    <h5 className="h5-md">Easy To Customize</h5>
+                    <img
+                      className="img-fluid rounded"
+                      src="/images/industries/feedback.jpg"
+                      alt="feature-icon"
+                    />
+                    <h5 className="h5-md mt-4 ">Connect directly</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Feugiat primis ultrice semper lacus cursus feugiat undo
-                      primis ultrice a ligula an auctor tempus magnis
+                      Connect directly to your customers using push
+                      notifications and alerts. Collect valuable feedbacks
+                      directly from customers.
                     </p>
                   </div>
                 </div>
@@ -283,29 +204,39 @@ function Pharmaceuticals() {
               <div className="col-md-7 col-lg-6 order-last order-md-2">
                 <div className="txt-block left-column wow fadeInRight">
                   {/* Section ID */}
-                  <span className="section-id txt-upcase">Pixel Perfect</span>
+                  <span className="section-id txt-upcase">
+                    SMART NFC PACKAGING
+                  </span>
                   {/* Title */}
                   <h2 className="h2-xs">
-                    We're making design better for everyone
+                    Plain packaging doesn't work anymore.
                   </h2>
                   {/* List */}
                   <ul className="simple-list">
                     <li className="list-item">
                       <p className="p-lg">
-                        Fringilla risus, luctus mauris orci auctor euismod
-                        iaculis luctus magna purus pretium ligula purus undo
-                        quaerat tempor sapien rutrum mauris quaerat ultrice
+                        Getting customers to engage with your brand is a vital
+                        part of running any successful business, and Cosmetics
+                        And Perfumes industries are no exception.
                       </p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        Quaerat sodales sapien euismod purus blandit
+                        Smart packaging transforms your Cosmetics And Perfumes
+                        products into a new marketing channel for customers to
+                        engage with your Cosmetics And Perfumes brand.
+                        *According to Gallup research, a highly engaged customer
+                        brings in 23% more revenue than the average customer.
                       </p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        Nemo ipsam egestas volute turpis dolores undo ultrice
-                        aliquam quaerat at sodales sapien purus
+                        YPB has a range of smart packaging solutions to fit any
+                        Cosmetics And Perfumes brand’s requirements including
+                        cryptographic serialised QR codes, anti-copy codes, or
+                        invisible smartphone readable technology. YPB solutions
+                        can be non-app based or app-based depending on your
+                        requirements
                       </p>
                     </li>
                   </ul>
@@ -317,7 +248,7 @@ function Pharmaceuticals() {
                 <div className="rel img-block right-column wow fadeInLeft">
                   <img
                     className="img-fluid"
-                    src="/images/img-07.png"
+                    src="/images/signet-mobile-app.jpg"
                     alt="content-image"
                   />
                 </div>
@@ -329,18 +260,38 @@ function Pharmaceuticals() {
         </section>
 
         <Benefits />
-        <Stats
-          tagLine={
-            "More than 65,000 users around the world are already suffering due to counterfeit"
-          }
-          amount={"65K"}
-          rating={4}
-        />
 
-        <Testimonials />
-        <Brands />
+        <section
+          id="statistic-2"
+          className="wide-100 statistic-section division"
+        >
+          <div className="container">
+            <div className="row d-flex align-items-center">
+              <div className="col-lg-6">
+                <div className="txt-block right-column wow fadeInLeft">
+                  <h3 className="h3-xs">
+                    {" "}
+                    The international counterfeit makeup trade was estimated to
+                    be worth $5.4 billion. Still increasing.{" "}
+                  </h3>
+                </div>
+              </div>
+              <div className="col-sm-5 col-md-4 col-lg-3 offset-sm-2 offset-md-3 offset-lg-2">
+                <div className="statistic-block wow fadeInUp">
+                  <h2 className="h2-title-xs statistic-number">
+                    <span className="count-element">7.8%</span>
+                  </h2>
+                  <p className="p-lg mt-20">
+                    annual sales in the personal care sector is lost due to
+                    counterfeiting
+                  </p>
+                </div>
+              </div>
+            </div>{" "}
+          </div>{" "}
+        </section>
+
         <CallToAction />
-        {/* END TESTIMONIALS-1 */}
       </div>
     </>
   );
