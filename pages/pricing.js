@@ -73,7 +73,7 @@ function Pricing() {
                     {/* Pricing Plan Button */}
                     <Link href={"/onboarding"}>
                       <button className="btn btn-sm btn-tra-grey tra-yellow-hover">
-                        Start Free Trial
+                        30 Day Free Trial
                       </button>
                     </Link>
                   </div>
@@ -123,7 +123,7 @@ function Pricing() {
                     {/* Pricing Plan Button */}
                     <Link href={"/onboarding"}>
                       <button className="btn btn-sm btn-tra-grey tra-yellow-hover">
-                        Start Free Trial
+                      30 Day Free Trial
                       </button>
                     </Link>
                   </div>
@@ -171,7 +171,7 @@ function Pricing() {
 
                     <Link href={"/onboarding"}>
                       <button className="btn btn-sm btn-yellow tra-yellow-hover">
-                        Start Free Trial
+                      30 Day Free Trial
                       </button>
                     </Link>
                   </div>
