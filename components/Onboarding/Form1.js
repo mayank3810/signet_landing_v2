@@ -77,8 +77,10 @@ function Form1({ setStage, setOrganizationId }) {
       {/* Title*/}
       <div className="col-md-12">
         <div className="register-form-title text-center">
-          <h4 className="h4-lg">Hello!</h4>
-          <p className="p-xl">Please fill some details about yourself</p>
+          <h4 className="h4-lg">Start your free trial</h4>
+          <p className="p-xl">
+          Get started in less than 60 seconds with the leadin <br/> Authenticity and Brand Protection solution.
+          </p>
         </div>
       </div>
 
@@ -147,7 +149,7 @@ function Form1({ setStage, setOrganizationId }) {
           <div className="col-6">
             <label>
               <h5 className="h5-xxs">
-                Email <sup className="text-red">*</sup>
+                Business email <sup className="text-red">*</sup>
               </h5>
             </label>
             <input
@@ -200,7 +202,7 @@ function Form1({ setStage, setOrganizationId }) {
             onClick={createOrganization}
             className="btn btn-outline btn-yellow tra-yellow-hover submit"
           >
-            {loading ? "Submitting" : "Start your free trial"}
+            {loading ? "Submitting" : "Start 30 Day Free Trial"}
           </button>
         </div>
       </div>
