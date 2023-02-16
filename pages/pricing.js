@@ -693,9 +693,6 @@ function Pricing() {
           </div>{" "}
           {/* End container */}
         </section>{" "}
-        {/* END FAQs-2 */}
-        <Testimonials />
-        {/* END TESTIMONIALS-1 */}
       </div>
     </>
   );
