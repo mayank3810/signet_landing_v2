@@ -3,12 +3,16 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import PageTitle from "@/components/PageTitle";
 import Testimonials from "@/components/Testimonials";
-import React from "react";
+import React, { useState } from "react";
 import { useInView } from "react-intersection-observer";
 import Link from "next/link";
 
 function Pricing() {
   const [containerRef, inContainerView] = useInView({ rootMargin: "-350px" });
+
+  const setPlan = (selectedPlan) => {
+    localStorage.setItem("planName", selectedPlan);
+  };
 
   return (
     <>
@@ -42,9 +46,7 @@ function Pricing() {
                       {/* Price */}
                       <sup className="dark-color">$</sup>
                       <span className="dark-color">2.99</span>
-                      <sup className="validity dark-color">
-                        per tag
-                      </sup>
+                      <sup className="validity dark-color">per tag</sup>
                       <p className="p-md">Min: 5000 pieces</p>
                     </div>
                     {/* Plan Features  */}
@@ -72,7 +74,10 @@ function Pricing() {
                     </ul>
                     {/* Pricing Plan Button */}
                     <Link href={"/onboarding"}>
-                      <button className="btn btn-sm btn-tra-grey tra-yellow-hover">
+                      <button
+                        onClick={() => setPlan("Basic")}
+                        className="btn btn-sm btn-tra-grey tra-yellow-hover"
+                      >
                         30 Day Free Trial
                       </button>
                     </Link>
@@ -92,9 +97,7 @@ function Pricing() {
                       {/* Price */}
                       <sup className="dark-color">$</sup>
                       <span className="dark-color">1.99</span>
-                      <sup className="validity dark-color">
-                        per tag
-                      </sup>
+                      <sup className="validity dark-color">per tag</sup>
                       <p className="p-md">Min: 100,000 pieces</p>
                     </div>
                     {/* Plan Features  */}
@@ -122,8 +125,11 @@ function Pricing() {
                     </ul>
                     {/* Pricing Plan Button */}
                     <Link href={"/onboarding"}>
-                      <button className="btn btn-sm btn-tra-grey tra-yellow-hover">
-                      30 Day Free Trial
+                      <button
+                        onClick={() => setPlan("Advanced")}
+                        className="btn btn-sm btn-tra-grey tra-yellow-hover"
+                      >
+                        30 Day Free Trial
                       </button>
                     </Link>
                   </div>
@@ -141,8 +147,16 @@ function Pricing() {
                       </div>
                       {/* Price */}
                       <sup className="dark-color"></sup>
-                      <span className="dark-color" style={{ margin: '54px 0px', display: 'block', fontSize: '2.5rem' }}>Contact us</span>
-
+                      <span
+                        className="dark-color"
+                        style={{
+                          margin: "54px 0px",
+                          display: "block",
+                          fontSize: "2.5rem",
+                        }}
+                      >
+                        Contact us
+                      </span>
                     </div>
                     {/* Plan Features  */}
                     <ul className="features">
@@ -170,8 +184,11 @@ function Pricing() {
                     {/* Pricing Plan Button */}
 
                     <Link href={"/onboarding"}>
-                      <button className="btn btn-sm btn-yellow tra-yellow-hover">
-                      30 Day Free Trial
+                      <button
+                        onClick={() => setPlan("Enterprise")}
+                        className="btn btn-sm btn-yellow tra-yellow-hover"
+                      >
+                        30 Day Free Trial
                       </button>
                     </Link>
                   </div>
@@ -200,7 +217,7 @@ function Pricing() {
                         </tr>
                       </thead>
                       <tbody>
-                      <tr>
+                        <tr>
                           <th scope="row" className="text-start">
                             Anti Clone DNA 424 NFC Tags
                           </th>
@@ -214,7 +231,7 @@ function Pricing() {
                             <span className="flaticon-check" />
                           </td>
                         </tr>
-                       
+
                         <tr>
                           <th scope="row" className="text-start">
                             Tag Tamper Detection
@@ -259,7 +276,7 @@ function Pricing() {
                             <span className="flaticon-check" />
                           </td>
                         </tr>
-                       
+
                         <tr>
                           <th scope="row" className="text-start">
                             Advanced Analytics Dashboard
@@ -276,7 +293,7 @@ function Pricing() {
                         </tr>
                         <tr>
                           <th scope="row" className="text-start">
-                           Customer Push Notification
+                            Customer Push Notification
                           </th>
                           <td className="ico-15 green-color">
                             <span className="flaticon-check" />
@@ -291,7 +308,7 @@ function Pricing() {
 
                         <tr>
                           <th scope="row" className="text-start">
-                           Feedback and Surveys
+                            Feedback and Surveys
                           </th>
                           <td className="ico-15 green-color">
                             <span className="flaticon-check" />
@@ -306,7 +323,7 @@ function Pricing() {
 
                         <tr>
                           <th scope="row" className="text-start">
-                           Track user location
+                            Track user location
                           </th>
                           <td className="ico-15 green-color">
                             <span className="flaticon-check" />
@@ -347,7 +364,7 @@ function Pricing() {
                             <span className="flaticon-check" />
                           </td>
                         </tr>
-                       
+
                         <tr>
                           <th scope="row" className="text-start">
                             Multiple Language Support
@@ -362,7 +379,7 @@ function Pricing() {
                             <span className="flaticon-check" />
                           </td>
                         </tr>
-                      
+
                         <tr>
                           <th scope="row" className="text-start">
                             Multiple users
@@ -410,7 +427,7 @@ function Pricing() {
 
                         <tr>
                           <th scope="row" className="text-start">
-                           Integrate with existing CRM/ERP
+                            Integrate with existing CRM/ERP
                           </th>
                           <td className="ico-10 disabled-option">
                             <span className="flaticon-cancel" />
@@ -425,7 +442,7 @@ function Pricing() {
 
                         <tr>
                           <th scope="row" className="text-start">
-                          Single Sign on
+                            Single Sign on
                           </th>
                           <td className="ico-10 disabled-option">
                             <span className="flaticon-cancel" />
@@ -452,7 +469,6 @@ function Pricing() {
                             <span className="flaticon-check" />
                           </td>
                         </tr>
-
                       </tbody>
                     </table>
                   </div>{" "}
@@ -501,14 +517,13 @@ function Pricing() {
                           alt="payment-icon"
                         />
                       </li>
-                     
+
                       <li>
                         <img
                           src="/images/png-icons/jcb.png"
                           alt="payment-icon"
                         />
                       </li>
-                      
                     </ul>
                   </div>
                 </div>

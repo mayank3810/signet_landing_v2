@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useRouter } from "next/router";
+import React, { useEffect, useState } from "react";
 
 function Form1({ setStage, setOrganizationId }) {
   const [email, setEmail] = useState({ data: "", error: false });
@@ -9,8 +10,29 @@ function Form1({ setStage, setOrganizationId }) {
   const [loading, setLoading] = useState(false);
   const [apiResp, setApiResp] = useState("");
 
+  const [plan, setPlan] = useState("");
+
+  const router = useRouter();
+
+  useEffect(() => {
+    const _plan = localStorage.getItem("planName");
+    setPlan(_plan);
+    if (!_plan || _plan === "") {
+      alert("No Plan has been selected. Please select a plan");
+      setTimeout(() => {
+        router.push("/pricing");
+      }, 500);
+    }
+  }, []);
+
   const createOrganization = async (e) => {
     e.preventDefault();
+    if (!plan || plan === "") {
+      alert("No Plan has been selected. Please select a plan");
+      setTimeout(() => {
+        router.push("/pricing");
+      }, 500);
+    }
     if (name.data === "") {
       setName({ data: "", error: true });
     }
@@ -45,6 +67,7 @@ function Form1({ setStage, setOrganizationId }) {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
+            planName: plan,
             billingEmail: email.data,
             name: name.data,
             companyName: company.data,
@@ -66,6 +89,7 @@ function Form1({ setStage, setOrganizationId }) {
         setEmail({ data: "", error: false });
         setCompany({ data: "", error: false });
         setContact({ data: "", error: false });
+        localStorage.removeItem("planName");
       } else {
         setApiResp("An error occurred. Please retry.");
         setLoading(false);
@@ -79,7 +103,8 @@ function Form1({ setStage, setOrganizationId }) {
         <div className="register-form-title text-center">
           <h4 className="h4-lg">Start your free trial</h4>
           <p className="p-xl">
-          Get started in less than 60 seconds with the leading <br/> Authenticity and Brand Protection solution.
+            Get started in less than 60 seconds with the leading <br />{" "}
+            Authenticity and Brand Protection solution.
           </p>
         </div>
       </div>

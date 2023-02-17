@@ -40,6 +40,8 @@ function Form2({ organizationId }) {
       const content = await rawResponse.json();
       setLoading(false);
       setApiResp("Your details has been saved. Thank you.");
+      localStorage.removeItem("organizationId");
+      localStorage.removeItem("planName");
       setTimeout(() => {
         setSuccess(true);
       }, 500);
