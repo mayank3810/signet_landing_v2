@@ -231,10 +231,10 @@ function Pharmaceuticals() {
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        YPB has a range of smart packaging solutions to fit any
+                        Signet Tags has a range of smart packaging solutions to fit any
                         Cosmetics And Perfumes brand’s requirements including
                         cryptographic serialised QR codes, anti-copy codes, or
-                        invisible smartphone readable technology. YPB solutions
+                        invisible smartphone readable technology. Signet Tags solutions
                         can be non-app based or app-based depending on your
                         requirements
                       </p>

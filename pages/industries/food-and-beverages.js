@@ -1,11 +1,8 @@
 import CallToAction from "@/components/CallToAction";
 import Header from "@/components/Header";
-import Stats from "@/components/Stats";
 import PageTitle from "@/components/PageTitle";
-import Testimonials from "@/components/Testimonials";
 import React from "react";
 import { useInView } from "react-intersection-observer";
-import Brands from "@/components/Brands";
 import Benefits from "@/components/Benefits";
 
 function FoodAndBeverages() {
@@ -19,10 +16,10 @@ function FoodAndBeverages() {
         title={"Food And Beverages"}
         subtitle={"No credit card required. Change or cancel your plan anytime"}
       />
-          <div ref={containerRef}>
+      <div ref={containerRef}>
         <section
           id="content-3"
-          className="bg-whitesmoke content-3 wide-60 content-section division"
+          className="content-3 wide-60 content-section division"
         >
           <div className="container">
             {/* TOP ROW */}
@@ -33,7 +30,7 @@ function FoodAndBeverages() {
                   <div className="img-block left-column wow fadeInRight">
                     <img
                       className="img-fluid"
-                      src="/images/nfc-blockchain.jpg"
+                      src="/images/digital-experience.jpg"
                       alt="content-image"
                     />
                   </div>
@@ -42,15 +39,11 @@ function FoodAndBeverages() {
                 <div className="col-md-7 col-lg-6">
                   <div className="txt-block right-column wow fadeInLeft">
                     {/* Title */}
-                    <h2 className="h2-xs">Tag, track and authenticate</h2>
+                    <h2 className="h2-xs">Authenticity solution for Food and Beverages</h2>
                     {/* Text */}
                     <p className="p-lg">
-                      Our patent pending NFC tag leverages encrypted
-                      tamper-proof blockchain technology to track each single
-                      item from production to product opening and features
-                      refilling protection and anti-peeling. Its style can be
-                      customized for a perfect integration with your label,
-                      package or bottle design.
+                      Authenticity is a critical issue in the food and beverage industry, as consumers rely on the authenticity of the products they buy. Using Signet Tags
+                      Consumers can identify instantaneously food and beverages authenticity with a tap of their smartphone, using a direct NFC connection.
                     </p>
 
                     <p className="p-lg">
@@ -58,8 +51,7 @@ function FoodAndBeverages() {
                       check the authenticity of each single purchase they are
                       about to make. A simple tap grants instant access to
                       product history, certifications and intended applications.
-                      Faster and safer than any solution based on QR code or
-                      image recognition.
+                      Follow each product, and enable customers and third parties to read the product history at any time.
                     </p>
                   </div>
                 </div>
@@ -80,13 +72,12 @@ function FoodAndBeverages() {
               <div className="col-md-10 col-lg-8">
                 <div className="section-title title-02 mb-60">
                   <h2 className="h2-xs">
-                    The real problem <br />
+                    How does it help <br />
                   </h2>
                   <p className="p-xl">
-                    7.8% of annual sales in the personal care sector is lost due
-                    to counterfeiting According to the OECD, in 2016 the
-                    international counterfeit makeup trade was estimated to be
-                    worth $5.4 billion. Today it is still increasing.
+                    Tag your premium product with a unique tamper-proof ID that tracks the entire product journey and protect against fraudulent refilling.
+                    Provide customers with product assurance via secure physical-digital seals and tamper-proof technology.
+                    Follow each product, and enable customers and third parties to read the product history at any time.
                   </p>
                 </div>
               </div>
@@ -215,30 +206,16 @@ function FoodAndBeverages() {
                   <ul className="simple-list">
                     <li className="list-item">
                       <p className="p-lg">
-                        Getting customers to engage with your brand is a vital
-                        part of running any successful business, and Cosmetics
-                        And Perfumes industries are no exception.
+                      Our technology can be used to create a tamper-proof record of a product's journey from the source to the end consumer. This can help to ensure the authenticity of the product and provide transparency to consumers.
                       </p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        Smart packaging transforms your Cosmetics And Perfumes
-                        products into a new marketing channel for customers to
-                        engage with your Cosmetics And Perfumes brand.
-                        *According to Gallup research, a highly engaged customer
-                        brings in 23% more revenue than the average customer.
+                      By implementing a robust product traceability system, food and beverage companies can track the entire journey of the product from the source to the end consumer. 
+                      A traceability system allows for the identification and isolation of any issues that may arise in the supply chain.
                       </p>
                     </li>
-                    <li className="list-item">
-                      <p className="p-lg">
-                        YPB has a range of smart packaging solutions to fit any
-                        Cosmetics And Perfumes brand’s requirements including
-                        cryptographic serialised QR codes, anti-copy codes, or
-                        invisible smartphone readable technology. YPB solutions
-                        can be non-app based or app-based depending on your
-                        requirements
-                      </p>
-                    </li>
+                   
                   </ul>
                 </div>
               </div>
