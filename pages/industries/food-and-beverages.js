@@ -134,11 +134,10 @@ function FoodAndBeverages() {
                       alt="feature-icon"
                     />
                     {/* Title */}
-                    <h5 className="h5-md mt-4 ">Brand Protection</h5>
+                    <h5 className="h5-md mt-4 ">Counterfeit Protection</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Defend your IPRs and your Brand Equity. Feel free to
-                      develop and promote new products safely
+                      Provide customers with product assurance via secure physical-digital seals and tamper-proof technology.
                     </p>
                   </div>
                 </div>
@@ -155,8 +154,7 @@ function FoodAndBeverages() {
                     <h5 className="h5-md mt-4">Marketing Insights</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Track your products until the final customer. Detect
-                      product infiltrations and original stolen products
+                      Track your products until the final customer. Capture valuable marketing insights and consented first-party data
                     </p>
                   </div>
                 </div>
@@ -200,22 +198,22 @@ function FoodAndBeverages() {
                   </span>
                   {/* Title */}
                   <h2 className="h2-xs">
-                    Plain packaging doesn't work anymore.
+                    Tamper proof smart packaging.
                   </h2>
                   {/* List */}
                   <ul className="simple-list">
                     <li className="list-item">
                       <p className="p-lg">
-                      Our technology can be used to create a tamper-proof record of a product's journey from the source to the end consumer. This can help to ensure the authenticity of the product and provide transparency to consumers.
+                        Our technology can be used to create a tamper-proof record of a product's journey from the source to the end consumer. This can help to ensure the authenticity of the product and provide transparency to consumers.
                       </p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                      By implementing a robust product traceability system, food and beverage companies can track the entire journey of the product from the source to the end consumer. 
-                      A traceability system allows for the identification and isolation of any issues that may arise in the supply chain.
+                        By implementing a robust product traceability system, food and beverage companies can track the entire journey of the product from the source to the end consumer.
+                        A traceability system allows for the identification and isolation of any issues that may arise in the supply chain.
                       </p>
                     </li>
-                   
+
                   </ul>
                 </div>
               </div>
@@ -225,7 +223,7 @@ function FoodAndBeverages() {
                 <div className="rel img-block right-column wow fadeInLeft">
                   <img
                     className="img-fluid"
-                    src="/images/signet-mobile-app.jpg"
+                    src="/images/signet-wine-authenticity.jpg"
                     alt="content-image"
                   />
                 </div>
@@ -236,37 +234,47 @@ function FoodAndBeverages() {
           {/* End container */}
         </section>
 
+
         <Benefits />
 
-        <section
-          id="statistic-2"
-          className="wide-100 statistic-section division"
-        >
-          <div className="container">
-            <div className="row d-flex align-items-center">
-              <div className="col-lg-6">
-                <div className="txt-block right-column wow fadeInLeft">
-                  <h3 className="h3-xs">
-                    {" "}
-                    The international counterfeit makeup trade was estimated to
-                    be worth $5.4 billion. Still increasing.{" "}
-                  </h3>
-                </div>
-              </div>
-              <div className="col-sm-5 col-md-4 col-lg-3 offset-sm-2 offset-md-3 offset-lg-2">
-                <div className="statistic-block wow fadeInUp">
-                  <h2 className="h2-title-xs statistic-number">
-                    <span className="count-element">7.8%</span>
-                  </h2>
-                  <p className="p-lg mt-20">
-                    annual sales in the personal care sector is lost due to
-                    counterfeiting
-                  </p>
-                </div>
-              </div>
-            </div>{" "}
-          </div>{" "}
-        </section>
+     
+        <section id="content-5" className="content-5 ws-wrapper content-section division">
+  <div className="container">
+    <div className="content-5-wrapper bg-whitesmoke">
+      <div className="row d-flex align-items-center">
+        {/* TEXT BLOCK */}	
+        <div className="col-md-7 col-lg-6">
+          <div className="txt-block left-column wow fadeInRight" style={{visibility: 'visible', animationName: 'fadeInRight'}}>
+            {/* Section ID */}	
+            <span className="section-id purple-color txt-upcase">Promotions & Loyalty Programs</span>
+            {/* Title */}	
+            <h2 className="h2-xs">Boost Sales! Acquire New Consumers</h2>
+            {/* List */}	
+            <ul className="simple-list">
+              <li className="list-item">
+                <p className="p-lg">Entice new and existing consumers to buy more by offering them airtime, merchandise, redeemable loyalty points, and grand prizes (raffle) for purchase
+                </p>
+              </li>
+            
+              <li className="list-item">
+                <p className="p-lg">Asides the fact that you can automatically acquire consumer contacts,
+                 Signet Tags also helps you collect insights directly from your consumers using short intuitive surveys they take as part of their participation in your campaigns
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>	{/* END TEXT BLOCK */}	
+        {/* IMAGE BLOCK */}
+        <div className="col-md-5 col-lg-6">
+          <div className="img-block right-column wow fadeInLeft" style={{visibility: 'visible', animationName: 'fadeInLeft'}}>
+            <img className="img-fluid rounded" src="/images/customers/reward-your-customers.jpg" alt="content-image" />
+          </div>
+        </div>
+      </div>
+    </div>    {/* End row */}
+  </div>	   {/* End container */}	
+</section>
+
 
         <CallToAction />
       </div>
