@@ -17,7 +17,7 @@ function Pharmaceuticals() {
       <PageTitle
         image="/images/industries/pharma_banner.jpg"
         title={"Pharmaceuticals"}
-        subtitle={"No credit card required. Change or cancel your plan anytime"}
+        subtitle={"Add product traceability and unique digital identities to your packaging with secure NFC tags"}
       />
       <div ref={containerRef}>
         <section
@@ -33,7 +33,7 @@ function Pharmaceuticals() {
                   <div className="img-block left-column wow fadeInRight">
                     <img
                       className="img-fluid"
-                      src="/images/nfc-blockchain.jpg"
+                      src="/images/pharma/pharma-authenticity.jpg"
                       alt="content-image"
                     />
                   </div>
@@ -42,15 +42,14 @@ function Pharmaceuticals() {
                 <div className="col-md-7 col-lg-6">
                   <div className="txt-block right-column wow fadeInLeft">
                     {/* Title */}
-                    <h2 className="h2-xs">Tag, track and authenticate</h2>
+                    <h2 className="h2-xs">Anti-Counterfeit and traceability solution for Pharma</h2>
                     {/* Text */}
                     <p className="p-lg">
+                      Anti-counterfeit and traceability solutions are essential in the pharmaceutical industry to ensure the authenticity and safety of drugs.
                       Our patent pending NFC tag leverages encrypted
                       tamper-proof blockchain technology to track each single
                       item from production to product opening and features
-                      refilling protection and anti-peeling. Its style can be
-                      customized for a perfect integration with your label,
-                      package or bottle design.
+                      refilling protection and anti-peeling.
                     </p>
 
                     <p className="p-lg">
@@ -60,6 +59,11 @@ function Pharmaceuticals() {
                       product history, certifications and intended applications.
                       Faster and safer than any solution based on QR code or
                       image recognition.
+                    </p>
+
+                    <p className="p-lg">
+                      Tamper-evident packaging: Tamper-evident packaging can help to prevent counterfeiting and tampering with products.
+                      Our Tag tampering solution can easily detect if a package has been opened or tampered with.
                     </p>
                   </div>
                 </div>
@@ -83,10 +87,9 @@ function Pharmaceuticals() {
                     The real problem <br />
                   </h2>
                   <p className="p-xl">
-                    7.8% of annual sales in the personal care sector is lost due
-                    to counterfeiting According to the OECD, in 2016 the
-                    international counterfeit makeup trade was estimated to be
-                    worth $5.4 billion. Today it is still increasing.
+                    The pharma industry has been hit hard by counterfeiters,
+                    who are taking advantage of the gaps between skyrocketing demand and
+                    severe supply chain disruptions related to the pandemic.
                   </p>
                 </div>
               </div>
@@ -143,11 +146,10 @@ function Pharmaceuticals() {
                       alt="feature-icon"
                     />
                     {/* Title */}
-                    <h5 className="h5-md mt-4 ">Brand Protection</h5>
+                    <h5 className="h5-md mt-4 ">Anti-counterfeiting</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Defend your IPRs and your Brand Equity. Feel free to
-                      develop and promote new products safely
+                      Allow Health Care Professionals (HCPs) and Authorities to instantly check product authenticity and integrity.
                     </p>
                   </div>
                 </div>
@@ -161,11 +163,10 @@ function Pharmaceuticals() {
                       alt="feature-icon"
                     />
                     {/* Title */}
-                    <h5 className="h5-md mt-4">Marketing Insights</h5>
+                    <h5 className="h5-md mt-4">Tracking</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Track your products until the final customer. Detect
-                      product infiltrations and original stolen products
+                    End-to-end product traceability to follow each single item in real time along the supply chain, integrating multiple environmental sensors.
                     </p>
                   </div>
                 </div>
@@ -177,11 +178,10 @@ function Pharmaceuticals() {
                       src="/images/industries/feedback.jpg"
                       alt="feature-icon"
                     />
-                    <h5 className="h5-md mt-4 ">Connect directly</h5>
+                    <h5 className="h5-md mt-4 ">Patient Engagement</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Connect directly to your customers using push
-                      notifications and alerts. Collect valuable feedbacks
+                    Revolutionize patient experience enabling drugs’ instant authenticity check. Collect valuable feedbacks
                       directly from customers.
                     </p>
                   </div>
@@ -209,36 +209,44 @@ function Pharmaceuticals() {
                   </span>
                   {/* Title */}
                   <h2 className="h2-xs">
-                    Plain packaging doesn't work anymore.
+                    Added value for everyone.
                   </h2>
                   {/* List */}
                   <ul className="simple-list">
                     <li className="list-item">
                       <p className="p-lg">
-                        Getting customers to engage with your brand is a vital
-                        part of running any successful business, and Cosmetics
-                        And Perfumes industries are no exception.
+                      Proof of authenticity verification and  Product opening detection.
                       </p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        Smart packaging transforms your Cosmetics And Perfumes
-                        products into a new marketing channel for customers to
-                        engage with your Cosmetics And Perfumes brand.
-                        *According to Gallup research, a highly engaged customer
-                        brings in 23% more revenue than the average customer.
+                      1-click report in case of opened/fake product. 
                       </p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        Signet Tags has a range of smart packaging solutions to fit any
-                        Cosmetics And Perfumes brand’s requirements including
-                        cryptographic serialised QR codes, anti-copy codes, or
-                        invisible smartphone readable technology. Signet Tags solutions
-                        can be non-app based or app-based depending on your
-                        requirements
+                      Instant access to drug electronic leaflet and Real time update of e-leaflets
                       </p>
                     </li>
+
+                    <li className="list-item">
+                      <p className="p-lg">
+                      Easily send product recall alerts and Automatic product recall management.
+                      </p>
+                    </li>
+
+                    <li className="list-item">
+                      <p className="p-lg">
+                      Increased demand predictability with positive impacts on production efficiency.
+                      </p>
+                    </li>
+
+                    <li className="list-item">
+                      <p className="p-lg">
+                      Protect your brand and create a moment of trust with your customers.
+                      </p>
+                    </li>
+
                   </ul>
                 </div>
               </div>
@@ -261,35 +269,6 @@ function Pharmaceuticals() {
 
         <Benefits />
 
-        <section
-          id="statistic-2"
-          className="wide-100 statistic-section division"
-        >
-          <div className="container">
-            <div className="row d-flex align-items-center">
-              <div className="col-lg-6">
-                <div className="txt-block right-column wow fadeInLeft">
-                  <h3 className="h3-xs">
-                    {" "}
-                    The international counterfeit makeup trade was estimated to
-                    be worth $5.4 billion. Still increasing.{" "}
-                  </h3>
-                </div>
-              </div>
-              <div className="col-sm-5 col-md-4 col-lg-3 offset-sm-2 offset-md-3 offset-lg-2">
-                <div className="statistic-block wow fadeInUp">
-                  <h2 className="h2-title-xs statistic-number">
-                    <span className="count-element">7.8%</span>
-                  </h2>
-                  <p className="p-lg mt-20">
-                    annual sales in the personal care sector is lost due to
-                    counterfeiting
-                  </p>
-                </div>
-              </div>
-            </div>{" "}
-          </div>{" "}
-        </section>
 
         <CallToAction />
       </div>
