@@ -14,7 +14,7 @@ function FoodAndBeverages() {
       <PageTitle
         image="/images/industries/food_banner.jpg"
         title={"Food And Beverages"}
-        subtitle={"No credit card required. Change or cancel your plan anytime"}
+        subtitle={"Protect & Engage Your Consumers with Signet Tags"}
       />
       <div ref={containerRef}>
         <section
@@ -237,43 +237,43 @@ function FoodAndBeverages() {
 
         <Benefits />
 
-     
+
         <section id="content-5" className="content-5 ws-wrapper content-section division">
-  <div className="container">
-    <div className="content-5-wrapper bg-whitesmoke">
-      <div className="row d-flex align-items-center">
-        {/* TEXT BLOCK */}	
-        <div className="col-md-7 col-lg-6">
-          <div className="txt-block left-column wow fadeInRight" style={{visibility: 'visible', animationName: 'fadeInRight'}}>
-            {/* Section ID */}	
-            <span className="section-id purple-color txt-upcase">Promotions & Loyalty Programs</span>
-            {/* Title */}	
-            <h2 className="h2-xs">Boost Sales! Acquire New Consumers</h2>
-            {/* List */}	
-            <ul className="simple-list">
-              <li className="list-item">
-                <p className="p-lg">Entice new and existing consumers to buy more by offering them airtime, merchandise, redeemable loyalty points, and grand prizes (raffle) for purchase
-                </p>
-              </li>
-            
-              <li className="list-item">
-                <p className="p-lg">Asides the fact that you can automatically acquire consumer contacts,
-                 Signet Tags also helps you collect insights directly from your consumers using short intuitive surveys they take as part of their participation in your campaigns
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>	{/* END TEXT BLOCK */}	
-        {/* IMAGE BLOCK */}
-        <div className="col-md-5 col-lg-6">
-          <div className="img-block right-column wow fadeInLeft" style={{visibility: 'visible', animationName: 'fadeInLeft'}}>
-            <img className="img-fluid rounded" src="/images/customers/reward-your-customers.jpg" alt="content-image" />
-          </div>
-        </div>
-      </div>
-    </div>    {/* End row */}
-  </div>	   {/* End container */}	
-</section>
+          <div className="container">
+            <div className="content-5-wrapper bg-whitesmoke">
+              <div className="row d-flex align-items-center">
+                {/* TEXT BLOCK */}
+                <div className="col-md-7 col-lg-6">
+                  <div className="txt-block left-column wow fadeInRight" style={{ visibility: 'visible', animationName: 'fadeInRight' }}>
+                    {/* Section ID */}
+                    <span className="section-id purple-color txt-upcase">Promotions & Loyalty Programs</span>
+                    {/* Title */}
+                    <h2 className="h2-xs">Boost Sales! Acquire New Consumers</h2>
+                    {/* List */}
+                    <ul className="simple-list">
+                      <li className="list-item">
+                        <p className="p-lg">Entice new and existing consumers to buy more by offering them airtime, merchandise, redeemable loyalty points, and grand prizes (raffle) for purchase
+                        </p>
+                      </li>
+
+                      <li className="list-item">
+                        <p className="p-lg">Asides the fact that you can automatically acquire consumer contacts,
+                          Signet Tags also helps you collect insights directly from your consumers using short intuitive surveys they take as part of their participation in your campaigns
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>	{/* END TEXT BLOCK */}
+                {/* IMAGE BLOCK */}
+                <div className="col-md-5 col-lg-6">
+                  <div className="img-block right-column wow fadeInLeft" style={{ visibility: 'visible', animationName: 'fadeInLeft' }}>
+                    <img className="img-fluid rounded" src="/images/customers/reward-your-customers.jpg" alt="content-image" />
+                  </div>
+                </div>
+              </div>
+            </div>    {/* End row */}
+          </div>	   {/* End container */}
+        </section>
 
 
         <CallToAction />

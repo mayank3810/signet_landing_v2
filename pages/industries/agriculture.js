@@ -17,9 +17,9 @@ function Agriculture() {
       <PageTitle
         image="/images/industries/agriculture_banner.jpg"
         title={"Agriculture Industry"}
-        subtitle={"No credit card required. Change or cancel your plan anytime"}
+        subtitle={"Tag, track, and instantaneously authenticate agrochemical products"}
       />
-       <div ref={containerRef}>
+      <div ref={containerRef}>
         <section
           id="content-3"
           className="bg-whitesmoke content-3 wide-60 content-section division"
@@ -33,7 +33,7 @@ function Agriculture() {
                   <div className="img-block left-column wow fadeInRight">
                     <img
                       className="img-fluid"
-                      src="/images/nfc-blockchain.jpg"
+                      src="/images/agriculture.jpg"
                       alt="content-image"
                     />
                   </div>
@@ -42,9 +42,12 @@ function Agriculture() {
                 <div className="col-md-7 col-lg-6">
                   <div className="txt-block right-column wow fadeInLeft">
                     {/* Title */}
-                    <h2 className="h2-xs">Tag, track and authenticate</h2>
+                    <h2 className="h2-xs">Traceability solution for Agri</h2>
                     {/* Text */}
                     <p className="p-lg">
+                      Agricultural tracing and protection is important for many reasons.
+                      It helps ensure the quality of our food, protects our farmers and ranchers, and helps keep our environment healthy.
+
                       Our patent pending NFC tag leverages encrypted
                       tamper-proof blockchain technology to track each single
                       item from production to product opening and features
@@ -52,14 +55,8 @@ function Agriculture() {
                       customized for a perfect integration with your label,
                       package or bottle design.
                     </p>
-
                     <p className="p-lg">
-                      Our app or a direct NFC connection allows consumers to
-                      check the authenticity of each single purchase they are
-                      about to make. A simple tap grants instant access to
-                      product history, certifications and intended applications.
-                      Faster and safer than any solution based on QR code or
-                      image recognition.
+                      Our app or a direct NFC connection grants farmers instant access to product characteristics, integrity and proof of authenticity.
                     </p>
                   </div>
                 </div>
@@ -83,10 +80,8 @@ function Agriculture() {
                     The real problem <br />
                   </h2>
                   <p className="p-xl">
-                    7.8% of annual sales in the personal care sector is lost due
-                    to counterfeiting According to the OECD, in 2016 the
-                    international counterfeit makeup trade was estimated to be
-                    worth $5.4 billion. Today it is still increasing.
+                    The rapid growth in population and the consequent increase of the food demand made the agricultural market reach the size of 250.5 billion in 2020.
+                     It is estimated that between 10% and 25% of products for agriculture on the market are counterfeited.
                   </p>
                 </div>
               </div>
@@ -139,7 +134,7 @@ function Agriculture() {
                     {/* Image */}
                     <img
                       className="img-fluid rounded"
-                      src="/images/industries/brand-protection.jpg"
+                      src="/images/agriculture-protection.jpg"
                       alt="feature-icon"
                     />
                     {/* Title */}
@@ -203,40 +198,27 @@ function Agriculture() {
               {/* TEXT BLOCK */}
               <div className="col-md-7 col-lg-6 order-last order-md-2">
                 <div className="txt-block left-column wow fadeInRight">
-                  {/* Section ID */}
-                  <span className="section-id txt-upcase">
-                    SMART NFC PACKAGING
-                  </span>
+                 
                   {/* Title */}
-                  <h2 className="h2-xs">
-                    Plain packaging doesn't work anymore.
-                  </h2>
+                  <h3 className="h2-xs">
+                  Illegally produced products for agriculture can pose several risks, including:
+
+                  </h3>
                   {/* List */}
                   <ul className="simple-list">
                     <li className="list-item">
                       <p className="p-lg">
-                        Getting customers to engage with your brand is a vital
-                        part of running any successful business, and Cosmetics
-                        And Perfumes industries are no exception.
+                      Health risks: Illegally produced products may contain harmful chemicals that can have serious health consequences for humans, livestock, and the environment. These chemicals can include pesticides, herbicides, and fungicides that are banned or restricted in their use due to their hazardous nature.
                       </p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        Smart packaging transforms your Cosmetics And Perfumes
-                        products into a new marketing channel for customers to
-                        engage with your Cosmetics And Perfumes brand.
-                        *According to Gallup research, a highly engaged customer
-                        brings in 23% more revenue than the average customer.
+                      Environmental risks: The use of illegal products can lead to pollution of the soil, water, and air, which can have harmful effects on the environment. This can lead to reduced biodiversity, soil erosion, and contamination of water sources.
                       </p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        Signet Tags has a range of smart packaging solutions to fit any
-                        Cosmetics And Perfumes brand’s requirements including
-                        cryptographic serialised QR codes, anti-copy codes, or
-                        invisible smartphone readable technology. Signet Tags solutions
-                        can be non-app based or app-based depending on your
-                        requirements
+                      Economic risks: The use of illegal products can impact the agricultural economy. Illegal products are often sold at a lower price, which can make it difficult for legitimate producers to compete. In addition, the use of illegal products can result in lower yields and quality of produce, which can impact the profitability of farmers.
                       </p>
                     </li>
                   </ul>
@@ -261,35 +243,7 @@ function Agriculture() {
 
         <Benefits />
 
-        <section
-          id="statistic-2"
-          className="wide-100 statistic-section division"
-        >
-          <div className="container">
-            <div className="row d-flex align-items-center">
-              <div className="col-lg-6">
-                <div className="txt-block right-column wow fadeInLeft">
-                  <h3 className="h3-xs">
-                    {" "}
-                    The international counterfeit makeup trade was estimated to
-                    be worth $5.4 billion. Still increasing.{" "}
-                  </h3>
-                </div>
-              </div>
-              <div className="col-sm-5 col-md-4 col-lg-3 offset-sm-2 offset-md-3 offset-lg-2">
-                <div className="statistic-block wow fadeInUp">
-                  <h2 className="h2-title-xs statistic-number">
-                    <span className="count-element">7.8%</span>
-                  </h2>
-                  <p className="p-lg mt-20">
-                    annual sales in the personal care sector is lost due to
-                    counterfeiting
-                  </p>
-                </div>
-              </div>
-            </div>{" "}
-          </div>{" "}
-        </section>
+       
 
         <CallToAction />
       </div>
