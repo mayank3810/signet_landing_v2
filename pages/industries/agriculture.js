@@ -42,7 +42,7 @@ function Agriculture() {
                 <div className="col-md-7 col-lg-6">
                   <div className="txt-block right-column wow fadeInLeft">
                     {/* Title */}
-                    <h2 className="h2-xs">Traceability solution for Agri</h2>
+                    <h2 className="h2-xs">Traceability solution for Agriculture Industry</h2>
                     {/* Text */}
                     <p className="p-lg">
                       Agricultural tracing and protection is important for many reasons.
@@ -229,8 +229,8 @@ function Agriculture() {
               <div className="col-md-5 col-lg-6 order-first order-md-2">
                 <div className="rel img-block right-column wow fadeInLeft">
                   <img
-                    className="img-fluid"
-                    src="/images/signet-mobile-app.jpg"
+                    className="img-fluid rounded"
+                    src="/images/agriculture-authenticity.jpg"
                     alt="content-image"
                   />
                 </div>
