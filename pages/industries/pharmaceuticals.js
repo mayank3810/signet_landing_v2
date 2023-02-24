@@ -142,7 +142,7 @@ function Pharmaceuticals() {
                     {/* Image */}
                     <img
                       className="img-fluid rounded"
-                      src="/images/industries/brand-protection.jpg"
+                      src="/images/pharma/pharma-authenticity-banner.jpg"
                       alt="feature-icon"
                     />
                     {/* Title */}
@@ -256,7 +256,7 @@ function Pharmaceuticals() {
                 <div className="rel img-block right-column wow fadeInLeft">
                   <img
                     className="img-fluid"
-                    src="/images/signet-mobile-app.jpg"
+                    src="/images/pharma/pharma-added-value.jpg"
                     alt="content-image"
                   />
                 </div>
