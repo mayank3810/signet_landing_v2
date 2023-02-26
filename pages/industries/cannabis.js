@@ -17,7 +17,7 @@ function Cannabis() {
       <PageTitle
         image="/images/industries/cannabis_banner.jpg"
         title={"Cannabis Industry"}
-        subtitle={"No credit card required. Change or cancel your plan anytime"}
+        subtitle={"Open a new channel to engage, protect, and build trust with your customers."}
       />
       <div ref={containerRef}>
         <section
@@ -33,7 +33,7 @@ function Cannabis() {
                   <div className="img-block left-column wow fadeInRight">
                     <img
                       className="img-fluid"
-                      src="/images/nfc-blockchain.jpg"
+                      src="/images/pharma/cannabis.jpg"
                       alt="content-image"
                     />
                   </div>
@@ -42,7 +42,7 @@ function Cannabis() {
                 <div className="col-md-7 col-lg-6">
                   <div className="txt-block right-column wow fadeInLeft">
                     {/* Title */}
-                    <h2 className="h2-xs">Tag, track and authenticate</h2>
+                    <h2 className="h2-xs">Customer Engagement & Anti-Counterfeit solutions</h2>
                     {/* Text */}
                     <p className="p-lg">
                       Our patent pending NFC tag leverages encrypted
@@ -54,12 +54,8 @@ function Cannabis() {
                     </p>
 
                     <p className="p-lg">
-                      Our app or a direct NFC connection allows consumers to
-                      check the authenticity of each single purchase they are
-                      about to make. A simple tap grants instant access to
-                      product history, certifications and intended applications.
-                      Faster and safer than any solution based on QR code or
-                      image recognition.
+                      As the cannabis industry grows, it becomes increasingly vulnerable to counterfeit products.
+                      People are becoming more and more quality-conscious, and Signet technology helps brands cater to that demand.
                     </p>
                   </div>
                 </div>
@@ -83,10 +79,7 @@ function Cannabis() {
                     The real problem <br />
                   </h2>
                   <p className="p-xl">
-                    7.8% of annual sales in the personal care sector is lost due
-                    to counterfeiting According to the OECD, in 2016 the
-                    international counterfeit makeup trade was estimated to be
-                    worth $5.4 billion. Today it is still increasing.
+                    Our brand protection technologies create a new way to engage, protect and build trust with your customers.
                   </p>
                 </div>
               </div>
@@ -139,7 +132,7 @@ function Cannabis() {
                     {/* Image */}
                     <img
                       className="img-fluid rounded"
-                      src="/images/industries/brand-protection.jpg"
+                      src="/images/pharma/cannabis-brand-protection.jpg"
                       alt="feature-icon"
                     />
                     {/* Title */}
@@ -215,28 +208,22 @@ function Cannabis() {
                   <ul className="simple-list">
                     <li className="list-item">
                       <p className="p-lg">
-                        Getting customers to engage with your brand is a vital
-                        part of running any successful business, and Cosmetics
-                        And Perfumes industries are no exception.
+                        Every cannabis product becomes digitally connected opening a new marketing channel to engage your customers
                       </p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        Smart packaging transforms your Cosmetics And Perfumes
-                        products into a new marketing channel for customers to
-                        engage with your Cosmetics And Perfumes brand.
-                        *According to Gallup research, a highly engaged customer
-                        brings in 23% more revenue than the average customer.
+                        Smart packaging has shown to increase repeat purchases and grow revenue.
                       </p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        Signet Tags has a range of smart packaging solutions to fit any
-                        Cosmetics And Perfumes brand’s requirements including
-                        cryptographic serialised QR codes, anti-copy codes, or
-                        invisible smartphone readable technology. Signet Tags solutions
-                        can be non-app based or app-based depending on your
-                        requirements
+                        Capture valuable marketing insights and consented first-party data
+                      </p>
+                    </li>
+                    <li className="list-item">
+                      <p className="p-lg">
+                        Protect your brand and create a moment of trust with your cannabis customers
                       </p>
                     </li>
                   </ul>
@@ -248,7 +235,7 @@ function Cannabis() {
                 <div className="rel img-block right-column wow fadeInLeft">
                   <img
                     className="img-fluid"
-                    src="/images/signet-mobile-app.jpg"
+                    src="/images/pharma/cannabis-mobile-app.jpg"
                     alt="content-image"
                   />
                 </div>
@@ -271,19 +258,17 @@ function Cannabis() {
                 <div className="txt-block right-column wow fadeInLeft">
                   <h3 className="h3-xs">
                     {" "}
-                    The international counterfeit makeup trade was estimated to
-                    be worth $5.4 billion. Still increasing.{" "}
+                    A highly engaged customer brings in 23% more revenue.{" "}
                   </h3>
                 </div>
               </div>
               <div className="col-sm-5 col-md-4 col-lg-3 offset-sm-2 offset-md-3 offset-lg-2">
                 <div className="statistic-block wow fadeInUp">
                   <h2 className="h2-title-xs statistic-number">
-                    <span className="count-element">7.8%</span>
+                    <span className="count-element">23%</span>
                   </h2>
                   <p className="p-lg mt-20">
-                    annual sales in the personal care sector is lost due to
-                    counterfeiting
+                    annual sales increase in revenue, according to Gallup research.
                   </p>
                 </div>
               </div>
