@@ -231,32 +231,6 @@ export default function Home() {
                             animationName: "fadeInUp",
                           }}
                         >
-                          <Link href={"/industries/sports-equipments"}>
-                            <div className="fbox-ico-center ico-60">
-                              <img
-                                src="/images/industries/soccer-ball-100.png"
-                                alt="ico-bkg"
-                              />
-                            </div>
-                            <div className="fbox-txt-center">
-                              <h5 className="h5-sm">Sports Equipments</h5>
-                              <p className="p-lg">
-                                Tag, track, and instantaneously authenticate
-                                products with Signet Tags
-                              </p>
-                            </div>
-                          </Link>
-                        </div>
-                      </div>
-
-                      <div className="col">
-                        <div
-                          className="fbox-1 mb-40 wow fadeInUp"
-                          style={{
-                            visibility: "visible",
-                            animationName: "fadeInUp",
-                          }}
-                        >
                           <Link href={"/industries/document-security"}>
                             <div className="fbox-ico-center ico-60">
                               <img
@@ -274,7 +248,6 @@ export default function Home() {
                           </Link>
                         </div>
                       </div>
-                      <div className="col"> </div>
                       <div className="col">
                         <div
                           className="fbox-1 mb-40 wow fadeInUp"
@@ -283,7 +256,7 @@ export default function Home() {
                             animationName: "fadeInUp",
                           }}
                         >
-                          <Link href={"/industries/apparel-and-clothing"}>
+                          <Link href={"/industries/clothing-and-footwear"}>
                             <div className="fbox-ico-center ico-60">
                               <img
                                 src="/images/industries/t-shirt-100.png"
@@ -291,38 +264,12 @@ export default function Home() {
                               />
                             </div>
                             <div className="fbox-txt-center">
-                              <h5 className="h5-sm">Apparel and clothing</h5>
+                              <h5 className="h5-sm">Clothing and footwear</h5>
 
                               <p className="p-lg">
                                 Smart packaging for clothing brands opens a new
                                 channel to engage, protect, and build trust with
                                 your customers.
-                              </p>
-                            </div>
-                          </Link>
-                        </div>
-                      </div>
-
-                      <div className="col">
-                        <div
-                          className="fbox-1 mb-40 wow fadeInUp"
-                          style={{
-                            visibility: "visible",
-                            animationName: "fadeInUp",
-                          }}
-                        >
-                          <Link href={"/industries/shoes-and-footwear"}>
-                            <div className="fbox-ico-center ico-60">
-                              <img
-                                src="/images/industries/sneaker-60.png"
-                                alt="ico-bkg"
-                              />
-                            </div>
-                            <div className="fbox-txt-center">
-                              <h5 className="h5-sm">Shoes and footwear</h5>
-                              <p className="p-lg">
-                                Customer Engagement + Anti-Counterfeit
-                                Protection for Shoes and footwear Brands
                               </p>
                             </div>
                           </Link>

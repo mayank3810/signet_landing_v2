@@ -33,7 +33,7 @@ function DocumentSecurity() {
                   <div className="img-block left-column wow fadeInRight">
                     <img
                       className="img-fluid"
-                      src="/images/nfc-blockchain.jpg"
+                      src="/images/document/document-security.jpg"
                       alt="content-image"
                     />
                   </div>
@@ -99,7 +99,7 @@ function DocumentSecurity() {
                     style={{ borderRadius: "20px" }}
                     width="860"
                     height="515"
-                    src="https://www.youtube.com/embed/YQUjE2koNRI"
+                    src="https://www.youtube.com/embed/CfOEKlihBCE"
                     title="Signet Demo Video"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

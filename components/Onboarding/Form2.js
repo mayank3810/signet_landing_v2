@@ -154,7 +154,7 @@ function Form2({ organizationId }) {
               <option value={"cannabis"}>Cannabis</option>
               <option value={"sports-equipments"}>Sports Equipments</option>
               <option value={"document-security"}>Document Security</option>
-              <option value={"apparel-and-clothing"}>
+              <option value={"clothing-and-footwear"}>
                 {" "}
                 Apparel and Clothing
               </option>
