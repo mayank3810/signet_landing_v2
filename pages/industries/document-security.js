@@ -17,7 +17,7 @@ function DocumentSecurity() {
       <PageTitle
         image="/images/industries/document_banner.jpg"
         title={"Document Security"}
-        subtitle={"No credit card required. Change or cancel your plan anytime"}
+        subtitle={"Tag, track and authenticate your documents"}
       />
       <div ref={containerRef}>
         <section
@@ -42,22 +42,19 @@ function DocumentSecurity() {
                 <div className="col-md-7 col-lg-6">
                   <div className="txt-block right-column wow fadeInLeft">
                     {/* Title */}
-                    <h2 className="h2-xs">Tag, track and authenticate</h2>
+                    <h2 className="h2-xs">Document security solutions are essential for businesses and governing entities</h2>
                     {/* Text */}
                     <p className="p-lg">
-                      Our patent pending NFC tag leverages encrypted
-                      tamper-proof blockchain technology to track each single
-                      item from production to product opening and features
-                      refilling protection and anti-peeling. Its style can be
-                      customized for a perfect integration with your label,
-                      package or bottle design.
+                      Certificates are one of the most valuable assets to possess,
+                      Thus why they need to be stored safely and be instantly available when needed.  Signet Tags ensures that official documents are recorded and managed in a secure, tamper-proof, and transparent manner.
+
+                      Signet Tags is an affordable, easy-to-use solution that optimizes the lengthy process of issuing and verifying official documents, giving stakeholders access to trusted and genuine information instantly, anywhere, at any time.
                     </p>
 
                     <p className="p-lg">
-                      Our app or a direct NFC connection allows consumers to
-                      check the authenticity of each single purchase they are
-                      about to make. A simple tap grants instant access to
-                      product history, certifications and intended applications.
+                      Our app or a direct NFC connection allows stakeholders to
+                      check the authenticity of each single certificate. A simple tap grants instant access to
+                      candidate profile, certifications and intended applications.
                       Faster and safer than any solution based on QR code or
                       image recognition.
                     </p>
@@ -80,13 +77,10 @@ function DocumentSecurity() {
               <div className="col-md-10 col-lg-8">
                 <div className="section-title title-02 mb-60">
                   <h2 className="h2-xs">
-                    The real problem <br />
+                  Document security technology<br />
                   </h2>
                   <p className="p-xl">
-                    7.8% of annual sales in the personal care sector is lost due
-                    to counterfeiting According to the OECD, in 2016 the
-                    international counterfeit makeup trade was estimated to be
-                    worth $5.4 billion. Today it is still increasing.
+                  A suite of innovative and proprietary technologies to safeguard high-value and sensitive documents.
                   </p>
                 </div>
               </div>
@@ -122,10 +116,8 @@ function DocumentSecurity() {
                   <h2 className="h2-md">Why Signet Tags</h2>
                   {/* Text */}
                   <p className="p-xl">
-                    While other authentication companies protect the package,
-                    Signet Tags protects the product against fraudulent
-                    refilling and allows instantaneous verification without the
-                    need for specific tools or expertise in the field
+                    By securing your official documents on the blockchain, you prevent fraud cases and assure your partners (Universities, employers etc.)
+                    of the genuineness of the information on the certificates.
                   </p>
                 </div>
               </div>
@@ -143,11 +135,11 @@ function DocumentSecurity() {
                       alt="feature-icon"
                     />
                     {/* Title */}
-                    <h5 className="h5-md mt-4 ">Brand Protection</h5>
+                    <h5 className="h5-md mt-4 ">Issue Tamper-Proof Certificates</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Defend your IPRs and your Brand Equity. Feel free to
-                      develop and promote new products safely
+                    Signet Tags will help you in cutting the time for
+                    third-parties background check inquires and repetitive manual work.
                     </p>
                   </div>
                 </div>
@@ -161,11 +153,12 @@ function DocumentSecurity() {
                       alt="feature-icon"
                     />
                     {/* Title */}
-                    <h5 className="h5-md mt-4">Marketing Insights</h5>
+                    <h5 className="h5-md mt-4">Learn From Analytics</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Track your products until the final customer. Detect
-                      product infiltrations and original stolen products
+                   With our analytics module, you can view & analyze data and make well-informed decisions on how to improve your business. 
+
+
                     </p>
                   </div>
                 </div>
@@ -177,12 +170,10 @@ function DocumentSecurity() {
                       src="/images/industries/feedback.jpg"
                       alt="feature-icon"
                     />
-                    <h5 className="h5-md mt-4 ">Connect directly</h5>
+                    <h5 className="h5-md mt-4 ">Boost Engagement</h5>
                     {/* Text */}
                     <p className="p-lg">
-                      Connect directly to your customers using push
-                      notifications and alerts. Collect valuable feedbacks
-                      directly from customers.
+                      Digital credentials give organizations a way to recognize micro-learning and any extra-curriculum activities in an effective format.
                     </p>
                   </div>
                 </div>
@@ -205,38 +196,27 @@ function DocumentSecurity() {
                 <div className="txt-block left-column wow fadeInRight">
                   {/* Section ID */}
                   <span className="section-id txt-upcase">
-                    SMART NFC PACKAGING
+                    SMART NFC EMBEDDING
                   </span>
                   {/* Title */}
                   <h2 className="h2-xs">
-                    Plain packaging doesn't work anymore.
+                  Safeguard high-value and sensitive documents
                   </h2>
                   {/* List */}
                   <ul className="simple-list">
                     <li className="list-item">
                       <p className="p-lg">
-                        Getting customers to engage with your brand is a vital
-                        part of running any successful business, and Cosmetics
-                        And Perfumes industries are no exception.
+                      Cannot be copied, destroyed, or spoofed.
                       </p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        Smart packaging transforms your Cosmetics And Perfumes
-                        products into a new marketing channel for customers to
-                        engage with your Cosmetics And Perfumes brand.
-                        *According to Gallup research, a highly engaged customer
-                        brings in 23% more revenue than the average customer.
+                      Extremely secure to prevent documents from forgery.
                       </p>
                     </li>
                     <li className="list-item">
                       <p className="p-lg">
-                        Signet Tags has a range of smart packaging solutions to fit any
-                        Cosmetics And Perfumes brand’s requirements including
-                        cryptographic serialised QR codes, anti-copy codes, or
-                        invisible smartphone readable technology. Signet Tags solutions
-                        can be non-app based or app-based depending on your
-                        requirements
+                      Document security technology enables legal documents to be verified for authenticity.
                       </p>
                     </li>
                   </ul>
