@@ -30,29 +30,64 @@ export default function Home() {
   return (
     <>
       <Head>
-
         <>
-          <title>Signet Tags - Blockchain-based authenticity and Brand protection solution</title>
-          <meta name="title" content="Signet Tags - Blockchain-based authenticity and Brand protection solution" />
-          <meta name="description" content="Signet tags link your products with blockchain-proven ownership. The blockchain solution ensures authenticity and increases customer engagement. " />
-          <meta name="keywords" content="Signet Tags, Signet Authenticity, brand protection software, blockchain-proven ownership, " />
+          <title>
+            Signet Tags - Blockchain-based authenticity and Brand protection
+            solution
+          </title>
+          <meta
+            name="title"
+            content="Signet Tags - Blockchain-based authenticity and Brand protection solution"
+          />
+          <meta
+            name="description"
+            content="Signet tags link your products with blockchain-proven ownership. The blockchain solution ensures authenticity and increases customer engagement. "
+          />
+          <meta
+            name="keywords"
+            content="Signet Tags, Signet Authenticity, brand protection software, blockchain-proven ownership, "
+          />
           <meta name="robots" content="index, follow" />
-          <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+          <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
           <meta name="language" content="English" />
 
           {/* <!-- Open Graph / Facebook --> */}
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="Meta Tags — Preview, Edit and Generate" />
-          <meta property="og:title" content="Signet Tags - Blockchain-based authenticity and Brand protection solution" />
-          <meta property="og:description" content="Signet tags link your products with blockchain-proven ownership. The blockchain solution ensures authenticity and increases customer engagement. " />
-          <meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
+          <meta
+            property="og:url"
+            content="Meta Tags — Preview, Edit and Generate"
+          />
+          <meta
+            property="og:title"
+            content="Signet Tags - Blockchain-based authenticity and Brand protection solution"
+          />
+          <meta
+            property="og:description"
+            content="Signet tags link your products with blockchain-proven ownership. The blockchain solution ensures authenticity and increases customer engagement. "
+          />
+          <meta
+            property="og:image"
+            content="/assets/images/Twitter-card.jpeg"
+          />
 
           {/* <!-- Twitter --> */}
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="Meta Tags — Preview, Edit and Generate" />
-          <meta property="twitter:title" content="Signet Tags - Blockchain-based authenticity and Brand protection solution" />
-          <meta property="twitter:description" content="Signet tags link your products with blockchain-proven ownership. The blockchain solution ensures authenticity and increases customer engagement. " />
-          <meta property="twitter:image" content="/assets/images/Twitter-card.jpeg" />
+          <meta
+            property="twitter:url"
+            content="Meta Tags — Preview, Edit and Generate"
+          />
+          <meta
+            property="twitter:title"
+            content="Signet Tags - Blockchain-based authenticity and Brand protection solution"
+          />
+          <meta
+            property="twitter:description"
+            content="Signet tags link your products with blockchain-proven ownership. The blockchain solution ensures authenticity and increases customer engagement. "
+          />
+          <meta
+            property="twitter:image"
+            content="/assets/images/Twitter-card.jpeg"
+          />
         </>
       </Head>
 

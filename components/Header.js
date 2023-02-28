@@ -115,14 +115,10 @@ function Header({ scroll }) {
                       </Link>
                     </li>
                     <li>
-                      <Link href={"/industries/agriculture"}>
-                        Agriculture
-                      </Link>
+                      <Link href={"/industries/agriculture"}>Agriculture</Link>
                     </li>
                     <li>
-                      <Link href={"/industries/auto-parts"}>
-                        Auto Parts
-                      </Link>
+                      <Link href={"/industries/auto-parts"}>Auto Parts</Link>
                     </li>
                     <li>
                       <Link href={"/industries/pharmaceuticals"}>
@@ -130,9 +126,7 @@ function Header({ scroll }) {
                       </Link>
                     </li>
                     <li>
-                      <Link href={"/industries/cannabis"}>
-                        Cannabis
-                      </Link>
+                      <Link href={"/industries/cannabis"}>Cannabis</Link>
                     </li>
                     <li>
                       <Link href={"/industries/document-security"}>
@@ -178,11 +172,12 @@ function Header({ scroll }) {
                 </li>
                 {/* HEADER BUTTON */}
                 <li className="nl-simple">
-                  <a className="btn btn-tra-white orange-red-hover last-link">
-                    <Link href={"/request-demo"}>
-                      Schedule a Demo
-                    </Link>
-                  </a>
+                  <Link
+                    className="btn btn-tra-white orange-red-hover last-link"
+                    href={"/request-demo"}
+                  >
+                    Schedule a Demo
+                  </Link>
                 </li>
               </ul>
             </nav>{" "}
