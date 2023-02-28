@@ -108,7 +108,7 @@ export default function Home() {
 															<img src="/images/industries/perfume-bottle-100.png" alt="ico-bkg" />
 														</div>
 														<div className="fbox-txt-center">
-															<h5 className="h5-sm">Cosmetics & Perfumes</h5>
+															<h3 className="h3-font my-3">Cosmetics & Perfumes</h3>
 															<p className="p-lg">Engage your consumers with fun, informative, smart packaging that also protects your brand</p>
 														</div>
 													</Link>
@@ -127,7 +127,7 @@ export default function Home() {
 															<img src="/images/industries/wine-bottle-100.png" alt="ico-bkg" />
 														</div>
 														<div className="fbox-txt-center">
-															<h5 className="h5-sm">Food & Beverages</h5>
+															<h3 className="h3-font my-3">Food & Beverages</h3>
 															<p className="p-lg">Customer Engagement + Anti-Counterfeit Protection for Food & Beverages Brands</p>
 														</div>
 													</Link>
@@ -147,7 +147,7 @@ export default function Home() {
 															<img src="/images/industries/pesticide-100.png" alt="ico-bkg" />
 														</div>
 														<div className="fbox-txt-center">
-															<h5 className="h5-sm">Agriculture</h5>
+															<h3 className="h3-font my-3">Agriculture</h3>
 															<p className="p-lg">Tag, track, and instantaneously authenticate agrochemical products</p>
 														</div>
 													</Link>
@@ -167,7 +167,7 @@ export default function Home() {
 															<img src="/images/industries/wheel-100.png" alt="ico-bkg" />
 														</div>
 														<div className="fbox-txt-center">
-															<h5 className="h5-sm">Auto Parts</h5>
+															<h3 className="h3-font my-3">Auto Parts</h3>
 															<p className="p-lg">Protect your automotive brand and your customers from counterfeit automotive parts</p>
 														</div>
 													</Link>
@@ -187,7 +187,7 @@ export default function Home() {
 															<img src="/images/industries/medicines-100.png" alt="ico-bkg" />
 														</div>
 														<div className="fbox-txt-center">
-															<h5 className="h5-sm">Pharmaceuticals</h5>
+															<h3 className="h3-font my-3">Pharmaceuticals</h3>
 															<p className="p-lg">
 																Smart packaging for Pharmaceuticals brands opens a new channel to engage, protect and build trust with your customers.
 															</p>
@@ -209,7 +209,7 @@ export default function Home() {
 															<img src="/images/industries/cannabis-100.png" alt="ico-bkg" />
 														</div>
 														<div className="fbox-txt-center">
-															<h5 className="h5-sm">Cannabis</h5>
+															<h3 className="h3-font my-3">Cannabis</h3>
 															<p className="p-lg">
 																Smart packaging for Cannabis brands opens a new channel to engage, protect, and build trust with your customers.
 															</p>
@@ -231,7 +231,7 @@ export default function Home() {
 															<img src="/images/industries/diploma-100.png" alt="ico-bkg" />
 														</div>
 														<div className="fbox-txt-center">
-															<h5 className="h5-sm">Document Security</h5>
+															<h3 className="h3-font my-3">Document Security</h3>
 															<p className="p-lg">Providing document security solutions for simple to complex requirements.</p>
 														</div>
 													</Link>
@@ -250,7 +250,7 @@ export default function Home() {
 															<img src="/images/industries/t-shirt-100.png" alt="ico-bkg" />
 														</div>
 														<div className="fbox-txt-center">
-															<h5 className="h5-sm">Clothing and footwear</h5>
+															<h3 className="h3-font my-3">Clothing and footwear</h3>
 
 															<p className="p-lg">
 																Smart packaging for clothing brands opens a new channel to engage, protect, and build trust with your customers.
@@ -352,7 +352,7 @@ export default function Home() {
 											{/* QUESTION #1 */}
 											<div className="question wow fadeInUp">
 												{/* Question */}
-												<h5 className="h5-md">Can I see Signet in action before purchasing?</h5>
+												<h3 className="h3-font mb-3">Can I see Signet in action before purchasing?</h3>
 												{/* Answer */}
 												<p className="p-lg">
 													Yes, you can get a free Authenticity Tags Kit to experience the technology yourself before you decide to scale.
@@ -361,14 +361,14 @@ export default function Home() {
 											{/* QUESTION #2 */}
 											<div className="question wow fadeInUp">
 												{/* Question */}
-												<h5 className="h5-md">What are the requirements for using Signet?</h5>
+												<h3 className="h3-font mb-3">What are the requirements for using Signet?</h3>
 												{/* Answer */}
 												<p className="p-lg">There are no specific requirements to add brand authentication.</p>
 											</div>
 											{/* QUESTION #3 */}
 											<div className="question wow fadeInUp">
 												{/* Question */}
-												<h5 className="h5-md">Can I use Signet on different devices?</h5>
+												<h3 className="h3-font mb-3">Can I use Signet on different devices?</h3>
 												{/* Answer */}
 												<ul className="simple-list">
 													<li className="list-item">
@@ -388,21 +388,21 @@ export default function Home() {
 											{/* QUESTION #4 */}
 											<div className="question wow fadeInUp">
 												{/* Question */}
-												<h5 className="h5-md">Do you have a free trial?</h5>
+												<h3 className="h3-font mb-3">Do you have a free trial?</h3>
 												{/* Answer */}
 												<p className="p-lg">Yes, we offer a 30 day free trial on our starter kit.</p>
 											</div>
 											{/* QUESTION #5 */}
 											<div className="question wow fadeInUp">
 												{/* Question */}
-												<h5 className="h5-md">How does Signet handle my privacy?</h5>
+												<h3 className="h3-font mb-3">How does Signet handle my privacy?</h3>
 												{/* Answer */}
 												<p className="p-lg">Signet is designed with privacy first approach. We comply with GDPR, CCPA and LGPD privacy laws.</p>
 											</div>
 											{/* QUESTION #6 */}
 											<div className="question wow fadeInUp">
 												{/* Question */}
-												<h5 className="h5-md">Can I integrate Signet with my existing software?</h5>
+												<h3 className="h3-font mb-3">Can I integrate Signet with my existing software?</h3>
 												{/* Answer */}
 												<ul className="simple-list">
 													<p className="p-lg">
@@ -421,10 +421,10 @@ export default function Home() {
 							<div className="row">
 								<div className="col">
 									<div className="more-questions">
-										<h5 className="h5-sm">
+										<h3 className="h3-font my-3">
 											Have more questions?
 											<Link href={'/contact'}>Ask your question here</Link>
-										</h5>
+										</h3>
 									</div>
 								</div>
 							</div>
