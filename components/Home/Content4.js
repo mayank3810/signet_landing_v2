@@ -38,8 +38,10 @@ function Content4() {
 						{/* IMAGE BLOCK */}
 						<div className="col-md-5 col-lg-6">
 							<div
-								className={init ? 'rel img-block left-column animate__animated animate__slideInUp' : 'rel img-block left-column animate__animated'}
-								style={{ animationDuration: '1.75s' }}
+								className={`duration-1.75 ${
+									init ? 'rel img-block left-column animate__animated animate__slideInUp' : 'rel img-block left-column animate__animated'
+								}`}
+								// style={{ animationDuration: '1.75s' }}
 							>
 								<img className="img-fluid" src="/images/digital-experience.jpg" alt="content-image" />
 							</div>
@@ -47,12 +49,12 @@ function Content4() {
 						{/* TEXT BLOCK */}
 						<div className="col-md-7 col-lg-6">
 							<div
-								className={
+								className={`duration-1.75 ${
 									init
 										? 'txt-block right-column left-column animate__animated animate__slideInUp'
 										: 'txt-block right-column left-column animate__animated'
-								}
-								style={{ animationDuration: '1.75s' }}
+								}`}
+								// style={{ animationDuration: '1.75s' }}
 							>
 								{/* TEXT BOX */}
 								<div className="txt-box mb-20">

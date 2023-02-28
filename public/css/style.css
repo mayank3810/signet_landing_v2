@@ -8661,3 +8661,30 @@ input.checkbox-input {
 		font-size: 1.0625rem;
 	}
 }
+
+.h-100vh {
+	height: 100vh;
+}
+
+.fadeInUp-visible {
+	visibility: visible;
+	animation-name: fadeInUp;
+}
+.rounded-20px {
+	border-radius: 20px;
+}
+.duration-1.75 {
+	animation-duration: '1.75s';
+}
+
+.duration-0.75 {
+	animation-delay: '0.75s';
+}
+
+.duration-1.5 {
+	animation-duration: '1.5s';
+}
+
+.duration-1 {
+	animationduration: '1s';
+}

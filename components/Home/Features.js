@@ -24,8 +24,8 @@ function Features() {
 						{/* FEATURE BOX #1 */}
 						<div className="col">
 							<div
-								className={init ? 'fbox-2 mb-40 animate__animated animate__fadeInUp' : 'fbox-2 mb-40 animate__animated'}
-								style={{ animationDuration: '1.75s' }}
+								className={`duration-1.75 ${init ? 'fbox-2 mb-40 animate__animated animate__fadeInUp' : 'fbox-2 mb-40 animate__animated'}`}
+								// style={{ animationDuration: '1.75s' }}
 							>
 								{/* Icon */}
 								<div className="fbox-ico-center ico-65 shape-ico dark-color">
@@ -48,8 +48,8 @@ function Features() {
 						{/* FEATURE BOX #2 */}
 						<div className="col">
 							<div
-								className={init ? 'fbox-2 mb-40 animate__animated animate__fadeInUp' : 'fbox-2 mb-40 animate__animated'}
-								style={{ animationDuration: '1.75s' }}
+								className={`duration-1.75 ${init ? 'fbox-2 mb-40 animate__animated animate__fadeInUp' : 'fbox-2 mb-40 animate__animated'}`}
+								// style={{ animationDuration: '1.75s' }}
 							>
 								{/* Icon */}
 								<div className="fbox-ico-center ico-65 shape-ico dark-color">
@@ -70,8 +70,8 @@ function Features() {
 						{/* FEATURE BOX #3 */}
 						<div className="col">
 							<div
-								className={init ? 'fbox-2 mb-40 animate__animated animate__fadeInUp' : 'fbox-2 mb-40 animate__animated'}
-								style={{ animationDuration: '1.75s' }}
+								className={`duration-1.75 ${init ? 'fbox-2 mb-40 animate__animated animate__fadeInUp' : 'fbox-2 mb-40 animate__animated'}`}
+								// style={{ animationDuration: '1.75s' }}
 							>
 								{/* Icon */}
 								<div className="fbox-ico-center ico-65 shape-ico dark-color">

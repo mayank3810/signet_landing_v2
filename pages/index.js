@@ -46,10 +46,10 @@ export default function Home() {
 					{/* <!-- Open Graph / Facebook --> */}
 					<meta property="og:type" content="website" />
 					<meta property="og:url" content="Meta Tags — Preview, Edit and Generate" />
-					<meta property="og:title" content="Signet Tags - Blockchain-based authenticity and Brand protection solution" />
+					<meta property="og:title" content="Signet Tags - Blockchain-Based Brand Protection Solution" />
 					<meta
 						property="og:description"
-						content="Signet tags link your products with blockchain-proven ownership. The blockchain solution ensures authenticity and increases customer engagement. "
+						content="Signet tags link products to blockchain for proven ownership, authenticity, and increased customer engagement."
 					/>
 					<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 
@@ -96,13 +96,7 @@ export default function Home() {
 									<div className="fbox-1-wrapper text-center">
 										<div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
 											<div className="col">
-												<div
-													className="fbox-1 mb-40 wow fadeInUp"
-													style={{
-														visibility: 'visible',
-														animationName: 'fadeInUp',
-													}}
-												>
+												<div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
 													<Link href={'/industries/cosmetics-and-perfumes'}>
 														<div className="fbox-ico-center ico-60">
 															<img src="/images/industries/perfume-bottle-100.png" alt="ico-bkg" />
@@ -115,13 +109,7 @@ export default function Home() {
 												</div>
 											</div>
 											<div className="col">
-												<div
-													className="fbox-1 mb-40 wow fadeInUp"
-													style={{
-														visibility: 'visible',
-														animationName: 'fadeInUp',
-													}}
-												>
+												<div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
 													<Link href={'/industries/food-and-beverages'}>
 														<div className="fbox-ico-center ico-60">
 															<img src="/images/industries/wine-bottle-100.png" alt="ico-bkg" />
@@ -135,13 +123,7 @@ export default function Home() {
 											</div>
 
 											<div className="col">
-												<div
-													className="fbox-1 mb-40 wow fadeInUp"
-													style={{
-														visibility: 'visible',
-														animationName: 'fadeInUp',
-													}}
-												>
+												<div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
 													<Link href={'/industries/agriculture'}>
 														<div className="fbox-ico-center ico-60">
 															<img src="/images/industries/pesticide-100.png" alt="ico-bkg" />
@@ -155,13 +137,7 @@ export default function Home() {
 											</div>
 
 											<div className="col">
-												<div
-													className="fbox-1 mb-40 wow fadeInUp"
-													style={{
-														visibility: 'visible',
-														animationName: 'fadeInUp',
-													}}
-												>
+												<div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
 													<Link href={'/industries/auto-parts'}>
 														<div className="fbox-ico-center ico-60">
 															<img src="/images/industries/wheel-100.png" alt="ico-bkg" />
@@ -175,13 +151,7 @@ export default function Home() {
 											</div>
 
 											<div className="col">
-												<div
-													className="fbox-1 mb-40 wow fadeInUp"
-													style={{
-														visibility: 'visible',
-														animationName: 'fadeInUp',
-													}}
-												>
+												<div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
 													<Link href={'/industries/pharmaceuticals'}>
 														<div className="fbox-ico-center ico-60">
 															<img src="/images/industries/medicines-100.png" alt="ico-bkg" />
@@ -197,13 +167,7 @@ export default function Home() {
 											</div>
 
 											<div className="col">
-												<div
-													className="fbox-1 mb-40 wow fadeInUp"
-													style={{
-														visibility: 'visible',
-														animationName: 'fadeInUp',
-													}}
-												>
+												<div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
 													<Link href={'/industries/cannabis'}>
 														<div className="fbox-ico-center ico-60">
 															<img src="/images/industries/cannabis-100.png" alt="ico-bkg" />
@@ -219,13 +183,7 @@ export default function Home() {
 											</div>
 
 											<div className="col">
-												<div
-													className="fbox-1 mb-40 wow fadeInUp"
-													style={{
-														visibility: 'visible',
-														animationName: 'fadeInUp',
-													}}
-												>
+												<div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
 													<Link href={'/industries/document-security'}>
 														<div className="fbox-ico-center ico-60">
 															<img src="/images/industries/diploma-100.png" alt="ico-bkg" />
@@ -238,13 +196,7 @@ export default function Home() {
 												</div>
 											</div>
 											<div className="col">
-												<div
-													className="fbox-1 mb-40 wow fadeInUp"
-													style={{
-														visibility: 'visible',
-														animationName: 'fadeInUp',
-													}}
-												>
+												<div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
 													<Link href={'/industries/clothing-and-footwear'}>
 														<div className="fbox-ico-center ico-60">
 															<img src="/images/industries/t-shirt-100.png" alt="ico-bkg" />
@@ -313,7 +265,8 @@ export default function Home() {
 								<div className="col">
 									<div className="content-9-img video-preview wow fadeInUp">
 										<iframe
-											style={{ borderRadius: '20px' }}
+											// style={{ borderRadius: '20px' }}
+											className="rounded-20px"
 											width="860"
 											height="515"
 											src="https://www.youtube.com/embed/YQUjE2koNRI"

@@ -25,8 +25,8 @@ function Content3() {
 							<div className="txt-block left-column">
 								{/* CONTENT BOX #1 */}
 								<div
-									className={init ? 'cbox mb-40 animate__animated animate__fadeInLeft' : 'cbox mb-40 animate__animated'}
-									style={{ animationDuration: '1s' }}
+									className={`duration-1 ${init ? 'cbox mb-40 animate__animated animate__fadeInLeft' : 'cbox mb-40 animate__animated'}`}
+									// style={{ animationDuration: '1s' }}
 								>
 									{/* Icon */}
 									<div className="cbox-ico">
@@ -44,8 +44,8 @@ function Content3() {
 								</div>
 								{/* CONTENT BOX #2 */}
 								<div
-									className={init ? 'cbox mb-40 animate__animated animate__fadeInLeft' : 'cbox mb-40 animate__animated'}
-									style={{ animationDuration: '1.5s' }}
+									className={`duration-1.5 ${init ? 'cbox mb-40 animate__animated animate__fadeInLeft' : 'cbox mb-40 animate__animated'}`}
+									// style={{ animationDuration: '1.5s' }}
 								>
 									{/* Icon */}
 									<div className="cbox-ico">
@@ -63,8 +63,8 @@ function Content3() {
 								</div>
 								{/* CONTENT BOX #3 */}
 								<div
-									className={init ? 'cbox mb-40 animate__animated animate__fadeInLeft' : 'cbox mb-40 animate__animated'}
-									style={{ animationDuration: '1.75s' }}
+									className={`duration-1.75 ${init ? 'cbox mb-40 animate__animated animate__fadeInLeft' : 'cbox mb-40 animate__animated'}`}
+									// style={{ animationDuration: '1.75s' }}
 								>
 									{/* Icon */}
 									<div className="cbox-ico">
@@ -86,8 +86,10 @@ function Content3() {
 						{/* IMAGE BLOCK */}
 						<div className="col-md-5 col-lg-6">
 							<div
-								className={init ? 'img-block right-column animate__animated animate__fadeIn' : 'img-block right-column animate__animated'}
-								style={{ animationDelay: '0.75s' }}
+								className={`duration-0.75 ${
+									init ? 'img-block right-column animate__animated animate__fadeIn' : 'img-block right-column animate__animated'
+								}`}
+								// style={{ animationDelay: '0.75s' }}
 							>
 								<img className="img-fluid" src="/images/nfc-blockchain.jpg" alt="content-image" />
 							</div>
