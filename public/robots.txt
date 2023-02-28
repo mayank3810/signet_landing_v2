@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.signettags.com
+
+# Sitemaps
+Sitemap: https://www.signettags.com/sitemap.xml
