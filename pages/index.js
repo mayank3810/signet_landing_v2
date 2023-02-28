@@ -1,5 +1,5 @@
 import Footer from "@/components/Footer";
-import { Head } from "next/document";
+import { Head } from "next/head";
 import Header from "@/components/Header";
 import Content2 from "@/components/Home/Content2";
 import Content3 from "@/components/Home/Content3";
