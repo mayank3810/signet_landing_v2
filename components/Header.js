@@ -84,7 +84,7 @@ function Header({ scroll }) {
 									</Link>
 								</li>
 								<li>
-									<a className={activeRoute === 'industries' ? 'active-link' : ''}>
+									<a href="#" className={activeRoute === 'industries' ? 'active-link' : ''}>
 										Industries <span className="wsarrow" />
 									</a>
 									<ul className="sub-menu">

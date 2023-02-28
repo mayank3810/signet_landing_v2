@@ -28,9 +28,9 @@ function Hero() {
 									<a href="#cta-3" className="btn btn-yellow tra-yellow-hover color-white mr-15">
 										Get Started
 									</a>
-									<a onClick={() => setOpen(!open)} className="video-popup2 btn btn-md btn-transparent ico-20 ico-left">
+									<div onClick={() => setOpen(!open)} className="video-popup2 btn btn-md btn-transparent ico-20 ico-left">
 										<span className="flaticon-play" /> See Signet in Action
-									</a>
+									</div>
 								</div>
 							</div>
 						</div>
