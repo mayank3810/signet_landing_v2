@@ -18,8 +18,11 @@ function PrivacyPolicy() {
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="Meta Tags — Preview, Edit and Generate" />
-				<meta property="og:title" content="Signet Tags - Blockchain-Based Brand Protection Solution" />
-				<meta property="og:description" content="Signet tags link products to blockchain for ownership and authenticity." />
+				<meta name="og:title" content="Privacy Policy - Signet Tags" />
+				<meta
+					name="og:description"
+					content="Read our Privacy Policy to learn how we handle your personal information. Last updated on Feb 04, 2023."
+				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 
 				{/* <!-- Twitter --> */}

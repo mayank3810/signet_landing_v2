@@ -33,8 +33,11 @@ function Pricing() {
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="Meta Tags — Preview, Edit and Generate" />
-				<meta property="og:title" content="Signet Tags - Blockchain-Based Brand Protection Solution" />
-				<meta property="og:description" content="Signet tags link products to blockchain for ownership and authenticity." />
+				<meta name="og:title" content="Signet Pricing - Choose the Right Plan" />
+				<meta
+					name="og:description"
+					content="Explore Signet's pricing packages & choose the right plan for your business. Get started with a free trial & enjoy advanced features & VIP support."
+				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 
 				{/* <!-- Twitter --> */}

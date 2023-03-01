@@ -26,8 +26,11 @@ function RequestDemo() {
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="Meta Tags — Preview, Edit and Generate" />
-				<meta property="og:title" content="Signet Tags - Blockchain-Based Brand Protection Solution" />
-				<meta property="og:description" content="Signet tags link products to blockchain for ownership and authenticity." />
+				<meta name="og:title" content="Schedule a Demo or Request a Free Trial | Signet Tags" />
+				<meta
+					name="og:description"
+					content="Learn more about our products and services with a demo or request a free trial to experience our solutions firsthand. Book a meeting with our team today."
+				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 
 				{/* <!-- Twitter --> */}

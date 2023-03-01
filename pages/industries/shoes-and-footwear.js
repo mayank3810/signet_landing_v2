@@ -17,7 +17,7 @@ function ShoesAndFootwear() {
 			<Head>
 				<title>Signet Tags - NFC Tag Authentication for Shoes and Footwear</title>
 				<link rel="canonical" href="https://www.signettags.com/industries/shoes-and-footwear" key="canonical" />
-				<meta name="title" content="Signet Tags - NFC Tag Authentication for Shoes and Footwear" />
+				<meta name="title" content="NFC Tag Authentication for Shoes and Footwear with Signet Tags" />
 				<meta
 					name="description"
 					content="Signet Tags offers NFC tag authentication for shoes and footwear, protecting against counterfeiting and allowing customers to track product history and authenticity with ease."
@@ -33,8 +33,8 @@ function ShoesAndFootwear() {
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="Meta Tags — Preview, Edit and Generate" />
-				<meta property="og:title" content="Signet Tags - Blockchain-Based Brand Protection Solution" />
-				<meta property="og:description" content="Signet tags link products to blockchain for ownership and authenticity." />
+				<meta property="og:title" content="NFC Tag Authentication for Shoes and Footwear with Signet Tags" />
+				<meta property="og:description" content="Secure your footwear with Signet Tags' NFC authentication against counterfeiting" />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 
 				{/* <!-- Twitter --> */}

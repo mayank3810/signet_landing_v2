@@ -27,8 +27,11 @@ function Patent() {
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="Meta Tags — Preview, Edit and Generate" />
-				<meta property="og:title" content="Signet Tags - Blockchain-Based Brand Protection Solution" />
-				<meta property="og:description" content="Signet tags link products to blockchain for ownership and authenticity." />
+				<meta name="og:title" content="New Anti-Counterfeit System Patent Status" />
+				<meta
+					name="og:description"
+					content="Check the patent status of a new anti-counterfeit system. Filed on 08/11/2022, it uses non-fungible tokens and near-field communication for authentication."
+				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 
 				{/* <!-- Twitter --> */}

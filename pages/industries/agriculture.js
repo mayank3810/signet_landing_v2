@@ -33,8 +33,11 @@ function Agriculture() {
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="Meta Tags — Preview, Edit and Generate" />
-				<meta property="og:title" content="Signet Tags - Blockchain-Based Brand Protection Solution" />
-				<meta property="og:description" content="Signet tags link products to blockchain for ownership and authenticity." />
+				<meta property="og:title" content="Traceability Solution for Agriculture Industry with Signet Tags" />
+				<meta
+					property="og:description"
+					content="Ensure product authenticity and traceability in agriculture with Signet Tags' blockchain solution."
+				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 
 				{/* <!-- Twitter --> */}

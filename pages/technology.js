@@ -27,8 +27,11 @@ function Technology() {
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="Meta Tags — Preview, Edit and Generate" />
-				<meta property="og:title" content="Signet Tags - Blockchain-Based Brand Protection Solution" />
-				<meta property="og:description" content="Signet tags link products to blockchain for ownership and authenticity." />
+				<meta name="og:title" content="Authenticity Guaranteed | Signet Tags" />
+				<meta
+					name="og:description"
+					content="Secure product verification and authentication using NFC tags, NFTs, and blockchain technology. Protect your products and gain valuable business intelligence."
+				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 
 				{/* <!-- Twitter --> */}

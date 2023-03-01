@@ -14,7 +14,7 @@ function FoodAndBeverages() {
 			<Head>
 				<title>Signet Tags - Food and Beverages</title>
 				<link rel="canonical" href="https://www.signettags.com/industries/food-and-beverages" key="canonical" />
-				<meta name="title" content="Signet Tags | Protect & Engage Your Consumers | Food and Beverages" />
+				<meta name="title" content="Protect your Food and Beverages & Engage Your Consumers Signet Tags" />
 				<meta
 					name="description"
 					content="Protect your food and beverage products from fraudulent refilling and counterfeiting using Signet Tags. Get valuable marketing insights and connect with your customers through secure physical-digital seals and tamper-proof technology."
@@ -30,8 +30,11 @@ function FoodAndBeverages() {
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="Meta Tags — Preview, Edit and Generate" />
-				<meta property="og:title" content="Signet Tags - Blockchain-Based Brand Protection Solution" />
-				<meta property="og:description" content="Signet tags link products to blockchain for ownership and authenticity." />
+				<meta property="og:title" content="Protect your Food and Beverages & Engage Your Consumers Signet Tags" />
+				<meta
+					property="og:description"
+					content=" Protect your food and beverages with Signet Tags' tamper-proof technology. Engage customers with secure physical-digital seals and gain valuable marketing insights."
+				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 
 				{/* <!-- Twitter --> */}

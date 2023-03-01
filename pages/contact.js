@@ -76,8 +76,11 @@ function Contact() {
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="Meta Tags — Preview, Edit and Generate" />
-				<meta property="og:title" content="Signet Tags - Blockchain-Based Brand Protection Solution" />
-				<meta property="og:description" content="Signet tags link products to blockchain for ownership and authenticity." />
+				<meta property="og:title" content="Contact Signet Tags for Suppor" />
+				<meta
+					property="og:description"
+					content="Get in touch with Signet Tags for any assistance or inquiries you have. Our team is here to help you with any questions or concerns you may have."
+				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 
 				{/* <!-- Twitter --> */}

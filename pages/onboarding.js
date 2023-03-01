@@ -32,8 +32,11 @@ function Onboarding() {
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="Meta Tags — Preview, Edit and Generate" />
-				<meta property="og:title" content="Signet Tags - Blockchain-Based Brand Protection Solution" />
-				<meta property="og:description" content="Signet tags link products to blockchain for ownership and authenticity." />
+				<meta property="og:title" content="Get Started For Free with Signet Tags - Tag, Track, and Authenticate Your Products" />
+				<meta
+					property="og:description"
+					content="Signet Tags is the best solution to tag, track, and authenticate your products. Sign up for our 100% risk-free trial and get access to all features. Pay nothing for the first 30 days and cancel at any time during your trial."
+				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 
 				{/* <!-- Twitter --> */}
