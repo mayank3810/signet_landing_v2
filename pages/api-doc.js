@@ -7,6 +7,7 @@ function ApiDoc() {
 		<>
 			<Head>
 				<title>Signet Tags - API Documentation and Resources</title>
+				<link rel="canonical" href="https://www.signettags.com/api-doc" key="canonical" />
 				<meta name="title" content="Signet Tags - API Documentation and Resources" />
 				<meta
 					name="description"

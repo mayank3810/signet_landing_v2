@@ -16,6 +16,7 @@ function ApparelAndClothing() {
 		<>
 			<Head>
 				<title>Signet Tags - NFC Tag Authentication for Clothing and Footwear</title>
+				<link rel="canonical" href="https://www.signettags.com/industries/clothing-and-footwear" key="canonical" />
 				<meta name="title" content="Signet Tags - NFC Tag Authentication for Clothing and Footwear" />
 				<meta
 					name="description"

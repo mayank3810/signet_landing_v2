@@ -16,6 +16,7 @@ function DocumentSecurity() {
 		<>
 			<Head>
 				<title>Signet Tags - Document Security Solutions</title>
+				<link rel="canonical" href="https://www.signettags.com/industries/document-security" key="canonical" />
 				<meta name="title" content="Protect Your Certificates and Documents with Signet Tags" />
 				<meta
 					name="description"

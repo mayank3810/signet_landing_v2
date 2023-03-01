@@ -10,6 +10,7 @@ function Technology() {
 		<>
 			<Head>
 				<title>Signet Tags - Technology for Authentic Product Verification</title>
+				<link rel="canonical" href="https://www.signettags.com/technology" key="canonical" />
 				<meta name="title" content="Authenticity Guaranteed - Secure Product Verification with Signet Tags" />
 				<meta
 					name="description"

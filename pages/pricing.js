@@ -19,6 +19,7 @@ function Pricing() {
 		<>
 			<Head>
 				<title>Signet Pricing - Choose the Right Plan for Your Business</title>
+				<link rel="canonical" href="https://www.signettags.com/pricing" key="canonical" />
 				<meta name="title" content="Signet Pricing - Choose the Right Plan for Your Business" />
 				<meta
 					name="description"

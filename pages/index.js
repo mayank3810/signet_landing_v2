@@ -31,7 +31,7 @@ export default function Home() {
 		<>
 			<Head>
 				<title>Signet Tags: Blockchain-Based Brand Protection Solution</title>
-				<link rel="canonical" href="https://www.signettags.com/" key="canonical" />
+				<link rel="canonical" href="https://www.signettags.com" key="canonical" />
 				<meta name="title" content="Signet Tags - Blockchain-based authenticity and Brand protection solution" />
 				<meta
 					name="description"

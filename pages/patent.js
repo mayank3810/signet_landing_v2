@@ -7,6 +7,7 @@ function Patent() {
 		<>
 			<Head>
 				<title>Signet Tags - Patent Status | Anti-Counterfeit with NFT/NFC</title>
+				<link rel="canonical" href="https://www.signettags.com/patent" key="canonical" />
 				<meta
 					name="title"
 					content="System and Method for Anti-Counterfeit Authentication Using a Combination of Non-Fungible Token and Near-Field Communication"

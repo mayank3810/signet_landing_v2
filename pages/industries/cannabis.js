@@ -16,6 +16,7 @@ function Cannabis() {
 		<>
 			<Head>
 				<title>Signet Tags - NFC Tag Authentication for Cannabis</title>
+				<link rel="canonical" href="https://www.signettags.com/industries/cannabis" key="canonical" />
 				<meta name="title" content="Signet Tags - NFC Tag Authentication for Cannabis" />
 				<meta
 					name="description"

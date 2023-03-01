@@ -15,6 +15,7 @@ function Onboarding() {
 		<>
 			<Head>
 				<title>Signet Tags - Onboarding Process Overview</title>
+				<link rel="canonical" href="https://www.signettags.com/onboarding" key="canonical" />
 				<meta name="title" content="Get Started For Free with Signet Tags - Tag, Track, and Authenticate Your Products" />
 				<meta
 					name="description"

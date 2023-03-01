@@ -9,6 +9,7 @@ function RequestDemo() {
 		<>
 			<Head>
 				<title>Signet Tags - Request a Demo | Schedule a Meeting</title>
+				<link rel="canonical" href="https://www.signettags.com/request-demo" key="canonical" />
 				<meta name="title" content="Schedule a Demo | Book a Meeting | Request a Free Trial" />
 				<meta
 					name="description"

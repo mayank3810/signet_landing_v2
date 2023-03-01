@@ -7,6 +7,7 @@ function PrivacyPolicy() {
 		<>
 			<Head>
 				<title>Signet Tags - Privacy Policy and Data Protection Measures</title>
+				<link rel="canonical" href="https://www.signettags.com/privacy-policy" key="canonical" />
 				<meta name="title" content="Privacy Policy - Last Modified: February 04, 2023" />
 				<meta name="description" content="Our Privacy Policy explains how we collect, use, share, and protect your personal information." />
 				<meta name="keywords" content="Signet Tags, privacy policy, personal information, data processing, prohibited conduct, account security." />

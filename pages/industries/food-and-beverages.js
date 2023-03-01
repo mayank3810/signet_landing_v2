@@ -13,6 +13,7 @@ function FoodAndBeverages() {
 		<>
 			<Head>
 				<title>Signet Tags - Food and Beverages</title>
+				<link rel="canonical" href="https://www.signettags.com/industries/food-and-beverages" key="canonical" />
 				<meta name="title" content="Signet Tags | Protect & Engage Your Consumers | Food and Beverages" />
 				<meta
 					name="description"

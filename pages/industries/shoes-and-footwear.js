@@ -16,6 +16,7 @@ function ShoesAndFootwear() {
 		<>
 			<Head>
 				<title>Signet Tags - NFC Tag Authentication for Shoes and Footwear</title>
+				<link rel="canonical" href="https://www.signettags.com/industries/shoes-and-footwear" key="canonical" />
 				<meta name="title" content="Signet Tags - NFC Tag Authentication for Shoes and Footwear" />
 				<meta
 					name="description"

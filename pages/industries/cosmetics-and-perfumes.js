@@ -17,6 +17,7 @@ function CosmeticsAndPerfumes() {
 		<>
 			<Head>
 				<title>Signet Tags - NFC Tag Authentication for Cosmetics and Perfumes</title>
+				<link rel="canonical" href="https://www.signettags.com/industries/cosmetics-and-perfumes" key="canonical" />
 				<meta name="title" content="Signet Tags - NFC Tag Authentication for Shoes and Footwear" />
 				<meta
 					name="description"

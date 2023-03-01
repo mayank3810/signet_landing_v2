@@ -16,6 +16,7 @@ function Pharmaceuticals() {
 		<>
 			<Head>
 				<title>Signet Tags - Secure NFC Tag Solutions for Pharmaceuticals</title>
+				<link rel="canonical" href="https://www.signettags.com/industries/pharmaceuticals" key="canonical" />
 				<meta name="title" content="Anti-Counterfeit & Traceability Solutions for Pharmaceuticals | Signet Tags" />
 				<meta
 					name="description"

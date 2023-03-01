@@ -16,7 +16,8 @@ function Agriculture() {
 		<>
 			<Head>
 				<title>Signet Tags - Traceability Solution for Agriculture Industry</title>
-				<meta name="title" content="Traceability Solution for Agriculture Industry | Signet Tags" />
+				<link rel="canonical" href="https://www.signettags.com/industries/agriculture" key="canonical" />
+				<meta name="title" content="Traceability Solution for Agriculture Industry with Signet Tags" />
 				<meta
 					name="description"
 					content="Signet Tags provides a traceability solution for the agriculture industry to tag, track, and authenticate agrochemical products. Our NFC tag leverages encrypted tamper-proof blockchain technology to ensure product integrity and authenticity, and our app provides farmers with instant access to product characteristics. Protect your brand and customers from counterfeit products with Signet Tags."

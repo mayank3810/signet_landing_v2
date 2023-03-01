@@ -13,6 +13,7 @@ function AutoParts() {
 		<>
 			<Head>
 				<title>Signet Tags - Anti-Counterfeit Protection for Auto Parts</title>
+				<link rel="canonical" href="https://www.signettags.com/industries/auto-parts" key="canonical" />
 				<meta name="title" content="Secure Your Auto Parts Against Fraud with Signet Tags" />
 				<meta
 					name="description"
