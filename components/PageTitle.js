@@ -1,31 +1,25 @@
-import React from "react";
+import React from 'react';
 
 function PageTitle({ image, title, subtitle }) {
-  return (
-    <div
-      style={{ backgroundImage: "url(" + image + ")" }}
-      id="download-page"
-      className="page-hero-section division"
-    >
-      <div className="page-hero-overlay division">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10 col-xl-8">
-              <div className="hero-txt text-center white-color">
-                {/* Title */}
-                <h2 className="h2-xs">{title}</h2>
-                {/* Text */}
-                <p className="p-xl">{subtitle}</p>
-              </div>
-            </div>
-          </div>{" "}
-          {/* End row */}
-        </div>{" "}
-        {/* End container */}
-      </div>{" "}
-
-
-      {/* <div className="wave-shape-bottom">
+	return (
+		<div style={{ backgroundImage: 'url(' + image + ')' }} id="download-page" className="page-hero-section division">
+			<div className="page-hero-overlay division">
+				<div className="container">
+					<div className="row justify-content-center">
+						<div className="col-lg-10 col-xl-8">
+							<div className="hero-txt text-center white-color">
+								{/* Title */}
+								<h1 className="h1-md white-color">{title}</h1>
+								{/* Text */}
+								<p className="p-xl">{subtitle}</p>
+							</div>
+						</div>
+					</div>{' '}
+					{/* End row */}
+				</div>{' '}
+				{/* End container */}
+			</div>{' '}
+			{/* <div className="wave-shape-bottom">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80">
           <path
             fill="#ffffff"
@@ -34,10 +28,8 @@ function PageTitle({ image, title, subtitle }) {
           />
         </svg>
       </div> */}
-
-      
-    </div>
-  );
+		</div>
+	);
 }
 
 export default PageTitle;
