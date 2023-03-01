@@ -42,7 +42,7 @@ function PrivacyPolicy() {
 							{/* TERMS TITLE */}
 							<div className="terms-title text-center">
 								{/* Title */}
-								<h2 className="h2-md">Our Privacy Policy</h2>
+								<h1 className="h1-md">Our Privacy Policy</h1>
 								{/* Text */}
 								<p className="p-xl grey-color">Last Modified: February 04, 2023</p>
 							</div>

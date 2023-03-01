@@ -50,7 +50,7 @@ function Technology() {
 								<div className="col-12">
 									<div className="about-2-title">
 										{/* Title */}
-										<h2 className="h2-xl">Technology that guarantees product authenticity</h2>
+										<h1 className="h1-md">Technology that guarantees product authenticity</h1>
 										{/* Text */}
 										<p className="p-xl">
 											Pair your physical products, assets & collectibles with NFTs minted on the blockchain, Signet tags digital links & secure

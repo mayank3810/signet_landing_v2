@@ -64,7 +64,7 @@ function BlogDetail(props) {
 							<div className="single-post-wrapper">
 								<div className="single-post-title">
 									<p className="p-sm post-tag txt-500 txt-upcase">{post?.data?.postType.iv + ' | ' + getParsedDate(post.created)}</p>
-									<h2 className="h2-md">{post?.data?.title.iv}</h2>
+									<h1 className="h1-md">{post?.data?.title.iv}</h1>
 									<div className="post-inner-img">
 										<img
 											className="img-fluid"

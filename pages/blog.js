@@ -67,7 +67,7 @@ function Blog(props) {
 					<div className="row justify-content-center">
 						<div className="col-md-10 col-lg-8">
 							<div className="section-title title-02 mb-85">
-								<h2 className="h2-xs">Relevant news and more for you. Welcome to our blog</h2>
+								<h1 className="h1-md">Relevant news and more for you. Welcome to our blog</h1>
 							</div>
 						</div>
 					</div>

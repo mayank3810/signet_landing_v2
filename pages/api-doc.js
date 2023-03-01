@@ -42,7 +42,7 @@ function ApiDoc() {
 						<div className="col-md-12 col-lg-10">
 							<div className="about-2-title">
 								{/* Title */}
-								<h2 className="h2-xl">APIs and Resources</h2>
+								<h1 className="h1-md">APIs and Resources</h1>
 								{/* Text */}
 								<p className="p-xl">
 									Quaerat sodales sapien euismod blandit at vitae ipsum primis undo and cubilia laoreet augue and luctus magna dolor luctus at egestas
