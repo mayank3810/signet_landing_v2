@@ -14,7 +14,7 @@ function Onboarding() {
 	return (
 		<>
 			<Head>
-				<title>Signet Tags - Onboarding</title>
+				<title>Signet Tags - Onboarding Process Overview</title>
 				<meta name="title" content="Get Started For Free with Signet Tags - Tag, Track, and Authenticate Your Products" />
 				<meta
 					name="description"

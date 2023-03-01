@@ -62,11 +62,14 @@ function ApiDoc() {
 										<span className="release-date">
 											2021-06-22 <span>52.84 MB</span>
 										</span>
-										<a
+										{/* <a
 											href="download/example.zip"
 											download="example.zip"
 											className="btn btn-yellow tra-yellow-hover ico-15 ico-left release-download"
 										>
+											<span className="flaticon-down-arrow" /> Download 2.10.074
+										</a> */}
+										<a href="#" className="btn btn-yellow tra-yellow-hover ico-15 ico-left release-download">
 											<span className="flaticon-down-arrow" /> Download 2.10.074
 										</a>
 									</div>
@@ -110,7 +113,10 @@ function ApiDoc() {
 										<span className="release-date">
 											2021-05-18 <span>44.12 MB</span>
 										</span>
-										<a href="download/example.zip" download="example.zip" className="btn btn-tra-grey yellow-hover ico-15 ico-left release-download">
+										{/* <a href="download/example.zip" download="example.zip" className="btn btn-tra-grey yellow-hover ico-15 ico-left release-download">
+											<span className="flaticon-down-arrow" /> Download 2.10.020
+										</a> */}
+										<a href="#" className="btn btn-tra-grey yellow-hover ico-15 ico-left release-download">
 											<span className="flaticon-down-arrow" /> Download 2.10.020
 										</a>
 									</div>

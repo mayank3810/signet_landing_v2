@@ -31,13 +31,10 @@ function BlogDetail(props) {
 	return (
 		<>
 			<Head>
-				<title>Signet Tags - {post?.data?.title.iv}</title>
-				<meta name="title" content="Stay Updated with Signet Blog for Relevant News and More" />
-				<meta
-					name="description"
-					content="Keep yourself informed and updated with our blog, featuring relevant news and valuable insights on various topics."
-				/>
-				<meta name="keywords" content="Signet Tags, Signet Authenticity, brand protection software, blockchain-proven ownership" />
+				<title>Signet Tags - Welcome to Signet Blog | Relevant News and More</title>
+				{/* <meta name="title" content={`Signet Tags - ${post?.data?.title.iv}`} />
+				<meta name="description" content={post?.data?.text?.iv} />
+				<meta name="keywords" content="Signet Tags, Signet Authenticity, brand protection software, blockchain-proven ownership" /> */}
 				<meta name="robots" content="index, follow" />
 				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 				<meta name="language" content="English" />

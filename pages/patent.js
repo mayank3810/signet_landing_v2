@@ -6,7 +6,7 @@ function Patent() {
 	return (
 		<>
 			<Head>
-				<title>Patent Status - Anti-Counterfeit Authentication using Non-Fungible Token and NFC</title>
+				<title>Signet Tags - Patent Status | Anti-Counterfeit with NFT/NFC</title>
 				<meta
 					name="title"
 					content="System and Method for Anti-Counterfeit Authentication Using a Combination of Non-Fungible Token and Near-Field Communication"
