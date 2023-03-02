@@ -15,7 +15,7 @@ function ApparelAndClothing() {
 	return (
 		<>
 			<Head>
-				<title>Signet Tags - NFC Tag Authentication for Clothing and Footwear</title>
+				<title>Signet Tags - NFC Authentication for Clothing & Footwear</title>
 				<link rel="canonical" href="https://www.signettags.com/industries/clothing-and-footwear/" key="canonical" />
 				<meta name="title" content="Signet Tags - NFC Tag Authentication for Clothing and Footwear" />
 				<meta
@@ -112,7 +112,8 @@ function ApparelAndClothing() {
 							<div className="col">
 								<div className="content-9-img video-preview wow fadeInUp">
 									<iframe
-										style={{ borderRadius: '20px' }}
+										// style={{ borderRadius: '20px' }}
+										className="rounded-20px"
 										width="860"
 										height="515"
 										src="https://www.youtube.com/embed/YQUjE2koNRI"
