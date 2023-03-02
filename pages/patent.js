@@ -26,7 +26,7 @@ function Patent() {
 				<meta property="og:url" content="https://www.signettags.com/patent/" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Signet Tags Patent: Anti-Counterfeit NFC Authentication" />
-				<meta property="og:description" content="Check patent for NFT-NFC anti-counterfeit system filed 08/11/2022." />
+				<meta property="og:description" content="Check NFT-NFC anti-counterfeit patent" />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
 
@@ -35,7 +35,7 @@ function Patent() {
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/patent/" />
 				<meta name="twitter:title" content="Signet Tags Patent: Anti-Counterfeit NFC Authentication" />
-				<meta name="twitter:description" content="Check patent for NFT-NFC anti-counterfeit system filed 08/11/2022." />
+				<meta name="twitter:description" content="Check NFT-NFC anti-counterfeit patent" />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 
