@@ -105,7 +105,8 @@ function AutoParts() {
 							<div className="col">
 								<div className="content-9-img video-preview wow fadeInUp">
 									<iframe
-										style={{ borderRadius: '20px' }}
+										// style={{ borderRadius: '20px' }}
+										className="rounded-20px"
 										width="860"
 										height="515"
 										src="https://www.youtube.com/embed/YQUjE2koNRI"
@@ -146,7 +147,7 @@ function AutoParts() {
 										{/* Image */}
 										<img className="img-fluid rounded" src="/images/automotive/brand-protection.jpg" alt="feature-icon" />
 										{/* Title */}
-										<h5 className="h5-md mt-4 ">Brand Protection</h5>
+										<h3 className="h3-font mt-4 ">Brand Protection</h3>
 										{/* Text */}
 										<p className="p-lg">Defend your IPRs and your Brand Equity. Feel free to develop and promote new products safely</p>
 									</div>
@@ -157,7 +158,7 @@ function AutoParts() {
 										{/* Image */}
 										<img className="img-fluid rounded" src="/images/automotive/marketing-insights.jpg" alt="feature-icon" />
 										{/* Title */}
-										<h5 className="h5-md mt-4">Marketing Insights</h5>
+										<h3 className="h3-font mt-4">Marketing Insights</h3>
 										{/* Text */}
 										<p className="p-lg">Track your products until the final customer. Detect product infiltrations and original stolen products</p>
 									</div>
@@ -166,7 +167,7 @@ function AutoParts() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										<img className="img-fluid rounded" src="/images/automotive/customer-review.jpg" alt="feature-icon" />
-										<h5 className="h5-md mt-4 ">Connect directly</h5>
+										<h3 className="h3-font mt-4 ">Connect directly</h3>
 										{/* Text */}
 										<p className="p-lg">
 											Connect directly to your customers using push notifications and alerts. Collect valuable feedbacks directly from customers.
