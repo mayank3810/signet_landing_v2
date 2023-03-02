@@ -72,7 +72,7 @@ function PrivacyPolicy() {
 							{/* TERMS BOX */}
 							<div className="terms-box">
 								{/* Title */}
-								<h5 className="h5-xl">Processing of your data</h5>
+								<h2 className="h3-font mb-3">Processing of your data</h2>
 								{/* Text */}
 								<p className="p-lg">
 									Donec sodales, nibh vel tristique aliquet, nisi libero suscipit diam, sed tempus ante nulla ut purus. Donec dolor magna aliquet
@@ -112,7 +112,7 @@ function PrivacyPolicy() {
 							{/* TERMS BOX */}
 							<div className="terms-box">
 								{/* Title */}
-								<h5 className="h5-xl">Collection of information</h5>
+								<h2 className="h3-font mb-3">Collection of information</h2>
 								{/* Text */}
 								<p className="p-lg">
 									In at mauris vel nisl convallis porta at vitae dui. Nam lacus ligula, vulputate mullam molestie bibendum quis, aliquet massa
@@ -124,7 +124,7 @@ function PrivacyPolicy() {
 							{/* TERMS BOX #3 */}
 							<div className="terms-box">
 								{/* Title */}
-								<h5 className="h5-xl">Authorized user accounts and account security</h5>
+								<h2 className="h3-font mb-3">Authorized user accounts and account security</h2>
 								{/* Text */}
 								<p className="p-lg">
 									Suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis eget faucibus. Praesent aliquet lorem purus, quis
@@ -146,7 +146,7 @@ function PrivacyPolicy() {
 							{/* TERMS BOX */}
 							<div className="terms-box">
 								{/* Title */}
-								<h5 className="h5-xl">Prohibited conduct and content</h5>
+								<h2 className="h3-font mb-3">Prohibited conduct and content</h2>
 								{/* Text */}
 								<p className="p-lg">
 									Sagittis congue augue egestas volutpat egestas magna suscipit egestas magna ipsum vitae purus efficitur ipsum primis in cubilia
@@ -180,7 +180,7 @@ function PrivacyPolicy() {
 							{/* TERMS BOX #5 */}
 							<div className="terms-box">
 								{/* Title */}
-								<h5 className="h5-xl">Your responsibilities</h5>
+								<h2 className="h3-font mb-3">Your responsibilities</h2>
 								{/* Text */}
 								<p className="p-lg">
 									Aliqum mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae auctor congue magna nihil impedit ligula risus.
@@ -213,7 +213,7 @@ function PrivacyPolicy() {
 							{/* TERMS BOX */}
 							<div className="terms-box">
 								{/* Title */}
-								<h5 className="h5-xl">Availability of services</h5>
+								<h2 className="h3-font mb-3">Availability of services</h2>
 								{/* List */}
 								<ul className="simple-list">
 									<li className="list-item">
@@ -244,7 +244,7 @@ function PrivacyPolicy() {
 							{/* TERMS BOX */}
 							<div className="terms-box">
 								{/* Title */}
-								<h5 className="h5-xl">Term for storing personal data</h5>
+								<h2 className="h3-font mb-3">Term for storing personal data</h2>
 								{/* Text */}
 								<p className="p-lg">
 									Donec sodales, nibh vel tristique aliquet, nisi libero suscipit diam, sed tempus ante nulla purus. Donec dolor magna, suscipit in
@@ -261,7 +261,7 @@ function PrivacyPolicy() {
 							{/* TERMS BOX */}
 							<div className="terms-box">
 								{/* Title */}
-								<h5 className="h5-xl">Warranty limitations</h5>
+								<h2 className="h3-font mb-3">Warranty limitations</h2>
 								{/* Text */}
 								<p className="p-lg">
 									Ut non mauris libero. Sed consequat posuere nunc, eu porttitor neque dignissim donec bibendum a sodales elit blandit. Suspendisse at
@@ -279,7 +279,7 @@ function PrivacyPolicy() {
 							{/* TERMS BOX #9 */}
 							<div className="terms-box">
 								{/* Title */}
-								<h5 className="h5-xl">Notices</h5>
+								<h2 className="h3-font mb-3">Notices</h2>
 								{/* Text */}
 								<p className="p-lg">
 									Maecenas gravida porttitor nunc, quis vehicula magna luctus tempor. Quisque laoreet turpis urna augue, viverra a augue eget, dictum
@@ -309,7 +309,7 @@ function PrivacyPolicy() {
 							{/* TERMS BOX */}
 							<div className="terms-box">
 								{/* Title */}
-								<h5 className="h5-xl">Third Party Beneficiary</h5>
+								<h2 className="h3-font mb-3">Third Party Beneficiary</h2>
 								{/* Text */}
 								<p className="p-lg">
 									Aliqum mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae auctor congue magna nihil impedit ligula risus.
@@ -327,7 +327,7 @@ function PrivacyPolicy() {
 							{/* TERMS BOX */}
 							<div className="terms-box">
 								{/* Title */}
-								<h5 className="h5-xl">Other Terms</h5>
+								<h2 className="h3-font mb-3">Other Terms</h2>
 								{/* Text */}
 								<p className="p-lg">
 									Aliqum mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae auctor congue magna nihil impedit ligula risus.
