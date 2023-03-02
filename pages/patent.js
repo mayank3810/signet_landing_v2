@@ -8,10 +8,7 @@ function Patent() {
 			<Head>
 				<title>Signet Tags - Patent Status | Anti-Counterfeit with NFT/NFC</title>
 				<link rel="canonical" href="https://www.signettags.com/patent" key="canonical" />
-				<meta
-					name="title"
-					content="System and Method for Anti-Counterfeit Authentication Using a Combination of Non-Fungible Token and Near-Field Communication"
-				/>
+				<meta name="title" content="Signet Tags Patent: Anti-Counterfeit NFC Authentication" />
 				<meta
 					name="description"
 					content="Check the patent status of a new anti-counterfeit authentication system using non-fungible tokens and near-field communication. Application filed on 08/11/2022"
@@ -25,22 +22,25 @@ function Patent() {
 				<meta name="language" content="English" />
 
 				{/* <!-- Open Graph / Facebook --> */}
+				<meta property="og:site_name" content="Signet Tags" />
+				<meta property="og:url" content="https://www.signettags.com/patent" />
 				<meta property="og:type" content="website" />
-				<meta property="og:url" content="Meta Tags — Preview, Edit and Generate" />
-				<meta name="og:title" content="New Anti-Counterfeit System Patent Status" />
+				<meta name="og:title" content="Signet Tags Patent: Anti-Counterfeit NFC Authentication" />
 				<meta
 					name="og:description"
 					content="Check the patent status of a new anti-counterfeit system. Filed on 08/11/2022, it uses non-fungible tokens and near-field communication for authentication."
 				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
+				<meta property="og:locale" content="en_US" />
 
 				{/* <!-- Twitter --> */}
 				<meta property="twitter:card" content="summary_large_image" />
-				<meta property="twitter:url" content="Meta Tags — Preview, Edit and Generate" />
-				<meta property="twitter:title" content="Signet Tags - Blockchain-based authenticity and Brand protection solution" />
+				<meta name="twitter:site" content="@SignetTags" />
+				<meta property="twitter:url" content="https://www.signettags.com/patent" />
+				<meta property="twitter:title" content="Signet Tags Patent: Anti-Counterfeit NFC Authentication" />
 				<meta
 					property="twitter:description"
-					content="Signet tags link your products with blockchain-proven ownership. The blockchain solution ensures authenticity and increases customer engagement. "
+					content="Check the patent status of a new anti-counterfeit system. Filed on 08/11/2022, it uses non-fungible tokens and near-field communication for authentication."
 				/>
 				<meta property="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>

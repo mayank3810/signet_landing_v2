@@ -43,15 +43,18 @@ export default function Home() {
 				<meta name="language" content="English" />
 
 				{/* <!-- Open Graph / Facebook --> */}
+				<meta property="og:site_name" content="Signet Tags" />
+				<meta property="og:url" content="https://www.signettags.com" />
 				<meta property="og:type" content="website" />
-				<meta property="og:url" content="Meta Tags — Preview, Edit and Generate" />
 				<meta property="og:title" content="Signet Tags - Blockchain-Based Brand Protection Solution" />
 				<meta property="og:description" content="Protect your brand with Signet Tags' blockchain-based authenticity solution." />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
+				<meta property="og:locale" content="en_US" />
 
 				{/* <!-- Twitter --> */}
 				<meta property="twitter:card" content="summary_large_image" />
-				<meta property="twitter:url" content="Meta Tags — Preview, Edit and Generate" />
+				<meta name="twitter:site" content="@SignetTags" />
+				<meta property="twitter:url" content="https://www.signettags.com" />
 				<meta property="twitter:title" content="Signet Tags - Blockchain-based authenticity and Brand protection solution" />
 				<meta
 					property="twitter:description"

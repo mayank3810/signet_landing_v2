@@ -26,7 +26,7 @@ function Footer() {
 						<div className="col-sm-6 col-md-3 col-lg-2">
 							<div className="footer-links mb-40">
 								{/* Title */}
-								<h4 className="h4-font">Company</h4>
+								<h2 className="h4-font">Company</h2>
 								{/* Footer Links */}
 								<ul className="foo-links text-secondary clearfix">
 									<li>
@@ -56,7 +56,7 @@ function Footer() {
 						<div className="col-sm-6 col-md-3 col-lg-2">
 							<div className="footer-links mb-40">
 								{/* Title */}
-								<h4 className="h4-font">Discover</h4>
+								<h2 className="h4-font">Discover</h2>
 								{/* Footer List */}
 								<ul className="foo-links text-secondary clearfix">
 									<li>
@@ -81,7 +81,7 @@ function Footer() {
 						<div className="col-sm-6 col-md-3 col-lg-2">
 							<div className="footer-links mb-40">
 								{/* Title */}
-								<h4 className="h4-font">Industries</h4>
+								<h2 className="h4-font">Industries</h2>
 								{/* Footer List */}
 								<ul className="foo-links text-secondary clearfix">
 									<li>
@@ -117,7 +117,7 @@ function Footer() {
 						<div className="col-sm-6 col-md-3 col-lg-2">
 							<div className="footer-links mb-40">
 								{/* Title */}
-								<h4 className="h4-font">Links</h4>
+								<h2 className="h4-font">Links</h2>
 								{/* Footer Links */}
 								<ul className="foo-links text-secondary clearfix">
 									<li>
@@ -162,17 +162,30 @@ function Footer() {
 								<ul className="bottom-footer-list text-secondary text-end">
 									<li className="first-li">
 										<p>
-											<a href="#">Youtube</a>
+											<a href="https://www.youtube.com/@signettags" target="_blank">
+												Youtube
+											</a>
 										</p>
 									</li>
 									<li>
 										<p>
-											<a href="#">Twitter</a>
+											<a href="https://twitter.com/SignetTags" target="_blank">
+												Twitter
+											</a>
+										</p>
+									</li>
+									<li>
+										<p>
+											<a href=" https://www.instagram.com/signettags/" target="_blank">
+												Instagram
+											</a>
 										</p>
 									</li>
 									<li className="last-li">
 										<p>
-											<a href="#">LinkedIn</a>
+											<a href="https://www.linkedin.com/company/signet-tags/" target="_blank">
+												LinkedIn
+											</a>
 										</p>
 									</li>
 								</ul>

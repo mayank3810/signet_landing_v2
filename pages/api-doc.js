@@ -19,19 +19,25 @@ function ApiDoc() {
 				<meta name="language" content="English" />
 
 				{/* <!-- Open Graph / Facebook --> */}
+				<meta property="og:site_name" content="Signet Tags" />
+				<meta property="og:url" content="https://www.signettags.com/api-doc" />
 				<meta property="og:type" content="website" />
-				<meta property="og:url" content="Meta Tags — Preview, Edit and Generate" />
-				<meta property="og:title" content="Signet Tags - Blockchain-Based Brand Protection Solution" />
-				<meta property="og:description" content="Signet tags link products to blockchain for ownership and authenticity." />
+				<meta property="og:title" content="Signet Tags API Documentation" />
+				<meta
+					property="og:description"
+					content="Learn how to integrate Signet Tags' blockchain-based brand protection solution into your app with our API documentation."
+				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
+				<meta property="og:locale" content="en_US" />
 
 				{/* <!-- Twitter --> */}
 				<meta property="twitter:card" content="summary_large_image" />
-				<meta property="twitter:url" content="Meta Tags — Preview, Edit and Generate" />
-				<meta property="twitter:title" content="Signet Tags - Blockchain-based authenticity and Brand protection solution" />
+				<meta name="twitter:site" content="@SignetTags" />
+				<meta property="twitter:url" content="https://www.signettags.com/api-doc" />
+				<meta property="twitter:title" content="Signet Tags API Documentation" />
 				<meta
 					property="twitter:description"
-					content="Signet tags link your products with blockchain-proven ownership. The blockchain solution ensures authenticity and increases customer engagement. "
+					content="Learn how to integrate Signet Tags' blockchain-based brand protection solution into your app with our API documentation."
 				/>
 				<meta property="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>

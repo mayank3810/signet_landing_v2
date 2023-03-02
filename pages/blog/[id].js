@@ -31,29 +31,30 @@ function BlogDetail(props) {
 	return (
 		<>
 			<Head>
-				<title>Signet Tags - Welcome to Signet Blog | Relevant News and More</title>
-				{/* <meta name="title" content={`Signet Tags - ${post?.data?.title.iv}`} />
-				<meta name="description" content={post?.data?.text?.iv} />
-				<meta name="keywords" content="Signet Tags, Signet Authenticity, brand protection software, blockchain-proven ownership" /> */}
+				<title>{post?.data?.title.iv}</title>
+				<link rel="canonical" href={`https://www.signettags.com/blog/${post?.data?.slug.iv}`} key="canonical" />
+				<meta name="title" content={post?.data?.title.iv} />
+				<meta name="description" content={post?.data?.text.iv.substring(0, 150)} />
+				<meta name="keywords" content="Signet Tags, Signet Authenticity, brand protection software, blockchain-proven ownership" />
 				<meta name="robots" content="index, follow" />
 				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 				<meta name="language" content="English" />
 
 				{/* <!-- Open Graph / Facebook --> */}
-				<meta property="og:type" content="website" />
-				<meta property="og:url" content="Meta Tags — Preview, Edit and Generate" />
-				<meta property="og:title" content="Signet Tags - Blockchain-Based Brand Protection Solution" />
-				<meta property="og:description" content="Signet tags link products to blockchain for ownership and authenticity." />
+				<meta property="og:site_name" content="Signet Tags" />
+				<meta property="og:url" content={`https://www.signettags.com/blog/${post?.data?.slug.iv}`} />
+				<meta property="og:type" content="article" />
+				<meta property="og:title" content={post?.data?.title.iv} />
+				<meta property="og:description" content={post.data.text.iv.substring(0, 150)} />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
+				<meta property="og:locale" content="en_US" />
 
 				{/* <!-- Twitter --> */}
 				<meta property="twitter:card" content="summary_large_image" />
-				<meta property="twitter:url" content="Meta Tags — Preview, Edit and Generate" />
-				<meta property="twitter:title" content="Signet Tags - Blockchain-based authenticity and Brand protection solution" />
-				<meta
-					property="twitter:description"
-					content="Signet tags link your products with blockchain-proven ownership. The blockchain solution ensures authenticity and increases customer engagement. "
-				/>
+				<meta name="twitter:site" content="@SignetTags" />
+				<meta property="twitter:url" content={`https://www.signettags.com/blog/${post?.data?.slug.iv}`} />
+				<meta property="twitter:title" content={post?.data?.title.iv} />
+				<meta property="twitter:description" content={post?.data?.text.iv.substring(0, 150)} />
 				<meta property="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={true} />

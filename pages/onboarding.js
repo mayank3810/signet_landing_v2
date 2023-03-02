@@ -30,22 +30,25 @@ function Onboarding() {
 				<meta name="language" content="English" />
 
 				{/* <!-- Open Graph / Facebook --> */}
+				<meta property="og:site_name" content="Signet Tags" />
+				<meta property="og:url" content="https://www.signettags.com/onboarding" />
 				<meta property="og:type" content="website" />
-				<meta property="og:url" content="Meta Tags — Preview, Edit and Generate" />
 				<meta property="og:title" content="Get Started For Free with Signet Tags - Tag, Track, and Authenticate Your Products" />
 				<meta
 					property="og:description"
 					content="Signet Tags is the best solution to tag, track, and authenticate your products. Sign up for our 100% risk-free trial and get access to all features. Pay nothing for the first 30 days and cancel at any time during your trial."
 				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
+				<meta property="og:locale" content="en_US" />
 
 				{/* <!-- Twitter --> */}
 				<meta property="twitter:card" content="summary_large_image" />
-				<meta property="twitter:url" content="Meta Tags — Preview, Edit and Generate" />
-				<meta property="twitter:title" content="Signet Tags - Blockchain-based authenticity and Brand protection solution" />
+				<meta name="twitter:site" content="@SignetTags" />
+				<meta property="twitter:url" content="https://www.signettags.com/onboarding" />
+				<meta property="twitter:title" content="Get Started For Free with Signet Tags - Tag, Track, and Authenticate Your Products" />
 				<meta
 					property="twitter:description"
-					content="Signet tags link your products with blockchain-proven ownership. The blockchain solution ensures authenticity and increases customer engagement. "
+					content="Signet Tags is the best solution to tag, track, and authenticate your products. Sign up for our 100% risk-free trial and get access to all features. Pay nothing for the first 30 days and cancel at any time during your trial."
 				/>
 				<meta property="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>

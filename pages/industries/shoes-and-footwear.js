@@ -31,20 +31,20 @@ function ShoesAndFootwear() {
 				<meta name="language" content="English" />
 
 				{/* <!-- Open Graph / Facebook --> */}
+				<meta property="og:site_name" content="Signet Tags" />
+				<meta property="og:url" content="https://www.signettags.com/industries/shoes-and-footwear" />
 				<meta property="og:type" content="website" />
-				<meta property="og:url" content="Meta Tags — Preview, Edit and Generate" />
 				<meta property="og:title" content="NFC Tag Authentication for Shoes and Footwear with Signet Tags" />
 				<meta property="og:description" content="Secure your footwear with Signet Tags' NFC authentication against counterfeiting" />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
+				<meta property="og:locale" content="en_US" />
 
 				{/* <!-- Twitter --> */}
 				<meta property="twitter:card" content="summary_large_image" />
-				<meta property="twitter:url" content="Meta Tags — Preview, Edit and Generate" />
-				<meta property="twitter:title" content="Signet Tags - Blockchain-based authenticity and Brand protection solution" />
-				<meta
-					property="twitter:description"
-					content="Signet tags link your products with blockchain-proven ownership. The blockchain solution ensures authenticity and increases customer engagement. "
-				/>
+				<meta name="twitter:site" content="@SignetTags" />
+				<meta property="twitter:url" content="https://www.signettags.com/industries/shoes-and-footwear" />
+				<meta property="twitter:title" content="NFC Tag Authentication for Shoes and Footwear with Signet Tags" />
+				<meta property="twitter:description" content="Secure your footwear with Signet Tags' NFC authentication against counterfeiting" />
 				<meta property="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={inContainerView} />
