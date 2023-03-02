@@ -42,15 +42,15 @@ function Onboarding() {
 				<meta property="og:locale" content="en_US" />
 
 				{/* <!-- Twitter --> */}
-				<meta property="twitter:card" content="summary_large_image" />
+				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta property="twitter:url" content="https://www.signettags.com/onboarding" />
-				<meta property="twitter:title" content="Get Started For Free with Signet Tags - Tag, Track, and Authenticate Your Products" />
+				<meta name="twitter:url" content="https://www.signettags.com/onboarding" />
+				<meta name="twitter:title" content="Get Started For Free with Signet Tags - Tag, Track, and Authenticate Your Products" />
 				<meta
-					property="twitter:description"
+					name="twitter:description"
 					content="Signet Tags is the best solution to tag, track, and authenticate your products. Sign up for our 100% risk-free trial and get access to all features. Pay nothing for the first 30 days and cancel at any time during your trial."
 				/>
-				<meta property="twitter:image" content="/assets/images/Twitter-card.jpeg" />
+				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<section id="login-2" className="login-section division">
 				<div className="container-fluid">

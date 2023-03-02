@@ -43,15 +43,15 @@ function Pricing() {
 				<meta property="og:locale" content="en_US" />
 
 				{/* <!-- Twitter --> */}
-				<meta property="twitter:card" content="summary_large_image" />
+				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta property="twitter:url" content="https://www.signettags.com/pricing" />
-				<meta property="twitter:title" content="Signet Pricing - Choose the Right Plan" />
+				<meta name="twitter:url" content="https://www.signettags.com/pricing" />
+				<meta name="twitter:title" content="Signet Pricing - Choose the Right Plan" />
 				<meta
-					property="twitter:description"
+					name="twitter:description"
 					content="Explore Signet's pricing packages & choose the right plan for your business. Get started with a free trial & enjoy advanced features & VIP support."
 				/>
-				<meta property="twitter:image" content="/assets/images/Twitter-card.jpeg" />
+				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={inContainerView} />
 			<PageTitle image="../images/download-page.jpg" title={'Start with a free trial'} subtitle={'Choose a plan that is right for your business'} />

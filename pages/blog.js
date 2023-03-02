@@ -53,12 +53,12 @@ function Blog(props) {
 				<meta property="og:locale" content="en_US" />
 
 				{/* <!-- Twitter --> */}
-				<meta property="twitter:card" content="summary_large_image" />
+				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta property="twitter:url" content="https://www.signettags.com/blog" />
-				<meta property="twitter:title" content="Stay Informed with Signet Blog" />
-				<meta property="twitter:description" content="Get relevant news and valuable insights on various topics by reading the Signet Blog." />
-				<meta property="twitter:image" content="/assets/images/Twitter-card.jpeg" />
+				<meta name="twitter:url" content="https://www.signettags.com/blog" />
+				<meta name="twitter:title" content="Stay Informed with Signet Blog" />
+				<meta name="twitter:description" content="Get relevant news and valuable insights on various topics by reading the Signet Blog." />
+				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={true} />
 

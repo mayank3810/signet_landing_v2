@@ -40,12 +40,12 @@ function DocumentSecurity() {
 				<meta property="og:locale" content="en_US" />
 
 				{/* <!-- Twitter --> */}
-				<meta property="twitter:card" content="summary_large_image" />
+				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta property="twitter:url" content="https://www.signettags.com/industries/document-security" />
-				<meta property="twitter:title" content="Protect Your Certificates and Documents with Signet Tags" />
-				<meta property="twitter:description" content="Protect your documents with Signet Tags' tamper-proof solution." />
-				<meta property="twitter:image" content="/assets/images/Twitter-card.jpeg" />
+				<meta name="twitter:url" content="https://www.signettags.com/industries/document-security" />
+				<meta name="twitter:title" content="Protect Your Certificates and Documents with Signet Tags" />
+				<meta name="twitter:description" content="Protect your documents with Signet Tags' tamper-proof solution." />
+				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={inContainerView} />
 			<PageTitle image="/images/industries/document_banner.jpg" title={'Document Security'} subtitle={'Tag, track and authenticate your documents'} />

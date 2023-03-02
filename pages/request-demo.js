@@ -36,15 +36,15 @@ function RequestDemo() {
 				<meta property="og:locale" content="en_US" />
 
 				{/* <!-- Twitter --> */}
-				<meta property="twitter:card" content="summary_large_image" />
+				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta property="twitter:url" content="https://www.signettags.com/request-demo" />
-				<meta property="twitter:title" content="Schedule a Demo or Request a Free Trial with Signet Tags" />
+				<meta name="twitter:url" content="https://www.signettags.com/request-demo" />
+				<meta name="twitter:title" content="Schedule a Demo or Request a Free Trial with Signet Tags" />
 				<meta
-					property="twitter:description"
+					name="twitter:description"
 					content="Learn more about our products and services with a demo or request a free trial to experience our solutions firsthand. Book a meeting with our team today."
 				/>
-				<meta property="twitter:image" content="/assets/images/Twitter-card.jpeg" />
+				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={true} />
 			<section id="content-3" className="bg-snow content-3 wide-60 content-section division">

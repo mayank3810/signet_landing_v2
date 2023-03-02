@@ -41,12 +41,12 @@ function CosmeticsAndPerfumes() {
 				<meta property="og:locale" content="en_US" />
 
 				{/* <!-- Twitter --> */}
-				<meta property="twitter:card" content="summary_large_image" />
+				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta property="twitter:url" content="https://www.signettags.com/industries/cosmetics-and-perfumes" />
-				<meta property="twitter:title" content="NFC Tag Authentication for Shoes and Footwear with Signet Tags" />
-				<meta property="twitter:description" content="Authenticate shoes and footwear with Signet Tags' NFC tags." />
-				<meta property="twitter:image" content="/assets/images/Twitter-card.jpeg" />
+				<meta name="twitter:url" content="https://www.signettags.com/industries/cosmetics-and-perfumes" />
+				<meta name="twitter:title" content="NFC Tag Authentication for Shoes and Footwear with Signet Tags" />
+				<meta name="twitter:description" content="Authenticate shoes and footwear with Signet Tags' NFC tags." />
+				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={inContainerView} />
 			<PageTitle

@@ -50,12 +50,12 @@ function BlogDetail(props) {
 				<meta property="og:locale" content="en_US" />
 
 				{/* <!-- Twitter --> */}
-				<meta property="twitter:card" content="summary_large_image" />
+				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta property="twitter:url" content={`https://www.signettags.com/blog/${post?.data?.slug.iv}`} />
-				<meta property="twitter:title" content={post?.data?.title.iv} />
-				<meta property="twitter:description" content={post?.data?.text.iv.substring(0, 150)} />
-				<meta property="twitter:image" content="/assets/images/Twitter-card.jpeg" />
+				<meta name="twitter:url" content={`https://www.signettags.com/blog/${post?.data?.slug.iv}`} />
+				<meta name="twitter:title" content={post?.data?.title.iv} />
+				<meta name="twitter:description" content={post?.data?.text.iv.substring(0, 150)} />
+				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={true} />
 			<section id="single-post" className="wide-100 inner-page-hero single-post-section division">

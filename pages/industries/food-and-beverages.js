@@ -40,15 +40,15 @@ function FoodAndBeverages() {
 				<meta property="og:locale" content="en_US" />
 
 				{/* <!-- Twitter --> */}
-				<meta property="twitter:card" content="summary_large_image" />
+				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta property="twitter:url" content="https://www.signettags.com/industries/food-and-beverages" />
-				<meta property="twitter:title" content="Protect your Food and Beverages & Engage Your Consumers Signet Tags" />
+				<meta name="twitter:url" content="https://www.signettags.com/industries/food-and-beverages" />
+				<meta name="twitter:title" content="Protect your Food and Beverages & Engage Your Consumers Signet Tags" />
 				<meta
-					property="twitter:description"
+					name="twitter:description"
 					content=" Protect your food and beverages with Signet Tags' tamper-proof technology. Engage customers with secure physical-digital seals and gain valuable marketing insights."
 				/>
-				<meta property="twitter:image" content="/assets/images/Twitter-card.jpeg" />
+				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={inContainerView} />
 			<PageTitle

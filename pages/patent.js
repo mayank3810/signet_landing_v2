@@ -25,24 +25,24 @@ function Patent() {
 				<meta property="og:site_name" content="Signet Tags" />
 				<meta property="og:url" content="https://www.signettags.com/patent" />
 				<meta property="og:type" content="website" />
-				<meta name="og:title" content="Signet Tags Patent: Anti-Counterfeit NFC Authentication" />
+				<meta property="og:title" content="Signet Tags Patent: Anti-Counterfeit NFC Authentication" />
 				<meta
-					name="og:description"
+					property="og:description"
 					content="Check the patent status of a new anti-counterfeit system. Filed on 08/11/2022, it uses non-fungible tokens and near-field communication for authentication."
 				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
 
 				{/* <!-- Twitter --> */}
-				<meta property="twitter:card" content="summary_large_image" />
+				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta property="twitter:url" content="https://www.signettags.com/patent" />
-				<meta property="twitter:title" content="Signet Tags Patent: Anti-Counterfeit NFC Authentication" />
+				<meta name="twitter:url" content="https://www.signettags.com/patent" />
+				<meta name="twitter:title" content="Signet Tags Patent: Anti-Counterfeit NFC Authentication" />
 				<meta
-					property="twitter:description"
+					name="twitter:description"
 					content="Check the patent status of a new anti-counterfeit system. Filed on 08/11/2022, it uses non-fungible tokens and near-field communication for authentication."
 				/>
-				<meta property="twitter:image" content="/assets/images/Twitter-card.jpeg" />
+				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 
 			<Header scroll={true} />

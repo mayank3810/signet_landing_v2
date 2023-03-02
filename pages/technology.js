@@ -37,15 +37,15 @@ function Technology() {
 				<meta property="og:locale" content="en_US" />
 
 				{/* <!-- Twitter --> */}
-				<meta property="twitter:card" content="summary_large_image" />
+				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta property="twitter:url" content="https://www.signettags.com/technology" />
-				<meta property="twitter:title" content="Authenticity Guaranteed with Signet Tags" />
+				<meta name="twitter:url" content="https://www.signettags.com/technology" />
+				<meta name="twitter:title" content="Authenticity Guaranteed with Signet Tags" />
 				<meta
-					property="twitter:description"
+					name="twitter:description"
 					content="Secure product verification and authentication using NFC tags, NFTs, and blockchain technology. Protect your products and gain valuable business intelligence."
 				/>
-				<meta property="twitter:image" content="/assets/images/Twitter-card.jpeg" />
+				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={true} />
 			<>

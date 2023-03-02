@@ -86,15 +86,12 @@ function Contact() {
 				<meta property="og:locale" content="en_US" />
 
 				{/* <!-- Twitter --> */}
-				<meta property="twitter:card" content="summary_large_image" />
+				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta property="twitter:url" content="https://www.signettags.com/contact" />
-				<meta property="twitter:title" content="Contact Signet Tags" />
-				<meta
-					property="twitter:description"
-					content="Get in touch with Signet Tags to learn more about our blockchain-based authenticity solution."
-				/>
-				<meta property="twitter:image" content="/assets/images/Twitter-card.jpeg" />
+				<meta name="twitter:url" content="https://www.signettags.com/contact" />
+				<meta name="twitter:title" content="Contact Signet Tags" />
+				<meta name="twitter:description" content="Get in touch with Signet Tags to learn more about our blockchain-based authenticity solution." />
+				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={true} />
 			{/* CONTACTS-2

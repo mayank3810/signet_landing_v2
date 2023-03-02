@@ -28,15 +28,15 @@ function PrivacyPolicy() {
 				<meta property="og:locale" content="en_US" />
 
 				{/* <!-- Twitter --> */}
-				<meta property="twitter:card" content="summary_large_image" />
+				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta property="twitter:url" content="https://www.signettags.com/privacy-policy" />
-				<meta property="twitter:title" content="Privacy Policy - Signet Tags" />
+				<meta name="twitter:url" content="https://www.signettags.com/privacy-policy" />
+				<meta name="twitter:title" content="Privacy Policy - Signet Tags" />
 				<meta
-					property="twitter:description"
+					name="twitter:description"
 					content="Read our Privacy Policy to learn how we handle your personal information. Last updated on Feb 04, 2023."
 				/>
-				<meta property="twitter:image" content="/assets/images/Twitter-card.jpeg" />
+				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={true} />
 			{/* TERMS & PRIVACY
