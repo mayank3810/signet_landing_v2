@@ -28,7 +28,7 @@ function Patent() {
 				<meta property="og:title" content="Signet Tags Patent: Anti-Counterfeit NFC Authentication" />
 				<meta
 					property="og:description"
-					content="Check the patent status of a new anti-counterfeit system. Filed on 08/11/2022, it uses non-fungible tokens and near-field communication for authentication."
+					content="Check patent status for new anti-counterfeit system filed 08/11/2022 using NFTs and NFC for authentication."
 				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
@@ -40,7 +40,7 @@ function Patent() {
 				<meta name="twitter:title" content="Signet Tags Patent: Anti-Counterfeit NFC Authentication" />
 				<meta
 					name="twitter:description"
-					content="Check the patent status of a new anti-counterfeit system. Filed on 08/11/2022, it uses non-fungible tokens and near-field communication for authentication."
+					content="Check patent status for new anti-counterfeit system filed 08/11/2022 using NFTs and NFC for authentication."
 				/>
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>

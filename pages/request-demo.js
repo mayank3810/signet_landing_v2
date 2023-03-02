@@ -28,10 +28,7 @@ function RequestDemo() {
 				<meta property="og:url" content="https://www.signettags.com/request-demo" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Schedule a Demo or Request a Free Trial with Signet Tags" />
-				<meta
-					property="og:description"
-					content="Learn more about our products and services with a demo or request a free trial to experience our solutions firsthand. Book a meeting with our team today."
-				/>
+				<meta property="og:description" content="Request a demo or free trial to experience our solutions. Schedule a meeting with us today." />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
 
@@ -40,10 +37,7 @@ function RequestDemo() {
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/request-demo" />
 				<meta name="twitter:title" content="Schedule a Demo or Request a Free Trial with Signet Tags" />
-				<meta
-					name="twitter:description"
-					content="Learn more about our products and services with a demo or request a free trial to experience our solutions firsthand. Book a meeting with our team today."
-				/>
+				<meta name="twitter:description" content="Request a demo or free trial to experience our solutions. Schedule a meeting with us today." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={true} />

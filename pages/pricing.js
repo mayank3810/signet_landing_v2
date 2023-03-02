@@ -37,7 +37,7 @@ function Pricing() {
 				<meta property="og:title" content="Signet Pricing - Choose the Right Plan" />
 				<meta
 					property="og:description"
-					content="Explore Signet's pricing packages & choose the right plan for your business. Get started with a free trial & enjoy advanced features & VIP support."
+					content="Discover Signet's pricing packages, select the right plan for your business. Try for free & access advanced features, VIP support."
 				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
@@ -49,7 +49,7 @@ function Pricing() {
 				<meta name="twitter:title" content="Signet Pricing - Choose the Right Plan" />
 				<meta
 					name="twitter:description"
-					content="Explore Signet's pricing packages & choose the right plan for your business. Get started with a free trial & enjoy advanced features & VIP support."
+					content="Discover Signet's pricing packages, select the right plan for your business. Try for free & access advanced features, VIP support."
 				/>
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>

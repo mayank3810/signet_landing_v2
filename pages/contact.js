@@ -78,10 +78,7 @@ function Contact() {
 				<meta property="og:url" content="https://www.signettags.com/contact" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Contact Signet Tags" />
-				<meta
-					property="og:description"
-					content="Get in touch with Signet Tags for any assistance or inquiries you have. Our team is here to help you with any questions or concerns you may have."
-				/>
+				<meta property="og:description" content="Contact Signet Tags for assistance or inquiries. Our team is here to help you." />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
 
@@ -90,7 +87,7 @@ function Contact() {
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/contact" />
 				<meta name="twitter:title" content="Contact Signet Tags" />
-				<meta name="twitter:description" content="Get in touch with Signet Tags to learn more about our blockchain-based authenticity solution." />
+				<meta name="twitter:description" content="Contact Signet Tags for assistance or inquiries. Our team is here to help you." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={true} />

@@ -33,10 +33,10 @@ function Onboarding() {
 				<meta property="og:site_name" content="Signet Tags" />
 				<meta property="og:url" content="https://www.signettags.com/onboarding" />
 				<meta property="og:type" content="website" />
-				<meta property="og:title" content="Start for free with Signet: tag, track, authenticate products" />
+				<meta property="og:title" content="Free product tagging with Signet solutions" />
 				<meta
 					property="og:description"
-					content="Signet Tags is the best solution to tag, track, and authenticate your products. Sign up for our 100% risk-free trial and get access to all features. Pay nothing for the first 30 days and cancel at any time during your trial."
+					content="Tag, track, and authenticate products with Signet Tags. Join the risk-free trial, access all features. Pay nothing for 30 days, cancel anytime."
 				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
@@ -45,10 +45,10 @@ function Onboarding() {
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/onboarding" />
-				<meta name="twitter:title" content="Start for free with Signet: tag, track, authenticate products" />
+				<meta name="twitter:title" content="Free product tagging with Signet solutions" />
 				<meta
 					name="twitter:description"
-					content="Signet Tags is the best solution to tag, track, and authenticate your products. Sign up for our 100% risk-free trial and get access to all features. Pay nothing for the first 30 days and cancel at any time during your trial."
+					content="Tag, track, and authenticate products with Signet Tags. Join the risk-free trial, access all features. Pay nothing for 30 days, cancel anytime."
 				/>
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>

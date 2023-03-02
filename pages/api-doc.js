@@ -23,10 +23,7 @@ function ApiDoc() {
 				<meta property="og:url" content="https://www.signettags.com/api-doc" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Signet Tags API Documentation" />
-				<meta
-					property="og:description"
-					content="Learn how to integrate Signet Tags' blockchain-based brand protection solution into your app with our API documentation."
-				/>
+				<meta property="og:description" content="Integrate blockchain-based brand protection with Signet Tags' API docs." />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
 
@@ -35,10 +32,7 @@ function ApiDoc() {
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/api-doc" />
 				<meta name="twitter:title" content="Signet Tags API Documentation" />
-				<meta
-					name="twitter:description"
-					content="Learn how to integrate Signet Tags' blockchain-based brand protection solution into your app with our API documentation."
-				/>
+				<meta name="twitter:description" content="Integrate blockchain-based brand protection with Signet Tags' API docs." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={true} />

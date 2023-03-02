@@ -29,10 +29,7 @@ function Technology() {
 				<meta property="og:url" content="https://www.signettags.com/technology" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Authenticity Guaranteed with Signet Tags" />
-				<meta
-					property="og:description"
-					content="Secure product verification and authentication using NFC tags, NFTs, and blockchain technology. Protect your products and gain valuable business intelligence."
-				/>
+				<meta property="og:description" content="Protect products with NFC tags, NFTs, and blockchain. Gain insights & secure verification." />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
 
@@ -41,10 +38,7 @@ function Technology() {
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/technology" />
 				<meta name="twitter:title" content="Authenticity Guaranteed with Signet Tags" />
-				<meta
-					name="twitter:description"
-					content="Secure product verification and authentication using NFC tags, NFTs, and blockchain technology. Protect your products and gain valuable business intelligence."
-				/>
+				<meta name="twitter:description" content="Protect products with NFC tags, NFTs, and blockchain. Gain insights & secure verification." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={true} />

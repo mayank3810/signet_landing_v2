@@ -20,10 +20,7 @@ function PrivacyPolicy() {
 				<meta property="og:url" content="https://www.signettags.com/privacy-policy" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Privacy Policy - Signet Tags" />
-				<meta
-					property="og:description"
-					content="Read our Privacy Policy to learn how we handle your personal information. Last updated on Feb 04, 2023."
-				/>
+				<meta property="og:description" content="Review our Privacy Policy on personal info handling." />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
 
@@ -32,10 +29,7 @@ function PrivacyPolicy() {
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/privacy-policy" />
 				<meta name="twitter:title" content="Privacy Policy - Signet Tags" />
-				<meta
-					name="twitter:description"
-					content="Read our Privacy Policy to learn how we handle your personal information. Last updated on Feb 04, 2023."
-				/>
+				<meta name="twitter:description" content="Review our Privacy Policy on personal info handling." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={true} />
