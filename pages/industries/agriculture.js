@@ -35,10 +35,7 @@ function Agriculture() {
 				<meta property="og:url" content="https://www.signettags.com/industries/agriculture" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Agricultural traceability with Signet tags" />
-				<meta
-					property="og:description"
-					content="Ensure product authenticity and traceability in agriculture with Signet Tags' blockchain solution."
-				/>
+				<meta property="og:description" content="Ensure authenticity of agricultural products with Signet Tags." />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
 
@@ -47,10 +44,7 @@ function Agriculture() {
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/industries/agriculture" />
 				<meta name="twitter:title" content="Agricultural traceability with Signet tags" />
-				<meta
-					name="twitter:description"
-					content="Ensure product authenticity and traceability in agriculture with Signet Tags' blockchain solution."
-				/>
+				<meta name="twitter:description" content="Ensure authenticity of agricultural products with Signet Tags" />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={inContainerView} />

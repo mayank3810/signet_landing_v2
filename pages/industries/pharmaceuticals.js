@@ -20,7 +20,7 @@ function Pharmaceuticals() {
 				<meta name="title" content="Anti-Counterfeit & Traceability Solutions for Pharmaceuticals with Signet Tags" />
 				<meta
 					name="description"
-					content="Signet Tags provides anti-counterfeit solutions for pharma industry. Secure NFC tags with unique IDs for instant verification, tracking, and fraud prevention. Contact us to start."
+					content="Signet Tags provides anti-counterfeit solutions for pharmaceuticals. Secure NFC tags with unique IDs for instant verification, tracking & fraud prevention."
 				/>
 				<meta
 					name="keywords"
@@ -117,7 +117,8 @@ function Pharmaceuticals() {
 							<div className="col">
 								<div className="content-9-img video-preview wow fadeInUp">
 									<iframe
-										style={{ borderRadius: '20px' }}
+										// style={{ borderRadius: '20px' }}
+										className="rounded-20px"
 										width="860"
 										height="515"
 										src="https://www.youtube.com/embed/YQUjE2koNRI"
@@ -158,7 +159,7 @@ function Pharmaceuticals() {
 										{/* Image */}
 										<img className="img-fluid rounded" src="/images/pharma/pharma-authenticity-banner.jpg" alt="feature-icon" />
 										{/* Title */}
-										<h5 className="h5-md mt-4 ">Anti-counterfeiting</h5>
+										<h3 className="h3-font mt-4">Anti-counterfeiting</h3>
 										{/* Text */}
 										<p className="p-lg">
 											Allow Health Care Professionals (HCPs) and Authorities to instantly check product authenticity and integrity.
@@ -171,7 +172,7 @@ function Pharmaceuticals() {
 										{/* Image */}
 										<img className="img-fluid rounded" src="/images/industries/marketing.jpg" alt="feature-icon" />
 										{/* Title */}
-										<h5 className="h5-md mt-4">Tracking</h5>
+										<h3 className="h3-font mt-4">Tracking</h3>
 										{/* Text */}
 										<p className="p-lg">
 											End-to-end product traceability to follow each single item in real time along the supply chain, integrating multiple
@@ -183,7 +184,7 @@ function Pharmaceuticals() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										<img className="img-fluid rounded" src="/images/industries/feedback.jpg" alt="feature-icon" />
-										<h5 className="h5-md mt-4 ">Patient Engagement</h5>
+										<h3 className="h3-font mt-4">Patient Engagement</h3>
 										{/* Text */}
 										<p className="p-lg">
 											Revolutionize patient experience enabling drugs’ instant authenticity check. Collect valuable feedbacks directly from customers.
