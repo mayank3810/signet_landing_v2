@@ -32,7 +32,7 @@ function BlogDetail(props) {
 		<>
 			<Head>
 				<title>{post?.data?.title.iv}</title>
-				<link rel="canonical" href={`https://www.signettags.com/blog/${post?.data?.slug.iv}`} key="canonical" />
+				<link rel="canonical" href={`https://www.signettags.com/blog/${post?.data?.slug.iv}/`} key="canonical" />
 				<meta name="title" content={post?.data?.title.iv} />
 				<meta name="description" content={post?.data?.text.iv.substring(0, 150)} />
 				<meta name="keywords" content="Signet Tags, Signet Authenticity, brand protection software, blockchain-proven ownership" />
@@ -42,7 +42,7 @@ function BlogDetail(props) {
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
-				<meta property="og:url" content={`https://www.signettags.com/blog/${post?.data?.slug.iv}`} />
+				<meta property="og:url" content={`https://www.signettags.com/blog/${post?.data?.slug.iv}/`} />
 				<meta property="og:type" content="article" />
 				<meta property="og:title" content={post?.data?.title.iv} />
 				<meta property="og:description" content={post.data.text.iv.substring(0, 150)} />
@@ -52,7 +52,7 @@ function BlogDetail(props) {
 				{/* <!-- Twitter --> */}
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta name="twitter:url" content={`https://www.signettags.com/blog/${post?.data?.slug.iv}`} />
+				<meta name="twitter:url" content={`https://www.signettags.com/blog/${post?.data?.slug.iv}/`} />
 				<meta name="twitter:title" content={post?.data?.title.iv} />
 				<meta name="twitter:description" content={post?.data?.text.iv.substring(0, 150)} />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />

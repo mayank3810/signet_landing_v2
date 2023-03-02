@@ -16,7 +16,7 @@ function DocumentSecurity() {
 		<>
 			<Head>
 				<title>Signet Tags - Document Security Solutions</title>
-				<link rel="canonical" href="https://www.signettags.com/industries/document-security" key="canonical" />
+				<link rel="canonical" href="https://www.signettags.com/industries/document-security/" key="canonical" />
 				<meta name="title" content="Protect Your Certificates and Documents with Signet Tags" />
 				<meta
 					name="description"
@@ -32,7 +32,7 @@ function DocumentSecurity() {
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
-				<meta property="og:url" content="https://www.signettags.com/industries/document-security" />
+				<meta property="og:url" content="https://www.signettags.com/industries/document-security/" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Protect Your Certificates and Documents with Signet Tags" />
 				<meta property="og:description" content="Protect your documents with Signet Tags' tamper-proof solution." />
@@ -42,7 +42,7 @@ function DocumentSecurity() {
 				{/* <!-- Twitter --> */}
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta name="twitter:url" content="https://www.signettags.com/industries/document-security" />
+				<meta name="twitter:url" content="https://www.signettags.com/industries/document-security/" />
 				<meta name="twitter:title" content="Protect Your Certificates and Documents with Signet Tags" />
 				<meta name="twitter:description" content="Protect your documents with Signet Tags' tamper-proof solution." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />

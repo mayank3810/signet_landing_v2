@@ -19,7 +19,7 @@ function Pricing() {
 		<>
 			<Head>
 				<title>Signet Pricing - Choose the Right Plan for Your Business</title>
-				<link rel="canonical" href="https://www.signettags.com/pricing" key="canonical" />
+				<link rel="canonical" href="https://www.signettags.com/pricing/" key="canonical" />
 				<meta name="title" content="Signet Pricing - Choose the Right Plan for Your Business" />
 				<meta
 					name="description"
@@ -32,7 +32,7 @@ function Pricing() {
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
-				<meta property="og:url" content="https://www.signettags.com/pricing" />
+				<meta property="og:url" content="https://www.signettags.com/pricing/" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Signet Pricing - Choose the Right Plan" />
 				<meta
@@ -45,7 +45,7 @@ function Pricing() {
 				{/* <!-- Twitter --> */}
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta name="twitter:url" content="https://www.signettags.com/pricing" />
+				<meta name="twitter:url" content="https://www.signettags.com/pricing/" />
 				<meta name="twitter:title" content="Signet Pricing - Choose the Right Plan" />
 				<meta
 					name="twitter:description"

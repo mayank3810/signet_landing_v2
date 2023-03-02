@@ -16,7 +16,7 @@ function Cannabis() {
 		<>
 			<Head>
 				<title>Signet Tags - NFC Tag Authentication for Cannabis</title>
-				<link rel="canonical" href="https://www.signettags.com/industries/cannabis" key="canonical" />
+				<link rel="canonical" href="https://www.signettags.com/industries/cannabis/" key="canonical" />
 				<meta name="title" content="Signet Tags - NFC Tag Authentication for Cannabis" />
 				<meta
 					name="description"
@@ -32,7 +32,7 @@ function Cannabis() {
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
-				<meta property="og:url" content="https://www.signettags.com/industries/cannabis" />
+				<meta property="og:url" content="https://www.signettags.com/industries/cannabis/" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="NFC Tag Authentication for Cannabis with Signet Tags" />
 				<meta property="og:description" content="Authenticate cannabis products with Signet Tags' NFC tags." />
@@ -42,7 +42,7 @@ function Cannabis() {
 				{/* <!-- Twitter --> */}
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta name="twitter:url" content="https://www.signettags.com/industries/cannabis" />
+				<meta name="twitter:url" content="https://www.signettags.com/industries/cannabis/" />
 				<meta name="twitter:title" content="NFC Tag Authentication for Cannabis with Signet Tags" />
 				<meta name="twitter:description" content="Authenticate cannabis products with Signet Tags' NFC tags." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
