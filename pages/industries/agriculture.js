@@ -16,7 +16,7 @@ function Agriculture() {
 		<>
 			<Head>
 				<title>Signet Tags - Traceability Solution for Agriculture Industry</title>
-				<link rel="canonical" href="https://www.signettags.com/industries/agriculture/" key="canonical" />
+				<link rel="canonical" href="https://www.signettags.com/industries/agriculture" key="canonical" />
 				<meta name="title" content="Traceability Solution for Agriculture Industry with Signet Tags" />
 				<meta
 					name="description"
@@ -32,7 +32,7 @@ function Agriculture() {
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
-				<meta property="og:url" content="https://www.signettags.com/industries/agriculture/" />
+				<meta property="og:url" content="https://www.signettags.com/industries/agriculture" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Agricultural traceability with Signet tags" />
 				<meta
@@ -45,7 +45,7 @@ function Agriculture() {
 				{/* <!-- Twitter --> */}
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta name="twitter:url" content="https://www.signettags.com/industries/agriculture/" />
+				<meta name="twitter:url" content="https://www.signettags.com/industries/agriculture" />
 				<meta name="twitter:title" content="Agricultural traceability with Signet tags" />
 				<meta
 					name="twitter:description"

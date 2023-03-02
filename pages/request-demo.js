@@ -9,7 +9,7 @@ function RequestDemo() {
 		<>
 			<Head>
 				<title>Signet Tags - Request a Demo | Schedule a Meeting</title>
-				<link rel="canonical" href="https://www.signettags.com/request-demo/" key="canonical" />
+				<link rel="canonical" href="https://www.signettags.com/request-demo" key="canonical" />
 				<meta name="title" content="Schedule a Demo | Book a Meeting | Request a Free Trial" />
 				<meta
 					name="description"
@@ -25,7 +25,7 @@ function RequestDemo() {
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
-				<meta property="og:url" content="https://www.signettags.com/request-demo/" />
+				<meta property="og:url" content="https://www.signettags.com/request-demo" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Schedule a Demo or Request a Free Trial with Signet Tags" />
 				<meta property="og:description" content="Request a demo or free trial to experience our solutions. Schedule a meeting with us today." />
@@ -35,7 +35,7 @@ function RequestDemo() {
 				{/* <!-- Twitter --> */}
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta name="twitter:url" content="https://www.signettags.com/request-demo/" />
+				<meta name="twitter:url" content="https://www.signettags.com/request-demo" />
 				<meta name="twitter:title" content="Schedule a Demo or Request a Free Trial with Signet Tags" />
 				<meta name="twitter:description" content="Request a demo or free trial to experience our solutions. Schedule a meeting with us today." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />

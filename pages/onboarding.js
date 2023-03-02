@@ -15,7 +15,7 @@ function Onboarding() {
 		<>
 			<Head>
 				<title>Signet Tags - Onboarding Process Overview</title>
-				<link rel="canonical" href="https://www.signettags.com/onboarding/" key="canonical" />
+				<link rel="canonical" href="https://www.signettags.com/onboarding" key="canonical" />
 				<meta name="title" content="Get Started For Free with Signet Tags - Tag, Track, and Authenticate Your Products" />
 				<meta
 					name="description"
@@ -31,7 +31,7 @@ function Onboarding() {
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
-				<meta property="og:url" content="https://www.signettags.com/onboarding/" />
+				<meta property="og:url" content="https://www.signettags.com/onboarding" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Free product tagging with Signet solutions" />
 				<meta
@@ -44,7 +44,7 @@ function Onboarding() {
 				{/* <!-- Twitter --> */}
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta name="twitter:url" content="https://www.signettags.com/onboarding/" />
+				<meta name="twitter:url" content="https://www.signettags.com/onboarding" />
 				<meta name="twitter:title" content="Free product tagging with Signet solutions" />
 				<meta
 					name="twitter:description"

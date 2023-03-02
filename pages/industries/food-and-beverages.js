@@ -13,7 +13,7 @@ function FoodAndBeverages() {
 		<>
 			<Head>
 				<title>Signet Tags - Food and Beverages</title>
-				<link rel="canonical" href="https://www.signettags.com/industries/food-and-beverages/" key="canonical" />
+				<link rel="canonical" href="https://www.signettags.com/industries/food-and-beverages" key="canonical" />
 				<meta name="title" content="Protect your Food and Beverages & Engage Your Consumers Signet Tags" />
 				<meta
 					name="description"
@@ -29,7 +29,7 @@ function FoodAndBeverages() {
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
-				<meta property="og:url" content="https://www.signettags.com/industries/food-and-beverages/" />
+				<meta property="og:url" content="https://www.signettags.com/industries/food-and-beverages" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Protect food, engage consumers with Signet tags" />
 				<meta
@@ -42,7 +42,7 @@ function FoodAndBeverages() {
 				{/* <!-- Twitter --> */}
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta name="twitter:url" content="https://www.signettags.com/industries/food-and-beverages/" />
+				<meta name="twitter:url" content="https://www.signettags.com/industries/food-and-beverages" />
 				<meta name="twitter:title" content="Protect food, engage consumers with Signet tags" />
 				<meta
 					name="twitter:description"

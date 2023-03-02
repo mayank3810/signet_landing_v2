@@ -7,7 +7,7 @@ function PrivacyPolicy() {
 		<>
 			<Head>
 				<title>Signet Tags - Privacy Policy and Data Protection Measures</title>
-				<link rel="canonical" href="https://www.signettags.com/privacy-policy/" key="canonical" />
+				<link rel="canonical" href="https://www.signettags.com/privacy-policy" key="canonical" />
 				<meta name="title" content="Privacy Policy - Last Modified: February 04, 2023" />
 				<meta name="description" content="Our Privacy Policy explains how we collect, use, share, and protect your personal information." />
 				<meta name="keywords" content="Signet Tags, privacy policy, personal information, data processing, prohibited conduct, account security." />
@@ -17,7 +17,7 @@ function PrivacyPolicy() {
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
-				<meta property="og:url" content="https://www.signettags.com/privacy-policy/" />
+				<meta property="og:url" content="https://www.signettags.com/privacy-policy" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Privacy Policy - Signet Tags" />
 				<meta property="og:description" content="Review our Privacy Policy on personal info handling." />
@@ -27,7 +27,7 @@ function PrivacyPolicy() {
 				{/* <!-- Twitter --> */}
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta name="twitter:url" content="https://www.signettags.com/privacy-policy/" />
+				<meta name="twitter:url" content="https://www.signettags.com/privacy-policy" />
 				<meta name="twitter:title" content="Privacy Policy - Signet Tags" />
 				<meta name="twitter:description" content="Review our Privacy Policy on personal info handling." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />

@@ -7,7 +7,7 @@ function Patent() {
 		<>
 			<Head>
 				<title>Signet Tags - Patent Status | Anti-Counterfeit with NFT/NFC</title>
-				<link rel="canonical" href="https://www.signettags.com/patent/" key="canonical" />
+				<link rel="canonical" href="https://www.signettags.com/patent" key="canonical" />
 				<meta name="title" content="Signet Tags Patent: Anti-Counterfeit NFC Authentication" />
 				<meta
 					name="description"
@@ -23,7 +23,7 @@ function Patent() {
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
-				<meta property="og:url" content="https://www.signettags.com/patent/" />
+				<meta property="og:url" content="https://www.signettags.com/patent" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Signet Tags Patent: Anti-Counterfeit NFC Authentication" />
 				<meta property="og:description" content="Check NFT-NFC anti-counterfeit patent" />
@@ -33,7 +33,7 @@ function Patent() {
 				{/* <!-- Twitter --> */}
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta name="twitter:url" content="https://www.signettags.com/patent/" />
+				<meta name="twitter:url" content="https://www.signettags.com/patent" />
 				<meta name="twitter:title" content="Signet Tags Patent: Anti-Counterfeit NFC Authentication" />
 				<meta name="twitter:description" content="Check NFT-NFC anti-counterfeit patent" />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />

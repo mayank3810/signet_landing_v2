@@ -16,7 +16,7 @@ function Pharmaceuticals() {
 		<>
 			<Head>
 				<title>Signet Tags - Secure NFC Tag Solutions for Pharmaceuticals</title>
-				<link rel="canonical" href="https://www.signettags.com/industries/pharmaceuticals/" key="canonical" />
+				<link rel="canonical" href="https://www.signettags.com/industries/pharmaceuticals" key="canonical" />
 				<meta name="title" content="Anti-Counterfeit & Traceability Solutions for Pharmaceuticals with Signet Tags" />
 				<meta
 					name="description"
@@ -32,7 +32,7 @@ function Pharmaceuticals() {
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
-				<meta property="og:url" content="https://www.signettags.com/industries/pharmaceuticals/" />
+				<meta property="og:url" content="https://www.signettags.com/industries/pharmaceuticals" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Pharma traceability with Signet anti-counterfeit tags" />
 				<meta property="og:description" content="Protect Pharmaceuticals with Anti-Counterfeit & Traceability by Signet Tags" />
@@ -42,7 +42,7 @@ function Pharmaceuticals() {
 				{/* <!-- Twitter --> */}
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta name="twitter:url" content="https://www.signettags.com/industries/pharmaceuticals/" />
+				<meta name="twitter:url" content="https://www.signettags.com/industries/pharmaceuticals" />
 				<meta name="twitter:title" content="Pharma traceability with Signet anti-counterfeit tags" />
 				<meta name="twitter:description" content="Protect Pharmaceuticals with Anti-Counterfeit & Traceability by Signet Tags" />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />

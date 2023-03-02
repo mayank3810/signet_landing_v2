@@ -62,7 +62,7 @@ function Contact() {
 		<>
 			<Head>
 				<title>Contact Us - Get in Touch with Signet Tags</title>
-				<link rel="canonical" href="https://www.signettags.com/contact/" key="canonical" />
+				<link rel="canonical" href="https://www.signettags.com/contact" key="canonical" />
 				<meta name="title" content="Contact Signet Tags for Support and Assistance" />
 				<meta
 					name="description"
@@ -75,7 +75,7 @@ function Contact() {
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
-				<meta property="og:url" content="https://www.signettags.com/contact/" />
+				<meta property="og:url" content="https://www.signettags.com/contact" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Contact Signet Tags" />
 				<meta property="og:description" content="Contact Signet Tags for assistance or inquiries. Our team is here to help you." />
@@ -85,7 +85,7 @@ function Contact() {
 				{/* <!-- Twitter --> */}
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta name="twitter:url" content="https://www.signettags.com/contact/" />
+				<meta name="twitter:url" content="https://www.signettags.com/contact" />
 				<meta name="twitter:title" content="Contact Signet Tags" />
 				<meta name="twitter:description" content="Contact Signet Tags for assistance or inquiries. Our team is here to help you." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />

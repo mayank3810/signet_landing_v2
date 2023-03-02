@@ -13,7 +13,7 @@ function AutoParts() {
 		<>
 			<Head>
 				<title>Signet Tags - Anti-Counterfeit Protection for Auto Parts</title>
-				<link rel="canonical" href="https://www.signettags.com/industries/auto-parts/" key="canonical" />
+				<link rel="canonical" href="https://www.signettags.com/industries/auto-parts" key="canonical" />
 				<meta name="title" content="Secure Your Auto Parts Against Fraud with Signet Tags" />
 				<meta
 					name="description"
@@ -29,7 +29,7 @@ function AutoParts() {
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
-				<meta property="og:url" content="https://www.signettags.com/industries/auto-parts/" />
+				<meta property="og:url" content="https://www.signettags.com/industries/auto-parts" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Secure Your Auto Parts Against Fraud with Signet Tags" />
 				<meta property="og:description" content="Secure your auto parts with Signet Tags' tamper-proof packaging." />
@@ -39,7 +39,7 @@ function AutoParts() {
 				{/* <!-- Twitter --> */}
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta name="twitter:url" content="https://www.signettags.com/industries/auto-parts/" />
+				<meta name="twitter:url" content="https://www.signettags.com/industries/auto-parts" />
 				<meta name="twitter:title" content="Secure Your Auto Parts Against Fraud with Signet Tags" />
 				<meta name="twitter:description" content="Secure your auto parts with Signet Tags' tamper-proof packaging." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
