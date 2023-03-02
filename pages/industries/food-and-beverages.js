@@ -17,7 +17,7 @@ function FoodAndBeverages() {
 				<meta name="title" content="Protect your Food and Beverages & Engage Your Consumers Signet Tags" />
 				<meta
 					name="description"
-					content="Protect your food and beverage products from fraudulent refilling and counterfeiting using Signet Tags. Get valuable marketing insights and connect with your customers through secure physical-digital seals and tamper-proof technology."
+					content="Signet Tags prevents food & beverage counterfeiting using secure seals and tamper-proof tech. Get marketing insights and connect with customers."
 				/>
 				<meta
 					name="keywords"
@@ -31,7 +31,7 @@ function FoodAndBeverages() {
 				<meta property="og:site_name" content="Signet Tags" />
 				<meta property="og:url" content="https://www.signettags.com/industries/food-and-beverages" />
 				<meta property="og:type" content="website" />
-				<meta property="og:title" content="Protect your Food and Beverages & Engage Your Consumers Signet Tags" />
+				<meta property="og:title" content="Protect food, engage consumers with Signet tags" />
 				<meta
 					property="og:description"
 					content=" Protect your food and beverages with Signet Tags' tamper-proof technology. Engage customers with secure physical-digital seals and gain valuable marketing insights."
@@ -43,7 +43,7 @@ function FoodAndBeverages() {
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/industries/food-and-beverages" />
-				<meta name="twitter:title" content="Protect your Food and Beverages & Engage Your Consumers Signet Tags" />
+				<meta name="twitter:title" content="Protect food, engage consumers with Signet tags" />
 				<meta
 					name="twitter:description"
 					content=" Protect your food and beverages with Signet Tags' tamper-proof technology. Engage customers with secure physical-digital seals and gain valuable marketing insights."

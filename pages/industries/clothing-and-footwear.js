@@ -20,7 +20,7 @@ function ApparelAndClothing() {
 				<meta name="title" content="Signet Tags - NFC Tag Authentication for Clothing and Footwear" />
 				<meta
 					name="description"
-					content="Signet Tags offers NFC tag authentication for clothing and footwear, protecting against counterfeiting and allowing customers to track product history and authenticity with ease."
+					content="Signet Tags prevents counterfeit of clothing & footwear using NFC tag authentication. Track product history and authenticity effortlessly."
 				/>
 				<meta
 					name="keywords"
@@ -34,7 +34,7 @@ function ApparelAndClothing() {
 				<meta property="og:site_name" content="Signet Tags" />
 				<meta property="og:url" content="https://www.signettags.com/industries/clothing-and-footwear" />
 				<meta property="og:type" content="website" />
-				<meta property="og:title" content="NFC Tag Authentication for Clothing and Footwear with Signet Tags" />
+				<meta property="og:title" content="Signet tags authenticate NFC clothing and footwear" />
 				<meta property="og:description" content="Authenticate clothing and footwear with Signet Tags' NFC tags." />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
@@ -43,7 +43,7 @@ function ApparelAndClothing() {
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/industries/clothing-and-footwear" />
-				<meta name="twitter:title" content="NFC Tag Authentication for Clothing and Footwear with Signet Tags" />
+				<meta name="twitter:title" content="Signet tags authenticate NFC clothing and footwear" />
 				<meta name="twitter:description" content="Authenticate clothing and footwear with Signet Tags' NFC tags." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>

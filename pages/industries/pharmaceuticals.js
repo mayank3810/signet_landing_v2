@@ -20,7 +20,7 @@ function Pharmaceuticals() {
 				<meta name="title" content="Anti-Counterfeit & Traceability Solutions for Pharmaceuticals with Signet Tags" />
 				<meta
 					name="description"
-					content="Signet Tags offers anti-counterfeit and traceability solutions for the pharmaceutical industry. Secure NFC tags with unique digital identities allow for instant product verification, tracking, and protection against fraudulent refilling. Contact us to get started."
+					content="Signet Tags provides anti-counterfeit solutions for pharma industry. Secure NFC tags with unique IDs for instant verification, tracking, and fraud prevention. Contact us to start."
 				/>
 				<meta
 					name="keywords"
@@ -34,7 +34,7 @@ function Pharmaceuticals() {
 				<meta property="og:site_name" content="Signet Tags" />
 				<meta property="og:url" content="https://www.signettags.com/industries/pharmaceuticals" />
 				<meta property="og:type" content="website" />
-				<meta property="og:title" content="Anti-Counterfeit & Traceability Solutions for Pharmaceuticals with Signet Tags" />
+				<meta property="og:title" content="Pharma traceability with Signet anti-counterfeit tags" />
 				<meta property="og:description" content="Protect Pharmaceuticals with Anti-Counterfeit & Traceability by Signet Tags" />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
@@ -43,7 +43,7 @@ function Pharmaceuticals() {
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/industries/pharmaceuticals" />
-				<meta name="twitter:title" content="Anti-Counterfeit & Traceability Solutions for Pharmaceuticals with Signet Tags" />
+				<meta name="twitter:title" content="Pharma traceability with Signet anti-counterfeit tags" />
 				<meta name="twitter:description" content="Protect Pharmaceuticals with Anti-Counterfeit & Traceability by Signet Tags" />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>

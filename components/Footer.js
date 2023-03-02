@@ -26,7 +26,7 @@ function Footer() {
 						<div className="col-sm-6 col-md-3 col-lg-2">
 							<div className="footer-links mb-40">
 								{/* Title */}
-								<h2 className="h4-font">Company</h2>
+								<div className="h4-font footer-head">Company</div>
 								{/* Footer Links */}
 								<ul className="foo-links text-secondary clearfix">
 									<li>
@@ -56,7 +56,7 @@ function Footer() {
 						<div className="col-sm-6 col-md-3 col-lg-2">
 							<div className="footer-links mb-40">
 								{/* Title */}
-								<h2 className="h4-font">Discover</h2>
+								<div className="h4-font footer-head">Discover</div>
 								{/* Footer List */}
 								<ul className="foo-links text-secondary clearfix">
 									<li>
@@ -81,7 +81,7 @@ function Footer() {
 						<div className="col-sm-6 col-md-3 col-lg-2">
 							<div className="footer-links mb-40">
 								{/* Title */}
-								<h2 className="h4-font">Industries</h2>
+								<div className="h4-font footer-head">Industries</div>
 								{/* Footer List */}
 								<ul className="foo-links text-secondary clearfix">
 									<li>
@@ -117,7 +117,7 @@ function Footer() {
 						<div className="col-sm-6 col-md-3 col-lg-2">
 							<div className="footer-links mb-40">
 								{/* Title */}
-								<h2 className="h4-font">Links</h2>
+								<div className="h4-font footer-head">Links</div>
 								{/* Footer Links */}
 								<ul className="foo-links text-secondary clearfix">
 									<li>

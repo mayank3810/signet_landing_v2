@@ -27,9 +27,9 @@ function RequestDemo() {
 				<meta property="og:site_name" content="Signet Tags" />
 				<meta property="og:url" content="https://www.signettags.com/request-demo" />
 				<meta property="og:type" content="website" />
-				<meta name="og:title" content="Schedule a Demo or Request a Free Trial with Signet Tags" />
+				<meta property="og:title" content="Schedule a Demo or Request a Free Trial with Signet Tags" />
 				<meta
-					name="og:description"
+					property="og:description"
 					content="Learn more about our products and services with a demo or request a free trial to experience our solutions firsthand. Book a meeting with our team today."
 				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />

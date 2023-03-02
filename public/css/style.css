@@ -8688,3 +8688,8 @@ input.checkbox-input {
 .duration-1 {
 	animationduration: '1s';
 }
+
+.footer-head {
+	font-weight: 500;
+	color: #2f353e;
+}

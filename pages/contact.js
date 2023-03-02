@@ -62,7 +62,7 @@ function Contact() {
 		<>
 			<Head>
 				<title>Contact Us - Get in Touch with Signet Tags</title>
-				<link rel="canonical" href="https://www.signettags.com/blog" key="canonical" />
+				<link rel="canonical" href="https://www.signettags.com/contact" key="canonical" />
 				<meta name="title" content="Contact Signet Tags for Support and Assistance" />
 				<meta
 					name="description"

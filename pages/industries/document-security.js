@@ -20,7 +20,7 @@ function DocumentSecurity() {
 				<meta name="title" content="Protect Your Certificates and Documents with Signet Tags" />
 				<meta
 					name="description"
-					content="Signet Tags is an innovative document security solution that offers affordable and easy-to-use technology to safeguard your valuable documents. With our suite of proprietary technologies, you can issue tamper-proof certificates, learn from analytics, and boost engagement while protecting your brand and detecting fraudulent activities. Contact our experts to get started"
+					content="Signet Tags' affordable document security uses proprietary tech for tamper-proof certificates, analytics, and fraud detection. Protect your brand and engage customers. Contact us to start."
 				/>
 				<meta
 					name="keywords"

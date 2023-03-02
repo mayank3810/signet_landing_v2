@@ -20,7 +20,7 @@ function Cannabis() {
 				<meta name="title" content="Signet Tags - NFC Tag Authentication for Cannabis" />
 				<meta
 					name="description"
-					content="Signet Tags offers NFC tag authentication for cannabis, protecting against counterfeiting and allowing customers to track product history and authenticity with ease."
+					content="Signet Tags secures cannabis using NFC tag authentication. Prevent counterfeiting and track product history with ease."
 				/>
 				<meta
 					name="keywords"

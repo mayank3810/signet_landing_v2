@@ -14,7 +14,7 @@ function Technology() {
 				<meta name="title" content="Authenticity Guaranteed - Secure Product Verification with Signet Tags" />
 				<meta
 					name="description"
-					content="Signet Tags enables secure product verification and authentication through NFC tags, NFTs, and blockchain technology. Protect your physical products from counterfeiting and gain valuable business intelligence."
+					content="Signet Tags use NFC, NFTs, and blockchain to verify products and prevent counterfeiting. Get business intelligence and protect your physical products."
 				/>
 				<meta
 					name="keywords"
@@ -28,9 +28,9 @@ function Technology() {
 				<meta property="og:site_name" content="Signet Tags" />
 				<meta property="og:url" content="https://www.signettags.com/technology" />
 				<meta property="og:type" content="website" />
-				<meta name="og:title" content="Authenticity Guaranteed with Signet Tags" />
+				<meta property="og:title" content="Authenticity Guaranteed with Signet Tags" />
 				<meta
-					name="og:description"
+					property="og:description"
 					content="Secure product verification and authentication using NFC tags, NFTs, and blockchain technology. Protect your products and gain valuable business intelligence."
 				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />

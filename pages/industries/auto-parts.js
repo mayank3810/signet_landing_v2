@@ -17,7 +17,7 @@ function AutoParts() {
 				<meta name="title" content="Secure Your Auto Parts Against Fraud with Signet Tags" />
 				<meta
 					name="description"
-					content="Protect your auto parts against counterfeiting with Signet Tags' tamper-proof and anti-counterfeit packaging solutions. Get instant authentication using our patented NFC technology."
+					content="Signet Tags' tamper-proof packaging for auto parts stops counterfeiting. Our patented NFC tech provides instant authentication."
 				/>
 				<meta
 					name="keywords"

@@ -21,7 +21,7 @@ function CosmeticsAndPerfumes() {
 				<meta name="title" content="Signet Tags - NFC Tag Authentication for Shoes and Footwear" />
 				<meta
 					name="description"
-					content="Signet Tags offers NFC tag authentication for cosmetics and perfumes, protecting against counterfeiting and allowing customers to track product history and authenticity with ease."
+					content="Signet Tags secures cosmetics and perfumes with NFC tag authentication, preventing counterfeiting and enabling easy product tracking and verification."
 				/>
 				<meta
 					name="keywords"
@@ -35,7 +35,7 @@ function CosmeticsAndPerfumes() {
 				<meta property="og:site_name" content="Signet Tags" />
 				<meta property="og:url" content="https://www.signettags.com/industries/cosmetics-and-perfumes" />
 				<meta property="og:type" content="website" />
-				<meta property="og:title" content="NFC Tag Authentication for Shoes and Footwear with Signet Tags" />
+				<meta property="og:title" content="NFC authentication for footwear with Signet tags" />
 				<meta property="og:description" content="Authenticate shoes and footwear with Signet Tags' NFC tags." />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
@@ -44,7 +44,7 @@ function CosmeticsAndPerfumes() {
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/industries/cosmetics-and-perfumes" />
-				<meta name="twitter:title" content="NFC Tag Authentication for Shoes and Footwear with Signet Tags" />
+				<meta name="twitter:title" content="NFC authentication for footwear with Signet tags" />
 				<meta name="twitter:description" content="Authenticate shoes and footwear with Signet Tags' NFC tags." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>

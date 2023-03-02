@@ -19,9 +19,9 @@ function PrivacyPolicy() {
 				<meta property="og:site_name" content="Signet Tags" />
 				<meta property="og:url" content="https://www.signettags.com/privacy-policy" />
 				<meta property="og:type" content="website" />
-				<meta name="og:title" content="Privacy Policy - Signet Tags" />
+				<meta property="og:title" content="Privacy Policy - Signet Tags" />
 				<meta
-					name="og:description"
+					property="og:description"
 					content="Read our Privacy Policy to learn how we handle your personal information. Last updated on Feb 04, 2023."
 				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />

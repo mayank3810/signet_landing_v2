@@ -20,7 +20,7 @@ function Agriculture() {
 				<meta name="title" content="Traceability Solution for Agriculture Industry with Signet Tags" />
 				<meta
 					name="description"
-					content="Signet Tags provides a traceability solution for the agriculture industry to tag, track, and authenticate agrochemical products. Our NFC tag leverages encrypted tamper-proof blockchain technology to ensure product integrity and authenticity, and our app provides farmers with instant access to product characteristics. Protect your brand and customers from counterfeit products with Signet Tags."
+					content="Signet Tags tracks and authenticates agrochemicals using NFC tags and blockchain. Farmers get instant product info via our app. Protect your brand with us."
 				/>
 				<meta
 					name="keywords"
@@ -34,7 +34,7 @@ function Agriculture() {
 				<meta property="og:site_name" content="Signet Tags" />
 				<meta property="og:url" content="https://www.signettags.com/industries/agriculture" />
 				<meta property="og:type" content="website" />
-				<meta property="og:title" content="Traceability Solution for Agriculture Industry with Signet Tags" />
+				<meta property="og:title" content="Agricultural traceability with Signet tags" />
 				<meta
 					property="og:description"
 					content="Ensure product authenticity and traceability in agriculture with Signet Tags' blockchain solution."
@@ -46,7 +46,7 @@ function Agriculture() {
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/industries/agriculture" />
-				<meta name="twitter:title" content="Traceability Solution for Agriculture Industry with Signet Tags" />
+				<meta name="twitter:title" content="Agricultural traceability with Signet tags" />
 				<meta
 					name="twitter:description"
 					content="Ensure product authenticity and traceability in agriculture with Signet Tags' blockchain solution."

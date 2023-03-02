@@ -34,9 +34,9 @@ function Pricing() {
 				<meta property="og:site_name" content="Signet Tags" />
 				<meta property="og:url" content="https://www.signettags.com/pricing" />
 				<meta property="og:type" content="website" />
-				<meta name="og:title" content="Signet Pricing - Choose the Right Plan" />
+				<meta property="og:title" content="Signet Pricing - Choose the Right Plan" />
 				<meta
-					name="og:description"
+					property="og:description"
 					content="Explore Signet's pricing packages & choose the right plan for your business. Get started with a free trial & enjoy advanced features & VIP support."
 				/>
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
