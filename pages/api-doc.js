@@ -23,7 +23,7 @@ function ApiDoc() {
 				<meta property="og:url" content="https://www.signettags.com/api-doc" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Signet Tags API Documentation" />
-				<meta property="og:description" content="Integrate blockchain-based brand protection with Signet Tags' API docs." />
+				<meta property="og:description" content="Integrate blockchain brand protection with Signet Tags API." />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
 
@@ -32,7 +32,7 @@ function ApiDoc() {
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/api-doc" />
 				<meta name="twitter:title" content="Signet Tags API Documentation" />
-				<meta name="twitter:description" content="Integrate blockchain-based brand protection with Signet Tags' API docs." />
+				<meta name="twitter:description" content="Integrate blockchain brand protection with Signet Tags API." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={true} />
@@ -56,7 +56,7 @@ function ApiDoc() {
 							<div className="version-release">
 								{/* Release Data */}
 								<div className="release-data">
-									<h4 className="h4-xs">Latest Version</h4>
+									<h2 className="h2-font mb-4">Latest Version</h2>
 									{/* Version Data */}
 									<div className="rel">
 										<span className="version-data">2.10.074</span>
@@ -107,7 +107,7 @@ function ApiDoc() {
 							<div className="version-release">
 								{/* Release Data */}
 								<div className="release-data">
-									<h4 className="h4-xs">Older Versions</h4>
+									<h2 className="h2-font mb-4">Older Versions</h2>
 									{/* Version Data */}
 									<div className="rel">
 										<span className="version-data">2.10.020</span>
