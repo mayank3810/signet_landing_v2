@@ -48,7 +48,11 @@ function DocumentSecurity() {
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={inContainerView} />
-			<PageTitle image="/images/industries/document_banner.jpg" title={'Document Security'} subtitle={'Tag, track and authenticate your documents'} />
+			<PageTitle
+				image="/images/industries/document_banner.jpg"
+				title={'Reliable Document Security Solutions'}
+				subtitle={'Tag, track and authenticate your documents'}
+			/>
 			<div ref={containerRef}>
 				<section id="content-3" className="bg-whitesmoke content-3 wide-60 content-section division">
 					<div className="container">

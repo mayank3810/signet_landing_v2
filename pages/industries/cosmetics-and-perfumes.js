@@ -16,7 +16,7 @@ function CosmeticsAndPerfumes() {
 	return (
 		<>
 			<Head>
-				<title>Signet Tags - NFC Tag Authentication for Cosmetics and Perfumes</title>
+				<title>Signet Tags - Smart Packaging Solutions for Cosmetics and Perfumes</title>
 				<link rel="canonical" href="https://www.signettags.com/industries/cosmetics-and-perfumes" key="canonical" />
 				<meta name="title" content="Signet Tags - NFC Tag Authentication for Shoes and Footwear" />
 				<meta
@@ -51,7 +51,7 @@ function CosmeticsAndPerfumes() {
 			<Header scroll={inContainerView} />
 			<PageTitle
 				image="/images/industries/cosmetics_banner.jpg"
-				title={'Cosmetics And Perfumes'}
+				title={'Secure Your Cosmetics and Perfumes with Smart Packaging'}
 				subtitle={'Engage your consumers with fun, informative, smart packaging that also protects your brand'}
 			/>
 			<div ref={containerRef}>

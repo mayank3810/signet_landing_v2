@@ -15,9 +15,9 @@ function ApparelAndClothing() {
 	return (
 		<>
 			<Head>
-				<title>Signet Tags - NFC Authentication for Clothing & Footwear</title>
+				<title>Signet Tags - Smart Packaging Solutions for Clothing & Footwear</title>
 				<link rel="canonical" href="https://www.signettags.com/industries/clothing-and-footwear" key="canonical" />
-				<meta name="title" content="Signet Tags - NFC Tag Authentication for Clothing and Footwear" />
+				<meta name="title" content="Signet Tags Smart Packaging for Clothing and Footwear" />
 				<meta
 					name="description"
 					content="Signet Tags prevents counterfeit of clothing & footwear using NFC tag authentication. Track product history and authenticity effortlessly."
@@ -50,7 +50,7 @@ function ApparelAndClothing() {
 			<Header scroll={inContainerView} />
 			<PageTitle
 				image="/images/industries/clothing_banner.jpg"
-				title={'Apparel and clothing'}
+				title={'Secure Your Apparel and clothing with Smart Packaging'}
 				subtitle={'No credit card required. Change or cancel your plan anytime'}
 			/>
 			<div ref={containerRef}>

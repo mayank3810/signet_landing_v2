@@ -50,7 +50,7 @@ function Pharmaceuticals() {
 			<Header scroll={inContainerView} />
 			<PageTitle
 				image="/images/industries/pharma_banner.jpg"
-				title={'Pharmaceuticals'}
+				title={'Secure and Traceable Pharmaceuticals Solutions'}
 				subtitle={'Add product traceability and unique digital identities to your packaging with secure NFC tags'}
 			/>
 			<div ref={containerRef}>

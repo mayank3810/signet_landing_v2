@@ -50,7 +50,7 @@ function Agriculture() {
 			<Header scroll={inContainerView} />
 			<PageTitle
 				image="/images/industries/agriculture_banner.jpg"
-				title={'Agriculture Industry'}
+				title={'Blockchain-Based Tracing for Agricultural Protection'}
 				subtitle={'Tag, track, and instantaneously authenticate agrochemical products'}
 			/>
 			<div ref={containerRef}>

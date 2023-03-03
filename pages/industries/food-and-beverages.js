@@ -12,7 +12,7 @@ function FoodAndBeverages() {
 	return (
 		<>
 			<Head>
-				<title>Signet Tags - Food and Beverages</title>
+				<title>Signet Tags - Guaranteeing the Authenticity of Food and Beverages</title>
 				<link rel="canonical" href="https://www.signettags.com/industries/food-and-beverages" key="canonical" />
 				<meta name="title" content="Protect your Food and Beverages & Engage Your Consumers Signet Tags" />
 				<meta
@@ -53,7 +53,7 @@ function FoodAndBeverages() {
 			<Header scroll={inContainerView} />
 			<PageTitle
 				image="/images/industries/food_banner.jpg"
-				title={'Food And Beverages'}
+				title={'Ensure Authenticity of Food and Beverages'}
 				subtitle={'Protect & Engage Your Consumers with Signet Tags'}
 			/>
 			<div ref={containerRef}>

@@ -15,9 +15,9 @@ function ShoesAndFootwear() {
 	return (
 		<>
 			<Head>
-				<title>Signet Tags - NFC Tag Authentication for Shoes and Footwear</title>
+				<title>Signet Tags - Smart packaging solutions for Shoes and Footwear</title>
 				<link rel="canonical" href="https://www.signettags.com/industries/shoes-and-footwear" key="canonical" />
-				<meta name="title" content="NFC Tag Authentication for Shoes and Footwear with Signet Tags" />
+				<meta name="title" content="Signet Tags Smart Packaging for Shoes and Footwear" />
 				<meta
 					name="description"
 					content="Signet Tags' NFC tag authentication prevents shoe counterfeiting and allows for easy tracking and verification of product history and authenticity."
@@ -50,7 +50,7 @@ function ShoesAndFootwear() {
 			<Header scroll={inContainerView} />
 			<PageTitle
 				image="/images/industries/shoes_banner.jpg"
-				title={'Shoes And Footwear'}
+				title={'Secure Your Shoes And Footwear with Smart Packaging'}
 				subtitle={'No credit card required. Change or cancel your plan anytime'}
 			/>
 			<div ref={containerRef}>

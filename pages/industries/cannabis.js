@@ -50,7 +50,7 @@ function Cannabis() {
 			<Header scroll={inContainerView} />
 			<PageTitle
 				image="/images/industries/cannabis_banner.jpg"
-				title={'Cannabis Industry'}
+				title={'Anti-Counterfeit NFC Solutions for Cannabis'}
 				subtitle={'Open a new channel to engage, protect, and build trust with your customers.'}
 			/>
 			<div ref={containerRef}>
