@@ -98,10 +98,10 @@ function Blog(props) {
 												{/* Post Tag */}
 												<p className="p-md post-tag">{post?.data?.postType.iv + ' | ' + getParsedDate(post.created)}</p>
 												{/* Post Link */}
-												<h5 className="h5-md">
+												<h2 className="h3-font">
 													<Link href={'/blog/' + post?.data?.slug.iv}>{post?.data?.title.iv}</Link>
 													{/* <a href="single-post.html"></a> */}
-												</h5>
+												</h2>
 											</div>
 										</div>
 									))}
