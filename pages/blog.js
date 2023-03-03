@@ -31,7 +31,7 @@ function Blog(props) {
 	return (
 		<>
 			<Head>
-				<title>Signet Blog: Relevant News and More</title>
+				<title>Signet Blog - Relevant News and More</title>
 				<link rel="canonical" href="https://www.signettags.com/blog" key="canonical" />
 				<meta name="title" content="Stay Updated with Signet Blog for Relevant News and More" />
 				<meta
@@ -48,7 +48,7 @@ function Blog(props) {
 				<meta property="og:url" content="https://www.signettags.com/blog" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Stay Informed with Signet Blog" />
-				<meta property="og:description" content="Get relevant news and valuable insights on various topics by reading the Signet Blog." />
+				<meta property="og:description" content="Stay informed with Signet Blog's news and insights." />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
 
@@ -57,7 +57,7 @@ function Blog(props) {
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/blog" />
 				<meta name="twitter:title" content="Stay Informed with Signet Blog" />
-				<meta name="twitter:description" content="Get relevant news and valuable insights on various topics by reading the Signet Blog." />
+				<meta name="twitter:description" content="Stay informed with Signet Blog's news and insights." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={true} />
