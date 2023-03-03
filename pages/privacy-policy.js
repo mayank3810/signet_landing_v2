@@ -11,7 +11,7 @@ function PrivacyPolicy() {
 				<meta name="title" content="Privacy Policy - Last Modified: February 04, 2023" />
 				<meta name="description" content="Our Privacy Policy explains how we collect, use, share, and protect your personal information." />
 				<meta name="keywords" content="Signet Tags, privacy policy, personal information, data processing, prohibited conduct, account security." />
-				<meta name="robots" content="index, follow" />
+				<meta name="robots" content="noindex, follow" />
 				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 				<meta name="language" content="English" />
 

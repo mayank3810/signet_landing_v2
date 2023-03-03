@@ -69,7 +69,7 @@ function Contact() {
 					content=" Contact Signet Tags for any questions, comments or concerns. We're here to help you with any issues or inquiries you may have."
 				/>
 				<meta name="keywords" content="Signet Tags, Signet Authenticity, brand protection software, blockchain-proven ownership, " />
-				<meta name="robots" content="index, follow" />
+				<meta name="robots" content="noindex, follow" />
 				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 				<meta name="language" content="English" />
 

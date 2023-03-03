@@ -14,7 +14,7 @@ function ApiDoc() {
 					content="Get the latest version (2.10.07) of our API documentation and resources. Download for OS X and Windows. Find bug fixes and older versions."
 				/>
 				<meta name="keywords" content="API documentation, API resources, latest version, download, OS X, Windows, bug fixes, older versions." />
-				<meta name="robots" content="index, follow" />
+				<meta name="robots" content="noindex, follow" />
 				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 				<meta name="language" content="English" />
 

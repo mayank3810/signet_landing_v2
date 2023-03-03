@@ -19,7 +19,7 @@ function RequestDemo() {
 					name="keywords"
 					content="Request a Demo, Schedule a Meeting, Book a Demo, Request a Free Trial, Experience Our Solutions, Learn More, Products and Services, Demo Request"
 				/>
-				<meta name="robots" content="index, follow" />
+				<meta name="robots" content="noindex, follow" />
 				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 				<meta name="language" content="English" />
 

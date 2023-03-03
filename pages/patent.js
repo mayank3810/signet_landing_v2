@@ -17,7 +17,7 @@ function Patent() {
 					name="keywords"
 					content="Signet Tags, Signet Authenticity, brand protection software, blockchain-proven ownership, anti-counterfeit authentication, non-fungible token, near-field communication, patent application status, filing date, application number"
 				/>
-				<meta name="robots" content="index, follow" />
+				<meta name="robots" content="noindex, follow" />
 				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 				<meta name="language" content="English" />
 

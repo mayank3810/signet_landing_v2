@@ -25,7 +25,7 @@ function Onboarding() {
 					name="keywords"
 					content="Signet Tags, onboarding, tag, track, authenticate, products, risk-free trial, access, features, cancel, pay nothing"
 				/>
-				<meta name="robots" content="index, follow" />
+				<meta name="robots" content="noindex, follow" />
 				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 				<meta name="language" content="English" />
 
