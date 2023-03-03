@@ -8600,6 +8600,9 @@ input.checkbox-input {
 .h4-font {
 	font-size: 1.25rem;
 }
+.h2-font {
+	font-size: 2.6rem;
+}
 @media (min-width: 992px) and (max-width: 1199.95px) {
 	.h3-font {
 		font-size: 1.25rem;

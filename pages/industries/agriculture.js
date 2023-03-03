@@ -97,7 +97,7 @@ function Agriculture() {
 							<div className="col-md-10 col-lg-8">
 								<div className="section-title title-02 mb-60">
 									<h2 className="h2-xs">
-										The real problem <br />
+										Uncovering the Real Problem <br />
 									</h2>
 									<p className="p-xl">
 										The rapid growth in population and the consequent increase of the food demand made the agricultural market reach the size of 250.5

@@ -35,7 +35,7 @@ function Pharmaceuticals() {
 				<meta property="og:url" content="https://www.signettags.com/industries/pharmaceuticals" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Pharma traceability with Signet anti-counterfeit tags" />
-				<meta property="og:description" content="Protect Pharmaceuticals with Anti-Counterfeit & Traceability by Signet Tags" />
+				<meta property="og:description" content="Secure Pharma with Anti-Counterfeit & Traceability by Signet Tags" />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
 
@@ -44,7 +44,7 @@ function Pharmaceuticals() {
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/industries/pharmaceuticals" />
 				<meta name="twitter:title" content="Pharma traceability with Signet anti-counterfeit tags" />
-				<meta name="twitter:description" content="Protect Pharmaceuticals with Anti-Counterfeit & Traceability by Signet Tags" />
+				<meta name="twitter:description" content="Secure Pharma with Anti-Counterfeit & Traceability by Signet Tags" />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={inContainerView} />
@@ -103,7 +103,7 @@ function Pharmaceuticals() {
 							<div className="col-md-10 col-lg-8">
 								<div className="section-title title-02 mb-60">
 									<h2 className="h2-xs">
-										The real problem <br />
+										Uncovering the Real Problem <br />
 									</h2>
 									<p className="p-xl">
 										The pharma industry has been hit hard by counterfeiters, who are taking advantage of the gaps between skyrocketing demand and

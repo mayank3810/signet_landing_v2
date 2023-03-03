@@ -97,7 +97,7 @@ function Cannabis() {
 							<div className="col-md-10 col-lg-8">
 								<div className="section-title title-02 mb-60">
 									<h2 className="h2-xs">
-										The real problem <br />
+										Uncovering the Real Problem <br />
 									</h2>
 									<p className="p-xl">Our brand protection technologies create a new way to engage, protect and build trust with your customers.</p>
 								</div>

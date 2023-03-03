@@ -99,7 +99,7 @@ function CosmeticsAndPerfumes() {
 							<div className="col-md-10 col-lg-8">
 								<div className="section-title title-02 mb-60">
 									<h2 className="h2-xs">
-										The real problem <br />
+										Uncovering the Real Problem <br />
 									</h2>
 									<p className="p-xl">
 										7.8% of annual sales in the personal care sector is lost due to counterfeiting According to the OECD, in 2016 the international
