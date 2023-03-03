@@ -12,7 +12,7 @@ function FoodAndBeverages() {
 	return (
 		<>
 			<Head>
-				<title>Signet Tags - Guaranteeing the Authenticity of Food and Beverages</title>
+				<title>Signet Tags - Authenticity of Food and Beverages</title>
 				<link rel="canonical" href="https://www.signettags.com/industries/food-and-beverages" key="canonical" />
 				<meta name="title" content="Protect your Food and Beverages & Engage Your Consumers Signet Tags" />
 				<meta
@@ -32,10 +32,7 @@ function FoodAndBeverages() {
 				<meta property="og:url" content="https://www.signettags.com/industries/food-and-beverages" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Protect food, engage consumers with Signet tags" />
-				<meta
-					property="og:description"
-					content=" Protect your food and beverages with Signet Tags' tamper-proof technology. Engage customers with secure physical-digital seals and gain valuable marketing insights."
-				/>
+				<meta property="og:description" content=" Secure food, drinks with tamper-proof tech." />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
 
@@ -44,10 +41,7 @@ function FoodAndBeverages() {
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/industries/food-and-beverages" />
 				<meta name="twitter:title" content="Protect food, engage consumers with Signet tags" />
-				<meta
-					name="twitter:description"
-					content=" Protect your food and beverages with Signet Tags' tamper-proof technology. Engage customers with secure physical-digital seals and gain valuable marketing insights."
-				/>
+				<meta name="twitter:description" content="Secure food, drinks with tamper-proof tech." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={inContainerView} />
@@ -157,7 +151,7 @@ function FoodAndBeverages() {
 										{/* Image */}
 										<img className="img-fluid rounded" src="/images/industries/brand-protection.jpg" alt="feature-icon" />
 										{/* Title */}
-										<h5 className="h5-md mt-4 ">Counterfeit Protection</h5>
+										<h3 className="h3-font mt-4 ">Counterfeit Protection</h3>
 										{/* Text */}
 										<p className="p-lg">Provide customers with product assurance via secure physical-digital seals and tamper-proof technology.</p>
 									</div>
@@ -168,7 +162,7 @@ function FoodAndBeverages() {
 										{/* Image */}
 										<img className="img-fluid rounded" src="/images/industries/marketing.jpg" alt="feature-icon" />
 										{/* Title */}
-										<h5 className="h5-md mt-4">Marketing Insights</h5>
+										<h3 className="h3-font mt-4">Marketing Insights</h3>
 										{/* Text */}
 										<p className="p-lg">
 											Track your products until the final customer. Capture valuable marketing insights and consented first-party data
@@ -179,7 +173,7 @@ function FoodAndBeverages() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										<img className="img-fluid rounded" src="/images/industries/feedback.jpg" alt="feature-icon" />
-										<h5 className="h5-md mt-4 ">Connect directly</h5>
+										<h3 className="h3-font mt-4 ">Connect directly</h3>
 										{/* Text */}
 										<p className="p-lg">
 											Connect directly to your customers using push notifications and alerts. Collect valuable feedbacks directly from customers.

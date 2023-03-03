@@ -238,9 +238,9 @@ function Cannabis() {
 							</div>
 							<div className="col-sm-5 col-md-4 col-lg-3 offset-sm-2 offset-md-3 offset-lg-2">
 								<div className="statistic-block wow fadeInUp">
-									<h2 className="h2-title-xs statistic-number">
+									<div className="h2-title-font statistic-number footer-head text-dark">
 										<span className="count-element">23%</span>
-									</h2>
+									</div>
 									<p className="p-lg mt-20">annual sales increase in revenue, according to Gallup research.</p>
 								</div>
 							</div>

@@ -15,7 +15,7 @@ function ShoesAndFootwear() {
 	return (
 		<>
 			<Head>
-				<title>Signet Tags - Smart packaging solutions for Shoes and Footwear</title>
+				<title>Smart packaging solutions for Shoes and Footwear</title>
 				<link rel="canonical" href="https://www.signettags.com/industries/shoes-and-footwear" key="canonical" />
 				<meta name="title" content="Signet Tags Smart Packaging for Shoes and Footwear" />
 				<meta
@@ -35,7 +35,7 @@ function ShoesAndFootwear() {
 				<meta property="og:url" content="https://www.signettags.com/industries/shoes-and-footwear" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="NFC authentication for footwear with Signet Tags" />
-				<meta property="og:description" content="Secure your footwear with Signet Tags' NFC authentication against counterfeiting" />
+				<meta property="og:description" content="Secure your footwear with Signet Tags against counterfeiting." />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
 
@@ -44,7 +44,7 @@ function ShoesAndFootwear() {
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/industries/shoes-and-footwear" />
 				<meta name="twitter:title" content="NFC authentication for footwear with Signet Tags" />
-				<meta name="twitter:description" content="Secure your footwear with Signet Tags' NFC authentication against counterfeiting" />
+				<meta name="twitter:description" content="Secure your footwear with Signet Tags against counterfeiting." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={inContainerView} />
@@ -248,9 +248,9 @@ function ShoesAndFootwear() {
 							</div>
 							<div className="col-sm-5 col-md-4 col-lg-3 offset-sm-2 offset-md-3 offset-lg-2">
 								<div className="statistic-block wow fadeInUp">
-									<h2 className="h2-title-xs statistic-number">
+									<div className="h2-title-font statistic-number footer-head text-dark">
 										<span className="count-element">7.8%</span>
-									</h2>
+									</div>
 									<p className="p-lg mt-20">annual sales in the personal care sector is lost due to counterfeiting</p>
 								</div>
 							</div>

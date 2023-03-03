@@ -35,10 +35,7 @@ function Pricing() {
 				<meta property="og:url" content="https://www.signettags.com/pricing" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Signet Pricing - Choose the Right Plan" />
-				<meta
-					property="og:description"
-					content="Discover Signet's pricing packages, select the right plan for your business. Try for free & access advanced features, VIP support."
-				/>
+				<meta property="og:description" content="Find Signet's pricing plans, try free & access advanced features." />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
 
@@ -47,10 +44,7 @@ function Pricing() {
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/pricing" />
 				<meta name="twitter:title" content="Signet Pricing - Choose the Right Plan" />
-				<meta
-					name="twitter:description"
-					content="Discover Signet's pricing packages, select the right plan for your business. Try for free & access advanced features, VIP support."
-				/>
+				<meta name="twitter:description" content="Find Signet's pricing plans, try free & access advanced features." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={inContainerView} />

@@ -20,7 +20,7 @@ function DocumentSecurity() {
 				<meta name="title" content="Protect Your Certificates and Documents with Signet Tags" />
 				<meta
 					name="description"
-					content="Signet Tags' affordable document security uses proprietary tech for tamper-proof certificates, analytics, and fraud detection. Protect your brand and engage customers. Contact us to start."
+					content="Signet Tags affordable document security uses tech for tamper-proof certificates, analytics, and fraud detection. Protect your brand and engage customers."
 				/>
 				<meta
 					name="keywords"
@@ -34,7 +34,7 @@ function DocumentSecurity() {
 				<meta property="og:site_name" content="Signet Tags" />
 				<meta property="og:url" content="https://www.signettags.com/industries/document-security" />
 				<meta property="og:type" content="website" />
-				<meta property="og:title" content="Protect Your Certificates and Documents with Signet Tags" />
+				<meta property="og:title" content="Protect Certificates and Documents with Signet Tags" />
 				<meta property="og:description" content="Protect your documents with Signet Tags' tamper-proof solution." />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
@@ -43,7 +43,7 @@ function DocumentSecurity() {
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/industries/document-security" />
-				<meta name="twitter:title" content="Protect Your Certificates and Documents with Signet Tags" />
+				<meta name="twitter:title" content="Protect Certificates and Documents with Signet Tags" />
 				<meta name="twitter:description" content="Protect your documents with Signet Tags' tamper-proof solution." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
@@ -241,9 +241,9 @@ function DocumentSecurity() {
 							</div>
 							<div className="col-sm-5 col-md-4 col-lg-3 offset-sm-2 offset-md-3 offset-lg-2">
 								<div className="statistic-block wow fadeInUp">
-									<h2 className="h2-title-xs statistic-number">
+									<div className="h2-title-font statistic-number footer-head text-dark">
 										<span className="count-element">7.8%</span>
-									</h2>
+									</div>
 									<p className="p-lg mt-20">annual sales in the personal care sector is lost due to counterfeiting</p>
 								</div>
 							</div>

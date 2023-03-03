@@ -7042,6 +7042,7 @@ h5.posts-category {
 .single-post-title h3,
 .single-post-title h2 {
 	padding-right: 5%;
+	color: #6c757d !important;
 }
 
 #single-post p.post-tag {
@@ -8602,6 +8603,9 @@ input.checkbox-input {
 }
 .h2-font {
 	font-size: 2.6rem;
+}
+.h2-title-font {
+	font-size: 3.6rem;
 }
 @media (min-width: 992px) and (max-width: 1199.95px) {
 	.h3-font {

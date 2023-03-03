@@ -15,7 +15,7 @@ function ApparelAndClothing() {
 	return (
 		<>
 			<Head>
-				<title>Signet Tags - Smart Packaging Solutions for Clothing & Footwear</title>
+				<title>Smart Packaging Solutions for Clothing & Footwear</title>
 				<link rel="canonical" href="https://www.signettags.com/industries/clothing-and-footwear" key="canonical" />
 				<meta name="title" content="Signet Tags Smart Packaging for Clothing and Footwear" />
 				<meta
@@ -249,9 +249,9 @@ function ApparelAndClothing() {
 							</div>
 							<div className="col-sm-5 col-md-4 col-lg-3 offset-sm-2 offset-md-3 offset-lg-2">
 								<div className="statistic-block wow fadeInUp">
-									<h2 className="h2-title-xs statistic-number">
+									<div className="h2-title-font statistic-number footer-head text-dark">
 										<span className="count-element">7.8%</span>
-									</h2>
+									</div>
 									<p className="p-lg mt-20">annual sales in the personal care sector is lost due to counterfeiting</p>
 								</div>
 							</div>

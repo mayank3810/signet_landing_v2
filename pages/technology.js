@@ -29,7 +29,7 @@ function Technology() {
 				<meta property="og:url" content="https://www.signettags.com/technology" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Authenticity Guaranteed with Signet Tags" />
-				<meta property="og:description" content="Protect products with NFC tags, NFTs, and blockchain. Gain insights & secure verification." />
+				<meta property="og:description" content="Secure and verify Products with NFC, NFTs & Blockchain." />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
 
@@ -38,7 +38,7 @@ function Technology() {
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content="https://www.signettags.com/technology" />
 				<meta name="twitter:title" content="Authenticity Guaranteed with Signet Tags" />
-				<meta name="twitter:description" content="Protect products with NFC tags, NFTs, and blockchain. Gain insights & secure verification." />
+				<meta name="twitter:description" content="Secure and verify Products with NFC, NFTs & Blockchain." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={true} />
@@ -119,7 +119,7 @@ function Technology() {
 										{/* Text */}
 										<div className="fbox-txt">
 											{/* Title */}
-											<h5 className="h5-md">NTAG 424 DNA</h5>
+											<h3 className="h3-font">NTAG 424 DNA</h3>
 											{/* Text */}
 											<p className="p-lg">Advanced Security and Privacy for Trusted IoT Applications</p>
 										</div>
@@ -139,7 +139,7 @@ function Technology() {
 										{/* Text */}
 										<div className="fbox-txt">
 											{/* Title */}
-											<h5 className="h5-md">NFT</h5>
+											<h3 className="h3-font">NFT</h3>
 											{/* Text */}
 											<p className="p-lg">Digital blockchain assets that cannot be duplicated.</p>
 										</div>
@@ -154,7 +154,7 @@ function Technology() {
 											</div>
 										</div>
 										<div className="fbox-txt">
-											<h5 className="h5-md">Smart Contract</h5>
+											<h3 className="h3-font">Smart Contract</h3>
 											<p className="p-lg">Ensuring transparent and immutable information</p>
 										</div>
 									</div>
@@ -171,7 +171,7 @@ function Technology() {
 										{/* Text */}
 										<div className="fbox-txt">
 											{/* Title */}
-											<h5 className="h5-md">Blockchain</h5>
+											<h3 className="h3-font">Blockchain</h3>
 											{/* Text */}
 											<p className="p-lg">Using leading blockchain networks, Polygon and Ethereum</p>
 										</div>
@@ -186,7 +186,7 @@ function Technology() {
 											</div>
 										</div>
 										<div className="fbox-txt">
-											<h5 className="h5-md">Metaverse</h5>
+											<h3 className="h3-font">Metaverse</h3>
 											<p className="p-lg">Your physical items available across metaverses.</p>
 										</div>
 									</div>
@@ -199,7 +199,7 @@ function Technology() {
 											</div>
 										</div>
 										<div className="fbox-txt">
-											<h5 className="h5-md">Security</h5>
+											<h3 className="h3-font">Security</h3>
 											<p className="p-lg">Secure NFC tags with random changing keys</p>
 										</div>
 									</div>
@@ -213,7 +213,7 @@ function Technology() {
 											</div>
 										</div>
 										<div className="fbox-txt">
-											<h5 className="h5-md">Unclonable Tags</h5>
+											<h3 className="h3-font">Unclonable Tags</h3>
 											<p className="p-lg">Read only tags, each linked with blockchain NFTs</p>
 										</div>
 									</div>
@@ -231,7 +231,7 @@ function Technology() {
 										{/* Text */}
 										<div className="fbox-txt">
 											{/* Title */}
-											<h5 className="h5-md">Top UX</h5>
+											<h3 className="h3-font">Top UX</h3>
 											{/* Text */}
 											<p className="p-lg">Easy check for consumers.No special app download required</p>
 										</div>
@@ -292,7 +292,7 @@ function Technology() {
 								<div className="col-md-7 col-lg-6">
 									<div className="txt-block right-column wow fadeInLeft">
 										<div className="txt-box mb-25">
-											<h5 className="h5-lg">Blockchain Ecosystem</h5>
+											<h3 className="h5-lg">Blockchain Ecosystem</h3>
 
 											<p className="p-lg">
 												Signet Tags solution allies the best of both worlds as it gathers the incorruptible nature of blockchain and the practical
