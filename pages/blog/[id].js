@@ -6,6 +6,7 @@ import React, { useEffect, useState } from 'react';
 
 function BlogDetail(props) {
 	const post = props.items[0];
+	// console.log({ post });
 	useEffect(() => {
 		// console.log(props.items);
 	}, []);
@@ -31,10 +32,10 @@ function BlogDetail(props) {
 	return (
 		<>
 			<Head>
-				<title>{post?.data?.title.iv}</title>
+				<title>{post?.data?.pageTitle.iv}</title>
 				<link rel="canonical" href={`https://www.signettags.com/blog/${post?.data?.slug.iv}`} key="canonical" />
-				<meta name="title" content={post?.data?.title.iv} />
-				<meta name="description" content={post?.data?.text.iv.substring(0, 150)} />
+				<meta name="title" content={post?.data?.metaTitle.iv} />
+				<meta name="description" content={post?.data?.metaDesc.iv} />
 				<meta name="keywords" content="Signet Tags, Signet Authenticity, brand protection software, blockchain-proven ownership" />
 				<meta name="robots" content="index, follow" />
 				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -44,8 +45,8 @@ function BlogDetail(props) {
 				<meta property="og:site_name" content="Signet Tags" />
 				<meta property="og:url" content={`https://www.signettags.com/blog/${post?.data?.slug.iv}`} />
 				<meta property="og:type" content="article" />
-				<meta property="og:title" content={post?.data?.title.iv} />
-				<meta property="og:description" content={post.data.text.iv.substring(0, 150)} />
+				<meta property="og:title" content={post?.data?.ogTitle.iv} />
+				<meta property="og:description" content={post.data.ogDesc.iv} />
 				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
 				<meta property="og:locale" content="en_US" />
 
@@ -53,8 +54,8 @@ function BlogDetail(props) {
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
 				<meta name="twitter:url" content={`https://www.signettags.com/blog/${post?.data?.slug.iv}`} />
-				<meta name="twitter:title" content={post?.data?.title.iv} />
-				<meta name="twitter:description" content={post?.data?.text.iv.substring(0, 150)} />
+				<meta name="twitter:title" content={post?.data?.twtTitle.iv} />
+				<meta name="twitter:description" content={post?.data?.twtDesc.iv} />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 			</Head>
 			<Header scroll={true} />

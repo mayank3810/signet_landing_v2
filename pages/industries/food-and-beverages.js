@@ -95,7 +95,7 @@ function FoodAndBeverages() {
 							<div className="col-md-10 col-lg-8">
 								<div className="section-title title-02 mb-60">
 									<h2 className="h2-xs">
-										How does it help <br />
+										How does this assist? <br />
 									</h2>
 									<p className="p-xl">
 										Tag your premium product with a unique tamper-proof ID that tracks the entire product journey and protect against fraudulent

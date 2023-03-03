@@ -69,7 +69,7 @@ function DocumentSecurity() {
 								<div className="col-md-7 col-lg-6">
 									<div className="txt-block right-column wow fadeInLeft">
 										{/* Title */}
-										<h2 className="h2-xs">Document security solutions are essential for businesses and governing entities</h2>
+										<h2 className="h2-xs">Secure documents for businesses and governments with our solutions.</h2>
 										{/* Text */}
 										<p className="p-lg">
 											Certificates are one of the most valuable assets to possess, Thus why they need to be stored safely and be instantly available

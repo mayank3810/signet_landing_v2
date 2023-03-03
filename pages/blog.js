@@ -31,7 +31,7 @@ function Blog(props) {
 	return (
 		<>
 			<Head>
-				<title>Signet Tags - Welcome to Signet Blog | Relevant News and More</title>
+				<title>Signet Blog: Relevant News and More</title>
 				<link rel="canonical" href="https://www.signettags.com/blog" key="canonical" />
 				<meta name="title" content="Stay Updated with Signet Blog for Relevant News and More" />
 				<meta
