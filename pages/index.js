@@ -215,12 +215,9 @@ export default function Home() {
 								<div className="col">
 									<div className="content-10-btn">
 										{/* Button */}
-										<a
-											href="https://www.youtube.com/watch?v=7e90gBu4pas"
-											className="video-popup2 btn btn-md btn-orange-red tra-grey-hover ico-15 ico-left"
-										>
-											Get started
-										</a>
+										<Link href="/pricing">
+											<div className="video-popup2 btn btn-md btn-orange-red tra-grey-hover ico-15 ico-left">Get started</div>
+										</Link>
 										{/* Advantages List */}
 										<ul className="advantages mt-25 clearfix">
 											<li className="first-li">

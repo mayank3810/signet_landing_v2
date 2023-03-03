@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useState } from 'react';
 import VideoPopup from '../VideoPopup';
 
@@ -25,9 +26,9 @@ function Hero() {
 								</p>
 								{/* Buttons Group */}
 								<div className="btns-group">
-									<a href="#cta-3" className="btn btn-yellow tra-yellow-hover color-white mr-15">
-										Get Started
-									</a>
+									<Link href="/pricing">
+										<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Get Started</div>
+									</Link>
 									<div onClick={() => setOpen(!open)} className="video-popup2 btn btn-md btn-transparent ico-20 ico-left">
 										<span className="flaticon-play" /> See Signet in Action
 									</div>

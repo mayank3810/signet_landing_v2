@@ -1,47 +1,41 @@
-import React, { useEffect, useState } from "react";
-import { useInView } from "react-intersection-observer";
+import React, { useEffect, useState } from 'react';
+import { useInView } from 'react-intersection-observer';
 
 function CustomerEngagement() {
-  const [containerRef, inContainerView] = useInView({ threshold: 0.2 });
-  const [init, setInit] = useState(false);
-  useEffect(() => {
-    if (!init && inContainerView) {
-      setInit(true);
-    }
-  }, [inContainerView]);
+	const [containerRef, inContainerView] = useInView({ threshold: 0.2 });
+	const [init, setInit] = useState(false);
+	useEffect(() => {
+		if (!init && inContainerView) {
+			setInit(true);
+		}
+	}, [inContainerView]);
 
-  return (
-    <section
-      ref={containerRef}
-      id="content-6"
-      className="content-6 pb-60 pt-60 content-section division"
-    >
-      <div className="container">
-        <div className="row d-flex align-items-center">
-          {/* TEXT BLOCK */}
-          <div className="col-md-6 col-lg-6">
-            <div className="txt-block left-column wow fadeInRight">
-              {/* Title */}
-              <h2 className="h2-xs">Increase customer engagement by 100X</h2>
-              {/* Text */}
-              <p className="p-lg">
-                Signet tags with direct NFC connection allows an immediate check
-                of product authenticity and integrity. An instant interaction
-                with the product grants access to its history, characteristics
-                and sustainability certifications. Faster and safer than any
-                solution based on QR code or image recognition.
-              </p>
-            </div>
-          </div>
-          {/* IMAGE BLOCK */}
-          <div className="col-md-6 col-lg-6">
-            <div className="img-block right-column wow fadeInLeft">
-              {/* <img
+	return (
+		<section ref={containerRef} id="content-6" className="content-6 pb-60 pt-60 content-section division">
+			<div className="container">
+				<div className="row d-flex align-items-center">
+					{/* TEXT BLOCK */}
+					<div className="col-md-6 col-lg-6">
+						<div className="txt-block left-column wow fadeInRight">
+							{/* Title */}
+							<h2 className="h2-xs">Increase customer engagement by 100X</h2>
+							{/* Text */}
+							<p className="p-lg">
+								Signet tags with direct NFC connection allows an immediate check of product authenticity and integrity. An instant interaction with
+								the product grants access to its history, characteristics and sustainability certifications. Faster and safer than any solution based
+								on QR code or image recognition.
+							</p>
+						</div>
+					</div>
+					{/* IMAGE BLOCK */}
+					<div className="col-md-6 col-lg-6">
+						<div className="img-block right-column wow fadeInLeft">
+							{/* <img
                 className="img-fluid"
                 src="/images/img-20.png"
                 alt="content-image"
               /> */}
-              {/* <div className="masonry-container">
+							{/* <div className="masonry-container">
                 <div className="masonry-custom ">
 
                   <div className="brick height-100"></div>
@@ -108,19 +102,15 @@ function CustomerEngagement() {
                 </div>
               </div> */}
 
-              <img
-                className="img-fluid"
-                src="images/img-20.png"
-                alt="customers-image"
-              />
-            </div>
-          </div>
-        </div>{" "}
-        {/* End row */}
-      </div>{" "}
-      {/* End container */}
-    </section>
-  );
+							<img className="img-fluid" src="images/img-20.webp" alt="customers-image" />
+						</div>
+					</div>
+				</div>{' '}
+				{/* End row */}
+			</div>{' '}
+			{/* End container */}
+		</section>
+	);
 }
 
 export default CustomerEngagement;

@@ -86,28 +86,43 @@ function Footer() {
 								<ul className="foo-links text-secondary clearfix">
 									<li>
 										<p className="p-md">
-											<a href="#">Pharmaceuticals</a>
+											<Link href={'/industries/agriculture'}>Agriculture</Link>
+										</p>
+									</li>
+									<li>
+										<p className="p-md">
+											<Link href={'/industries/pharmaceuticals'}>Pharmaceuticals</Link>
 										</p>
 									</li>
 
 									<li>
 										<p className="p-md">
-											<a href="#">Cosmetics & Perfumes</a>
+											<Link href={'/industries/cosmetics-and-perfumes'}>Cosmetics & Perfumes</Link>
 										</p>
 									</li>
 									<li>
 										<p className="p-md">
-											<a href="#">Food & Beverages</a>
+											<Link href={'/industries/food-and-beverages'}>Food & Beverages</Link>
 										</p>
 									</li>
 									<li>
 										<p className="p-md">
-											<a href="#">Food & Beverages</a>
+											<Link href={'/industries/auto-parts'}>Auto Parts</Link>
 										</p>
 									</li>
 									<li>
 										<p className="p-md">
-											<a href="#">Auto Parts</a>
+											<Link href={'/industries/cannabis'}>Cannabis</Link>
+										</p>
+									</li>
+									<li>
+										<p className="p-md">
+											<Link href={'/industries/document-security'}>Document Security</Link>
+										</p>
+									</li>
+									<li>
+										<p className="p-md">
+											<Link href={'/industries/clothing-and-footwear'}>Clothing and Footwear</Link>
 										</p>
 									</li>
 								</ul>
@@ -127,7 +142,7 @@ function Footer() {
 									</li>
 									<li>
 										<p className="p-md">
-											<a href="#">Free Trial</a>
+											<a href="/pricing">Free Trial</a>
 										</p>
 									</li>
 									<li>
