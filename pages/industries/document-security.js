@@ -134,7 +134,7 @@ function DocumentSecurity() {
 							<div className="col-lg-10 col-xl-8">
 								<div className="section-title title-01 mb-70">
 									{/* Title */}
-									<h2 className="h2-md">Why Signet Tags</h2>
+									<h2 className="h2-md">Why Choose Signet Tags</h2>
 									{/* Text */}
 									<p className="p-xl">
 										By securing your official documents on the blockchain, you prevent fraud cases and assure your partners (Universities, employers

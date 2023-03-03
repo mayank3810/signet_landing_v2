@@ -141,7 +141,7 @@ function Pharmaceuticals() {
 							<div className="col-lg-10 col-xl-8">
 								<div className="section-title title-01 mb-70">
 									{/* Title */}
-									<h2 className="h2-md">Why Signet Tags</h2>
+									<h2 className="h2-md">Why Choose Signet Tags</h2>
 									{/* Text */}
 									<p className="p-xl">
 										While other authentication companies protect the package, Signet Tags protects the product against fraudulent refilling and allows
