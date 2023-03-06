@@ -69,10 +69,7 @@ function Features() {
 						</div>
 						{/* FEATURE BOX #3 */}
 						<div className="col">
-							<div
-								className={`duration-1.75 ${init ? 'fbox-2 mb-40 animate__animated animate__fadeInUp' : 'fbox-2 mb-40 animate__animated'}`}
-								// style={{ animationDuration: '1.75s' }}
-							>
+							<div className={`duration-1.75 ${init ? 'fbox-2 mb-40 animate__animated animate__fadeInUp' : 'fbox-2 mb-40 animate__animated'}`}>
 								{/* Icon */}
 								<div className="fbox-ico-center ico-65 shape-ico dark-color">
 									<img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
