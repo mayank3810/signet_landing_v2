@@ -1,4 +1,3 @@
-import Footer from '@/components/Footer';
 import Head from 'next/head';
 import Header from '@/components/Header';
 import Content2 from '@/components/Home/Content2';
@@ -215,7 +214,7 @@ export default function Home() {
 								<div className="col">
 									<div className="content-10-btn">
 										{/* Button */}
-										<Link href="/pricing">
+										<Link href="/onboarding">
 											<div className="video-popup2 btn btn-md btn-orange-red tra-grey-hover ico-15 ico-left">Get started</div>
 										</Link>
 										{/* Advantages List */}
@@ -245,10 +244,13 @@ export default function Home() {
 											Get started with a free trial account. <br />
 										</h2>
 										<p className="p-xl">
-											Get a Free Authenticity Tags Kit to experience the technology yourself before you decide to scale. The NFC Starter Kit comes
-											with 10-20 secure, unclonable NXP 424 DNA NFC tags, a free account to setup a small pilot with your own products & custom
-											experiences.
+											Explore Signet Platform with a Free Trial account  to experience the technology yourself before you decide to scale.
+											The Demo free account to setup a small pilot with your own products & custom experiences.
 										</p>
+										<Link href="/onboarding">
+											<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Get Started</div>
+										</Link>
+										<p> *No Card Required.</p>
 									</div>
 								</div>
 							</div>
@@ -308,7 +310,7 @@ export default function Home() {
 												{/* Question */}
 												<h3 className="h3-font mb-3">What are the requirements for using Signet?</h3>
 												{/* Answer */}
-												<p className="p-lg">There are no specific requirements to add brand authentication.</p>
+												<p className="p-lg">There are no specific requirements to add brand authentication. NFC authentication doesnot require any app downloads.</p>
 											</div>
 											{/* QUESTION #3 */}
 											<div className="question wow fadeInUp">
@@ -335,7 +337,7 @@ export default function Home() {
 												{/* Question */}
 												<h3 className="h3-font mb-3">Do you have a free trial?</h3>
 												{/* Answer */}
-												<p className="p-lg">Yes, we offer a 30 day free trial on our starter kit.</p>
+												<p className="p-lg">Yes, we offer a 30 day free trial for our platform. You get full access to all the platform features.</p>
 											</div>
 											{/* QUESTION #5 */}
 											<div className="question wow fadeInUp">

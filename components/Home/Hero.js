@@ -26,7 +26,7 @@ function Hero() {
 								</p>
 								{/* Buttons Group */}
 								<div className="btns-group">
-									<Link href="/pricing">
+									<Link href="/onboarding">
 										<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Get Started</div>
 									</Link>
 									<div onClick={() => setOpen(!open)} className="video-popup2 btn btn-md btn-transparent ico-20 ico-left">

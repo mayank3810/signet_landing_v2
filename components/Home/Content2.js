@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
+import Link from 'next/link';
 
 function Content2() {
 	// const [containerRef, inContainerView] = useInView({ threshold: 0.2 });
@@ -22,10 +23,9 @@ function Content2() {
 					{/* IMAGE BLOCK */}
 					<div className="col-md-5 col-lg-6">
 						<div
-							className={`duration-1.75 ${
-								init ? 'rel img-block left-column animate__animated animate__slideInUp' : 'rel img-block left-column animate__animated'
-							}`}
-							// style={{ animationDuration: '1.75s' }}
+							className={`duration-1.75 ${init ? 'rel img-block left-column animate__animated animate__slideInUp' : 'rel img-block left-column animate__animated'
+								}`}
+						// style={{ animationDuration: '1.75s' }}
 						>
 							<img className="img-fluid" src="/images/scanning-theme.png" alt="content-image" />
 						</div>
@@ -33,10 +33,9 @@ function Content2() {
 					{/* TEXT BLOCK */}
 					<div className="col-md-7 col-lg-6">
 						<div
-							className={`duration-1.75 ${
-								init ? 'txt-block right-column animate__animated animate__slideInUp' : 'txt-block right-column animate__animated'
-							}`}
-							// style={{ animationDuration: '1.75s' }}
+							className={`duration-1.75 ${init ? 'txt-block right-column animate__animated animate__slideInUp' : 'txt-block right-column animate__animated'
+								}`}
+						// style={{ animationDuration: '1.75s' }}
 						>
 							{/* Title */}
 							<h2 className="h2-xs">Proof of authenticity in seconds</h2>
@@ -46,9 +45,16 @@ function Content2() {
 								the product directly grants access to its history, characteristics and sustainability certifications.
 							</p>
 							{/* Text */}
+							<p>
+								Using NFC and blockchain technology together provides a powerful tool for verifying the authenticity of physical products. It allows consumers to make more informed purchasing decisions and helps to prevent counterfeit products from entering the market.
+							</p>
 							<p className="p-lg">
 								Our solution is faster and safer than any solution based on QR code or image recognition. No App download required.
 							</p>
+
+							<Link href="/onboarding">
+								<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Get Started</div>
+							</Link>
 						</div>
 					</div>{' '}
 					{/* END TEXT BLOCK */}

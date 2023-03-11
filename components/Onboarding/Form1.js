@@ -15,7 +15,7 @@ function Form1({ setStage, setOrganizationId }) {
   const router = useRouter();
 
   useEffect(() => {
-    const _plan = localStorage.getItem("planName");
+    const _plan = localStorage.getItem("planName") || 'Enterprise';
     setPlan(_plan);
     if (!_plan || _plan === "") {
       alert("No Plan has been selected. Please select a plan");
@@ -126,9 +126,9 @@ function Form1({ setStage, setOrganizationId }) {
                       </button>
                     </div>
                   </div> */}
-      <div className="col-md-12 pb-3">
+      <div className="col-md-12 ">
         <div className="row">
-          <div className="col-6">
+          <div className="col-12">
             <label>
               <h5 className="h5-xxs">
                 Name <sup className="text-red">*</sup>
@@ -147,7 +147,7 @@ function Form1({ setStage, setOrganizationId }) {
               </span>
             )}
           </div>
-          <div className="col-6">
+          <div className="col-12 mt-4">
             <label>
               <h5 className="h5-xxs">
                 Company <sup className="text-red">*</sup>
@@ -169,51 +169,46 @@ function Form1({ setStage, setOrganizationId }) {
         </div>
       </div>
 
-      <div className="col-md-12 pb-3">
-        <div className="row">
-          <div className="col-6">
-            <label>
-              <h5 className="h5-xxs">
-                Business email <sup className="text-red">*</sup>
-              </h5>
-            </label>
-            <input
-              className="form-control email"
-              type="email"
-              placeholder="example@example.com"
-              value={email.data ?? ""}
-              onChange={(e) => setEmail({ data: e.target.value, error: false })}
-            />
-            {email.error && (
-              <span className="error">Email cannot be blank</span>
-            )}
-          </div>
-          <div className="col-6">
-            <label>
-              <h5 className="h5-xxs">
-                Contact <sup className="text-red">*</sup>
-              </h5>
-            </label>
-            <input
-              className="form-control"
-              type="text"
-              placeholder="+91 8877841523"
-              value={contact.data ?? ""}
-              onChange={(e) =>
-                setContact({ data: e.target.value, error: false })
-              }
-            />
-            {contact.error && (
-              <span className="error">Contact cannot be blank</span>
-            )}
-          </div>
-        </div>
+      <div className="col-12 mt-4">
+        <label>
+          <h5 className="h5-xxs">
+            Business email <sup className="text-red">*</sup>
+          </h5>
+        </label>
+        <input
+          className="form-control email"
+          type="email"
+          placeholder="example@example.com"
+          value={email.data ?? ""}
+          onChange={(e) => setEmail({ data: e.target.value, error: false })}
+        />
+        {email.error && (
+          <span className="error">Email cannot be blank</span>
+        )}
       </div>
-      {/* Form Input */}
+      <div className="col-12 mt-4">
+        <label>
+          <h5 className="h5-xxs">
+            Contact <sup className="text-red">*</sup>
+          </h5>
+        </label>
+        <input
+          className="form-control"
+          type="text"
+          placeholder="+91 8877841523"
+          value={contact.data ?? ""}
+          onChange={(e) =>
+            setContact({ data: e.target.value, error: false })
+          }
+        />
+        {contact.error && (
+          <span className="error">Contact cannot be blank</span>
+        )}
+      </div>
 
       {/* Form Submit Button */}
-      <div className="col-md-12">
-        <div className="col-md-12 mt-15 form-btn text-right">
+      <div className="col-md-12 mt-4">
+        <div className="col-md-12 form-btn text-right">
           {apiResp && (
             <span
               className={

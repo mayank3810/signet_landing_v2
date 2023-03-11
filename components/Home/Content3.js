@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
+import Link from 'next/link';
 
 function Content3() {
 	// const [containerRef, inContainerView] = useInView({ threshold: 0.2 });
@@ -81,6 +82,9 @@ function Content3() {
 									</div>
 								</div>
 							</div>
+							<Link href="/onboarding">
+										<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Get Started</div>
+									</Link>
 						</div>{' '}
 						{/* END TEXT BLOCK */}
 						{/* IMAGE BLOCK */}

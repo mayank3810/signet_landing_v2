@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useInView } from 'react-intersection-observer';
+import Link from 'next/link';
 
 function Content4() {
 	// const [containerRef, inContainerView] = useInView({ threshold: 0.2 });
@@ -38,10 +38,9 @@ function Content4() {
 						{/* IMAGE BLOCK */}
 						<div className="col-md-5 col-lg-6">
 							<div
-								className={`duration-1.75 ${
-									init ? 'rel img-block left-column animate__animated animate__slideInUp' : 'rel img-block left-column animate__animated'
-								}`}
-								// style={{ animationDuration: '1.75s' }}
+								className={`duration-1.75 ${init ? 'rel img-block left-column animate__animated animate__slideInUp' : 'rel img-block left-column animate__animated'
+									}`}
+							// style={{ animationDuration: '1.75s' }}
 							>
 								<img className="img-fluid" src="/images/digital-experience.jpg" alt="content-image" />
 							</div>
@@ -49,12 +48,11 @@ function Content4() {
 						{/* TEXT BLOCK */}
 						<div className="col-md-7 col-lg-6">
 							<div
-								className={`duration-1.75 ${
-									init
-										? 'txt-block right-column left-column animate__animated animate__slideInUp'
-										: 'txt-block right-column left-column animate__animated'
-								}`}
-								// style={{ animationDuration: '1.75s' }}
+								className={`duration-1.75 ${init
+									? 'txt-block right-column left-column animate__animated animate__slideInUp'
+									: 'txt-block right-column left-column animate__animated'
+									}`}
+							// style={{ animationDuration: '1.75s' }}
 							>
 								{/* TEXT BOX */}
 								<div className="txt-box mb-20">
@@ -74,19 +72,23 @@ function Content4() {
 									<ul className="simple-list">
 										<li className="list-item">
 											<p className="p-lg">
-												AI enabled tool that allows brands to steer the entire supply chain in real-time. A web portal to store and verify products
-												info, ensuring data transparency and allowing digital audits, live alerts and advanced analytics.
+												The AI-enabled tool allows brands to manage their entire supply chain in real-time. The web portal stores and verifies product information, ensuring data transparency and allowing for digital audits, live alerts, and advanced analytics.
 											</p>
 										</li>
 										<li className="list-item">
 											<p className="p-lg">Send push notifications and collect feedbacks on your products with our advanced web portal.</p>
 										</li>
 									</ul>
+									<Link href="/onboarding">
+										<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Get Started</div>
+									</Link>
 								</div>{' '}
 							</div>
 						</div>{' '}
 					</div>
 				</div>{' '}
+
+
 			</div>{' '}
 		</section>
 	);
