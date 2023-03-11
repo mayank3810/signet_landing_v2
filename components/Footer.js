@@ -20,6 +20,9 @@ function Footer() {
 								<img className="footer-logo mb-25" src="/images/logo_dark.svg" alt="footer-logo" />
 								{/* Text */}
 								<p className="p-md">Signet Tags - Blockchain-based authenticity and Brand protection solution</p>
+								<p>
+									
+								</p>
 							</div>
 						</div>
 						{/* FOOTER LINKS */}
