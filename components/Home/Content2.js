@@ -45,7 +45,7 @@ function Content2() {
 								the product directly grants access to its history, characteristics and sustainability certifications.
 							</p>
 							{/* Text */}
-							<p>
+							<p className="p-lg">
 								Using NFC and blockchain technology together provides a powerful tool for verifying the authenticity of physical products. It allows consumers to make more informed purchasing decisions and helps to prevent counterfeit products from entering the market.
 							</p>
 							<p className="p-lg">

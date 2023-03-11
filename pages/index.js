@@ -245,7 +245,6 @@ export default function Home() {
 										</h2>
 										<p className="p-xl">
 											Explore Signet Platform with a Free Trial account  to experience the technology yourself before you decide to scale.
-											The Demo free account to setup a small pilot with your own products & custom experiences.
 										</p>
 										<Link href="/onboarding">
 											<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Get Started</div>
@@ -302,7 +301,7 @@ export default function Home() {
 												<h3 className="h3-font mb-3">Can I see Signet in action before purchasing?</h3>
 												{/* Answer */}
 												<p className="p-lg">
-													Yes, you can get a free Authenticity Tags Kit to experience the technology yourself before you decide to scale.
+													Yes, you can resister a free trial account with us. The free trial account can be used to test the digital and authentication experience.
 												</p>
 											</div>
 											{/* QUESTION #2 */}
@@ -319,10 +318,10 @@ export default function Home() {
 												{/* Answer */}
 												<ul className="simple-list">
 													<li className="list-item">
-														<p className="p-lg">Yes, Our signet tags works on all major smartphones, ios and android.</p>
+														<p className="p-lg">Yes, our signet tags are compatible with all major smartphones, including iOS and Android devices.</p>
 													</li>
 													<li className="list-item">
-														<p className="p-lg">Our admin app to manage products works on any browser and tablets.</p>
+														<p className="p-lg">Our product management app is designed to work on any browser or tablet, making it a convenient tool for busy professionals.</p>
 													</li>
 												</ul>
 											</div>

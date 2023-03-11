@@ -26,8 +26,7 @@ function Content4() {
 							<h2 className="h2-md">Unique Digital Experience</h2>
 							{/* Text */}
 							<p className="p-xl">
-								Manufacturers can provide unique and customized digital experiences for their physical products. This allows customers to tap on the
-								products and get more information about the product.
+							Manufacturers can use digital experiences to customize the user experience for their customers. This way, customers can tap on products and get more information about them, making the shopping experience more convenient and informative.
 							</p>
 						</div>
 					</div>
@@ -60,8 +59,8 @@ function Content4() {
 									<h3 className="h3-font mb-4">Easily share essential information with customers</h3>
 									{/* Text */}
 									<p className="p-lg">
-										Customers can tap on the product to get updated information about essential attributes such as ownership, warranty, safety,
-										recyclability, and value. This allows customers to make informed decisions about the products they purchase and use.
+									Customers can tap on the product to get updated information about essential attributes such as ownership, warranty, safety, recyclability, and value. This allows customers to make informed decisions about the products they purchase and use.
+									 By being able to see this information, customers can be sure that they are making the best choice for them when it comes to the products they buy.
 									</p>
 								</div>
 								{/* TEXT BOX */}
@@ -72,7 +71,7 @@ function Content4() {
 									<ul className="simple-list">
 										<li className="list-item">
 											<p className="p-lg">
-												The AI-enabled tool allows brands to manage their entire supply chain in real-time. The web portal stores and verifies product information, ensuring data transparency and allowing for digital audits, live alerts, and advanced analytics.
+											This powerful AI tool helps brands keep track of their entire supply chain in real time. The online portal stores and verifies product info, ensuring complete data transparency. This allows for digital audits, live alerts, and access to advanced analytics.
 											</p>
 										</li>
 										<li className="list-item">
