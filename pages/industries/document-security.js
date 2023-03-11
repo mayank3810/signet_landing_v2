@@ -51,7 +51,7 @@ function DocumentSecurity() {
 			<PageTitle
 				image="/images/industries/document_banner.jpg"
 				title={'Reliable Document Security Solutions'}
-				subtitle={'Tag, track and authenticate your documents'}
+				subtitle={'The future is fast & secure with Signet digital certificates'}
 			/>
 			<div ref={containerRef}>
 				<section id="content-3" className="bg-whitesmoke content-3 wide-60 content-section division">
@@ -69,7 +69,7 @@ function DocumentSecurity() {
 								<div className="col-md-7 col-lg-6">
 									<div className="txt-block right-column wow fadeInLeft">
 										{/* Title */}
-										<h2 className="h2-xs">Secure documents for businesses and governments with our solutions.</h2>
+										<h2 className="h2-xs">Secure documents with new age nfc embedded digital certificates.</h2>
 										{/* Text */}
 										<p className="p-lg">
 											Certificates are one of the most valuable assets to possess, Thus why they need to be stored safely and be instantly available
@@ -150,12 +150,14 @@ function DocumentSecurity() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										{/* Image */}
-										<img className="img-fluid rounded" src="/images/industries/brand-protection.jpg" alt="feature-icon" />
+										<img className="img-fluid rounded" src="/images/document/tamper-proof.jpg" alt="feature-icon" />
 										{/* Title */}
 										<h5 className="h5-md mt-4 ">Issue Tamper-Proof Certificates</h5>
 										{/* Text */}
 										<p className="p-lg">
 											Signet Tags will help you in cutting the time for third-parties background check inquires and repetitive manual work.
+											Use the advanced blockchain technology and improved nfc tags for, instant verification of documents.
+
 										</p>
 									</div>
 								</div>
@@ -165,22 +167,22 @@ function DocumentSecurity() {
 										{/* Image */}
 										<img className="img-fluid rounded" src="/images/industries/marketing.jpg" alt="feature-icon" />
 										{/* Title */}
-										<h5 className="h5-md mt-4">Learn From Analytics</h5>
+										<h5 className="h5-md mt-4">Skills in Demand Analytics</h5>
 										{/* Text */}
 										<p className="p-lg">
-											With our analytics module, you can view & analyze data and make well-informed decisions on how to improve your business.
+											Our dashboard will help analyze the skills in demand by the student community and the skills employers are in need of to hire fresh graduates in the market.
 										</p>
 									</div>
 								</div>
 								{/* FEATURE BOX #3 */}
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
-										<img className="img-fluid rounded" src="/images/industries/feedback.jpg" alt="feature-icon" />
-										<h5 className="h5-md mt-4 ">Boost Engagement</h5>
+										<img className="img-fluid rounded" src="/images/document/integration.jpg" alt="feature-icon" />
+										<h5 className="h5-md mt-4 ">API Integration with platforms</h5>
 										{/* Text */}
 										<p className="p-lg">
-											Digital credentials give organizations a way to recognize micro-learning and any extra-curriculum activities in an effective
-											format.
+											Signet Tags  is to help institutions build on their existing infrastructure and not be hassled with unnecessary changes.
+											We ensure a seamless integration process.
 										</p>
 									</div>
 								</div>
@@ -205,6 +207,9 @@ function DocumentSecurity() {
 									{/* List */}
 									<ul className="simple-list">
 										<li className="list-item">
+											<p className="p-lg">Technology used by governments to secure passports and social ID cards.</p>
+										</li>
+										<li className="list-item">
 											<p className="p-lg">Cannot be copied, destroyed, or spoofed.</p>
 										</li>
 										<li className="list-item">
@@ -213,6 +218,12 @@ function DocumentSecurity() {
 										<li className="list-item">
 											<p className="p-lg">Document security technology enables legal documents to be verified for authenticity.</p>
 										</li>
+										<li className="list-item">
+											<p className="p-lg">Enable integration with existing infrastructure using our APIs</p>
+										</li>
+										<li className="list-item">
+											<p className="p-lg">Enable easy recovery -Replacements for lost certificates are easily requested, securely received.</p>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -220,7 +231,7 @@ function DocumentSecurity() {
 							{/* IMAGE BLOCK */}
 							<div className="col-md-5 col-lg-6 order-first order-md-2">
 								<div className="rel img-block right-column wow fadeInLeft">
-									<img className="img-fluid" src="/images/signet-mobile-app.jpg" alt="content-image" />
+									<img className="img-fluid rounded" src="/images/document/safeguard-using-nfc.jpg" alt="content-image" />
 								</div>
 							</div>
 						</div>
@@ -229,27 +240,135 @@ function DocumentSecurity() {
 					{/* End container */}
 				</section>
 
-				<Benefits />
-
-				<section id="statistic-2" className="wide-100 statistic-section division">
+				<section id="features-4" className="pb-60 features-section division">
 					<div className="container">
-						<div className="row d-flex align-items-center">
-							<div className="col-lg-6">
-								<div className="txt-block right-column wow fadeInLeft">
-									<h3 className="h3-xs"> The international counterfeit makeup trade was estimated to be worth $5.4 billion. Still increasing. </h3>
-								</div>
-							</div>
-							<div className="col-sm-5 col-md-4 col-lg-3 offset-sm-2 offset-md-3 offset-lg-2">
-								<div className="statistic-block wow fadeInUp">
-									<div className="h2-title-font statistic-number footer-head text-dark">
-										<span className="count-element">7.8%</span>
+						{/* FEATURES-4 WRAPPER */}
+						<div className="fbox-4-wrapper fbox-4-wide">
+							<div className="row row-cols-1 row-cols-md-2">
+								{/* FEATURE BOX #1 */}
+								<div className="col">
+									<div className="fbox-4 pr-25 mb-40 wow fadeInUp">
+										{/* Icon */}
+										<div className="fbox-ico">
+											<div className="ico-65 shape-ico dark-color">
+												<img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
+												<img src="/images/industries/icons8-connected-100.png" alt="ico-bkg" />
+											</div>
+										</div>
+										{/* Text */}
+										<div className="fbox-txt">
+											{/* Title */}
+											<h5 className="h5-md">Digitally Connected Certificates</h5>
+											{/* Text */}
+											<p className="p-lg">Every certificate becomes digitally connected</p>
+										</div>
 									</div>
-									<p className="p-lg mt-20">annual sales in the personal care sector is lost due to counterfeiting</p>
 								</div>
+								{/* FEATURE BOX #2 */}
+								<div className="col">
+									<div className="fbox-4 pl-25 mb-40 wow fadeInUp">
+										{/* Icon */}
+										<div className="fbox-ico">
+											<div className="ico-65 shape-ico dark-color">
+												<img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
+												<img src="/images/industries/icons8-combo-chart-100.png" alt="ico-bkg" />
+											</div>
+										</div>
+										{/* Text */}
+										<div className="fbox-txt">
+											{/* Title */}
+											<h5 className="h5-md">Valuabe Analytics</h5>
+											{/* Text */}
+											<p className="p-lg">Capture valuable insights, analyze the skills in demand, placements and candidate journey.</p>
+										</div>
+									</div>
+								</div>
+								{/* FEATURE BOX #3 */}
+								<div className="col">
+									<div className="fbox-4 pr-25 mb-40 wow fadeInUp">
+										{/* Icon */}
+										<div className="fbox-ico">
+											<div className="ico-65 shape-ico dark-color">
+												<img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
+												<img src="/images/industries/icons8-knight-shield-100.png" alt="ico-bkg" />
+											</div>
+										</div>
+										{/* Text */}
+										<div className="fbox-txt">
+											{/* Title */}
+											<h5 className="h5-md">Protect your Reputation</h5>
+											{/* Text */}
+											<p className="p-lg">The Future is fast & secure with digital NFC certificates. Protect your institutional brand and image.</p>
+										</div>
+									</div>
+								</div>
+								{/* FEATURE BOX #4 */}
+								<div className="col">
+									<div className="fbox-4 pl-25 mb-40 wow fadeInUp">
+										{/* Icon */}
+										<div className="fbox-ico">
+											<div className="ico-65 shape-ico dark-color">
+												<img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
+												<img src="/images/industries/icons8-opera-glasses-100.png" alt="ico-bkg" />
+											</div>
+										</div>
+										{/* Text */}
+										<div className="fbox-txt">
+											{/* Title */}
+											<h5 className="h5-md">Montitor Certificates</h5>
+											{/* Text */}
+											<p className="p-lg">Track and trace the certificates in real time. Get notified when someone requests verification.</p>
+										</div>
+									</div>
+								</div>
+								{/* FEATURE BOX #5 */}
+								<div className="col">
+									<div className="fbox-4 pr-25 mb-40 wow fadeInUp">
+										{/* Icon */}
+										<div className="fbox-ico">
+											<div className="ico-65 shape-ico dark-color">
+												<img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
+												<img src="/images/industries/icons8-defend-100.png" alt="ico-bkg" />
+											</div>
+										</div>
+										{/* Text */}
+										<div className="fbox-txt">
+											{/* Title */}
+											<h5 className="h5-md">Defend document forgery</h5>
+											{/* Text */}
+											<p className="p-lg">Protect the risk of document forgery. Prevent potential financial consequences of a forged document</p>
+										</div>
+									</div>
+								</div>
+
+								<div className="col">
+									<div className="fbox-4 pr-25 mb-40 wow fadeInUp">
+										{/* Icon */}
+										<div className="fbox-ico">
+											<div className="ico-65 shape-ico dark-color">
+												<img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
+												<img src="/images/without-app.png" alt="ico-bkg" />
+											</div>
+										</div>
+										{/* Text */}
+										<div className="fbox-txt">
+											{/* Title */}
+											<h5 className="h5-md">Authenticate with a smartphone</h5>
+											{/* Text */}
+											<p className="p-lg">Signet authentication doesnot require users to download any app and works directly on tapping the tag.</p>
+										</div>
+									</div>
+								</div>
+
+								
+							
 							</div>
 						</div>{' '}
+						{/* END FEATURES-4 WRAPPER */}
 					</div>{' '}
+					{/* End container */}
 				</section>
+
 
 				<CallToAction />
 			</div>
