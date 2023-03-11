@@ -50,8 +50,8 @@ function ApparelAndClothing() {
 			<Header scroll={inContainerView} />
 			<PageTitle
 				image="/images/industries/clothing_banner.jpg"
-				title={'Secure Your Apparel and clothing with Smart Packaging'}
-				subtitle={'No credit card required. Change or cancel your plan anytime'}
+				title={'Secure Your Apparel and footwear with Smart Packaging'}
+				subtitle={'Packaging as smart as your products'}
 			/>
 			<div ref={containerRef}>
 				<section id="content-3" className="bg-whitesmoke content-3 wide-60 content-section division">
@@ -62,25 +62,34 @@ function ApparelAndClothing() {
 								{/* IMAGE BLOCK */}
 								<div className="col-md-5 col-lg-6">
 									<div className="img-block left-column wow fadeInRight">
-										<img className="img-fluid" src="/images/nfc-blockchain.jpg" alt="content-image" />
+										<img className="img-fluid" src="/images/clothing/bridge-gap.jpg" alt="content-image" />
 									</div>
 								</div>
 								{/* TEXT BLOCK */}
 								<div className="col-md-7 col-lg-6">
 									<div className="txt-block right-column wow fadeInLeft">
 										{/* Title */}
-										<h2 className="h2-xs">Tag, track and authenticate</h2>
+										<h2 className="h2-xs">Bridging the physical and digital world</h2>
 										{/* Text */}
 										<p className="p-lg">
-											Our patent pending NFC tag leverages encrypted tamper-proof blockchain technology to track each single item from production to
-											product opening and features refilling protection and anti-peeling. Its style can be customized for a perfect integration with
-											your label, package or bottle design.
+											The clothing and footwear industry is a
+											highly competitive market, driven by a new
+											generation of consumers who increasingly
+											uses digital technologies to shop online,
+											search for recommendations, and interact
+											with brands. At the same time, consumers
+											expect fashion brands to step up their
+											sustainability initiatives and consider ecofriendly commitments to be an important
+											factor in their buying decision. NFC
+											technology can address these challenges,
+											as it provides a means to communicate
+											with customers, and can ease recycling
+											initiatives.
 										</p>
 
 										<p className="p-lg">
 											Our app or a direct NFC connection allows consumers to check the authenticity of each single purchase they are about to make. A
-											simple tap grants instant access to product history, certifications and intended applications. Faster and safer than any
-											solution based on QR code or image recognition.
+											simple tap grants instant access to product history, certifications and intended applications.
 										</p>
 									</div>
 								</div>
@@ -98,11 +107,17 @@ function ApparelAndClothing() {
 							<div className="col-md-10 col-lg-8">
 								<div className="section-title title-02 mb-60">
 									<h2 className="h2-xs">
-										Uncovering the Real Problem <br />
+										What are the benefits of using NFC technology? <br />
 									</h2>
 									<p className="p-xl">
-										7.8% of annual sales in the personal care sector is lost due to counterfeiting According to the OECD, in 2016 the international
-										counterfeit makeup trade was estimated to be worth $5.4 billion. Today it is still increasing.
+										NFC (Near Field Communication) is a wireless connectivity technology based on RFID (Radio
+										Frequency Identification) enabling contactless communication between a reader and a tag.
+										A tag is a small electronic component that can be embedded in the labels of clothing and
+										footwear items, such as jackets, t-shirts, dresses, shoes etc.
+										Adding an NFC tag to an object connects it to the digital world.
+										Implementing NFC allows fashion brands to track their products around the world, ensure
+										their authenticity, and create a direct two-way communication channel with consumers via
+										their smartphone, used as an NFC reader.
 									</p>
 								</div>
 							</div>
@@ -139,8 +154,8 @@ function ApparelAndClothing() {
 									<h2 className="h2-md">Why Choose Signet Tags</h2>
 									{/* Text */}
 									<p className="p-xl">
-										While other authentication companies protect the package, Signet Tags protects the product against fraudulent refilling and allows
-										instantaneous verification without the need for specific tools or expertise in the field
+										A company can use NFC technology to verify that the goods equipped with an NFC tag have followed the entire supply chain flows
+										as expected.
 									</p>
 								</div>
 							</div>
@@ -198,27 +213,30 @@ function ApparelAndClothing() {
 									{/* Section ID */}
 									<span className="section-id txt-upcase">SMART NFC PACKAGING</span>
 									{/* Title */}
-									<h2 className="h2-xs">Plain packaging doesn't work anymore.</h2>
+									<h2 className="h2-xs">Helping brands grow their business.</h2>
 									{/* List */}
 									<ul className="simple-list">
 										<li className="list-item">
 											<p className="p-lg">
-												Getting customers to engage with your brand is a vital part of running any successful business, and Cosmetics And Perfumes
-												industries are no exception.
+												A two-way communication channel between brands and consumers.
 											</p>
 										</li>
 										<li className="list-item">
 											<p className="p-lg">
-												Smart packaging transforms your Cosmetics And Perfumes products into a new marketing channel for customers to engage with your
-												Cosmetics And Perfumes brand. *According to Gallup research, a highly engaged customer brings in 23% more revenue than the
-												average customer.
+												NFC technology delivers the benefits of digital marketing to physical products.
 											</p>
 										</li>
 										<li className="list-item">
 											<p className="p-lg">
-												Signet Tags has a range of smart packaging solutions to fit any Cosmetics And Perfumes brand’s requirements including
-												cryptographic serialised QR codes, anti-copy codes, or invisible smartphone readable technology. Signet Tags solutions can be
-												non-app based or app-based depending on your requirements
+												Secure and ready-to-use, NFC tags can easily be configured with personalized content (authentication, product information
+												and more) which consumers can access by simply tapping the tag with their smartphone.
+											</p>
+										</li>
+										<li className="list-item">
+											<p className="p-lg">
+												By providing access to product information (origin, fabric), offering personalized shopping advice, and giving details on
+												sustainable initiatives, such as where to recycle or donate a piece of clothing after use, NFC technology helps fashion brands
+												establish a direct communication channel with their customers.
 											</p>
 										</li>
 									</ul>
@@ -228,7 +246,7 @@ function ApparelAndClothing() {
 							{/* IMAGE BLOCK */}
 							<div className="col-md-5 col-lg-6 order-first order-md-2">
 								<div className="rel img-block right-column wow fadeInLeft">
-									<img className="img-fluid" src="/images/signet-mobile-app.jpg" alt="content-image" />
+									<img className="img-fluid rounded" src="/images/clothing/nfc-shppoing.jpg" alt="content-image" />
 								</div>
 							</div>
 						</div>
@@ -237,27 +255,165 @@ function ApparelAndClothing() {
 					{/* End container */}
 				</section>
 
-				<Benefits />
-
-				<section id="statistic-2" className="wide-100 statistic-section division">
+				<section id="features-4" className="pb-60 features-section division">
 					<div className="container">
-						<div className="row d-flex align-items-center">
-							<div className="col-lg-6">
-								<div className="txt-block right-column wow fadeInLeft">
-									<h3 className="h3-xs"> The international counterfeit makeup trade was estimated to be worth $5.4 billion. Still increasing. </h3>
-								</div>
-							</div>
-							<div className="col-sm-5 col-md-4 col-lg-3 offset-sm-2 offset-md-3 offset-lg-2">
-								<div className="statistic-block wow fadeInUp">
-									<div className="h2-title-font statistic-number footer-head text-dark">
-										<span className="count-element">7.8%</span>
+						{/* FEATURES-4 WRAPPER */}
+						<div className="fbox-4-wrapper fbox-4-wide">
+							<div className="row row-cols-1 row-cols-md-2">
+								{/* FEATURE BOX #1 */}
+								<div className="col">
+									<div className="fbox-4 pr-25 mb-40 wow fadeInUp">
+										{/* Icon */}
+										<div className="fbox-ico">
+											<div className="ico-65 shape-ico dark-color">
+												<img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
+												<img src="/images/industries/icons8-connected-100.png" alt="ico-bkg" />
+											</div>
+										</div>
+										{/* Text */}
+										<div className="fbox-txt">
+											{/* Title */}
+											<h5 className="h5-md">Digitally Connected Products</h5>
+											{/* Text */}
+											<p className="p-lg">Every product becomes digitally connected</p>
+										</div>
 									</div>
-									<p className="p-lg mt-20">annual sales in the personal care sector is lost due to counterfeiting</p>
 								</div>
+
+								{/* FEATURE BOX #3 */}
+								<div className="col">
+									<div className="fbox-4 pr-25 mb-40 wow fadeInUp">
+										{/* Icon */}
+										<div className="fbox-ico">
+											<div className="ico-65 shape-ico dark-color">
+												<img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
+												<img src="/images/industries/icons8-knight-shield-100.png" alt="ico-bkg" />
+											</div>
+										</div>
+										{/* Text */}
+										<div className="fbox-txt">
+											{/* Title */}
+											<h5 className="h5-md">Protect your Brand</h5>
+											{/* Text */}
+											<p className="p-lg">Drive out counterfeited perfumes from the market and safeguard your customers’ health and money</p>
+										</div>
+									</div>
+								</div>
+								{/* FEATURE BOX #4 */}
+								<div className="col">
+									<div className="fbox-4 pl-25 mb-40 wow fadeInUp">
+										{/* Icon */}
+										<div className="fbox-ico">
+											<div className="ico-65 shape-ico dark-color">
+												<img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
+												<img src="/images/industries/icons8-opera-glasses-100.png" alt="ico-bkg" />
+											</div>
+										</div>
+										{/* Text */}
+										<div className="fbox-txt">
+											{/* Title */}
+											<h5 className="h5-md">Montitor Products</h5>
+											{/* Text */}
+											<p className="p-lg">Track your products until the final customer. Detect product infiltrations and original stolen products</p>
+										</div>
+									</div>
+								</div>
+								{/* FEATURE BOX #5 */}
+								<div className="col">
+									<div className="fbox-4 pr-25 mb-40 wow fadeInUp">
+										{/* Icon */}
+										<div className="fbox-ico">
+											<div className="ico-65 shape-ico dark-color">
+												<img className="ico-bkg" src="/images/ico-bkg.png" alt="ico-bkg" />
+												<img src="/images/industries/icons8-defend-100.png" alt="ico-bkg" />
+											</div>
+										</div>
+										{/* Text */}
+										<div className="fbox-txt">
+											{/* Title */}
+											<h5 className="h5-md">Defend Distributors</h5>
+											{/* Text */}
+											<p className="p-lg">Protect your official commercial partners from product diversion and illicit markets</p>
+										</div>
+									</div>
+								</div>
+
 							</div>
 						</div>{' '}
+						{/* END FEATURES-4 WRAPPER */}
 					</div>{' '}
+					{/* End container */}
 				</section>
+
+
+				<section id="content-1" className="content-1 pb-100 content-section division">
+					<div className="container">
+						<div className="row d-flex align-items-center">
+
+							<div className="col-md-5 col-lg-6 order-first order-md-2">
+								<div className="rel img-block right-column wow fadeInLeft">
+									<img className="img-fluid rounded" src="/images/clothing/shoes-blochchain.jpeg" alt="content-image" />
+									<img className="img-fluid rounded mt-4" src="/images/clothing/sahoshi.gif" alt="content-image" />
+								</div>
+							</div>
+
+
+							<div className="col-md-7 col-lg-6 order-last order-md-2">
+								<div className="txt-block left-column wow fadeInRight">
+									{/* Title */}
+									<h2 className="h2-xs">NFC chip in shoes and footwear to track production.</h2>
+									{/* List */}
+
+									<p>
+										Sneaker manufacturer <a href='https://www.kickstarter.com/projects/satoshi-studio/satoshi-one-high-end-sneakers-for-tech-lovers' target={'_blank'}> Satoshi
+										</a>  equips
+										its products with its own NFC chip to inform the customer about the production route of each pair of shoes. Among other things, the chip provides information about the manufacturing location and process. Where other products usually only show the country of origin, <a href='https://www.kickstarter.com/projects/satoshi-studio/satoshi-one-high-end-sneakers-for-tech-lovers' target={'_blank'}> Satoshi
+										</a> shows for each pair of shoes when and where it was processed.
+
+
+									</p>
+									<p>
+										The technology behind the NFC chip is that it is linked to an online portal that stores each step in the process and additionally signs it using a block chain algorithm. Access to the information and its extension is done by scanning the shoe. This technology also makes it possible for subsequent owners to add themselves to this block chain. Thus, further owners can see to whom the shoes have already belonged once. By using NFC in its own products, <a href='https://www.kickstarter.com/projects/satoshi-studio/satoshi-one-high-end-sneakers-for-tech-lovers' target={'_blank'}> Satoshi
+										</a> wants to demonstrate to its customers in a comprehensible and uncomplicated way which production steps their own shoes have gone through. This traceability makes each production step transparent, which among other things ensures that the sneakers were manufactured under fair conditions.
+
+									</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</section>
+
+				<section id="content-1" className="content-1 pb-100 content-section division">
+					<div className="container">
+						<div className="row d-flex align-items-center">
+							{/* TEXT BLOCK */}
+							<div className="col-md-7 col-lg-6 order-last order-md-2">
+								<div className="txt-block left-column wow fadeInRight">
+									{/* Section ID */}
+									{/* Title */}
+									<h2 className="h2-xs">NFC for detailed material origin in sweaters</h2>
+									
+
+									A clothing manufacturer goes even further and offers its customers even more transparency through the use of modern NFC technology in clothing. <a target={"_blank"} href="https://sheepinc.com/">SheepInc</a> not only uses high-quality materials and workmanship to make the garments more durable, the company also incorporates a small NFC chip the size of a button in each garment. This NFC button provides information about the production, the origin and even - and this is the special thing - from which sheep the wool comes. To get information such as name, size, weight, origin and breed of the sheep, all you have to do is hold your smartphone over the NFC button. The manufacturer thus offers the possibility to get information about the welfare of the animal and to establish a certain relationship with it. The buyer is also shown how much CO2 the purchase of the product has saved. Through the unique ID of the NFC tag, each sweater has its own history. The linked information is stored on the internet and can therefore always be flexibly adapted, so that the status of the sheep is not a snapshot, but continues to exist with the sweater and can also change. NFC allows the information to be communicated efficiently and quickly and to be noted on each individual pullover.
+
+
+								</div>
+							</div>
+							{/* END TEXT BLOCK */}
+							{/* IMAGE BLOCK */}
+							<div className="col-md-5 col-lg-6 order-first order-md-2">
+								<div className="rel img-block right-column wow fadeInLeft">
+								<img className="img-fluid rounded mt-4" src="/images/clothing/nfc-buttons.jpeg" alt="content-image" />
+
+								</div>
+							</div>
+						</div>
+						{/* End row */}
+					</div>
+					{/* End container */}
+				</section>
+
 
 				<CallToAction />
 			</div>
