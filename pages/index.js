@@ -36,7 +36,7 @@ export default function Home() {
 					name="description"
 					content="Signet tags link your products with blockchain-proven ownership. The blockchain solution ensures authenticity and increases customer engagement. "
 				/>
-				<meta name="keywords" content="Signet Tags, Signet Authenticity, brand protection software, blockchain-proven ownership, " />
+				<meta name="keywords" content="Signet, Signet Tags, Signet Authenticity, brand protection software, blockchain-proven ownership, " />
 				<meta name="robots" content="index, follow" />
 				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 				<meta name="language" content="English" />
