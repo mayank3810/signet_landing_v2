@@ -127,12 +127,7 @@ function Header({ scroll }) {
 										Pricing
 									</Link>
 								</li>
-								<li className="nl-simple">
-									<Link className={activeRoute === 'blog' ? 'active-link' : ''} href={'/blog'}>
-										Blog
-									</Link>
-									{/* <a href="#features-8"></a> */}
-								</li>
+								
 								{/* HEADER BUTTON */}
 								<li className="nl-simple">
 									<Link className="btn btn-tra-white orange-red-hover last-link" href={'/request-demo'}>

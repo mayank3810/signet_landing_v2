@@ -295,7 +295,7 @@ function ApparelAndClothing() {
 											{/* Title */}
 											<h5 className="h5-md">Protect your Brand</h5>
 											{/* Text */}
-											<p className="p-lg">Drive out counterfeited perfumes from the market and safeguard your customers’ health and money</p>
+											<p className="p-lg">Drive out counterfeited product from the market and safeguard your customers’ health and money</p>
 										</div>
 									</div>
 								</div>

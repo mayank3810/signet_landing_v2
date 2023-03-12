@@ -43,13 +43,18 @@ function RequestDemo() {
 			<Header scroll={true} />
 			<section id="content-3" className="bg-snow content-3 wide-60 content-section division">
 				<div className="container">
-					<div className="row pb-50">
+					<div className="row">
+						<div className='col-12 text-center mt-50'>
+							<h1>Looking to explore how Signet Tags can help your company?</h1>
+							<h3>Schedule a Demo to find out.</h3>
+						</div>
+						<div className='col-12 text-center'>
 						<iframe src="https://calendly.com/mayank-gauatm/30min" width={1000} height={700} />
+						</div>
+						
 					</div>
 				</div>
 			</section>
-			<Testimonials />
-			<CallToAction />
 		</>
 	);
 }

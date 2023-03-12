@@ -1,8 +1,6 @@
 import CallToAction from '@/components/CallToAction';
 import Header from '@/components/Header';
-import Stats from '@/components/Stats';
 import PageTitle from '@/components/PageTitle';
-import Testimonials from '@/components/Testimonials';
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import Brands from '@/components/Brands';
@@ -10,7 +8,7 @@ import Benefits from '@/components/Benefits';
 import Head from 'next/head';
 
 function DocumentSecurity() {
-	const [containerRef, inContainerView] = useInView({ rootMargin: '-350px' });
+	const [containerRef, inContainerView] = useInView({ rootMargin: '-250px' });
 
 	return (
 		<>

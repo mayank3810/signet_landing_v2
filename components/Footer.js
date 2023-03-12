@@ -19,7 +19,7 @@ function Footer() {
 								{/* Footer Logo */}
 								<img className="footer-logo mb-25" src="/images/logo_dark.svg" alt="footer-logo" />
 								{/* Text */}
-								<p className="p-md">Signet Tags - Blockchain-based authenticity and Brand protection solution</p>
+								<p className="p-md">Signet Tags - Blockchain-based authenticity and Brand protection solution. </p>
 								<p>
 									
 								</p>
@@ -39,7 +39,8 @@ function Footer() {
 									</li>
 									<li>
 										<p className="p-md">
-											<a href="#">Careers</a>
+											<Link target={'_blank'} href={'https://app.signettags.com/'}>Login to app</Link>
+
 										</p>
 									</li>
 									<li>
@@ -74,7 +75,12 @@ function Footer() {
 									</li>
 									<li>
 										<p className="p-md">
-											<Link href={'/api-doc'}>API & Resources</Link>
+											<Link target={'_blank'} href={'https://documenter.getpostman.com/view/24513031/2s93JtQPYp'}>API & Resources</Link>
+										</p>
+									</li>
+									<li>
+										<p className="p-md">
+											<Link target={'_blank'} href={'https://shop.signettags.com/'}>Signet Shop</Link>
 										</p>
 									</li>
 								</ul>
@@ -153,6 +159,11 @@ function Footer() {
 											<a href="https://www.youtube.com/@signettags" target="_blank">
 												All Videos
 											</a>
+										</p>
+									</li>
+									<li>
+										<p className="p-md">
+											<Link href={'https://signet-admin.vercel.app/experience?tagId=135ymo9'}>Platform Experience</Link>
 										</p>
 									</li>
 									<li>

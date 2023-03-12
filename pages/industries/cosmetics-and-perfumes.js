@@ -116,7 +116,7 @@ function CosmeticsAndPerfumes() {
 										style={{ borderRadius: '20px' }}
 										width="860"
 										height="515"
-										src="https://www.youtube.com/embed/YQUjE2koNRI"
+										src="https://www.youtube.com/embed/9PPLoy-_Kxs"
 										title="Signet Demo Video"
 										frameBorder="0"
 										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
