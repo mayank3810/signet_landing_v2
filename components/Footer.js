@@ -78,11 +78,11 @@ function Footer() {
 											<Link target={'_blank'} href={'https://documenter.getpostman.com/view/24513031/2s93JtQPYp'}>API & Resources</Link>
 										</p>
 									</li>
-									<li>
+									{/* <li>
 										<p className="p-md">
 											<Link target={'_blank'} href={'https://shop.signettags.com/'}>Signet Shop</Link>
 										</p>
-									</li>
+									</li> */}
 								</ul>
 							</div>
 						</div>
