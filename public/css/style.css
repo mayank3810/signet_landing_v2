@@ -8936,9 +8936,17 @@ input.checkbox-input {
 }
 .email-popup {
   position: fixed !important;
-  bottom: 0;
+  display: flex;
+  /* bottom: 0; */
   width: 100%;
-  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  top: 0;
+  height: 100vh;
+  /* z-index: 3; */
+  /* align-content: center; */
+  justify-content: center;
+  align-items: center;
 }
 
 span.close-btn {

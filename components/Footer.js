@@ -7,7 +7,7 @@ function Footer() {
   useEffect(() => {
     setTimeout(() => {
       setSaveEmailPopup(true);
-    }, 10000);
+    }, 5000);
   }, []);
 
   const saveEmail = async (e) => {
@@ -35,9 +35,9 @@ function Footer() {
         <>
           <section
             id="cta-4"
-            className="cta-section division pt-4 email-popup animate__animated animate__fadeInUp"
+            className="cta-section division pt-4 email-popup animate__animated animate__fadeIn"
           >
-            <div className="container">
+            <div className="container w-50">
               <div className="bg-white cta-4-wrapper ">
                 <div className="row d-flex align-items-center">
                   {/* CALL TO ACTION TEXT */}
