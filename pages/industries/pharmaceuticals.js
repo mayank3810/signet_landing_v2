@@ -250,6 +250,22 @@ function Pharmaceuticals() {
 
 				<Benefits />
 
+				<section id="content-2" className="content-1 pb-100 content-section division">
+					<div className="container">
+						<div className="row d-flex align-items-center">
+							{/* TEXT BLOCK */}
+							<div className="col-12">
+								<p>
+									Counterfeiting in the pharmaceutical industry refers to the production and distribution of fake, substandard, or adulterated medicines. Counterfeit medicines are a significant global public health threat and can lead to a range of health problems, including drug resistance, treatment failure, and even death. The World Health Organization estimates that up to 10% of medicines sold globally are counterfeit.
+								</p>
+
+								<p>
+									Pharmaceutical counterfeiting is a complex and organized crime that involves different actors, including manufacturers, distributors, and retailers. Counterfeiters often use sophisticated methods to produce fake medicines that are difficult to detect. They may also manipulate the packaging, labeling, and batch numbers to make the counterfeit product look identical to the genuine product.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
 				<CallToAction />
 			</div>
 		</>
