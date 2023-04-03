@@ -4126,6 +4126,9 @@
 /* ------------------------------------------------------------------------ */
 
 @media (max-width: 767px) {
+	iframe.rounded-20px {
+		width: 100%;
+	}
 	.wow {
 		animation-name: none !important;
 		visibility: visible !important;
@@ -5674,6 +5677,9 @@
 /* ------------------------------------------------------------------------ */
 
 @media (min-width: 480px) and (max-width: 767.95px) {
+	iframe.rounded-20px {
+		width: 100%;
+	}
 	.ts-0 {
 		padding-top: 80px;
 	}
@@ -7298,6 +7304,9 @@
 /* ------------------------------------------------------------------------ */
 
 @media (min-width: 414px) and (max-width: 479.95px) {
+	iframe.rounded-20px {
+		width: 100%;
+	}
 	#stlChanger {
 		display: none;
 	}
@@ -9778,6 +9787,9 @@
 /* ------------------------------------------------------------------------ */
 
 @media (min-width: 321px) and (max-width: 413.95px) {
+	iframe.rounded-20px {
+		width: 100%;
+	}
 	#stlChanger {
 		display: none;
 	}
@@ -12313,6 +12325,9 @@
 /* ------------------------------------------------------------------------ */
 
 @media (max-width: 320.95px) {
+	iframe.rounded-20px {
+		width: 100%;
+	}
 	#stlChanger {
 		display: none;
 	}
@@ -14820,3 +14835,15 @@
 		right: 10px;
 	}
 }
+
+
+
+
+@media only screen and (max-width: 991.95px) {
+	iframe.rounded-20px {
+		width: 100%;
+	}
+	.video-preview iframe {
+		width: 100%;
+	}
+  }
