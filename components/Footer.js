@@ -26,6 +26,7 @@ function Footer() {
       }),
     });
     setSaveEmailPopup(false);
+    setEmail("");
   };
 
   return (
