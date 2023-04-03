@@ -17,7 +17,20 @@ function Footer() {
 
   const saveEmail = async (e) => {
     e.preventDefault();
+
+    const emailRegex =
+      /[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,8}(.[a-z{2,8}])?/g;
+    const valid = emailRegex.test(email);
+    // console.log(valid);
+
     if (!email) {
+      setErrorMessage(true);
+      setTimeout(() => {
+        setErrorMessage(false);
+      }, 3000);
+      return;
+    }
+    if (!valid) {
       setErrorMessage(true);
       setTimeout(() => {
         setErrorMessage(false);
@@ -40,11 +53,10 @@ function Footer() {
     setTimeout(() => {
       setSuccessMessage(false);
     }, 3000);
-
   };
 
   const closePopup = async (e) => {
-    localStorage.setItem('showPopup', 'false');
+    localStorage.setItem("showPopup", "false");
     setSaveEmailPopup(false);
     setEmail("");
   };
@@ -57,16 +69,13 @@ function Footer() {
         <div className="sucess-message animate__animated animate__fadeIn">
           Thank you for considering a demo with us.
         </div>
-      )
-      }
+      )}
 
       {errorMessage && (
         <div className="error-message animate__animated animate__fadeIn">
-          Please enter your email.
+          Please enter a valid email.
         </div>
-      )
-      }
-
+      )}
 
       {saveEmailPopup && (
         <>
@@ -79,18 +88,16 @@ function Footer() {
                 <div className="row d-flex align-items-center">
                   <div className="col-12">
                     <div className="cta-4-txt">
-
                       <h5 className="h5-lg pt-15">
-                        Interested in learning more about our product or service?
+                        Interested in learning more about our product or
+                        service?
                       </h5>
 
                       <p className="pb-30">
-                        Please enter your email below to schedule a demo at your convenience.
+                        Please enter your email below to schedule a demo at your
+                        convenience.
                       </p>
-                      <span
-                        onClick={() => closePopup()}
-                        className="close-btn"
-                      >
+                      <span onClick={() => closePopup()} className="close-btn">
                         x
                       </span>
 
