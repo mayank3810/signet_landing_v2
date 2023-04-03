@@ -3,16 +3,25 @@ import React, { useEffect, useState } from "react";
 
 function Footer() {
   const [saveEmailPopup, setSaveEmailPopup] = useState(false);
+  const [successMessage, setSuccessMessage] = useState(false);
+  const [errorMessage, setErrorMessage] = useState(false);
+
   const [email, setEmail] = useState("");
   useEffect(() => {
     setTimeout(() => {
-      setSaveEmailPopup(true);
-    }, 5000);
+      if (localStorage.getItem("showPopup") === null) {
+        setSaveEmailPopup(true);
+      }
+    }, 3000);
   }, []);
 
   const saveEmail = async (e) => {
     e.preventDefault();
     if (!email) {
+      setErrorMessage(true);
+      setTimeout(() => {
+        setErrorMessage(false);
+      }, 3000);
       return;
     }
     await fetch(process.env.NEXT_PUBLIC_API_URL + "general/saveEmail", {
@@ -25,6 +34,17 @@ function Footer() {
         email: email,
       }),
     });
+    closePopup();
+
+    setSuccessMessage(true);
+    setTimeout(() => {
+      setSuccessMessage(false);
+    }, 3000);
+
+  };
+
+  const closePopup = async (e) => {
+    localStorage.setItem('showPopup', 'false');
     setSaveEmailPopup(false);
     setEmail("");
   };
@@ -32,37 +52,50 @@ function Footer() {
   return (
     <>
       <hr className="divider" />
+
+      {successMessage && (
+        <div className="sucess-message animate__animated animate__fadeIn">
+          Thank you for considering a demo with us.
+        </div>
+      )
+      }
+
+      {errorMessage && (
+        <div className="error-message animate__animated animate__fadeIn">
+          Please enter your email.
+        </div>
+      )
+      }
+
+
       {saveEmailPopup && (
         <>
           <section
             id="cta-4"
             className="cta-section division pt-4 email-popup animate__animated animate__fadeIn"
           >
-            <div className="container w-50">
-              <div className="bg-white cta-4-wrapper ">
+            <div className="container popup-container">
+              <div className="bg-white home-page-popup">
                 <div className="row d-flex align-items-center">
-                  {/* CALL TO ACTION TEXT */}
-                  <div className="col-lg-7 col-lg-8">
+                  <div className="col-12">
                     <div className="cta-4-txt">
-                      <h4 className="h4-xl pb-30">
-                        Enter your email to get in touch
-                      </h4>
+
+                      <h5 className="h5-lg pt-15">
+                        Interested in learning more about our product or service?
+                      </h5>
+
+                      <p className="pb-30">
+                        Please enter your email below to schedule a demo at your convenience.
+                      </p>
                       <span
-                        onClick={() => setSaveEmailPopup(false)}
+                        onClick={() => closePopup()}
                         className="close-btn"
                       >
-                        X
+                        x
                       </span>
 
                       <form name="contactform" className="row contact-form">
-                        {/* Form Select */}
-
-                        {/* Contact Form Input */}
-
-                        <div className="col-md-11">
-                          {/* <span>
-                      Please carefully check your email address htmlFor accuracy
-                    </span> */}
+                        <div className="col-12">
                           <input
                             type="text"
                             name="email"
@@ -73,11 +106,10 @@ function Footer() {
                           />
                         </div>
 
-                        {/* Contact Form Button */}
-                        <div className="col-md-1 form-btn text-right">
+                        <div className="col-12">
                           <button
                             onClick={saveEmail}
-                            className="btn btn-yellow btn-lg tra-yellow-hover submit"
+                            className="btn btn-block btn-yellow w-100 tra-yellow-hover submit"
                           >
                             Submit
                           </button>
@@ -85,10 +117,8 @@ function Footer() {
                       </form>
                     </div>
                   </div>
-                  {/* CALL TO ACTION BUTTON */}
                 </div>
               </div>{" "}
-              {/* End row */}
             </div>{" "}
           </section>
         </>
