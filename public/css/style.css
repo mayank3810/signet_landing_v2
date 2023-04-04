@@ -6887,8 +6887,9 @@ h2.statistic-number {
 }
 
 .brands-section p {
-  padding: 0 5%;
-  margin-bottom: 50px;
+  /* padding: 30px 0 0 0; */
+  /* margin-bottom: 50px; */
+  padding-top: 30px;
 }
 
 #brands-1.brands-section p {
@@ -6910,7 +6911,7 @@ h2.statistic-number {
 }
 
 #brands-2 .brand-logo {
-  opacity: 0.8;
+  /* opacity: 0.8; */
   padding: 0 10px;
   margin-bottom: 30px;
   -webkit-transition: all 400ms ease-in-out;
