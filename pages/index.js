@@ -10,6 +10,7 @@ import { Inter } from "@next/font/google";
 import Link from "next/link";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
+import Brands from "@/components/Brands";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -84,6 +85,7 @@ export default function Home() {
       <div id="page" className="page">
         <Header scroll={inHeaderView} />
         <Hero />
+        <Brands />
 
         <Features />
         <hr className="divider" />
