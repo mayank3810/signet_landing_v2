@@ -46,7 +46,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="Signet, Signet Tags, Signet Authenticity, brand protection software, blockchain-proven ownership, "
+          content="Signet,signet, signet tags, signettags, Signet Tags, SignetTags, Signet Authenticity, brand protection software, blockchain-proven ownership, "
         />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
