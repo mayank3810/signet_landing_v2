@@ -85,11 +85,12 @@ export default function Home() {
       <div id="page" className="page">
         <Header scroll={inHeaderView} />
         <Hero />
-        <Brands />
-
-        <Features />
-        <hr className="divider" />
         <div ref={headerRef}>
+          <Brands />
+
+          <Features />
+          <hr className="divider" />
+
           <Content2 />
           <Content3 />
           <Content4 />

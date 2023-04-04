@@ -145,7 +145,7 @@ function Brands() {
                   >
                     <img
                       className="img-fluid"
-                      src="/images/media/lokmat.svg"
+                      src="/images/media/lokmath.svg"
                       alt="brand-logo"
                     />
                   </a>

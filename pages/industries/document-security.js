@@ -8,7 +8,10 @@ import Benefits from "@/components/Benefits";
 import Head from "next/head";
 
 function DocumentSecurity() {
-  const [containerRef, inContainerView] = useInView({ rootMargin: "-360px" });
+  const [containerRef, inContainerView] = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
 
   return (
     <>
