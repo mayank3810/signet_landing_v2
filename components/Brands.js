@@ -46,12 +46,12 @@ function Brands() {
     >
       <div className="container pb-70">
         <div className="row ">
-          <div className="col-3">
-            <div className="review-4 m-0">
-              <div className="review-4-txt">
-                <h2>Media Mentions</h2>
-              </div>
-            </div>
+          <div className="col-3 d-flex align-items-center">
+            {/* <div className="review-4 m-0">
+              <div className="review-4-txt"> */}
+            <h2>Media Mentions</h2>
+            {/* </div>
+            </div> */}
           </div>
           <div className="col-9 d-flex align-items-center overflow-hidden">
             <div className="brands-carousel">
