@@ -1,0 +1,84 @@
+.nav-tab-pills {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	align-items: center;
+	padding: 10px;
+	font-size: 0.9rem;
+	/* background-color: #f8f9fa; */
+	border: 1px solid #fbce71;
+}
+.nav-tab-pills img {
+	width: 16px;
+	height: 16px;
+}
+
+.qr-forms {
+	box-shadow: 0 14px 16px #0000000f;
+	-moz-box-shadow: 0 14px 16px rgba(0, 0, 0, 0.06);
+	-webkit-box-shadow: 0 14px 16px rgba(0, 0, 0, 0.06);
+	border-radius: 6px;
+	background: #fff;
+	padding: 20px;
+}
+
+.qr-options {
+	border: 2px solid #797d80;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.qr-options img {
+	width: 180px;
+	height: 180px;
+	align-self: center;
+}
+.tab-pane input,
+.tab-pane textarea {
+	border: none;
+	font-size: 30px;
+	font-weight: 600;
+	resize: none;
+}
+.accordion {
+	border: 1px solid #dee2e6;
+	/* margin-bottom: 10px; */
+}
+
+.accordion-header {
+	background-color: #f8f9fa;
+	color: #212529;
+	cursor: pointer;
+	font-weight: 500;
+	padding: 0.5rem 1rem;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.accordion-header img {
+	width: 16px;
+	height: 16px;
+}
+.accordion-header:hover {
+	background-color: #e2e6ea;
+}
+
+.accordion-header .icon-chevron-up {
+	display: none;
+	position: absolute;
+	right: 1rem;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.accordion-header.active .icon-chevron-up {
+	display: inline-block;
+}
+
+.accordion-body {
+	background-color: #fff;
+	border-top: 1px solid #dee2e6;
+	padding: 1rem;
+}

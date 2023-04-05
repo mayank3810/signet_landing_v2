@@ -46,7 +46,7 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="Signet,signet, signet tags, signettags, Signet Tags, SignetTags, Signet Authenticity, brand protection software, blockchain-proven ownership, "
+          content="signet, signet tags, signettags, brand protection software, blockchain-proven ownership"
         />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -392,7 +392,7 @@ export default function Home() {
                       <div className="question wow fadeInUp">
                         {/* Question */}
                         <h3 className="h3-font mb-3">
-                          Can I see Signet in action before purchasing?
+                          Can I see Signet Tags in action before purchasing?
                         </h3>
                         {/* Answer */}
                         <p className="p-lg">
@@ -405,7 +405,7 @@ export default function Home() {
                       <div className="question wow fadeInUp">
                         {/* Question */}
                         <h3 className="h3-font mb-3">
-                          What are the requirements for using Signet?
+                          What are the requirements for using Signet Tags?
                         </h3>
                         {/* Answer */}
                         <p className="p-lg">
@@ -459,7 +459,7 @@ export default function Home() {
                       <div className="question wow fadeInUp">
                         {/* Question */}
                         <h3 className="h3-font mb-3">
-                          How does Signet handle my privacy?
+                          How does Signettags handle my privacy?
                         </h3>
                         {/* Answer */}
                         <p className="p-lg">
