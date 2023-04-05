@@ -45,6 +45,7 @@ export default function Document() {
 					<link href="/css/style.css" rel="stylesheet" />
 					{/* RESPONSIVE CSS */}
 					<link href="/css/responsive.css" rel="stylesheet" />
+					<link href="/css/custom.css" rel="stylesheet" />
 
 					<script
 						dangerouslySetInnerHTML={{
