@@ -17,7 +17,7 @@ function Brands() {
     loop: true,
     responsive: {
       0: {
-        items: 1,
+        items: 2,
       },
       400: {
         items: 2,
@@ -29,13 +29,13 @@ function Brands() {
         items: 3,
       },
       1000: {
-        items: 3,
+        items: 4,
       },
       1200: {
-        items: 4,
+        items: 5,
       },
       1400: {
-        items: 4,
+        items: 5,
       },
     },
   };
@@ -151,6 +151,27 @@ function Brands() {
                   </a>
                 </Link>
               </div>
+
+              {/* BRAND LOGO IMAGE */}
+              <div className="brand-logo">
+                <Link
+                  href="https://m.dailyhunt.in/news/india/english/hello+entrepreneurs-epaper-dhc4bd36087cec49cd9f75d3d1f8df3a02/signet+tags+blockchain+nfc+powered+product+authentication+and+traceability+solution-newsid-dhc4bd36087cec49cd9f75d3d1f8df3a02_bd0253f0d22611edbab32912c19fa704?sm=Y"
+                  legacyBehavior
+                  passHref
+                >
+                  <a
+                    target="_blank"
+                    // href="https://www.lokmattimes.com/business/signet-tags-launches-innovative-nfc-and-qr-code-based-customer-engagement-platform/"
+                  >
+                    <img
+                      className="img-fluid"
+                      src="/images/media/daily_hunt.svg"
+                      alt="brand-logo"
+                    />
+                  </a>
+                </Link>
+              </div>
+
               {/* BRAND LOGO IMAGE */}
               <div className="brand-logo">
                 <Link
@@ -165,6 +186,91 @@ function Brands() {
                     <img
                       className="img-fluid"
                       src="/images/media/zee5.svg"
+                      alt="brand-logo"
+                    />
+                  </a>
+                </Link>
+              </div>
+
+              {/* BRAND LOGO IMAGE */}
+              <div className="brand-logo">
+                <Link
+                  href="https://www.business-standard.com/content/press-releases-ani/signet-tags-launches-innovative-nfc-and-qr-code-based-customer-engagement-platform-123040400013_1.html"
+                  legacyBehavior
+                  passHref
+                >
+                  <a target="_blank">
+                    <img
+                      className="img-fluid"
+                      src="/images/media/bs.svg"
+                      alt="brand-logo"
+                    />
+                  </a>
+                </Link>
+              </div>
+
+              {/* BRAND LOGO IMAGE */}
+              <div className="brand-logo">
+                <Link
+                  href="https://www.cambodiantimes.com/news/273702608/signet-tags-launches-innovative-nfc-and-qr-code-based-customer-engagement-platform"
+                  legacyBehavior
+                  passHref
+                >
+                  <a target="_blank">
+                    <img
+                      className="img-fluid"
+                      src="/images/media/cambodian.svg"
+                      alt="brand-logo"
+                    />
+                  </a>
+                </Link>
+              </div>
+
+              {/* BRAND LOGO IMAGE */}
+              <div className="brand-logo">
+                <Link
+                  href="https://www.washingtondcdespatch.com/news/signet-tags-launches-innovative-nfc-and-qr-code-based-customer-engagement-platform20230403180146/"
+                  legacyBehavior
+                  passHref
+                >
+                  <a target="_blank">
+                    <img
+                      className="img-fluid"
+                      src="/images/media/washington.svg"
+                      alt="brand-logo"
+                    />
+                  </a>
+                </Link>
+              </div>
+
+              {/* BRAND LOGO IMAGE */}
+              <div className="brand-logo">
+                <Link
+                  href="https://www.torontosuntimes.com/news/signet-tags-launches-innovative-nfc-and-qr-code-based-customer-engagement-platform20230403180146/"
+                  legacyBehavior
+                  passHref
+                >
+                  <a target="_blank">
+                    <img
+                      className="img-fluid"
+                      src="/images/media/toronto.svg"
+                      alt="brand-logo"
+                    />
+                  </a>
+                </Link>
+              </div>
+
+              {/* BRAND LOGO IMAGE */}
+              <div className="brand-logo">
+                <Link
+                  href="https://www.dubaicityreporter.com/news/signet-tags-launches-innovative-nfc-and-qr-code-based-customer-engagement-platform20230403180146/"
+                  legacyBehavior
+                  passHref
+                >
+                  <a target="_blank">
+                    <img
+                      className="img-fluid"
+                      src="/images/media/east_coast.svg"
                       alt="brand-logo"
                     />
                   </a>
