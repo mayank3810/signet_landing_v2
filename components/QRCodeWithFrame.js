@@ -1,6 +1,3 @@
-import { useState, useEffect, useRef } from 'react';
-import { createCanvas, loadImage } from 'canvas';
-
 function QrCodeWithFrame({ qrCodeUrl, frameUrl, frameNo }) {
 	let qrCodeTopStyle = {};
 	if (frameNo > 0 && frameNo < 4) {
