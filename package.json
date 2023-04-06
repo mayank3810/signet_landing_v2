@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@next/font": "13.1.5",
+    "canvas": "^2.11.2",
     "next": "13.1.5",
     "next-sitemap": "^3.1.54",
     "qrcode": "^1.5.1",

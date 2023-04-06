@@ -30,8 +30,8 @@
 }
 
 .qr-options img {
-	width: 180px;
-	height: 180px;
+	/* width: 180px;
+	height: 180px; */
 	align-self: center;
 }
 .tab-pane input,
@@ -81,4 +81,70 @@
 	background-color: #fff;
 	border-top: 1px solid #dee2e6;
 	padding: 1rem;
+}
+
+.qr-wrapper {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.qr-frame {
+	width: 300px;
+	height: 300px;
+}
+
+.qr-code {
+	width: 180px;
+	height: 180px;
+}
+.radio-inputs {
+	display: flex;
+	justify-content: space-between;
+	/* align-items: center; */
+}
+.radio-inputs label {
+	display: inline-block;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.radio-inputs input[type='radio'] {
+	display: none;
+}
+
+.radio-inputs input[type='radio'] + .frame-image {
+	display: inline-block;
+	border: 2px solid #ccc;
+	padding: 5px;
+}
+
+.radio-inputs input[type='radio']:checked + .frame-image {
+	border: 2px solid #007bff;
+}
+
+.radio-inputs input[type='radio'] + .frame-image img {
+	width: 50px;
+	height: 50px;
+}
+.radio-inputs .no-frame {
+	width: 50px;
+	height: 50px;
+	/* border: 2px solid #ccc; */
+	position: relative;
+}
+
+.radio-inputs .cross-left,
+.radio-inputs .cross-right {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(45deg);
+	width: 30px;
+	height: 2px;
+	background-color: #ccc;
+}
+
+.radio-inputs .cross-right {
+	transform: translate(-50%, -50%) rotate(-45deg);
 }
