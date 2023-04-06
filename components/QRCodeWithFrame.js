@@ -9,7 +9,6 @@ function QrCodeWithFrame({ qrCodeUrl, frameUrl, frameNo }) {
 			left: '50%',
 			transform: 'translate(-50%, -50%)',
 		};
-		// qrCodeTopStyle = { top: ['50%', '39%', '41%', '65%'][frameNo - 1] };
 		if (frameNo === 1) {
 			qrCodeTopStyle.top = '39%';
 		} else if (frameNo === 2) {
