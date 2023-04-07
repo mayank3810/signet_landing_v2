@@ -1,7 +1,6 @@
 import React from "react";
-import { useState, useRef } from "react";
-import ReactImageMagnify from "react-image-magnify";
 import Carousel from "react-multi-carousel";
+import ReactImageMagnify from "react-magnify-image";
 import "react-multi-carousel/lib/styles.css";
 
 const images = [
