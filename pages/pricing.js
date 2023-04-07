@@ -11,7 +11,7 @@ import Head from "next/head";
 function Pricing() {
   const [containerRef, inContainerView] = useInView({
     triggerOnce: true,
-    threshold: 0.3,
+    threshold: 0.1,
   });
 
   const setPlan = (selectedPlan) => {
@@ -101,7 +101,7 @@ function Pricing() {
                       </div>
                       {/* Price */}
                       <sup className="dark-color">$</sup>
-                      <span className="dark-color">2.99</span>
+                      <span className="dark-color">1.99</span>
                       <sup className="validity dark-color">per tag</sup>
                       <p className="p-md">Min: 5000 pieces</p>
                     </div>
@@ -152,7 +152,7 @@ function Pricing() {
                       </div>
                       {/* Price */}
                       <sup className="dark-color">$</sup>
-                      <span className="dark-color">1.99</span>
+                      <span className="dark-color">0.99</span>
                       <sup className="validity dark-color">per tag</sup>
                       <p className="p-md">Min: 100,000 pieces</p>
                     </div>

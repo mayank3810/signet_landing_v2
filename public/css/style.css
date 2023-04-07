@@ -5210,6 +5210,11 @@ p.terms-txt a,
   margin-bottom: 20px;
 }
 
+.enquiry-form .error {
+  color: #e74c3c;
+  font-size: 14px;
+  font-weight: 300;
+}
 /*------------------------------------------*/
 /*  HERO QUICK FORM
 /*------------------------------------------*/

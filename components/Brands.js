@@ -47,7 +47,7 @@ function Brands() {
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="brands-title text-center">
-              <p className="p-xl">As Seen In</p>
+              <p className="p-xl">As seen on</p>
             </div>
           </div>
         </div>

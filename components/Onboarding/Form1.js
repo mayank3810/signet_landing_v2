@@ -109,23 +109,6 @@ function Form1({ setStage, setOrganizationId }) {
         </div>
       </div>
 
-      {/* Form Input */}
-      {/* <div className="col-md-12 pb-25">
-                    <label>
-                      <h5 className="h5-xxs">
-                        Choose a plan <sup className="text-red">*</sup>
-                      </h5>
-                    </label>
-                    <div className="plans">
-                      <button className="btn btn-orange-red">Basic</button>
-                      <button className="btn btn-yellow-outline">
-                        Advance
-                      </button>
-                      <button className="btn btn-yellow-outline">
-                        Business
-                      </button>
-                    </div>
-                  </div> */}
       <div className="col-md-12 ">
         <div className="row">
           <div className="col-12">
