@@ -103,7 +103,7 @@ function Pricing() {
                       <sup className="dark-color">$</sup>
                       <span className="dark-color">1.99</span>
                       <sup className="validity dark-color">per tag</sup>
-                      <p className="p-md">Min: 5000 pieces</p>
+                      <p className="p-md">Min: 1000 pieces</p>
                     </div>
                     {/* Plan Features  */}
                     <ul className="features">
@@ -154,7 +154,7 @@ function Pricing() {
                       <sup className="dark-color">$</sup>
                       <span className="dark-color">0.99</span>
                       <sup className="validity dark-color">per tag</sup>
-                      <p className="p-md">Min: 100,000 pieces</p>
+                      <p className="p-md">Min: 10,000 pieces</p>
                     </div>
                     {/* Plan Features  */}
                     <ul className="features">

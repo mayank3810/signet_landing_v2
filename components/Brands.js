@@ -46,8 +46,8 @@ function Brands() {
         {/* BRANDS TITLE */}
         <div className="row justify-content-center">
           <div className="col-lg-8">
-            <div className="brands-title text-center">
-              <p className="p-xl">As seen on</p>
+            <div className="brands-title text-center mt-2 mb-2">
+              As seen on
             </div>
           </div>
         </div>

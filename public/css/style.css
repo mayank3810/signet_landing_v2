@@ -5215,6 +5215,23 @@ p.terms-txt a,
   font-size: 14px;
   font-weight: 300;
 }
+.enquiry-form label {
+  font-size: 12px;
+}
+
+.header-advantages li {
+  width: auto !important;
+    display: inline-block !important;
+    vertical-align: top;
+    clear: none !important;
+    padding-left: 5px;
+    border: solid 1px #ccc;
+    padding: 5px 15px;
+    border-radius: 33px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
 /*------------------------------------------*/
 /*  HERO QUICK FORM
 /*------------------------------------------*/

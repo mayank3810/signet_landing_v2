@@ -151,15 +151,14 @@ function Header({ scroll }) {
                   </Link>
                 </li>
 
-                {/* SIMPLE NAVIGATION LINK */}
-                <li className="nl-simple">
+                {/* <li className="nl-simple">
                   <Link
                     className={activeRoute === "pricing" ? "active-link" : ""}
                     href={"/pricing"}
                   >
                     Pricing
                   </Link>
-                </li>
+                </li> */}
 
                 {/* HEADER BUTTON */}
                 <li className="nl-simple">

@@ -13,11 +13,7 @@ function Content3() {
 	// }, [inContainerView]);
 
 	return (
-		<section
-			// ref={containerRef}
-			id="content-5"
-			className="content-5 ws-wrapper content-section division"
-		>
+		<section id="content-5" className="content-5 ws-wrapper content-section division">
 			<div className="container">
 				<div className="content-5-wrapper bg-whitesmoke">
 					<div className="row d-flex align-items-center">
@@ -27,7 +23,7 @@ function Content3() {
 								{/* CONTENT BOX #1 */}
 								<div
 									className={`duration-1 ${init ? 'cbox mb-40 animate__animated animate__fadeInLeft' : 'cbox mb-40 animate__animated'}`}
-									// style={{ animationDuration: '1s' }}
+								// style={{ animationDuration: '1s' }}
 								>
 									{/* Icon */}
 									<div className="cbox-ico">
@@ -46,7 +42,7 @@ function Content3() {
 								{/* CONTENT BOX #2 */}
 								<div
 									className={`duration-1.5 ${init ? 'cbox mb-40 animate__animated animate__fadeInLeft' : 'cbox mb-40 animate__animated'}`}
-									// style={{ animationDuration: '1.5s' }}
+								// style={{ animationDuration: '1.5s' }}
 								>
 									{/* Icon */}
 									<div className="cbox-ico">
@@ -65,7 +61,7 @@ function Content3() {
 								{/* CONTENT BOX #3 */}
 								<div
 									className={`duration-1.75 ${init ? 'cbox mb-40 animate__animated animate__fadeInLeft' : 'cbox mb-40 animate__animated'}`}
-									// style={{ animationDuration: '1.75s' }}
+								// style={{ animationDuration: '1.75s' }}
 								>
 									{/* Icon */}
 									<div className="cbox-ico">
@@ -83,17 +79,16 @@ function Content3() {
 								</div>
 							</div>
 							<Link href="/onboarding">
-										<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Get Started</div>
-									</Link>
+								<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Get Started</div>
+							</Link>
 						</div>{' '}
 						{/* END TEXT BLOCK */}
 						{/* IMAGE BLOCK */}
 						<div className="col-md-5 col-lg-6">
 							<div
-								className={`duration-0.75 ${
-									init ? 'img-block right-column animate__animated animate__fadeIn' : 'img-block right-column animate__animated'
-								}`}
-								// style={{ animationDelay: '0.75s' }}
+								className={`duration-0.75 ${init ? 'img-block right-column animate__animated animate__fadeIn' : 'img-block right-column animate__animated'
+									}`}
+							// style={{ animationDelay: '0.75s' }}
 							>
 								<img className="img-fluid" src="/images/nfc-blockchain.jpg" alt="content-image" />
 							</div>
@@ -101,8 +96,7 @@ function Content3() {
 					</div>
 				</div>{' '}
 				{/* End row */}
-			</div>{' '}
-			{/* End container */}
+			</div>
 		</section>
 	);
 }
