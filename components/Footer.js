@@ -183,11 +183,11 @@ function Footer() {
 											</Link>
 										</p>
 									</li>
-									{/* <li>
+									<li>
 										<p className="p-md">
-											<Link target={'_blank'} href={'https://shop.signettags.com/'}>Signet Shop</Link>
+											<Link target={'_blank'} href={'/tamper-proof-seal'}>Tamper proof seal</Link>
 										</p>
-									</li> */}
+									</li>
 								</ul>
 							</div>
 						</div>
