@@ -4,10 +4,12 @@ import ReactImageMagnify from "react-magnify-image";
 import "react-multi-carousel/lib/styles.css";
 
 const images = [
-  "/images/img-01.png",
-
-  "/images/img-02.png",
-  "/images/img-04.png",
+  "/images/tamper-proof-seal/1.jpeg",
+  "/images/tamper-proof-seal/2.jpeg",
+  "/images/tamper-proof-seal/3.jpg",
+  "/images/tamper-proof-seal/4.webp",
+  "/images/tamper-proof-seal/5.jpg",
+  "/images/tamper-proof-seal/6.jpg",
 ];
 
 function ProductCoursal() {
@@ -66,33 +68,13 @@ function ProductCoursal() {
         customDot={<CustomDot />}
       >
         {images.map((img, i) => (
-          // <img
-          //   onMouseOver={() => handelHover(img)}
-          //   key={i}
-          //   className="img-fluid"
-          //   src={img}
-          // />
-
-          <ReactImageMagnify
+          <img
             key={i}
-            {...{
-              smallImage: {
-                alt: "Wristwatch by Ted Baker London",
-                isFluidWidth: true,
-                src: img,
-              },
-              enlargedImagePosition: "over",
-              largeImage: {
-                src: img,
-                width: 1200,
-                height: 1800,
-              },
-              enlargedImageContainerDimensions: {
-                width: "150%",
-                height: "150%",
-              },
-            }}
+            className="img-fluid"
+            src={img}
           />
+
+        
         ))}
       </Carousel>
     </>

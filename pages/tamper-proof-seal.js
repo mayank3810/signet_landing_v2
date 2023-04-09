@@ -93,68 +93,7 @@ export default function Home() {
           <Brands />
 
           <Features />
-          <hr className="divider" />
 
-          <section
-            id="content-2"
-            className="content-2 wide-60 content-section division"
-          >
-            <div className="container">
-              <div className="row d-flex align-items-center">
-                <div className="col-md-5 col-lg-6">
-                  <div
-                    className={`duration-1.75 ${
-                      init
-                        ? "rel img-block left-column animate__animated animate__slideInUp"
-                        : "rel img-block left-column animate__animated"
-                    }`}
-                  >
-                    <img
-                      className="img-fluid"
-                      src="/images/scanning-theme.png"
-                      alt="content-image"
-                    />
-                  </div>
-                </div>
-                <div className="col-md-7 col-lg-6">
-                  <div
-                    className={`duration-1.75 ${
-                      init
-                        ? "txt-block right-column animate__animated animate__slideInUp"
-                        : "txt-block right-column animate__animated"
-                    }`}
-                  >
-                    <h2 className="h2-xs">Detect tag tampering in seconds</h2>
-                    <p className="p-lg">
-                      Signet tags with provides an easy and quick way to check
-                      product authenticity and tag tampering.
-                    </p>
-                    <p className="p-lg">
-                      Our tamper evident seals are made from high-quality
-                      materials and are available in a range of sizes and colors
-                      to meet your specific needs. Whether you need a small
-                      tamper evident seal for a medicine bottle or a larger seal
-                      for a shipping container, we have you covered.
-                    </p>
-                    <p className="p-lg">
-                      Our tamper evident seals are easy to use and can be
-                      applied quickly and easily, making them a convenient and
-                      cost-effective solution for your security needs. They are
-                      also designed to be durable and long-lasting, ensuring
-                      that they remain in place and provide reliable security
-                      for as long as you need them.
-                    </p>
-
-                    <Link href="#">
-                      <div className="btn btn-yellow tra-yellow-hover color-white mr-15">
-                        Request a quote
-                      </div>
-                    </Link>
-                  </div>
-                </div>{" "}
-              </div>{" "}
-            </div>{" "}
-          </section>
 
           <section
             id="content-5"
@@ -165,17 +104,44 @@ export default function Home() {
                 <div className="row d-flex align-items-center">
                   <div className="col-md-7 col-lg-6">
                     <div className="txt-block left-column">
-                      <div
-                        className={`duration-1 ${
-                          init
-                            ? "cbox mb-40 animate__animated animate__fadeInLeft"
-                            : "cbox mb-40 animate__animated"
-                        }`}
+
+
+                    <div
+                        className={`duration-1 ${init
+                          ? "cbox mb-40 animate__animated animate__fadeInLeft"
+                          : "cbox mb-40 animate__animated"
+                          }`}
                       >
+                        
                         <div className="cbox-ico">
                           <div className="dark-color ico-65">
                             <span>
-                              <img src="/images/nfc-logo.png" alt="ico-bkg" />
+                              <img src="/images/png-icons/icons8-free-100.png" alt="ico-bkg" />
+                            </span>
+                          </div>
+                        </div>
+                        <div className="cbox-txt">
+                          <h3 className="h3-font mb-1">
+                           Free App to track and trace
+                          </h3>
+                          <p className="p-lg">
+                           We offer free web and mobile app to scan the tags and track, analyze and engage with customers.
+                          </p>
+                        </div>
+                      </div>
+
+
+                      <div
+                        className={`duration-1 ${init
+                          ? "cbox mb-40 animate__animated animate__fadeInLeft"
+                          : "cbox mb-40 animate__animated"
+                          }`}
+                      >
+                        
+                        <div className="cbox-ico">
+                          <div className="dark-color ico-65">
+                            <span>
+                              <img src="/images/png-icons/icons8-color-swatch-100.png" alt="ico-bkg" />
                             </span>
                           </div>
                         </div>
@@ -184,49 +150,42 @@ export default function Home() {
                             Customized logo and packaging{" "}
                           </h3>
                           <p className="p-lg">
-                            Advanced Security and Privacy for Trusted IoT
-                            Applications. Secure NFC tags with random changing
-                            keys
+                           All kind of customizations avaialble for shape size and colors.
                           </p>
                         </div>
                       </div>
                       <div
-                        className={`duration-1.5 ${
-                          init
-                            ? "cbox mb-40 animate__animated animate__fadeInLeft"
-                            : "cbox mb-40 animate__animated"
-                        }`}
+                        className={`duration-1.5 ${init
+                          ? "cbox mb-40 animate__animated animate__fadeInLeft"
+                          : "cbox mb-40 animate__animated"
+                          }`}
                       >
                         <div className="cbox-ico">
                           <div className="dark-color ico-65">
                             <span>
-                              <img
-                                src="/images/icons8-blockchain-technology-80.png"
-                                alt="ico-bkg"
-                              />
+                              <img src="/images/png-icons/icons8-money-mouth-face-100.png" alt="ico-bkg" />
+
                             </span>
                           </div>
                         </div>
                         <div className="cbox-txt">
                           <h3 className="h3-font mb-1">Affordable Pricing</h3>
                           <p className="p-lg">
-                            Digital blockchain assets that cannot be duplicated,
-                            ensuring transparent and immutable information.
+                            Pricing that fits your budget. we are committed to offering affordable pricing on all of our products without compromising on quality.
                           </p>
                         </div>
                       </div>
                       <div
-                        className={`duration-1.75 ${
-                          init
-                            ? "cbox mb-40 animate__animated animate__fadeInLeft"
-                            : "cbox mb-40 animate__animated"
-                        }`}
+                        className={`duration-1.75 ${init
+                          ? "cbox mb-40 animate__animated animate__fadeInLeft"
+                          : "cbox mb-40 animate__animated"
+                          }`}
                       >
                         <div className="cbox-ico">
                           <div className="dark-color ico-65">
                             <span>
                               <img
-                                src="/images/icons8-authentic-64.png"
+                                src="/images/png-icons/icons8-nfc-tag-100.png"
                                 alt="ico-bkg"
                               />
                             </span>
@@ -235,6 +194,7 @@ export default function Home() {
                         <div className="cbox-txt">
                           <h3 className="h3-font mb-1">Digital NFC chip tag</h3>
                           <p className="p-lg">
+                            Switch to a digital tamper proof seal. 
                             Easy check of authenticity for consumers. No special
                             app download required.
                           </p>
@@ -269,6 +229,68 @@ export default function Home() {
             </div>
           </section>
 
+
+
+          <hr className="divider" />
+
+          <section
+            id="content-2"
+            className="content-2 wide-60 content-section division"
+          >
+            <div className="container">
+              <div className="row d-flex align-items-center">
+                <div className="col-md-5 col-lg-6">
+                  <div
+                    className={`duration-1.75 ${init
+                      ? "rel img-block left-column animate__animated animate__slideInUp"
+                      : "rel img-block left-column animate__animated"
+                      }`}
+                  >
+                    <img
+                      className="img-fluid"
+                      src="/images/scanning-theme.png"
+                      alt="content-image"
+                    />
+                  </div>
+                </div>
+                <div className="col-md-7 col-lg-6">
+                  <div
+                    className={`duration-1.75 ${init
+                      ? "txt-block right-column animate__animated animate__slideInUp"
+                      : "txt-block right-column animate__animated"
+                      }`}
+                  >
+                    <h2 className="h2-xs">Detect tag tampering in seconds</h2>
+                    <p className="p-lg">
+                      Signet tags with provides an easy and quick way to check
+                      product authenticity and tag tampering.
+                    </p>
+                    <p className="p-lg">
+                      Our tamper evident seals are made from high-quality
+                      materials and are available in a range of sizes and colors
+                      to meet your specific needs. Whether you need a small
+                      tamper evident seal for a medicine bottle or a larger seal
+                      for a shipping container, we have you covered.
+                    </p>
+                    <p className="p-lg">
+                      Our tamper evident seals are easy to use and can be
+                      applied quickly and easily, making them a convenient and
+                      cost-effective solution for your security needs. They are
+                      also designed to be durable and long-lasting, ensuring
+                      that they remain in place and provide reliable security
+                      for as long as you need them.
+                    </p>
+
+                    <Link href="#">
+                      <div className="btn btn-yellow tra-yellow-hover color-white mr-15">
+                        Request a quote
+                      </div>
+                    </Link>
+                  </div>
+                </div>{" "}
+              </div>{" "}
+            </div>{" "}
+          </section>
           <section
             // ref={containerRef}
             id="content-3"
@@ -280,14 +302,10 @@ export default function Home() {
                 <div className="col-lg-10 col-xl-8">
                   <div className="section-title title-01 mb-70">
                     {/* Title */}
-                    <h2 className="h2-md">Unique Digital Experience</h2>
+                    <h2 className="h2-md">Increase repeat sales</h2>
                     {/* Text */}
                     <p className="p-xl">
-                      Manufacturers can use digital experiences to customize the
-                      user experience for their customers. This way, customers
-                      can tap on products and get more information about them,
-                      making the shopping experience more convenient and
-                      informative.
+                      Our tamper-evident tags offer several benefits
                     </p>
                   </div>
                 </div>
@@ -298,12 +316,11 @@ export default function Home() {
                   {/* IMAGE BLOCK */}
                   <div className="col-md-5 col-lg-6">
                     <div
-                      className={`duration-1.75 ${
-                        init
-                          ? "rel img-block left-column animate__animated animate__slideInUp"
-                          : "rel img-block left-column animate__animated"
-                      }`}
-                      // style={{ animationDuration: '1.75s' }}
+                      className={`duration-1.75 ${init
+                        ? "rel img-block left-column animate__animated animate__slideInUp"
+                        : "rel img-block left-column animate__animated"
+                        }`}
+                    // style={{ animationDuration: '1.75s' }}
                     >
                       <img
                         className="img-fluid"
@@ -315,55 +332,37 @@ export default function Home() {
                   {/* TEXT BLOCK */}
                   <div className="col-md-7 col-lg-6">
                     <div
-                      className={`duration-1.75 ${
-                        init
-                          ? "txt-block right-column left-column animate__animated animate__slideInUp"
-                          : "txt-block right-column left-column animate__animated"
-                      }`}
-                      // style={{ animationDuration: '1.75s' }}
+                      className={`duration-1.75 ${init
+                        ? "txt-block right-column left-column animate__animated animate__slideInUp"
+                        : "txt-block right-column left-column animate__animated"
+                        }`}
+                    // style={{ animationDuration: '1.75s' }}
                     >
-                      {/* TEXT BOX */}
-                      <div className="txt-box mb-20">
-                        {/* Title */}
-                        <h3 className="h3-font mb-4">
-                          Easily share essential information with customers
-                        </h3>
-                        {/* Text */}
-                        <p className="p-lg">
-                          Customers can tap on the product to get updated
-                          information about essential attributes such as
-                          ownership, warranty, safety, recyclability, and value.
-                          This allows customers to make informed decisions about
-                          the products they purchase and use. By being able to
-                          see this information, customers can be sure that they
-                          are making the best choice for them when it comes to
-                          the products they buy.
-                        </p>
-                      </div>
-                      {/* TEXT BOX */}
                       <div className="txt-box">
-                        {/* Title */}
-                        <h3 className="h3-font mb-4">
-                          Advanced dashboard for customer analytics
-                        </h3>
-                        {/* List */}
                         <ul className="simple-list">
                           <li className="list-item">
                             <p className="p-lg">
-                              This powerful AI tool helps brands keep track of
-                              their entire supply chain in real time. The online
-                              portal stores and verifies product info, ensuring
-                              complete data transparency. This allows for
-                              digital audits, live alerts, and access to
-                              advanced analytics.
+                              Security: The tamper-evident feature ensures that the tags cannot be removed or replaced without showing visible signs of tampering, which makes it a reliable security measure to protect the product against counterfeiting or theft.
                             </p>
                           </li>
                           <li className="list-item">
                             <p className="p-lg">
-                              Send push notifications and collect feedbacks on
-                              your products with our advanced web portal.
+                              Authenticity: NFC tamper-evident tags can help verify the authenticity of a product by providing information about its origin, manufacturing, and distribution process, which can be easily accessed by scanning the tag with an NFC-enabled device.
                             </p>
                           </li>
+
+                          <li className="list-item">
+                            <p className="p-lg">
+                              Traceability: NFC tamper-evident tags can provide a traceability mechanism to track the movement of products through the supply chain, enabling manufacturers and retailers to monitor inventory levels and improve their logistics and distribution processes.
+                            </p>
+                          </li>
+
+                          <li className="list-item">
+                            <p className="p-lg">
+                              Convenience: NFC tamper-evident tags can make it easier for customers to access information about a product, such as its features, pricing, and availability, by simply scanning the tag with their smartphone or tablet.
+                            </p>
+                          </li>
+
                         </ul>
                         <Link href="#">
                           <div className="btn btn-yellow tra-yellow-hover color-white mr-15">
@@ -379,230 +378,6 @@ export default function Home() {
           </section>
 
           <section
-            id="content-10"
-            className="content-10 wide-100 content-section division"
-          >
-            <div className="container">
-              {/* SECTION TITLE */}
-              <div className="row justify-content-center">
-                <div className="col-lg-10 col-xl-8">
-                  <div className="section-title title-01 mb-70">
-                    {/* Title */}
-                    <h2 className="h2-md">
-                      Flexible and scalable across industries
-                    </h2>
-                    {/* Text */}
-                    <p className="p-xl">
-                      Our product authentication solution is flexible and
-                      scalable across industries
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/* IMAGE BLOCK */}
-              <div className="row">
-                <div className="container">
-                  <div className="fbox-1-wrapper text-center">
-                    <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
-                      <div className="col">
-                        <div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
-                          <Link href={"/industries/cosmetics-and-perfumes"}>
-                            <div className="fbox-ico-center ico-60">
-                              <img
-                                src="/images/industries/perfume-bottle-100.png"
-                                alt="ico-bkg"
-                              />
-                            </div>
-                            <div className="fbox-txt-center">
-                              <h3 className="h3-font my-3">
-                                Cosmetics & Perfumes
-                              </h3>
-                              <p className="p-lg">
-                                Engage your consumers with fun, informative,
-                                smart packaging that also protects your brand
-                              </p>
-                            </div>
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="col">
-                        <div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
-                          <Link href={"/industries/food-and-beverages"}>
-                            <div className="fbox-ico-center ico-60">
-                              <img
-                                src="/images/industries/wine-bottle-100.png"
-                                alt="ico-bkg"
-                              />
-                            </div>
-                            <div className="fbox-txt-center">
-                              <h3 className="h3-font my-3">Food & Beverages</h3>
-                              <p className="p-lg">
-                                Customer Engagement + Anti-Counterfeit
-                                Protection for Food & Beverages Brands
-                              </p>
-                            </div>
-                          </Link>
-                        </div>
-                      </div>
-
-                      <div className="col">
-                        <div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
-                          <Link href={"/industries/agriculture"}>
-                            <div className="fbox-ico-center ico-60">
-                              <img
-                                src="/images/industries/pesticide-100.png"
-                                alt="ico-bkg"
-                              />
-                            </div>
-                            <div className="fbox-txt-center">
-                              <h3 className="h3-font my-3">Agriculture</h3>
-                              <p className="p-lg">
-                                Tag, track, and instantaneously authenticate
-                                agrochemical products
-                              </p>
-                            </div>
-                          </Link>
-                        </div>
-                      </div>
-
-                      <div className="col">
-                        <div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
-                          <Link href={"/industries/auto-parts"}>
-                            <div className="fbox-ico-center ico-60">
-                              <img
-                                src="/images/industries/wheel-100.png"
-                                alt="ico-bkg"
-                              />
-                            </div>
-                            <div className="fbox-txt-center">
-                              <h3 className="h3-font my-3">Auto Parts</h3>
-                              <p className="p-lg">
-                                Protect your automotive brand and your customers
-                                from counterfeit automotive parts
-                              </p>
-                            </div>
-                          </Link>
-                        </div>
-                      </div>
-
-                      <div className="col">
-                        <div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
-                          <Link href={"/industries/pharmaceuticals"}>
-                            <div className="fbox-ico-center ico-60">
-                              <img
-                                src="/images/industries/medicines-100.png"
-                                alt="ico-bkg"
-                              />
-                            </div>
-                            <div className="fbox-txt-center">
-                              <h3 className="h3-font my-3">Pharmaceuticals</h3>
-                              <p className="p-lg">
-                                Smart packaging for Pharmaceuticals brands opens
-                                a new channel to engage, protect and build trust
-                                with your customers.
-                              </p>
-                            </div>
-                          </Link>
-                        </div>
-                      </div>
-
-                      <div className="col">
-                        <div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
-                          <Link href={"/industries/cannabis"}>
-                            <div className="fbox-ico-center ico-60">
-                              <img
-                                src="/images/industries/cannabis-100.png"
-                                alt="ico-bkg"
-                              />
-                            </div>
-                            <div className="fbox-txt-center">
-                              <h3 className="h3-font my-3">Cannabis</h3>
-                              <p className="p-lg">
-                                Smart packaging for Cannabis brands opens a new
-                                channel to engage, protect, and build trust with
-                                your customers.
-                              </p>
-                            </div>
-                          </Link>
-                        </div>
-                      </div>
-
-                      <div className="col">
-                        <div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
-                          <Link href={"/industries/document-security"}>
-                            <div className="fbox-ico-center ico-60">
-                              <img
-                                src="/images/industries/diploma-100.png"
-                                alt="ico-bkg"
-                              />
-                            </div>
-                            <div className="fbox-txt-center">
-                              <h3 className="h3-font my-3">
-                                Document Security
-                              </h3>
-                              <p className="p-lg">
-                                Providing document security solutions for simple
-                                to complex requirements.
-                              </p>
-                            </div>
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="col">
-                        <div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
-                          <Link href={"/industries/clothing-and-footwear"}>
-                            <div className="fbox-ico-center ico-60">
-                              <img
-                                src="/images/industries/t-shirt-100.png"
-                                alt="ico-bkg"
-                              />
-                            </div>
-                            <div className="fbox-txt-center">
-                              <h3 className="h3-font my-3">
-                                Clothing and footwear
-                              </h3>
-
-                              <p className="p-lg">
-                                Smart packaging for clothing brands opens a new
-                                channel to engage, protect, and build trust with
-                                your customers.
-                              </p>
-                            </div>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* ACTION BUTTON */}
-              <div className="row">
-                <div className="col">
-                  <div className="content-10-btn">
-                    {/* Button */}
-                    <Link href="#">
-                      <div className="video-popup2 btn btn-md btn-orange-red tra-grey-hover ico-15 ico-left">
-                        Request a quote
-                      </div>
-                    </Link>
-                    {/* Advantages List */}
-                    <ul className="advantages mt-25 clearfix">
-                      <li className="first-li">
-                        <p>Free 30 days trial</p>
-                      </li>
-                      <li>
-                        <p>Exclusive Support</p>
-                      </li>
-                      <li className="last-li">
-                        <p>No Fees</p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section
             id="content-9"
             className="content-9 bg-01 pt-100 content-section division"
           >
@@ -612,7 +387,7 @@ export default function Home() {
                 <div className="col-md-10 col-lg-8">
                   <div className="section-title title-02 mb-60">
                     <h2 className="h2-xs">
-                      Request a quote with a free trial account. <br />
+                      Request a quote and a free trial. <br />
                     </h2>
                     <p className="p-xl">
                       Explore Signet Platform with a Free Trial account to
@@ -624,7 +399,6 @@ export default function Home() {
                         Request a quote
                       </div>
                     </Link>
-                    <p> *No Card Required.</p>
                   </div>
                 </div>
               </div>
