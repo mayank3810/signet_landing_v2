@@ -19,17 +19,6 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   const [headerRef, inHeaderView] = useInView();
   const [init, setInit] = useState(true);
-
-  useEffect(() => {
-    // token = localStorage.getItem
-    // getToken();
-  }, []);
-
-  // const getToken = async () => {
-  //   const token = await generateAccessToken();
-  //   console.log(token);
-  // };
-
   return (
     <>
       <Head>
@@ -87,13 +76,13 @@ export default function Home() {
 
       <div id="page" className="page">
         <Header scroll={inHeaderView} />
+
         <RequestQuote />
 
         <div ref={headerRef}>
           <Brands />
 
           <Features />
-
 
           <section
             id="content-5"
@@ -104,44 +93,48 @@ export default function Home() {
                 <div className="row d-flex align-items-center">
                   <div className="col-md-7 col-lg-6">
                     <div className="txt-block left-column">
-
-
-                    <div
-                        className={`duration-1 ${init
-                          ? "cbox mb-40 animate__animated animate__fadeInLeft"
-                          : "cbox mb-40 animate__animated"
-                          }`}
+                      <div
+                        className={`duration-1 ${
+                          init
+                            ? "cbox mb-40 animate__animated animate__fadeInLeft"
+                            : "cbox mb-40 animate__animated"
+                        }`}
                       >
-                        
                         <div className="cbox-ico">
                           <div className="dark-color ico-65">
                             <span>
-                              <img src="/images/png-icons/icons8-free-100.png" alt="ico-bkg" />
+                              <img
+                                src="/images/png-icons/icons8-free-100.png"
+                                alt="ico-bkg"
+                              />
                             </span>
                           </div>
                         </div>
                         <div className="cbox-txt">
                           <h3 className="h3-font mb-1">
-                           Free App to track and trace
+                            Free App to track and trace
                           </h3>
                           <p className="p-lg">
-                           We offer free web and mobile app to scan the tags and track, analyze and engage with customers.
+                            We offer free web and mobile app to scan the tags
+                            and track, analyze and engage with customers.
                           </p>
                         </div>
                       </div>
 
-
                       <div
-                        className={`duration-1 ${init
-                          ? "cbox mb-40 animate__animated animate__fadeInLeft"
-                          : "cbox mb-40 animate__animated"
-                          }`}
+                        className={`duration-1 ${
+                          init
+                            ? "cbox mb-40 animate__animated animate__fadeInLeft"
+                            : "cbox mb-40 animate__animated"
+                        }`}
                       >
-                        
                         <div className="cbox-ico">
                           <div className="dark-color ico-65">
                             <span>
-                              <img src="/images/png-icons/icons8-color-swatch-100.png" alt="ico-bkg" />
+                              <img
+                                src="/images/png-icons/icons8-color-swatch-100.png"
+                                alt="ico-bkg"
+                              />
                             </span>
                           </div>
                         </div>
@@ -150,36 +143,43 @@ export default function Home() {
                             Customized logo and packaging{" "}
                           </h3>
                           <p className="p-lg">
-                           All kind of customizations avaialble for shape size and colors.
+                            All kind of customizations avaialble for shape size
+                            and colors.
                           </p>
                         </div>
                       </div>
                       <div
-                        className={`duration-1.5 ${init
-                          ? "cbox mb-40 animate__animated animate__fadeInLeft"
-                          : "cbox mb-40 animate__animated"
-                          }`}
+                        className={`duration-1.5 ${
+                          init
+                            ? "cbox mb-40 animate__animated animate__fadeInLeft"
+                            : "cbox mb-40 animate__animated"
+                        }`}
                       >
                         <div className="cbox-ico">
                           <div className="dark-color ico-65">
                             <span>
-                              <img src="/images/png-icons/icons8-money-mouth-face-100.png" alt="ico-bkg" />
-
+                              <img
+                                src="/images/png-icons/icons8-money-mouth-face-100.png"
+                                alt="ico-bkg"
+                              />
                             </span>
                           </div>
                         </div>
                         <div className="cbox-txt">
                           <h3 className="h3-font mb-1">Affordable Pricing</h3>
                           <p className="p-lg">
-                            Pricing that fits your budget. we are committed to offering affordable pricing on all of our products without compromising on quality.
+                            Pricing that fits your budget. we are committed to
+                            offering affordable pricing on all of our products
+                            without compromising on quality.
                           </p>
                         </div>
                       </div>
                       <div
-                        className={`duration-1.75 ${init
-                          ? "cbox mb-40 animate__animated animate__fadeInLeft"
-                          : "cbox mb-40 animate__animated"
-                          }`}
+                        className={`duration-1.75 ${
+                          init
+                            ? "cbox mb-40 animate__animated animate__fadeInLeft"
+                            : "cbox mb-40 animate__animated"
+                        }`}
                       >
                         <div className="cbox-ico">
                           <div className="dark-color ico-65">
@@ -194,9 +194,9 @@ export default function Home() {
                         <div className="cbox-txt">
                           <h3 className="h3-font mb-1">Digital NFC chip tag</h3>
                           <p className="p-lg">
-                            Switch to a digital tamper proof seal. 
-                            Easy check of authenticity for consumers. No special
-                            app download required.
+                            Switch to a digital tamper proof seal. Easy check of
+                            authenticity for consumers. No special app download
+                            required.
                           </p>
                         </div>
                       </div>
@@ -229,8 +229,6 @@ export default function Home() {
             </div>
           </section>
 
-
-
           <hr className="divider" />
 
           <section
@@ -241,10 +239,11 @@ export default function Home() {
               <div className="row d-flex align-items-center">
                 <div className="col-md-5 col-lg-6">
                   <div
-                    className={`duration-1.75 ${init
-                      ? "rel img-block left-column animate__animated animate__slideInUp"
-                      : "rel img-block left-column animate__animated"
-                      }`}
+                    className={`duration-1.75 ${
+                      init
+                        ? "rel img-block left-column animate__animated animate__slideInUp"
+                        : "rel img-block left-column animate__animated"
+                    }`}
                   >
                     <img
                       className="img-fluid"
@@ -255,10 +254,11 @@ export default function Home() {
                 </div>
                 <div className="col-md-7 col-lg-6">
                   <div
-                    className={`duration-1.75 ${init
-                      ? "txt-block right-column animate__animated animate__slideInUp"
-                      : "txt-block right-column animate__animated"
-                      }`}
+                    className={`duration-1.75 ${
+                      init
+                        ? "txt-block right-column animate__animated animate__slideInUp"
+                        : "txt-block right-column animate__animated"
+                    }`}
                   >
                     <h2 className="h2-xs">Detect tag tampering in seconds</h2>
                     <p className="p-lg">
@@ -316,11 +316,12 @@ export default function Home() {
                   {/* IMAGE BLOCK */}
                   <div className="col-md-5 col-lg-6">
                     <div
-                      className={`duration-1.75 ${init
-                        ? "rel img-block left-column animate__animated animate__slideInUp"
-                        : "rel img-block left-column animate__animated"
-                        }`}
-                    // style={{ animationDuration: '1.75s' }}
+                      className={`duration-1.75 ${
+                        init
+                          ? "rel img-block left-column animate__animated animate__slideInUp"
+                          : "rel img-block left-column animate__animated"
+                      }`}
+                      // style={{ animationDuration: '1.75s' }}
                     >
                       <img
                         className="img-fluid"
@@ -332,37 +333,54 @@ export default function Home() {
                   {/* TEXT BLOCK */}
                   <div className="col-md-7 col-lg-6">
                     <div
-                      className={`duration-1.75 ${init
-                        ? "txt-block right-column left-column animate__animated animate__slideInUp"
-                        : "txt-block right-column left-column animate__animated"
-                        }`}
-                    // style={{ animationDuration: '1.75s' }}
+                      className={`duration-1.75 ${
+                        init
+                          ? "txt-block right-column left-column animate__animated animate__slideInUp"
+                          : "txt-block right-column left-column animate__animated"
+                      }`}
+                      // style={{ animationDuration: '1.75s' }}
                     >
                       <div className="txt-box">
                         <ul className="simple-list">
                           <li className="list-item">
                             <p className="p-lg">
-                              Security: The tamper-evident feature ensures that the tags cannot be removed or replaced without showing visible signs of tampering, which makes it a reliable security measure to protect the product against counterfeiting or theft.
+                              Security: The tamper-evident feature ensures that
+                              the tags cannot be removed or replaced without
+                              showing visible signs of tampering, which makes it
+                              a reliable security measure to protect the product
+                              against counterfeiting or theft.
                             </p>
                           </li>
                           <li className="list-item">
                             <p className="p-lg">
-                              Authenticity: NFC tamper-evident tags can help verify the authenticity of a product by providing information about its origin, manufacturing, and distribution process, which can be easily accessed by scanning the tag with an NFC-enabled device.
+                              Authenticity: NFC tamper-evident tags can help
+                              verify the authenticity of a product by providing
+                              information about its origin, manufacturing, and
+                              distribution process, which can be easily accessed
+                              by scanning the tag with an NFC-enabled device.
                             </p>
                           </li>
 
                           <li className="list-item">
                             <p className="p-lg">
-                              Traceability: NFC tamper-evident tags can provide a traceability mechanism to track the movement of products through the supply chain, enabling manufacturers and retailers to monitor inventory levels and improve their logistics and distribution processes.
+                              Traceability: NFC tamper-evident tags can provide
+                              a traceability mechanism to track the movement of
+                              products through the supply chain, enabling
+                              manufacturers and retailers to monitor inventory
+                              levels and improve their logistics and
+                              distribution processes.
                             </p>
                           </li>
 
                           <li className="list-item">
                             <p className="p-lg">
-                              Convenience: NFC tamper-evident tags can make it easier for customers to access information about a product, such as its features, pricing, and availability, by simply scanning the tag with their smartphone or tablet.
+                              Convenience: NFC tamper-evident tags can make it
+                              easier for customers to access information about a
+                              product, such as its features, pricing, and
+                              availability, by simply scanning the tag with
+                              their smartphone or tablet.
                             </p>
                           </li>
-
                         </ul>
                         <Link href="#">
                           <div className="btn btn-yellow tra-yellow-hover color-white mr-15">

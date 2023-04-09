@@ -1,95 +1,84 @@
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 
-function EnquiryForm({ setStage, setOrganizationId }) {
+function EnquiryForm() {
   const [email, setEmail] = useState({ data: "", error: false });
   const [name, setName] = useState({ data: "", error: false });
-  const [company, setCompany] = useState({ data: "", error: false });
+  const [quantity, setQuantity] = useState({ data: "", error: false });
+  const [description, setDescription] = useState("");
   const [contact, setContact] = useState({ data: "", error: false });
 
   const [loading, setLoading] = useState(false);
   const [apiResp, setApiResp] = useState("");
 
-  const [plan, setPlan] = useState("");
+  // const [plan, setPlan] = useState("");
 
-  const router = useRouter();
+  // const router = useRouter();
 
-  useEffect(() => {
-    const _plan = localStorage.getItem("planName") || 'Enterprise';
-    setPlan(_plan);
-    if (!_plan || _plan === "") {
-      alert("No Plan has been selected. Please select a plan");
-      setTimeout(() => {
-        router.push("/pricing");
-      }, 500);
-    }
-  }, []);
+  // useEffect(() => {
+  //   const _plan = localStorage.getItem("planName") || "Enterprise";
+  //   setPlan(_plan);
+  //   if (!_plan || _plan === "") {
+  //     alert("No Plan has been selected. Please select a plan");
+  //     setTimeout(() => {
+  //       router.push("/pricing");
+  //     }, 500);
+  //   }
+  // }, []);
 
-  const createOrganization = async (e) => {
+  const createQuote = async (e) => {
     e.preventDefault();
-    if (!plan || plan === "") {
-      alert("No Plan has been selected. Please select a plan");
-      setTimeout(() => {
-        router.push("/pricing");
-      }, 500);
-    }
+    const emailRegex =
+      /[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,8}(.[a-z{2,8}])?/g;
+    const valid = emailRegex.test(email.data);
     if (name.data === "") {
       setName({ data: "", error: true });
     }
-    if (email.data === "") {
+    if (email.data === "" || !valid) {
       setEmail({ data: "", error: true });
     }
     if (contact.data === "") {
       setContact({ data: "", error: true });
     }
-    if (company.data === "") {
-      setCompany({ data: "", error: true });
+    if (quantity.data === "") {
+      setQuantity({ data: "", error: true });
     }
     if (
       name.data != "" &&
       email.data != "" &&
+      valid &&
       contact.data != "" &&
-      company.data != ""
+      quantity.data != ""
     ) {
-      // console.log({
-      //   email: email.data,
-      //   name: name.data,
-      //   companyName: company.data,
-      //   phone: contact.data,
-      // });
       setLoading(true);
+      const data = {
+        email: email.data,
+        name: name.data,
+        phone: contact.data,
+        quantity: quantity.data,
+        description: description,
+      };
+      // console.log(data);
       const rawResponse = await fetch(
-        process.env.NEXT_PUBLIC_API_URL + "organization/createOrganization",
+        process.env.NEXT_PUBLIC_API_URL + "general/saveQuote",
         {
           method: "POST",
           headers: {
             Accept: "application/json",
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({
-            planName: plan,
-            billingEmail: email.data,
-            name: name.data,
-            companyName: company.data,
-            phone: contact.data,
-          }),
+          body: JSON.stringify(data),
         }
       );
       if (rawResponse.ok) {
-        const content = await rawResponse.json();
         setLoading(false);
-        setApiResp("You have signed up successfully. Thank you.");
-        localStorage.setItem("organizationId", content?.data?.organization._id);
-        setOrganizationId(content?.data?.organization._id);
-        setTimeout(() => {
-          setStage(2);
-        }, 300);
-        console.log(content);
+        setApiResp("Quote Submitted. Thank you.");
+
         setName({ data: "", error: false });
         setEmail({ data: "", error: false });
-        setCompany({ data: "", error: false });
+        setQuantity({ data: "", error: false });
+        setDescription("");
         setContact({ data: "", error: false });
-        localStorage.removeItem("planName");
       } else {
         setApiResp("An error occurred. Please retry.");
         setLoading(false);
@@ -141,72 +130,51 @@ function EnquiryForm({ setStage, setOrganizationId }) {
       </div>
 
       <div className="col-12 mt-2">
-        <label>
-          Business email
-        </label>
+        <label>Business email</label>
         <input
           className="form-control email"
           type="email"
           value={email.data ?? ""}
           onChange={(e) => setEmail({ data: e.target.value, error: false })}
         />
-        {email.error && (
-          <span className="error">Required</span>
-        )}
+        {email.error && <span className="error">Invalid Email</span>}
       </div>
       <div className="col-12 mt-2">
-        <label>
-          Phone number
-        </label>
+        <label>Phone number</label>
         <input
           className="form-control"
           type="text"
           value={contact.data ?? ""}
-          onChange={(e) =>
-            setContact({ data: e.target.value, error: false })
-          }
+          onChange={(e) => setContact({ data: e.target.value, error: false })}
         />
-        {contact.error && (
-          <span className="error">Required</span>
-        )}
+        {contact.error && <span className="error">Required</span>}
       </div>
 
       <div className="col-12 mt-2">
-        <label>
-          How many tags do you need per month?
-        </label>
-        <select className="form-control" alue={contact.data ?? ""} onChange={(e) =>
-          setContact({ data: e.target.value, error: false })
-        }>
+        <label>How many tags do you need per month?</label>
+        <select
+          className="form-control"
+          value={quantity.data ?? ""}
+          onChange={(e) => setQuantity({ data: e.target.value, error: false })}
+        >
           <option> - </option>
           <option> Upto 1000 products per month </option>
           <option> Upto 5000 products per month </option>
           <option> Upto 10000 products per month </option>
           <option> More than 10000 products per month</option>
         </select>
-        {contact.error && (
-          <span className="error">Required</span>
-        )}
+        {contact.error && <span className="error">Required</span>}
       </div>
 
-
       <div className="col-12 mt-2">
-        <label>
-        Briefly describe your needs
-        </label>
+        <label>Briefly describe your needs</label>
         <textarea
           className="form-control"
           type="text"
-          value={contact.data ?? ""}
-          onChange={(e) =>
-            setContact({ data: e.target.value, error: false })
-          }
+          value={description}
+          onChange={(e) => setDescription(e.target.value)}
         />
-        {contact.error && (
-          <span className="error">Required</span>
-        )}
       </div>
-
 
       {/* Form Submit Button */}
       <div className="col-md-12 mt-4">
@@ -214,14 +182,16 @@ function EnquiryForm({ setStage, setOrganizationId }) {
           {apiResp && (
             <span
               className={
-                apiResp.includes("error") ? "orange-red-color" : "green-color"
+                apiResp.includes("error")
+                  ? "orange-red-color d-block"
+                  : "green-color d-block"
               }
             >
               {apiResp}
             </span>
           )}
           <button
-            onClick={createOrganization}
+            onClick={createQuote}
             className="btn btn-outline btn-yellow tra-yellow-hover submit"
           >
             {loading ? "Submitting" : "Submit"}
