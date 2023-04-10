@@ -2,6 +2,7 @@ import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import { generateAccessToken } from '@/squidex';
 import Head from 'next/head';
+import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 
 function BlogDetail(props) {
@@ -36,7 +37,7 @@ function BlogDetail(props) {
 				<link rel="canonical" href={`https://www.signettags.com/blog/${post?.data?.slug.iv}`} key="canonical" />
 				<meta name="title" content={post?.data?.metaTitle.iv} />
 				<meta name="description" content={post?.data?.metaDesc.iv} />
-				<meta name="keywords" content="Signet Tags, Signet Authenticity, brand protection software, blockchain-proven ownership" />
+				<meta name="keywords" content={post?.data?.keywords.iv} />
 				<meta name="robots" content="index, follow" />
 				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 				<meta name="language" content="English" />
@@ -78,7 +79,35 @@ function BlogDetail(props) {
 									</div>
 								</div>
 
-								<div className="single-post-txt p-lg" dangerouslySetInnerHTML={{ __html: post?.data?.text?.iv }}></div>
+								<div className="single-post-txt p-lg mb-60" dangerouslySetInnerHTML={{ __html: post?.data?.text?.iv }}></div>
+								{post?.data.subContent.iv.map((item) => (
+									<div className="mb-60" key={item.subTitle}>
+										<div className="single-post-subTitle">
+											<h2 className="h1-md">{item?.subTitle}</h2>
+										</div>
+										<div className="single-post-txt p-lg blog-test" dangerouslySetInnerHTML={{ __html: item?.subText }}></div>
+									</div>
+								))}
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="content-9" className="content-9 bg-01 pt-100 content-section division">
+				<div className="container white-color">
+					{/* SECTION TITLE */}
+					<div className="row justify-content-center">
+						<div className="col-md-10 col-lg-8">
+							<div className="section-title title-02 mb-60">
+								<h2 className="h2-xs">
+									Get started with a free trial account. <br />
+								</h2>
+								<p className="p-xl">
+									Explore Signet Platform with a Free Trial account to experience the technology yourself before you decide to scale.
+								</p>
+								<Link href="/onboarding">
+									<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Get Started</div>
+								</Link>
 							</div>
 						</div>
 					</div>

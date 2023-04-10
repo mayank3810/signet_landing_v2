@@ -148,3 +148,8 @@
 .radio-inputs .cross-right {
 	transform: translate(-50%, -50%) rotate(-45deg);
 }
+
+.blog-test img {
+	padding: 10px 15px 10px 0;
+	border-radius: 0;
+}
