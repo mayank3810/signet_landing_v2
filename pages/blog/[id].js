@@ -95,7 +95,6 @@ function BlogDetail(props) {
 			</section>
 			<section id="content-9" className="content-9 bg-01 pt-100 content-section division">
 				<div className="container white-color">
-					{/* SECTION TITLE */}
 					<div className="row justify-content-center">
 						<div className="col-md-10 col-lg-8">
 							<div className="section-title title-02 mb-60">
