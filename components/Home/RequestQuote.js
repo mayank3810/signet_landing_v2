@@ -4,10 +4,8 @@ import VideoPopup from "../VideoPopup";
 import EnquiryForm from "../../components/Onboarding/EnquiryForm";
 import ProductCoursal from "@/components/ProductCoursal";
 
-function RequestQuote() {
+function RequestQuote({ open, setOpen }) {
   // const [containerRef, inContainerView] = useInView({ threshold: 0.1 });
-
-  const [open, setOpen] = useState(false);
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -99,8 +97,6 @@ function RequestQuote() {
 
   return (
     <>
-
-
       {open && (
         <>
           <div className="mfp-bg mfp-ready" />
@@ -122,7 +118,6 @@ function RequestQuote() {
                     ×
                   </button>
                   <EnquiryForm />
-
                 </div>
               </div>
               <div className="mfp-preloader">Loading...</div>
@@ -130,9 +125,6 @@ function RequestQuote() {
           </div>
         </>
       )}
-
-
-
 
       {successMessage && (
         <div className="sucess-message animate__animated animate__fadeIn">
@@ -150,7 +142,9 @@ function RequestQuote() {
           <div className="row d-flex align-items-center">
             <div className="col-md-8 col-lg-8">
               <div className="hero-20-txt white-color">
-                <h1 className="h1-md white-color text-left">Digital Security Labels & Stickers</h1>
+                <h1 className="h1-md white-color text-left">
+                  Digital Security Labels & Stickers
+                </h1>
 
                 {/*                
                 <div className="btns-group">
@@ -164,35 +158,35 @@ function RequestQuote() {
                 <div>
                   <ul className="header-advantages mt-4">
                     <li>
-                      <img className="check-box-icon"
+                      <img
+                        className="check-box-icon"
+                        src="/images/icons8-check-48.png"
+                        alt="ico-bkg"
+                      />
+                      <span>Protect & Engage with your customers.</span>
+                    </li>
+                    <li>
+                      <img
+                        className="check-box-icon"
+                        src="/images/icons8-check-48.png"
+                        alt="ico-bkg"
+                      />
+                      <span>Design customizations available</span>
+                    </li>
+                    <li>
+                      <img
+                        className="check-box-icon"
                         src="/images/icons8-check-48.png"
                         alt="ico-bkg"
                       />
                       <span>
-                        Protect & Engage with your customers.
-
+                        Collect Feedbacks, Advanced analytics, Increase repeat
+                        sales
                       </span>
                     </li>
                     <li>
-                      <img className="check-box-icon"
-                        src="/images/icons8-check-48.png"
-                        alt="ico-bkg"
-                      />
-                      <span>
-                        Design customizations available
-                      </span>
-                    </li>
-                    <li>
-                      <img className="check-box-icon"
-                        src="/images/icons8-check-48.png"
-                        alt="ico-bkg"
-                      />
-                      <span>
-                        Collect Feedbacks, Advanced analytics, Increase repeat sales
-                      </span>
-                    </li>
-                    <li>
-                      <img className="check-box-icon"
+                      <img
+                        className="check-box-icon"
                         src="/images/icons8-check-48.png"
                         alt="ico-bkg"
                       />
@@ -202,12 +196,14 @@ function RequestQuote() {
                     </li>
                   </ul>
 
-                  <Link href="#">
-                    <div className="btn btn-yellow tra-yellow-hover request-quote-feature color-white mt-15 mb-15">
-                      Request a quote
-                    </div>
-                  </Link>
-
+                  {/* <Link href="#"> */}
+                  <div
+                    onClick={() => setOpen(true)}
+                    className="btn btn-yellow tra-yellow-hover request-quote-feature color-white mt-15 mb-15"
+                  >
+                    Request a quote
+                  </div>
+                  {/* </Link> */}
                 </div>
               </div>
             </div>
@@ -222,7 +218,12 @@ function RequestQuote() {
 
       {!open && (
         <div className="request-quote-footer">
-          <button onClick={() => setOpen(true)} className="btn btn-success btn-lg btn-block">Request Quote</button>
+          <button
+            onClick={() => setOpen(true)}
+            className="btn btn-success btn-lg btn-block"
+          >
+            Request Quote
+          </button>
         </div>
       )}
     </>

@@ -15,6 +15,9 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   const [headerRef, inHeaderView] = useInView();
   const [init, setInit] = useState(true);
+
+  const [open, setOpen] = useState(false);
+
   return (
     <>
       <Head>
@@ -73,7 +76,7 @@ export default function Home() {
       <div id="page" className="page">
         <Header scroll={inHeaderView} />
 
-        <RequestQuote />
+        <RequestQuote open={open} setOpen={setOpen} />
 
         <div ref={headerRef}>
           <Brands />
@@ -88,10 +91,11 @@ export default function Home() {
                   <div className="col-md-7 col-lg-6">
                     <div className="txt-block left-column">
                       <div
-                        className={`duration-1 ${init
+                        className={`duration-1 ${
+                          init
                             ? "cbox mb-40 animate__animated animate__fadeInLeft"
                             : "cbox mb-40 animate__animated"
-                          }`}
+                        }`}
                       >
                         <div className="cbox-ico">
                           <div className="dark-color ico-65">
@@ -115,10 +119,11 @@ export default function Home() {
                       </div>
 
                       <div
-                        className={`duration-1 ${init
+                        className={`duration-1 ${
+                          init
                             ? "cbox mb-40 animate__animated animate__fadeInLeft"
                             : "cbox mb-40 animate__animated"
-                          }`}
+                        }`}
                       >
                         <div className="cbox-ico">
                           <div className="dark-color ico-65">
@@ -141,10 +146,11 @@ export default function Home() {
                         </div>
                       </div>
                       <div
-                        className={`duration-1.5 ${init
+                        className={`duration-1.5 ${
+                          init
                             ? "cbox mb-40 animate__animated animate__fadeInLeft"
                             : "cbox mb-40 animate__animated"
-                          }`}
+                        }`}
                       >
                         <div className="cbox-ico">
                           <div className="dark-color ico-65">
@@ -166,10 +172,11 @@ export default function Home() {
                         </div>
                       </div>
                       <div
-                        className={`duration-1.75 ${init
+                        className={`duration-1.75 ${
+                          init
                             ? "cbox mb-40 animate__animated animate__fadeInLeft"
                             : "cbox mb-40 animate__animated"
-                          }`}
+                        }`}
                       >
                         <div className="cbox-ico">
                           <div className="dark-color ico-65">
@@ -191,11 +198,12 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <Link href="#">
-                      <div className="btn btn-yellow tra-yellow-hover color-white mr-15">
-                        Request a quote
-                      </div>
-                    </Link>
+                    <div
+                      onClick={() => setOpen(true)}
+                      className="btn btn-yellow tra-yellow-hover color-white mr-15"
+                    >
+                      Request a quote
+                    </div>
                   </div>{" "}
                   <div className="col-md-5 col-lg-6">
                     <img
@@ -203,7 +211,6 @@ export default function Home() {
                       src="/images/scanning-theme.png"
                       alt="content-image"
                     />
-
                   </div>
                 </div>
               </div>{" "}
@@ -213,10 +220,7 @@ export default function Home() {
 
           <Features />
 
-
-
           <hr className="divider" />
-
 
           <section
             // ref={containerRef}
@@ -243,11 +247,12 @@ export default function Home() {
                   {/* IMAGE BLOCK */}
                   <div className="col-md-5 col-lg-6">
                     <div
-                      className={`duration-1.75 ${init
+                      className={`duration-1.75 ${
+                        init
                           ? "rel img-block left-column animate__animated animate__slideInUp"
                           : "rel img-block left-column animate__animated"
-                        }`}
-                    // style={{ animationDuration: '1.75s' }}
+                      }`}
+                      // style={{ animationDuration: '1.75s' }}
                     >
                       <img
                         className="img-fluid"
@@ -259,11 +264,12 @@ export default function Home() {
                   {/* TEXT BLOCK */}
                   <div className="col-md-7 col-lg-6">
                     <div
-                      className={`duration-1.75 ${init
+                      className={`duration-1.75 ${
+                        init
                           ? "txt-block right-column left-column animate__animated animate__slideInUp"
                           : "txt-block right-column left-column animate__animated"
-                        }`}
-                    // style={{ animationDuration: '1.75s' }}
+                      }`}
+                      // style={{ animationDuration: '1.75s' }}
                     >
                       <div className="txt-box">
                         <ul className="simple-list">
@@ -307,11 +313,12 @@ export default function Home() {
                             </p>
                           </li>
                         </ul>
-                        <Link href="#">
-                          <div className="btn btn-yellow tra-yellow-hover color-white mr-15">
-                            Request a quote
-                          </div>
-                        </Link>
+                        <div
+                          onClick={() => setOpen(true)}
+                          className="btn btn-yellow tra-yellow-hover color-white mr-15"
+                        >
+                          Request a quote
+                        </div>
                       </div>{" "}
                     </div>
                   </div>{" "}
@@ -337,11 +344,12 @@ export default function Home() {
                       experience the technology yourself before you decide to
                       scale.
                     </p>
-                    <Link href="#">
-                      <div className="btn btn-yellow tra-yellow-hover color-white mr-15">
-                        Request a quote
-                      </div>
-                    </Link>
+                    <div
+                      onClick={() => setOpen(true)}
+                      className="btn btn-yellow tra-yellow-hover color-white mr-15"
+                    >
+                      Request a quote
+                    </div>
                   </div>
                 </div>
               </div>
