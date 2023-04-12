@@ -192,7 +192,7 @@ function EnquiryForm() {
           )}
           <button
             onClick={createQuote}
-            className="btn btn-outline btn-yellow tra-yellow-hover submit"
+            className="btn btn-success"
           >
             {loading ? "Submitting" : "Submit"}
           </button>
