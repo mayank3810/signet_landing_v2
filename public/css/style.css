@@ -5009,12 +5009,12 @@ ul.header-advantages {
     display: inline-block !important;
     vertical-align: top;
     clear: none !important;
-    margin-bottom: 18px;
+    margin-bottom: 13px;
 }
 .header-advantages li span {
 	float: left;
-	margin-left: 35px;
-	font-size: 18px;
+	margin-left: 30px;
+	font-size: 17px;
     line-height: 24px;
 }
 .check-box-icon {
@@ -9312,4 +9312,19 @@ span.close-btn {
 }
 h1.h1-md.white-color.text-left {
     text-align: left;
+}
+.request-quote-footer {
+    position: fixed;
+    bottom: 0px;
+    padding: 15px;
+    width: 100%;
+    z-index: 9999;
+    background: #fff;
+}
+
+.request-quote-footer .btn-success {
+    color: #fff;
+    background-color: #4CAF50 !important;
+    border-color: #198754 !important;
+	width: 100%;
 }

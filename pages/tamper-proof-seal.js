@@ -9,7 +9,6 @@ import React, { useEffect, useState } from "react";
 
 import { useInView } from "react-intersection-observer";
 import Brands from "@/components/Brands";
-import ProductCoursal from "@/components/ProductCoursal";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -89,11 +88,10 @@ export default function Home() {
                   <div className="col-md-7 col-lg-6">
                     <div className="txt-block left-column">
                       <div
-                        className={`duration-1 ${
-                          init
+                        className={`duration-1 ${init
                             ? "cbox mb-40 animate__animated animate__fadeInLeft"
                             : "cbox mb-40 animate__animated"
-                        }`}
+                          }`}
                       >
                         <div className="cbox-ico">
                           <div className="dark-color ico-65">
@@ -117,11 +115,10 @@ export default function Home() {
                       </div>
 
                       <div
-                        className={`duration-1 ${
-                          init
+                        className={`duration-1 ${init
                             ? "cbox mb-40 animate__animated animate__fadeInLeft"
                             : "cbox mb-40 animate__animated"
-                        }`}
+                          }`}
                       >
                         <div className="cbox-ico">
                           <div className="dark-color ico-65">
@@ -144,11 +141,10 @@ export default function Home() {
                         </div>
                       </div>
                       <div
-                        className={`duration-1.5 ${
-                          init
+                        className={`duration-1.5 ${init
                             ? "cbox mb-40 animate__animated animate__fadeInLeft"
                             : "cbox mb-40 animate__animated"
-                        }`}
+                          }`}
                       >
                         <div className="cbox-ico">
                           <div className="dark-color ico-65">
@@ -170,11 +166,10 @@ export default function Home() {
                         </div>
                       </div>
                       <div
-                        className={`duration-1.75 ${
-                          init
+                        className={`duration-1.75 ${init
                             ? "cbox mb-40 animate__animated animate__fadeInLeft"
                             : "cbox mb-40 animate__animated"
-                        }`}
+                          }`}
                       >
                         <div className="cbox-ico">
                           <div className="dark-color ico-65">
@@ -203,26 +198,26 @@ export default function Home() {
                     </Link>
                   </div>{" "}
                   <div className="col-md-5 col-lg-6">
-                  <img
+                    <img
                       className="img-fluid"
                       src="/images/scanning-theme.png"
                       alt="content-image"
                     />
-                 
+
                   </div>
                 </div>
               </div>{" "}
               {/* End row */}
             </div>
           </section>
-          
+
           <Features />
 
-    
+
 
           <hr className="divider" />
 
-     
+
           <section
             // ref={containerRef}
             id="content-3"
@@ -248,12 +243,11 @@ export default function Home() {
                   {/* IMAGE BLOCK */}
                   <div className="col-md-5 col-lg-6">
                     <div
-                      className={`duration-1.75 ${
-                        init
+                      className={`duration-1.75 ${init
                           ? "rel img-block left-column animate__animated animate__slideInUp"
                           : "rel img-block left-column animate__animated"
-                      }`}
-                      // style={{ animationDuration: '1.75s' }}
+                        }`}
+                    // style={{ animationDuration: '1.75s' }}
                     >
                       <img
                         className="img-fluid"
@@ -265,12 +259,11 @@ export default function Home() {
                   {/* TEXT BLOCK */}
                   <div className="col-md-7 col-lg-6">
                     <div
-                      className={`duration-1.75 ${
-                        init
+                      className={`duration-1.75 ${init
                           ? "txt-block right-column left-column animate__animated animate__slideInUp"
                           : "txt-block right-column left-column animate__animated"
-                      }`}
-                      // style={{ animationDuration: '1.75s' }}
+                        }`}
+                    // style={{ animationDuration: '1.75s' }}
                     >
                       <div className="txt-box">
                         <ul className="simple-list">

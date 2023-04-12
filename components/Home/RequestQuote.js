@@ -184,11 +184,17 @@ function RequestQuote() {
               </div>
             </div>
             <div className="col-md-4 col-lg-4">
+              <div className="mt-4">
               <ProductCoursal />
+              </div>
             </div>
           </div>
         </div>
       </section>
+
+      <div className="request-quote-footer">
+        <button className="btn btn-success btn-lg btn-block">Request Quote</button>
+      </div>
     </>
   );
 }
