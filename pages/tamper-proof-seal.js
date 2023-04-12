@@ -1,8 +1,5 @@
 import Head from "next/head";
 import Header from "@/components/Header";
-import Content2 from "@/components/Home/Content2";
-import Content3 from "@/components/Home/Content3";
-import Content4 from "@/components/Home/Content4";
 import RequestQuote from "@/components/Home/RequestQuote";
 
 import Features from "@/components/Home/Features";
@@ -81,8 +78,6 @@ export default function Home() {
 
         <div ref={headerRef}>
           <Brands />
-
-          <Features />
 
           <section
             id="content-5"
@@ -208,89 +203,26 @@ export default function Home() {
                     </Link>
                   </div>{" "}
                   <div className="col-md-5 col-lg-6">
-                    <ProductCoursal />
-                    {/* <div
-                      className={`duration-0.75 ${
-                        init
-                          ? "img-block right-column animate__animated animate__fadeIn"
-                          : "img-block right-column animate__animated"
-                      }`}
-                    >
-                      <img
-                        className="img-fluid"
-                        src="/images/nfc-blockchain.jpg"
-                        alt="content-image"
-                      />
-                    </div> */}
+                  <img
+                      className="img-fluid"
+                      src="/images/scanning-theme.png"
+                      alt="content-image"
+                    />
+                 
                   </div>
                 </div>
               </div>{" "}
               {/* End row */}
             </div>
           </section>
+          
+          <Features />
+
+    
 
           <hr className="divider" />
 
-          <section
-            id="content-2"
-            className="content-2 wide-60 content-section division"
-          >
-            <div className="container">
-              <div className="row d-flex align-items-center">
-                <div className="col-md-5 col-lg-6">
-                  <div
-                    className={`duration-1.75 ${
-                      init
-                        ? "rel img-block left-column animate__animated animate__slideInUp"
-                        : "rel img-block left-column animate__animated"
-                    }`}
-                  >
-                    <img
-                      className="img-fluid"
-                      src="/images/scanning-theme.png"
-                      alt="content-image"
-                    />
-                  </div>
-                </div>
-                <div className="col-md-7 col-lg-6">
-                  <div
-                    className={`duration-1.75 ${
-                      init
-                        ? "txt-block right-column animate__animated animate__slideInUp"
-                        : "txt-block right-column animate__animated"
-                    }`}
-                  >
-                    <h2 className="h2-xs">Detect tag tampering in seconds</h2>
-                    <p className="p-lg">
-                      Signet tags with provides an easy and quick way to check
-                      product authenticity and tag tampering.
-                    </p>
-                    <p className="p-lg">
-                      Our tamper evident seals are made from high-quality
-                      materials and are available in a range of sizes and colors
-                      to meet your specific needs. Whether you need a small
-                      tamper evident seal for a medicine bottle or a larger seal
-                      for a shipping container, we have you covered.
-                    </p>
-                    <p className="p-lg">
-                      Our tamper evident seals are easy to use and can be
-                      applied quickly and easily, making them a convenient and
-                      cost-effective solution for your security needs. They are
-                      also designed to be durable and long-lasting, ensuring
-                      that they remain in place and provide reliable security
-                      for as long as you need them.
-                    </p>
-
-                    <Link href="#">
-                      <div className="btn btn-yellow tra-yellow-hover color-white mr-15">
-                        Request a quote
-                      </div>
-                    </Link>
-                  </div>
-                </div>{" "}
-              </div>{" "}
-            </div>{" "}
-          </section>
+     
           <section
             // ref={containerRef}
             id="content-3"

@@ -2,6 +2,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import VideoPopup from "../VideoPopup";
 import EnquiryForm from "../../components/Onboarding/EnquiryForm";
+import ProductCoursal from "@/components/ProductCoursal";
 
 function RequestQuote() {
   // const [containerRef, inContainerView] = useInView({ threshold: 0.1 });
@@ -121,15 +122,9 @@ function RequestQuote() {
           <div className="row d-flex align-items-center">
             <div className="col-md-8 col-lg-8">
               <div className="hero-20-txt white-color">
-                <h1 className="h1-md white-color">Tamper Evident Seals</h1>
-                <p className="p-xl">Protect & Engage with your customers.</p>
-                <p className="">
-                  We specialize in providing top-quality tamper evident seals
-                  for a variety of industries and applications. Our tamper
-                  evident seals are designed to provide an extra layer of
-                  security and protection, ensuring that your products remain
-                  safe and secure from tampering and unauthorized access.
-                </p>
+                <h1 className="h1-md white-color text-left">Digital Security Labels & Stickers</h1>
+
+                {/*                
                 <div className="btns-group">
                   <div
                     onClick={() => setOpen(!open)}
@@ -137,22 +132,59 @@ function RequestQuote() {
                   >
                     <span className="flaticon-play" /> Watch Video
                   </div>
-                </div>
+                </div> */}
                 <div>
                   <ul className="header-advantages mt-4">
-                    <li> Custom designed Tags</li>
-                    <li>Track and trace customers</li>
-                    <li>Increase repeat sales</li>
-                    <li>Implement Rewards and loyalty program</li>
-                    <li>Implement Warranty management</li>
+                    <li>
+                      <img className="check-box-icon"
+                        src="/images/icons8-check-48.png"
+                        alt="ico-bkg"
+                      />
+                      <span>
+                        Protect & Engage with your customers.
+
+                      </span>
+                    </li>
+                    <li>
+                      <img className="check-box-icon"
+                        src="/images/icons8-check-48.png"
+                        alt="ico-bkg"
+                      />
+                      <span>
+                        Design customizations available
+                      </span>
+                    </li>
+                    <li>
+                      <img className="check-box-icon"
+                        src="/images/icons8-check-48.png"
+                        alt="ico-bkg"
+                      />
+                      <span>
+                        Collect Feedbacks, Advanced analytics, Increase repeat sales
+                      </span>
+                    </li>
+                    <li>
+                      <img className="check-box-icon"
+                        src="/images/icons8-check-48.png"
+                        alt="ico-bkg"
+                      />
+                      <span>
+                        Implement Rewards, Loyalty program, Warranty management
+                      </span>
+                    </li>
                   </ul>
+
+                  <Link href="#">
+                    <div className="btn btn-yellow tra-yellow-hover request-quote-feature color-white mt-15 mb-15">
+                      Request a quote
+                    </div>
+                  </Link>
+
                 </div>
               </div>
             </div>
             <div className="col-md-4 col-lg-4">
-              <div className="bg-white p-4">
-                <EnquiryForm />
-              </div>
+              <ProductCoursal />
             </div>
           </div>
         </div>
