@@ -85,9 +85,11 @@ function Blog(props) {
 												<div className="hover-overlay">
 													<Link href={'/blog/' + post?.data?.slug.iv}>
 														<img
-															className="img-fluid"
+															// className="img-fluid"
 															src={'https://cloud.squidex.io/api/assets/signetblog/' + post?.data?.image?.iv[0]}
 															alt="blog-post-image"
+															height="140px"
+															width="100%"
 														/>
 													</Link>
 													<div className="item-overlay" />
