@@ -98,7 +98,6 @@ function Blog(props) {
 												</div>
 											</div>
 											<div className="blog-post-txt">
-												{/* Post Tag */}
 												<p className="p-md post-tag">{post?.data?.postType.iv + ' | ' + getParsedDate(post.created)}</p>
 												{/* Post Link */}
 												<h2 className="h3-font">
