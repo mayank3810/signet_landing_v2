@@ -97,7 +97,6 @@ function Blog(props) {
 													<div className="item-overlay" />
 												</div>
 											</div>
-											{/* BLOG POST TEXT */}
 											<div className="blog-post-txt">
 												{/* Post Tag */}
 												<p className="p-md post-tag">{post?.data?.postType.iv + ' | ' + getParsedDate(post.created)}</p>
