@@ -4,12 +4,16 @@ import ReactImageMagnify from "react-magnify-image";
 import "react-multi-carousel/lib/styles.css";
 
 const images = [
-  "/images/tamper-proof-seal/1.jpeg",
+  "/images/tamper-proof-seal/7.png",
   "/images/tamper-proof-seal/2.jpeg",
-  "/images/tamper-proof-seal/3.jpg",
-  "/images/tamper-proof-seal/4.webp",
+  // "/images/tamper-proof-seal/3.jpg",
+  // "/images/tamper-proof-seal/4.webp",
+  "/images/tamper-proof-seal/8.png",
   "/images/tamper-proof-seal/5.jpg",
   "/images/tamper-proof-seal/6.jpg",
+
+  "/images/tamper-proof-seal/9.png",
+  "/images/tamper-proof-seal/1.jpeg",
 ];
 
 function ProductCoursal() {
@@ -68,13 +72,7 @@ function ProductCoursal() {
         customDot={<CustomDot />}
       >
         {images.map((img, i) => (
-          <img
-            key={i}
-            className="img-fluid"
-            src={img}
-          />
-
-        
+          <img key={i} className="img-fluid" src={img} />
         ))}
       </Carousel>
     </>

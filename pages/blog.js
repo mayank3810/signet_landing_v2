@@ -84,13 +84,15 @@ function Blog(props) {
 											<div className="blog-post-img">
 												<div className="hover-overlay">
 													<Link href={'/blog/' + post?.data?.slug.iv}>
-														<img
-															// className="img-fluid"
-															src={'https://cloud.squidex.io/api/assets/signetblog/' + post?.data?.image?.iv[0]}
-															alt="blog-post-image"
-															height="140px"
-															width="100%"
-														/>
+														{post?.data?.image?.iv && (
+															<img
+																// className="img-fluid"
+																src={'https://cloud.squidex.io/api/assets/signetblog/' + post?.data?.image?.iv[0]}
+																alt="blog-post-image"
+																width="100%"
+																height="140px"
+															/>
+														)}
 													</Link>
 													<div className="item-overlay" />
 												</div>
