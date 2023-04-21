@@ -9,6 +9,7 @@ import React, { useEffect, useState } from "react";
 
 import { useInView } from "react-intersection-observer";
 import Brands from "@/components/Brands";
+import TagCompare from "@/components/TagCompare";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -80,6 +81,8 @@ export default function Home() {
 
         <div ref={headerRef}>
           <Brands />
+
+          <TagCompare />
 
           <section
             id="content-5"
