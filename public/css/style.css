@@ -9357,3 +9357,6 @@ h1.h1-md.white-color.text-left {
 		display: block;
 	}
 }
+.request-quote-message {
+	line-height: initial !important;
+}

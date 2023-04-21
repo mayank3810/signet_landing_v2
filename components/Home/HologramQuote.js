@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import EnquiryForm from "../../components/Onboarding/EnquiryForm";
-import ProductCoursal from "@/components/ProductCoursal";
+import EnquiryForm from "../Onboarding/EnquiryForm";
+import HologramCoursal from "@/components/HologramCoursal";
 
-function RequestQuote({ open, setOpen }) {
+function HologramQuote({ open, setOpen }) {
   // const [containerRef, inContainerView] = useInView({ threshold: 0.1 });
 
   const [name, setName] = useState("");
@@ -141,7 +141,7 @@ function RequestQuote({ open, setOpen }) {
             <div className="col-md-8 col-lg-8">
               <div className="hero-20-txt white-color">
                 <h1 className="h1-md white-color text-left">
-                  Digital Security Labels & Stickers
+                  Modern hologram seals with NFC and QR code
                 </h1>
 
                 {/*                
@@ -207,7 +207,7 @@ function RequestQuote({ open, setOpen }) {
             </div>
             <div className="col-md-4 col-lg-4">
               <div className="mt-4">
-                <ProductCoursal />
+                <HologramCoursal />
               </div>
             </div>
           </div>
@@ -228,4 +228,4 @@ function RequestQuote({ open, setOpen }) {
   );
 }
 
-export default RequestQuote;
+export default HologramQuote;

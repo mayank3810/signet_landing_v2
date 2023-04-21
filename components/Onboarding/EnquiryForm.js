@@ -72,7 +72,7 @@ function EnquiryForm() {
       );
       if (rawResponse.ok) {
         setLoading(false);
-        setApiResp("Quote Submitted. Thank you.");
+        setApiResp("Thank you for your Enquiry. We will get back to you within 24-48 hours.");
 
         setName({ data: "", error: false });
         setEmail({ data: "", error: false });
@@ -178,18 +178,20 @@ function EnquiryForm() {
 
       {/* Form Submit Button */}
       <div className="col-md-12 mt-4">
-        <div className="col-md-12 form-btn text-right">
-          {apiResp && (
-            <span
+      {apiResp && (
+            <div
               className={
                 apiResp.includes("error")
-                  ? "orange-red-color d-block"
-                  : "green-color d-block"
+                  ? "orange-red-color request-quote-message mb-4  d-block"
+                  : "green-color mb-4  request-quote-message d-block"
               }
             >
               {apiResp}
-            </span>
+            </div>
           )}
+
+        <div className="col-md-12 form-btn text-right">
+       
           <button
             onClick={createQuote}
             className="btn btn-success"

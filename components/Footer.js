@@ -12,7 +12,7 @@ function Footer() {
   const router = useRouter();
 
   useEffect(() => {
-    const routeBlackList = ["tamper-proof-seal"];
+    const routeBlackList = ["tamper-proof-seal", "digital-hologram-seal"];
     const isDisabled = routeBlackList.map((routeName) => {
       return router.pathname.includes(routeName);
     });
@@ -237,6 +237,15 @@ function Footer() {
                       </Link>
                     </p>
                   </li>
+
+                  <li>
+                    <p className="p-md">
+                      <Link target={"_blank"} href={"/digital-hologram-seal"}>
+                        Digital Hologram seal
+                      </Link>
+                    </p>
+                  </li>
+
                 </ul>
               </div>
             </div>
