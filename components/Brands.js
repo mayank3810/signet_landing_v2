@@ -120,7 +120,7 @@ function Brands() {
       return;
     });
 
-    if (router.pathname.includes("tamper-proof-seal")) {
+    if (router.pathname.includes("tamper-proof-seal") || router.pathname.includes("digital-hologram-seal")) {
       setShowMedia([
         "hello_ent",
         "bs",

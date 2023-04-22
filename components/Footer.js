@@ -12,15 +12,11 @@ function Footer() {
   const router = useRouter();
 
   useEffect(() => {
-    const routeBlackList = ["tamper-proof-seal", "digital-hologram-seal"];
-    const isDisabled = routeBlackList.map((routeName) => {
-      return router.pathname.includes(routeName);
-    });
-
-    // console.log(isDisabled);
+    const routeBlackList = ["/tamper-proof-seal", "/digital-hologram-seal"];
+    const isDisabled = routeBlackList.indexOf(router.pathname.toLowerCase()) > -1;
 
     setTimeout(() => {
-      if (localStorage.getItem("showPopup") === null && !isDisabled[0]) {
+      if (localStorage.getItem("showPopup") === null && !isDisabled) {
         setSaveEmailPopup(true);
       }
     }, 3000);

@@ -26,6 +26,10 @@ function Header({ scroll }) {
       setActiveRoute("technology");
     } else if (router.pathname.includes("pricing")) {
       setActiveRoute("pricing");
+    } else if (router.pathname.includes("tamper-proof-seal")) {
+      setActiveRoute("products");
+    } else if (router.pathname.includes("digital-hologram-seal")) {
+      setActiveRoute("products");
     } else {
       setActiveRoute("home");
     }
@@ -93,6 +97,31 @@ function Header({ scroll }) {
                     Home
                   </Link>
                 </li>
+
+                <li>
+                  <a
+                    href="#"
+                    className={
+                      activeRoute === "products" ? "active-link" : ""
+                    }
+                  >
+                    Products <span className="wsarrow" />
+                  </a>
+                  <ul className="sub-menu">
+                    <li>
+                      <Link href={"/tamper-proof-seal"}>
+                        NFC Tag Tamper Seals
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href={"/digital-hologram-seal"}>
+                        QR code Hologram Seals
+                      </Link>
+                    </li>
+                    
+                  </ul>
+                </li>
+
                 <li>
                   <a
                     href="#"
