@@ -106,18 +106,19 @@ function EnquiryForm() {
       <div className="col-md-12 ">
         <div className="row">
           <div className="col-12">
-            <label> Your Name </label>
+            <label className="float-left"> Your Name </label>
+            {name.error && (
+              <span className="error float-right" htmlFor="name">
+                Required
+              </span>
+            )}
             <input
               className="form-control text"
               type="text"
               value={name.data ?? ""}
               onChange={(e) => setName({ data: e.target.value, error: false })}
             />
-            {name.error && (
-              <span className="error" htmlFor="name">
-                Required
-              </span>
-            )}
+            
           </div>
           {/* <div className="col-12 mt-2">
             <label>
@@ -139,35 +140,35 @@ function EnquiryForm() {
       </div>
 
       <div className="col-12 mt-2">
-        <label>Business email</label>
+        <label className="float-left">Business email</label>
+        {email.error && <span className="error">Invalid Email</span>}
         <input
           className="form-control email"
           type="email"
           value={email.data ?? ""}
           onChange={(e) => setEmail({ data: e.target.value, error: false })}
         />
-        {email.error && <span className="error">Invalid Email</span>}
       </div>
       <div className="col-12 mt-2">
-        <label>Phone number</label>
+        <label className="float-left">Phone number</label>
+        {contact.error && <span className="error">Required</span>}
         <input
           className="form-control"
           type="text"
           value={contact.data ?? ""}
           onChange={(e) => setContact({ data: e.target.value, error: false })}
         />
-        {contact.error && <span className="error">Required</span>}
       </div>
 
       <div className="col-12 mt-2">
-        <label>Country</label>
+        <label className="float-left">Country</label>
+        {country.error && <span className="error">Required</span>}
         <input
           className="form-control"
           type="text"
           value={country.data ?? ""}
           onChange={(e) => setCountry({ data: e.target.value, error: false })}
         />
-        {country.error && <span className="error">Required</span>}
       </div>
 
       {/* <div className="col-12 mt-2">
@@ -187,14 +188,14 @@ function EnquiryForm() {
       </div> */}
 
       <div className="col-12 mt-2">
-        <label>Shipping Address</label>
+        <label className="float-left">Shipping Address</label>
+        {address.error && <span className="error">Required</span>}
         <textarea
           className="form-control"
           type="text"
           value={address.data ?? ""}
           onChange={(e) => setAddress({ data: e.target.value, error: false })}
         />
-        {address.error && <span className="error">Required</span>}
 
       </div>
 
