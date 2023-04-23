@@ -205,7 +205,7 @@ export default function Home() {
                       onClick={() => setOpen(true)}
                       className="btn btn-yellow tra-yellow-hover color-white mr-15"
                     >
-                      Request a quote
+                      Get Free Samples
                     </div>
                   </div>{" "}
                   <div className="col-md-5 col-lg-6">
@@ -320,7 +320,7 @@ export default function Home() {
                           onClick={() => setOpen(true)}
                           className="btn btn-yellow tra-yellow-hover color-white mr-15"
                         >
-                          Request a quote
+                          Get Free Samples
                         </div>
                       </div>{" "}
                     </div>
@@ -340,7 +340,7 @@ export default function Home() {
                 <div className="col-md-10 col-lg-8">
                   <div className="section-title title-02 mb-60">
                     <h2 className="h2-xs">
-                      Request a quote and a free trial. <br />
+                      Get Free Samples and a free trial. <br />
                     </h2>
                     <p className="p-xl">
                       Explore Signet Platform with a Free Trial account to
@@ -351,7 +351,7 @@ export default function Home() {
                       onClick={() => setOpen(true)}
                       className="btn btn-yellow tra-yellow-hover color-white mr-15"
                     >
-                      Request a quote
+                      Get Free Samples
                     </div>
                   </div>
                 </div>

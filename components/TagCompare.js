@@ -63,7 +63,7 @@ function TagCompare() {
 
                   <tr>
                     <th scope="row" className="text-start">
-                      User Location Detection
+                      Engage with customers
                     </th>
                     <td className="ico-30 green-color">
                       <img
@@ -83,7 +83,7 @@ function TagCompare() {
 
                   <tr>
                     <th scope="row" className="text-start">
-                      Colors and Theme Customisation
+                     Retarget Customers Online
                     </th>
                     <td className="ico-30 green-color">
                       <img
@@ -103,7 +103,7 @@ function TagCompare() {
 
                   <tr>
                     <th scope="row" className="text-start">
-                      Advanced Analytics Dashboard
+                      Get repeat purchases
                     </th>
                     <td className="ico-30 green-color">
                       <img
@@ -162,26 +162,6 @@ function TagCompare() {
 
                   <tr>
                     <th scope="row" className="text-start">
-                      Track user location
-                    </th>
-                    <td className="ico-30 green-color">
-                      <img
-                        className=""
-                        src="/images/icons/cancel.svg"
-                        alt="check"
-                      />
-                    </td>
-                    <td className="ico-30 green-color">
-                      <img
-                        className=""
-                        src="/images/icons/ok.svg"
-                        alt="check"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <th scope="row" className="text-start">
                       Insights on Tag Users
                     </th>
                     <td className="ico-30 green-color">
@@ -202,46 +182,6 @@ function TagCompare() {
                   <tr>
                     <th scope="row" className="text-start">
                       Run Contests and Offers
-                    </th>
-                    <td className="ico-30 green-color">
-                      <img
-                        className=""
-                        src="/images/icons/cancel.svg"
-                        alt="check"
-                      />
-                    </td>
-                    <td className="ico-30 green-color">
-                      <img
-                        className=""
-                        src="/images/icons/ok.svg"
-                        alt="check"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <th scope="row" className="text-start">
-                      Multiple Language Support
-                    </th>
-                    <td className="ico-30 green-color">
-                      <img
-                        className=""
-                        src="/images/icons/cancel.svg"
-                        alt="check"
-                      />
-                    </td>
-                    <td className="ico-30 green-color">
-                      <img
-                        className=""
-                        src="/images/icons/ok.svg"
-                        alt="check"
-                      />
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <th scope="row" className="text-start">
-                      White label Solution
                     </th>
                     <td className="ico-30 green-color">
                       <img

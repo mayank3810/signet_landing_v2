@@ -90,7 +90,10 @@ function EnquiryForm() {
       {/* Title*/}
       <div className="col-md-12">
         <div className="register-form-title text-center">
-          <h4 className="h4-lg">Request a quote</h4>
+          <h4 className="h4-lg">Get Free Samples</h4>
+          <p style={{lineHeight:'initial'}}>
+            Get Free Starter Kit to test the technology yourself before you decide to scale.
+          </p>
         </div>
       </div>
 
@@ -178,20 +181,20 @@ function EnquiryForm() {
 
       {/* Form Submit Button */}
       <div className="col-md-12 mt-4">
-      {apiResp && (
-            <div
-              className={
-                apiResp.includes("error")
-                  ? "orange-red-color request-quote-message mb-4  d-block"
-                  : "green-color mb-4  request-quote-message d-block"
-              }
-            >
-              {apiResp}
-            </div>
-          )}
+        {apiResp && (
+          <div
+            className={
+              apiResp.includes("error")
+                ? "orange-red-color request-quote-message mb-4  d-block"
+                : "green-color mb-4  request-quote-message d-block"
+            }
+          >
+            {apiResp}
+          </div>
+        )}
 
         <div className="col-md-12 form-btn text-right">
-       
+
           <button
             onClick={createQuote}
             className="btn btn-success"

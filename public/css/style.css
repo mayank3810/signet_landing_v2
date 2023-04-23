@@ -6633,7 +6633,8 @@ h2.statistic-number {
 /*------------------------------------------*/
 
 .pricing-compare {
-	margin-top: 60px;
+	margin: 0px auto;
+    max-width: 900px;
 }
 
 .pricing-compare .table-responsive {

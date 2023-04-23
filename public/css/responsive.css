@@ -1237,7 +1237,8 @@
   }
 
   .pricing-compare {
-    margin-top: 40px;
+    margin: 0px auto;
+    max-width: 800px;
   }
   .pricing-compare .table-responsive {
     margin-top: 40px;
@@ -3635,7 +3636,8 @@
   }
 
   .pricing-compare {
-    margin-top: 40px;
+    margin: 0px auto;
+    max-width: 800px;
   }
   .pricing-compare .table-responsive {
     margin-top: 40px;
@@ -5355,7 +5357,9 @@
   }
 
   .pricing-compare {
-    margin-top: 40px;
+    margin: 0px auto;
+	  padding: 20px;
+    max-width: 800px;
   }
   .pricing-compare .table-responsive {
     margin-top: 40px;

@@ -199,7 +199,7 @@ function RequestQuote({ open, setOpen }) {
                     onClick={() => setOpen(true)}
                     className="btn btn-yellow tra-yellow-hover request-quote-feature color-white mt-15 mb-15"
                   >
-                    Request a quote
+                    Get Free Samples
                   </div>
                   {/* </Link> */}
                 </div>
@@ -220,7 +220,7 @@ function RequestQuote({ open, setOpen }) {
             onClick={() => setOpen(true)}
             className="btn btn-success btn-lg btn-block"
           >
-            Request Quote
+            Get Free Samples
           </button>
         </div>
       )}
