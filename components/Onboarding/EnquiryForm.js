@@ -5,8 +5,9 @@ function EnquiryForm() {
   const [email, setEmail] = useState({ data: "", error: false });
   const [name, setName] = useState({ data: "", error: false });
   const [quantity, setQuantity] = useState({ data: "", error: false });
-  const [description, setDescription] = useState("");
+  const [address, setAddress] = useState({ data: "", error: false });
   const [contact, setContact] = useState({ data: "", error: false });
+  const [country, setCountry] = useState({ data: "", error: false });
 
   const [loading, setLoading] = useState(false);
   const [apiResp, setApiResp] = useState("");
@@ -40,23 +41,28 @@ function EnquiryForm() {
     if (contact.data === "") {
       setContact({ data: "", error: true });
     }
-    if (quantity.data === "") {
-      setQuantity({ data: "", error: true });
+    if (address.data === "") {
+      setAddress({ data: "", error: true });
     }
+    if (country.data === "") {
+      setCountry({ data: "", error: true });
+    }
+
     if (
       name.data != "" &&
       email.data != "" &&
       valid &&
       contact.data != "" &&
-      quantity.data != ""
+      country.data != "" &&
+      address.data != ""
     ) {
       setLoading(true);
       const data = {
-        email: email.data,
         name: name.data,
+        email: email.data,
         phone: contact.data,
-        quantity: quantity.data,
-        description: description,
+        country: country.data,
+        address: address.data,
       };
       // console.log(data);
       const rawResponse = await fetch(
@@ -77,7 +83,7 @@ function EnquiryForm() {
         setName({ data: "", error: false });
         setEmail({ data: "", error: false });
         setQuantity({ data: "", error: false });
-        setDescription("");
+        setAddress({ data: "", error: false });
         setContact({ data: "", error: false });
       } else {
         setApiResp("An error occurred. Please retry.");
@@ -154,6 +160,17 @@ function EnquiryForm() {
       </div>
 
       <div className="col-12 mt-2">
+        <label>Country</label>
+        <input
+          className="form-control"
+          type="text"
+          value={country.data ?? ""}
+          onChange={(e) => setCountry({ data: e.target.value, error: false })}
+        />
+        {country.error && <span className="error">Required</span>}
+      </div>
+
+      {/* <div className="col-12 mt-2">
         <label>How many tags do you need per month?</label>
         <select
           className="form-control"
@@ -167,16 +184,18 @@ function EnquiryForm() {
           <option> More than 10000 products per month</option>
         </select>
         {contact.error && <span className="error">Required</span>}
-      </div>
+      </div> */}
 
       <div className="col-12 mt-2">
-        <label>Briefly describe your needs</label>
+        <label>Shipping Address</label>
         <textarea
           className="form-control"
           type="text"
-          value={description}
-          onChange={(e) => setDescription(e.target.value)}
+          value={address.data ?? ""}
+          onChange={(e) => setAddress({ data: e.target.value, error: false })}
         />
+        {address.error && <span className="error">Required</span>}
+
       </div>
 
       {/* Form Submit Button */}

@@ -4996,7 +4996,7 @@ p.terms-txt a,
 	font-size: 14px;
 	font-weight: 300;
 	height: 19px !important;
-	display: block;
+	float: right;
 	line-height: 23px;
 }
 
