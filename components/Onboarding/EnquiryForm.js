@@ -38,31 +38,28 @@ function EnquiryForm() {
     if (email.data === "" || !valid) {
       setEmail({ data: "", error: true });
     }
-    if (contact.data === "") {
-      setContact({ data: "", error: true });
-    }
-    if (address.data === "") {
-      setAddress({ data: "", error: true });
-    }
-    if (country.data === "") {
-      setCountry({ data: "", error: true });
-    }
+    // if (contact.data === "") {
+    //   setContact({ data: "", error: true });
+    // }
+    // if (address.data === "") {
+    //   setAddress({ data: "", error: true });
+    // }
+    // if (country.data === "") {
+    //   setCountry({ data: "", error: true });
+    // }
 
     if (
       name.data != "" &&
       email.data != "" &&
-      valid &&
-      contact.data != "" &&
-      country.data != "" &&
-      address.data != ""
+      valid 
     ) {
       setLoading(true);
       const data = {
         name: name.data,
         email: email.data,
-        phone: contact.data,
-        country: country.data,
-        address: address.data,
+        // phone: contact.data,
+        // country: country.data,
+        // address: address.data,
       };
       // console.log(data);
       const rawResponse = await fetch(
@@ -82,9 +79,9 @@ function EnquiryForm() {
 
         setName({ data: "", error: false });
         setEmail({ data: "", error: false });
-        setQuantity({ data: "", error: false });
-        setAddress({ data: "", error: false });
-        setContact({ data: "", error: false });
+        // setQuantity({ data: "", error: false });
+        // setAddress({ data: "", error: false });
+        // setContact({ data: "", error: false });
       } else {
         setApiResp("An error occurred. Please retry.");
         setLoading(false);
@@ -97,8 +94,9 @@ function EnquiryForm() {
       <div className="col-md-12">
         <div className="register-form-title text-center">
           <h4 className="h4-lg">Get Free Samples</h4>
-          <p style={{lineHeight:'initial'}}>
-            Get Free Starter Kit to test the technology yourself before you decide to scale.
+          <p className="mt-4" style={{lineHeight:'26px'}}>
+          Test the technology yourself before you decide to scale. 
+          Enter these details and our team will get back to you.
           </p>
         </div>
       </div>
@@ -106,7 +104,7 @@ function EnquiryForm() {
       <div className="col-md-12 ">
         <div className="row">
           <div className="col-12">
-            <label className="float-left"> Your Name </label>
+            <label className="float-left"> Name </label>
             {name.error && (
               <span className="error float-right" htmlFor="name">
                 Required
@@ -140,7 +138,7 @@ function EnquiryForm() {
       </div>
 
       <div className="col-12 mt-2">
-        <label className="float-left">Business email</label>
+        <label className="float-left">Email</label>
         {email.error && <span className="error">Invalid Email</span>}
         <input
           className="form-control email"
@@ -149,7 +147,7 @@ function EnquiryForm() {
           onChange={(e) => setEmail({ data: e.target.value, error: false })}
         />
       </div>
-      <div className="col-12 mt-2">
+      {/* <div className="col-12 mt-2">
         <label className="float-left">Phone number</label>
         {contact.error && <span className="error">Required</span>}
         <input
@@ -169,7 +167,7 @@ function EnquiryForm() {
           value={country.data ?? ""}
           onChange={(e) => setCountry({ data: e.target.value, error: false })}
         />
-      </div>
+      </div> */}
 
       {/* <div className="col-12 mt-2">
         <label>How many tags do you need per month?</label>
@@ -187,7 +185,7 @@ function EnquiryForm() {
         {contact.error && <span className="error">Required</span>}
       </div> */}
 
-      <div className="col-12 mt-2">
+      {/* <div className="col-12 mt-2">
         <label className="float-left">Shipping Address</label>
         {address.error && <span className="error">Required</span>}
         <textarea
@@ -197,7 +195,7 @@ function EnquiryForm() {
           onChange={(e) => setAddress({ data: e.target.value, error: false })}
         />
 
-      </div>
+      </div> */}
 
       {/* Form Submit Button */}
       <div className="col-md-12 mt-4">
