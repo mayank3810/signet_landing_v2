@@ -74,7 +74,7 @@ function Footer() {
 
       {successMessage && (
         <div className="sucess-message animate__animated animate__fadeIn">
-          Thank you for considering a demo with us.
+          Thank you for subscribing to our Newsletter.
         </div>
       )}
 
@@ -96,13 +96,10 @@ function Footer() {
                   <div className="col-12">
                     <div className="cta-4-txt">
                       <h5 className="h5-lg pt-15">
-                        Interested in learning more about our product or
-                        service?
+                        Subscribe to our Newsletter
                       </h5>
-
                       <p className="pb-30">
-                        Please enter your email below to schedule a demo at your
-                        convenience.
+                        Only valuable content from us, promised!
                       </p>
                       <span onClick={() => closePopup()} className="close-btn">
                         x
