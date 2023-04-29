@@ -68,54 +68,43 @@ function Blog(props) {
 					<div className="row justify-content-center">
 						<div className="col-md-10 col-lg-8">
 							<div className="section-title title-02 mb-85">
-								<h1 className="h1-md">Relevant news and more for you. Welcome to our blog</h1>
+								<h1 className="h1-md">Relevant news and more for you. </h1>
 							</div>
 						</div>
 					</div>
-					{/* POSTS WRAPPER */}
 					<div className="posts-wrapper">
-						{/* BLOG POSTS */}
 						<div className="row">
-							<div className="col gallery-items-list">
-								<div className="masonry-wrap grid-loaded d-flex">
-									{props?.items.map((post) => (
-										<div key={post.id} className="blog-3-post masonry-image">
-											{/* BLOG POST IMAGE */}
-											<div className="blog-post-img">
-												<div className="hover-overlay">
-													<Link href={'/blog/' + post?.data?.slug.iv}>
-														{post?.data?.image?.iv && (
-															<img
-																// className="img-fluid"
-																src={'https://cloud.squidex.io/api/assets/signetblog/' + post?.data?.image?.iv[0]}
-																alt="blog-post-image"
-																width="100%"
-																height="140px"
-															/>
-														)}
-													</Link>
-													<div className="item-overlay" />
-												</div>
-											</div>
-											<div className="blog-post-txt">
-												<p className="p-md post-tag">{post?.data?.postType.iv + ' | ' + getParsedDate(post.created)}</p>
-												{/* Post Link */}
-												<h2 className="h3-font">
-													<Link href={'/blog/' + post?.data?.slug.iv}>{post?.data?.title.iv}</Link>
-													{/* <a href="single-post.html"></a> */}
-												</h2>
-											</div>
+							{props?.items.map((post) => (
+								<div key={post.id} className="col-4">
+									{/* BLOG POST IMAGE */}
+									<div className="blog-post-img">
+										<div className="hover-overlay">
+											<Link href={'/blog/' + post?.data?.slug.iv}>
+												{post?.data?.image?.iv && (
+													<img
+														// className="img-fluid"
+														src={'https://cloud.squidex.io/api/assets/signetblog/' + post?.data?.image?.iv[0]}
+														alt="blog-post-image"
+														width="100%"
+													/>
+												)}
+											</Link>
+											<div className="item-overlay" />
 										</div>
-									))}
-									{/* END BLOG POST #1 */}
+									</div>
+									<div className="blog-post-txt">
+										{/* <p className="p-md post-tag">{'Date: ' + getParsedDate(post.created)}</p> */}
+										{/* Post Link */}
+										<h2 className="h3-font">
+											<Link href={'/blog/' + post?.data?.slug.iv}>{post?.data?.title.iv}</Link>
+											{/* <a href="single-post.html"></a> */}
+										</h2>
+									</div>
 								</div>
-							</div>
-						</div>{' '}
-						{/* END BLOG POSTS */}
+							))}
+						</div>
 					</div>{' '}
-					{/* END POSTS WRAPPER */}
 				</div>{' '}
-				{/* End container */}
 			</section>
 		</>
 	);

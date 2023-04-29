@@ -28,7 +28,7 @@ export default function Document() {
 					<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
 					<link rel="icon" href="/images/apple-touch-icon.png" type="image/x-icon" />
 					{/* GOOGLE FONTS */}
-					<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet" />
+					<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
 					{/* BOOTSTRAP CSS */}
 					<link href="/css/bootstrap.min.css" rel="stylesheet" />
 					{/* FONT ICONS */}
