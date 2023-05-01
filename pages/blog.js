@@ -13,7 +13,6 @@ function Blog(props) {
 	const getParsedDate = (strDate) => {
 		var strSplitDate = String(strDate).split(' ');
 		var date = new Date(strSplitDate[0]);
-		// alert(date);
 		var dd = date.getDate();
 		var mm = date.getMonth() + 1; //January is 0!
 
