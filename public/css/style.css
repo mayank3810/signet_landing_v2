@@ -3237,7 +3237,7 @@ h5.sm-title {
 	content: '|';
 	padding-left: 7px;
 	position: relative;
-	top: 1px;
+	top: 0;
 }
 
 .advantages li.last-li:after {
@@ -4991,12 +4991,12 @@ p.terms-txt a,
 }
 
 .enquiry-form .error {
-    color: #d11603;
-    font-size: 13px;
-    font-weight: 400;
-    height: 19px !important;
-    float: right;
-    line-height: 23px;
+	color: #d11603;
+	font-size: 13px;
+	font-weight: 400;
+	height: 19px !important;
+	float: right;
+	line-height: 23px;
 }
 
 .enquiry-form label {
@@ -6633,7 +6633,7 @@ h2.statistic-number {
 
 .pricing-compare {
 	margin: 0px auto;
-    max-width: 900px;
+	max-width: 900px;
 }
 
 .pricing-compare .table-responsive {
@@ -7365,7 +7365,7 @@ span.release-date span {
 	-moz-border-radius: 16px;
 	-o-border-radius: 16px;
 	border-radius: 16px;
-    height: 210px;
+	height: 210px;
 }
 
 /*------------------------------------------*/
@@ -7386,7 +7386,7 @@ span.release-date span {
 
 #blog-page .blog-post-txt {
 	margin-top: 20px;
-    margin-bottom: 60px;
+	margin-bottom: 60px;
 }
 
 .blog-post-txt h6,
@@ -7406,7 +7406,7 @@ p.post-tag {
 	margin-bottom: 0;
 }
 
-.blog-post-txt a{
+.blog-post-txt a {
 	color: #463853;
 }
 

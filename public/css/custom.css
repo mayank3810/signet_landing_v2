@@ -153,3 +153,10 @@
 	padding: 10px 15px 10px 0;
 	border-radius: 0;
 }
+label > span {
+	font-weight: 500;
+	font-size: 1.25rem;
+	color: #2f353e;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: -0.75px;
+}

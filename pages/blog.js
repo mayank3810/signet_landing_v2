@@ -30,17 +30,15 @@ function Blog(props) {
 	return (
 		<>
 			<Head>
-				<title>Signet Blog - Relevant News and More</title>
-				<link rel="canonical" href="https://www.signettags.com/blog" key="canonical" />
+				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+				<meta name="robots" content="index, follow" />
+				<meta name="language" content="English" />
 				<meta name="title" content="Stay Updated with Signet Blog for Relevant News and More" />
 				<meta
 					name="description"
 					content="Keep yourself informed and updated with our blog, featuring relevant news and valuable insights on various topics."
 				/>
 				<meta name="keywords" content="Signet Tags, Signet Authenticity, brand protection software, blockchain-proven ownership" />
-				<meta name="robots" content="index, follow" />
-				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-				<meta name="language" content="English" />
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
@@ -58,6 +56,9 @@ function Blog(props) {
 				<meta name="twitter:title" content="Stay Informed with Signet Blog" />
 				<meta name="twitter:description" content="Stay informed with Signet Blog's news and insights." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
+
+				<link rel="canonical" href="https://www.signettags.com/blog" key="canonical" />
+				<title>Signet Blog - Relevant News and More</title>
 			</Head>
 			<Header scroll={true} />
 
