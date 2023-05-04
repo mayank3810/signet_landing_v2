@@ -9,8 +9,10 @@ function Technology() {
 	return (
 		<>
 			<Head>
-				<title>Signet Tags - Technology for Authentic Product Verification</title>
-				<link rel="canonical" href="https://www.signettags.com/technology" key="canonical" />
+				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+				<meta name="language" content="English" />
+				<meta name="robots" content="index, follow" />
+
 				<meta name="title" content="Authenticity Guaranteed - Secure Product Verification with Signet Tags" />
 				<meta
 					name="description"
@@ -20,9 +22,6 @@ function Technology() {
 					name="keywords"
 					content="Signet Tags, NFC tags, NFTs, blockchain, product authentication, product verification, secure, unclonable, meta verse, business intelligence, IoT, peer-to-peer interaction, transparent, immutable."
 				/>
-				<meta name="robots" content="index, follow" />
-				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-				<meta name="language" content="English" />
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
@@ -40,6 +39,9 @@ function Technology() {
 				<meta name="twitter:title" content="Authenticity Guaranteed with Signet Tags" />
 				<meta name="twitter:description" content="Secure and verify Products with NFC, NFTs & Blockchain." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
+
+				<link rel="canonical" href="https://www.signettags.com/technology" key="canonical" />
+				<title>Signet Tags - Technology for Authentic Product Verification</title>
 			</Head>
 			<Header scroll={true} />
 			<>

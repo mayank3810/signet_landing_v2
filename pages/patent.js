@@ -6,8 +6,10 @@ function Patent() {
 	return (
 		<>
 			<Head>
-				<title>Signet Tags - Patent Status | Anti-Counterfeit with NFT/NFC</title>
-				<link rel="canonical" href="https://www.signettags.com/patent" key="canonical" />
+				<meta name="robots" content="noindex, follow" />
+				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+				<meta name="language" content="English" />
+
 				<meta name="title" content="Signet Tags Patent: Anti-Counterfeit NFC Authentication" />
 				<meta
 					name="description"
@@ -17,9 +19,6 @@ function Patent() {
 					name="keywords"
 					content="Signet Tags, Signet Authenticity, brand protection software, blockchain-proven ownership, anti-counterfeit authentication, non-fungible token, near-field communication, patent application status, filing date, application number"
 				/>
-				<meta name="robots" content="noindex, follow" />
-				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-				<meta name="language" content="English" />
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
@@ -37,6 +36,9 @@ function Patent() {
 				<meta name="twitter:title" content="Signet Tags Patent: Anti-Counterfeit NFC Authentication" />
 				<meta name="twitter:description" content="Check NFT-NFC anti-counterfeit patent" />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
+
+				<link rel="canonical" href="https://www.signettags.com/patent" key="canonical" />
+				<title>Signet Tags - Patent Status | Anti-Counterfeit with NFT/NFC</title>
 			</Head>
 
 			<Header scroll={true} />

@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import QRCode from 'qrcode';
 import Accordion from '@/components/Accordion';
 import QrCodeWithFrame from '@/components/QRCodeWithFrame';
+import Head from 'next/head';
 
 const frames = [
 	{ no: -1, url: null }, // No frame option
@@ -248,6 +249,12 @@ const QRCodes = () => {
 	};
 	return (
 		<>
+			<Head>
+				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+				<meta name="language" content="English" />
+				<meta name="robots" content="noindex, follow" />
+				<title>Signet Tags - QR Codes Generator</title>
+			</Head>
 			<Header scroll={true} />
 
 			{successMessage && <div className="sucess-message animate__animated animate__fadeIn">Thank you.</div>}
