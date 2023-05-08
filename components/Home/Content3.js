@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import Link from 'next/link';
+import Image from 'next/image';
 
 function Content3() {
 	// const [containerRef, inContainerView] = useInView({ threshold: 0.2 });
@@ -23,7 +24,7 @@ function Content3() {
 								{/* CONTENT BOX #1 */}
 								<div
 									className={`duration-1 ${init ? 'cbox mb-40 animate__animated animate__fadeInLeft' : 'cbox mb-40 animate__animated'}`}
-								// style={{ animationDuration: '1s' }}
+									// style={{ animationDuration: '1s' }}
 								>
 									{/* Icon */}
 									<div className="cbox-ico">
@@ -42,7 +43,7 @@ function Content3() {
 								{/* CONTENT BOX #2 */}
 								<div
 									className={`duration-1.5 ${init ? 'cbox mb-40 animate__animated animate__fadeInLeft' : 'cbox mb-40 animate__animated'}`}
-								// style={{ animationDuration: '1.5s' }}
+									// style={{ animationDuration: '1.5s' }}
 								>
 									{/* Icon */}
 									<div className="cbox-ico">
@@ -61,7 +62,7 @@ function Content3() {
 								{/* CONTENT BOX #3 */}
 								<div
 									className={`duration-1.75 ${init ? 'cbox mb-40 animate__animated animate__fadeInLeft' : 'cbox mb-40 animate__animated'}`}
-								// style={{ animationDuration: '1.75s' }}
+									// style={{ animationDuration: '1.75s' }}
 								>
 									{/* Icon */}
 									<div className="cbox-ico">
@@ -86,11 +87,13 @@ function Content3() {
 						{/* IMAGE BLOCK */}
 						<div className="col-md-5 col-lg-6">
 							<div
-								className={`duration-0.75 ${init ? 'img-block right-column animate__animated animate__fadeIn' : 'img-block right-column animate__animated'
-									}`}
-							// style={{ animationDelay: '0.75s' }}
+								className={`duration-0.75 ${
+									init ? 'img-block right-column animate__animated animate__fadeIn' : 'img-block right-column animate__animated'
+								}`}
+								// style={{ animationDelay: '0.75s' }}
 							>
-								<img className="img-fluid" src="/images/nfc-blockchain.jpg" alt="content-image" />
+								{/* <img className="img-fluid" src="/images/nfc-blockchain.jpg" alt="content-image" /> */}
+								<Image className="img-fluid" src="/images/nfc-blockchain.jpg" alt="content-image" width={500} height={500} />
 							</div>
 						</div>
 					</div>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 function Content4() {
 	// const [containerRef, inContainerView] = useInView({ threshold: 0.2 });
@@ -26,7 +27,8 @@ function Content4() {
 							<h2 className="h2-md">Unique Digital Experience</h2>
 							{/* Text */}
 							<p className="p-xl">
-							Manufacturers can use digital experiences to customize the user experience for their customers. This way, customers can tap on products and get more information about them, making the shopping experience more convenient and informative.
+								Manufacturers can use digital experiences to customize the user experience for their customers. This way, customers can tap on
+								products and get more information about them, making the shopping experience more convenient and informative.
 							</p>
 						</div>
 					</div>
@@ -37,21 +39,24 @@ function Content4() {
 						{/* IMAGE BLOCK */}
 						<div className="col-md-5 col-lg-6">
 							<div
-								className={`duration-1.75 ${init ? 'rel img-block left-column animate__animated animate__slideInUp' : 'rel img-block left-column animate__animated'
-									}`}
-							// style={{ animationDuration: '1.75s' }}
+								className={`duration-1.75 ${
+									init ? 'rel img-block left-column animate__animated animate__slideInUp' : 'rel img-block left-column animate__animated'
+								}`}
+								// style={{ animationDuration: '1.75s' }}
 							>
-								<img className="img-fluid" src="/images/digital-experience.jpg" alt="content-image" />
+								{/* <img className="img-fluid" src="/images/digital-experience.jpg" alt="content-image" /> */}
+								<Image className="img-fluid" src="/images/digital-experience.jpg" alt="content-image" width={600} height={999} />
 							</div>
 						</div>
 						{/* TEXT BLOCK */}
 						<div className="col-md-7 col-lg-6">
 							<div
-								className={`duration-1.75 ${init
-									? 'txt-block right-column left-column animate__animated animate__slideInUp'
-									: 'txt-block right-column left-column animate__animated'
-									}`}
-							// style={{ animationDuration: '1.75s' }}
+								className={`duration-1.75 ${
+									init
+										? 'txt-block right-column left-column animate__animated animate__slideInUp'
+										: 'txt-block right-column left-column animate__animated'
+								}`}
+								// style={{ animationDuration: '1.75s' }}
 							>
 								{/* TEXT BOX */}
 								<div className="txt-box mb-20">
@@ -59,8 +64,10 @@ function Content4() {
 									<h3 className="h3-font mb-4">Easily share essential information with customers</h3>
 									{/* Text */}
 									<p className="p-lg">
-									Customers can tap on the product to get updated information about essential attributes such as ownership, warranty, safety, recyclability, and value. This allows customers to make informed decisions about the products they purchase and use.
-									 By being able to see this information, customers can be sure that they are making the best choice for them when it comes to the products they buy.
+										Customers can tap on the product to get updated information about essential attributes such as ownership, warranty, safety,
+										recyclability, and value. This allows customers to make informed decisions about the products they purchase and use. By being able
+										to see this information, customers can be sure that they are making the best choice for them when it comes to the products they
+										buy.
 									</p>
 								</div>
 								{/* TEXT BOX */}
@@ -71,7 +78,9 @@ function Content4() {
 									<ul className="simple-list">
 										<li className="list-item">
 											<p className="p-lg">
-											This powerful AI tool helps brands keep track of their entire supply chain in real time. The online portal stores and verifies product info, ensuring complete data transparency. This allows for digital audits, live alerts, and access to advanced analytics.
+												This powerful AI tool helps brands keep track of their entire supply chain in real time. The online portal stores and verifies
+												product info, ensuring complete data transparency. This allows for digital audits, live alerts, and access to advanced
+												analytics.
 											</p>
 										</li>
 										<li className="list-item">
@@ -86,8 +95,6 @@ function Content4() {
 						</div>{' '}
 					</div>
 				</div>{' '}
-
-
 			</div>{' '}
 		</section>
 	);

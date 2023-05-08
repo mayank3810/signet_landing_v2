@@ -5,6 +5,7 @@ import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import Benefits from '@/components/Benefits';
 import Head from 'next/head';
+import Image from 'next/image';
 
 function FoodAndBeverages() {
 	const [containerRef, inContainerView] = useInView({
@@ -63,7 +64,8 @@ function FoodAndBeverages() {
 								{/* IMAGE BLOCK */}
 								<div className="col-md-5 col-lg-6">
 									<div className="img-block left-column wow fadeInRight">
-										<img className="img-fluid" src="/images/digital-experience.jpg" alt="content-image" />
+										{/* <img className="img-fluid" src="/images/digital-experience.jpg" alt="content-image" /> */}
+										<Image className="img-fluid" src="/images/digital-experience.jpg" alt="content-image" width={600} height={999} />
 									</div>
 								</div>
 								{/* TEXT BLOCK */}

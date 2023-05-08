@@ -11,6 +11,7 @@ import Link from 'next/link';
 import { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 import Brands from '@/components/Brands';
+import Image from 'next/image';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -96,7 +97,8 @@ export default function Home() {
 												<div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
 													<Link href={'/industries/cosmetics-and-perfumes'}>
 														<div className="fbox-ico-center ico-60">
-															<img src="/images/industries/perfume-bottle-100.png" alt="ico-bkg" />
+															{/* <img src="/images/industries/perfume-bottle-100.png" alt="ico-bkg" /> */}
+															<Image src="/images/industries/perfume-bottle-100.png" alt="ico-bkg" width={60} height={60} />
 														</div>
 														<div className="fbox-txt-center">
 															<h3 className="h3-font my-3">Cosmetics & Perfumes</h3>
@@ -109,7 +111,8 @@ export default function Home() {
 												<div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
 													<Link href={'/industries/food-and-beverages'}>
 														<div className="fbox-ico-center ico-60">
-															<img src="/images/industries/wine-bottle-100.png" alt="ico-bkg" />
+															{/* <img src="/images/industries/wine-bottle-100.png" alt="ico-bkg" /> */}
+															<Image src="/images/industries/wine-bottle-100.png" alt="ico-bkg" width={60} height={60} />
 														</div>
 														<div className="fbox-txt-center">
 															<h3 className="h3-font my-3">Food & Beverages</h3>
@@ -123,7 +126,8 @@ export default function Home() {
 												<div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
 													<Link href={'/industries/agriculture'}>
 														<div className="fbox-ico-center ico-60">
-															<img src="/images/industries/pesticide-100.png" alt="ico-bkg" />
+															{/* <img src="/images/industries/pesticide-100.png" alt="ico-bkg" /> */}
+															<Image src="/images/industries/pesticide-100.png" alt="ico-bkg" width={60} height={60} />
 														</div>
 														<div className="fbox-txt-center">
 															<h3 className="h3-font my-3">Agriculture</h3>
@@ -137,7 +141,8 @@ export default function Home() {
 												<div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
 													<Link href={'/industries/auto-parts'}>
 														<div className="fbox-ico-center ico-60">
-															<img src="/images/industries/wheel-100.png" alt="ico-bkg" />
+															{/* <img src="/images/industries/wheel-100.png" alt="ico-bkg" /> */}
+															<Image src="/images/industries/wheel-100.png" alt="ico-bkg" width={60} height={60} />
 														</div>
 														<div className="fbox-txt-center">
 															<h3 className="h3-font my-3">Auto Parts</h3>
@@ -151,7 +156,8 @@ export default function Home() {
 												<div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
 													<Link href={'/industries/pharmaceuticals'}>
 														<div className="fbox-ico-center ico-60">
-															<img src="/images/industries/medicines-100.png" alt="ico-bkg" />
+															{/* <img src="/images/industries/medicines-100.png" alt="ico-bkg" /> */}
+															<Image src="/images/industries/medicines-100.png" alt="ico-bkg" width={60} height={60} />
 														</div>
 														<div className="fbox-txt-center">
 															<h3 className="h3-font my-3">Pharmaceuticals</h3>
@@ -167,7 +173,8 @@ export default function Home() {
 												<div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
 													<Link href={'/industries/cannabis'}>
 														<div className="fbox-ico-center ico-60">
-															<img src="/images/industries/cannabis-100.png" alt="ico-bkg" />
+															{/* <img src="/images/industries/cannabis-100.png" alt="ico-bkg" /> */}
+															<Image src="/images/industries/cannabis-100.png" alt="ico-bkg" width={60} height={60} />
 														</div>
 														<div className="fbox-txt-center">
 															<h3 className="h3-font my-3">Cannabis</h3>
@@ -183,7 +190,8 @@ export default function Home() {
 												<div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
 													<Link href={'/industries/document-security'}>
 														<div className="fbox-ico-center ico-60">
-															<img src="/images/industries/diploma-100.png" alt="ico-bkg" />
+															{/* <img src="/images/industries/diploma-100.png" alt="ico-bkg" /> */}
+															<Image src="/images/industries/diploma-100.png" alt="ico-bkg" width={60} height={60} />
 														</div>
 														<div className="fbox-txt-center">
 															<h3 className="h3-font my-3">Document Security</h3>
@@ -196,7 +204,8 @@ export default function Home() {
 												<div className="fbox-1 mb-40 wow fadeInUp fadeInUp-visible">
 													<Link href={'/industries/clothing-and-footwear'}>
 														<div className="fbox-ico-center ico-60">
-															<img src="/images/industries/t-shirt-100.png" alt="ico-bkg" />
+															{/* <img src="/images/industries/t-shirt-100.png" alt="ico-bkg" /> */}
+															<Image src="/images/industries/t-shirt-100.png" alt="ico-bkg" width={60} height={60} />
 														</div>
 														<div className="fbox-txt-center">
 															<h3 className="h3-font my-3">Clothing and footwear</h3>

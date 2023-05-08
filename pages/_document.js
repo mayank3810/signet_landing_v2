@@ -4,20 +4,6 @@ export default function Document() {
 	return (
 		<Html lang="en">
 			<Head>
-				{/* <meta charSet="utf-8" /> */}
-				{/* <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="author" content="DSAThemes" />
-  <meta
-    name="description"
-    content="Signet - Software, App, SaaS & Startup Landing Pages Pack"
-  />
-  <meta
-    name="keywords"
-    content="Responsive, HTML5, DSAThemes, One Page, Landing, Software, Mobile App, SaaS, Startup, Creative, Freelancers, Digital Product"
-  />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> */}
-				{/* SITE TITLE */}
-				{/* <title>Signet Authenticity</title> */}
 				{/* FAVICON AND TOUCH ICONS */}
 				<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
 				<link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
@@ -28,6 +14,8 @@ export default function Document() {
 				<link rel="icon" href="/images/apple-touch-icon.png" type="image/x-icon" />
 				{/* GOOGLE FONTS */}
 				<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+				<link href="/fonts/font-rule.css" rel="stylesheet" />
+
 				{/* BOOTSTRAP CSS */}
 				<link href="/css/bootstrap.min.css" rel="stylesheet" />
 				{/* FONT ICONS */}

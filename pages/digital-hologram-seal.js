@@ -10,6 +10,7 @@ import React, { useEffect, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import Brands from '@/components/Brands';
 import HologramCompare from '@/components/HologramCompare';
+import Image from 'next/image';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -174,7 +175,8 @@ export default function Home() {
 											}`}
 											// style={{ animationDuration: '1.75s' }}
 										>
-											<img className="img-fluid" src="/images/digital-experience.jpg" alt="content-image" />
+											{/* <img className="img-fluid" src="/images/digital-experience.jpg" alt="content-image" /> */}
+											<Image className="img-fluid" src="/images/digital-experience.jpg" alt="content-image" width={600} height={999} />
 										</div>
 									</div>
 									{/* TEXT BLOCK */}
