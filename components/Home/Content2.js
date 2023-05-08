@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import Link from 'next/link';
+import Image from 'next/image';
 
 function Content2() {
 	// const [containerRef, inContainerView] = useInView({ threshold: 0.2 });
@@ -23,19 +24,22 @@ function Content2() {
 					{/* IMAGE BLOCK */}
 					<div className="col-md-5 col-lg-6">
 						<div
-							className={`duration-1.75 ${init ? 'rel img-block left-column animate__animated animate__slideInUp' : 'rel img-block left-column animate__animated'
-								}`}
-						// style={{ animationDuration: '1.75s' }}
+							className={`duration-1.75 ${
+								init ? 'rel img-block left-column animate__animated animate__slideInUp' : 'rel img-block left-column animate__animated'
+							}`}
+							// style={{ animationDuration: '1.75s' }}
 						>
-							<img className="img-fluid" src="/images/scanning-theme.png" alt="content-image" />
+							{/* <img className="img-fluid" src="/images/scanning-theme.png" alt="content-image" /> */}
+							<Image className="img-fluid" src="/images/scanning-theme.png" alt="content-image" width={401} height={487} />{' '}
 						</div>
 					</div>
 					{/* TEXT BLOCK */}
 					<div className="col-md-7 col-lg-6">
 						<div
-							className={`duration-1.75 ${init ? 'txt-block right-column animate__animated animate__slideInUp' : 'txt-block right-column animate__animated'
-								}`}
-						// style={{ animationDuration: '1.75s' }}
+							className={`duration-1.75 ${
+								init ? 'txt-block right-column animate__animated animate__slideInUp' : 'txt-block right-column animate__animated'
+							}`}
+							// style={{ animationDuration: '1.75s' }}
 						>
 							{/* Title */}
 							<h2 className="h2-xs">Proof of authenticity in seconds</h2>
@@ -46,7 +50,8 @@ function Content2() {
 							</p>
 							{/* Text */}
 							<p className="p-lg">
-								Using NFC and blockchain technology together provides a powerful tool for verifying the authenticity of physical products. It allows consumers to make more informed purchasing decisions and helps to prevent counterfeit products from entering the market.
+								Using NFC and blockchain technology together provides a powerful tool for verifying the authenticity of physical products. It allows
+								consumers to make more informed purchasing decisions and helps to prevent counterfeit products from entering the market.
 							</p>
 							<p className="p-lg">
 								Our solution is faster and safer than any solution based on QR code or image recognition. No App download required.

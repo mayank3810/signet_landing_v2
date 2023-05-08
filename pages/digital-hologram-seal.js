@@ -135,7 +135,8 @@ export default function Home() {
 										</div>
 									</div>{' '}
 									<div className="col-md-5 col-lg-6">
-										<img className="img-fluid" src="/images/scanning-theme.png" alt="content-image" />
+										{/* <img className="img-fluid" src="/images/scanning-theme.png" alt="content-image" /> */}
+										<Image className="img-fluid" src="/images/scanning-theme.png" alt="content-image" width={401} height={454} />
 									</div>
 								</div>
 							</div>{' '}
