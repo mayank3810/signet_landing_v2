@@ -3,6 +3,7 @@ import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Testimonials from '@/components/Testimonials';
 import Head from 'next/head';
+import Image from 'next/image';
 import React from 'react';
 
 function Technology() {
@@ -42,6 +43,7 @@ function Technology() {
 
 				<link rel="canonical" href="https://www.signettags.com/technology" key="canonical" />
 				<title>Signet Tags - Technology for Authentic Product Verification</title>
+				<link rel="preconnect" href="https://www.youtube-nocookie.com" />
 			</Head>
 			<Header scroll={true} />
 			<>
@@ -67,15 +69,15 @@ function Technology() {
 							<div className="about-2-images">
 								<div className="row row-cols-1 row-cols-md-2">
 									<div className="col col-md-4">
-										<img className="img-fluid" src="images/security.jpg" alt="about-image" />
+										<img className="img-fluid" src="images/security.jpg" alt="about-image" width="416" height="386" />
 									</div>
 
 									<div className="col col-md-4">
-										<img className="img-fluid" src="images/nfc-technology.jpg" alt="about-image" />
+										<Image className="img-fluid" src="images/nfc-technology.jpg" alt="about-image" width={416} height={386} />
 									</div>
 
 									<div className="col col-md-4">
-										<img className="img-fluid" src="images/blockchain.jpg" alt="about-image" />
+										<Image className="img-fluid" src="images/blockchain.jpg" alt="about-image" width={416} height={386} />
 									</div>
 								</div>{' '}
 								{/* End row */}
@@ -275,7 +277,7 @@ function Technology() {
 								{/* IMAGE BLOCK */}
 								<div className="col-md-5 col-lg-6 order-first order-md-2">
 									<div className="img-block left-column wow fadeInLeft">
-										<img className="img-fluid rounded" src="images/nfc-technology-banner.jpg" alt="content-image" />
+										<Image className="img-fluid rounded" src="images/nfc-technology-banner.jpg" alt="content-image" width={600} height={413} />
 									</div>
 								</div>
 							</div>
@@ -287,7 +289,7 @@ function Technology() {
 								{/* IMAGE BLOCK */}
 								<div className="col-md-5 col-lg-6">
 									<div className="img-block left-column wow fadeInRight">
-										<img className="img-fluid rounded" src="images/blockchain-security.jpg" alt="video-preview" />
+										<Image className="img-fluid rounded" src="images/blockchain-security.jpg" alt="video-preview" width={611} height={451} />
 									</div>
 								</div>
 								{/* TEXT BLOCK */}
@@ -341,6 +343,7 @@ function Technology() {
 											frameBorder="0"
 											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 											allowFullScreen
+											loading="lazy"
 										></iframe>
 									</div>
 								</div>
