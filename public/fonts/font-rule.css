@@ -5,3 +5,10 @@
 	font-display: swap;
 	src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap') format('truetype');
 }
+
+@font-face {
+	font-family: 'revicons';
+	fallback: fallback;
+	src: url('./revicons.woff') format('woff'), url('./revicons.ttf') format('ttf'), url('./revicons.eot') format('ttf');
+	font-display: swap;
+}
