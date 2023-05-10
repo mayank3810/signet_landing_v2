@@ -84,13 +84,13 @@ export default function Document() {
 				/>
 				{/* ON SCROLL ANIMATION */}
 				{/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> */}
-				<script
+				{/* <script
 					dangerouslySetInnerHTML={{
 						__html: `</script>
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" crossOrigin="anonymous"/>
 <script>`,
 					}}
-				/>
+				/> */}
 				{/* TEMPLATE CSS */}
 				{/* <link href="/css/style.css" rel="stylesheet" /> */}
 				<script
@@ -117,17 +117,8 @@ export default function Document() {
 <script>`,
 					}}
 				/>
-				<script
-					dangerouslySetInnerHTML={{
-						__html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TBXWNQL');`,
-					}}
-					defer
-				></script>
-				{/* <Script
+
+				<Script
 					dangerouslySetInnerHTML={{
 						__html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -135,13 +126,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
               })(window,document,'script','dataLayer','GTM-TBXWNQL');`,
 					}}
-				/> */}
+					async
+				/>
 			</Head>
 			<body>
 				<Main />
 				<NextScript />
-
-				<script src="/js/jquery-3.6.0.min.js" defer></script>
+				{/* <script
+					dangerouslySetInnerHTML={{
+						__html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TBXWNQL');`,
+					}}
+					async
+				></script> */}
+				{/* <script src="/js/jquery-3.6.0.min.js" defer></script> */}
 				{/* <Script src="/js/jquery-3.6.0.min.js" strategy="lazyOnload" /> */}
 			</body>
 		</Html>

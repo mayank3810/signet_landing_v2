@@ -1,8 +1,21 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+const TerserPlugin = require('terser-webpack-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+
+module.exports = {
 	reactStrictMode: true,
 	swcMinify: true,
 	images: { domains: ['https://www.signettags.com/'] },
-};
+	webpack: (config, { isServer }) => {
+		if (!isServer) {
+			// Minify JS
+			config.optimization.minimize = true;
+			config.optimization.minimizer = [new TerserPlugin()];
 
-module.exports = nextConfig;
+			// Minify CSS
+			config.optimization.minimizer.push(new CssMinimizerPlugin());
+		}
+
+		return config;
+	},
+};
