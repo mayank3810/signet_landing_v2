@@ -73,11 +73,11 @@ function Technology() {
 									</div>
 
 									<div className="col col-md-4">
-										<Image className="img-fluid" src="images/nfc-technology.jpg" alt="about-image" width={416} height={386} />
+										<img className="img-fluid" src="images/nfc-technology.jpg" alt="about-image" width="416" height="386" />
 									</div>
 
 									<div className="col col-md-4">
-										<Image className="img-fluid" src="images/blockchain.jpg" alt="about-image" width={416} height={386} />
+										<img className="img-fluid" src="images/blockchain.jpg" alt="about-image" width="416" height="386" />
 									</div>
 								</div>{' '}
 								{/* End row */}
@@ -277,7 +277,7 @@ function Technology() {
 								{/* IMAGE BLOCK */}
 								<div className="col-md-5 col-lg-6 order-first order-md-2">
 									<div className="img-block left-column wow fadeInLeft">
-										<Image className="img-fluid rounded" src="images/nfc-technology-banner.jpg" alt="content-image" width={600} height={413} />
+										<Image className="img-fluid rounded" src="/images/nfc-technology-banner.jpg" alt="content-image" width={600} height={413} />
 									</div>
 								</div>
 							</div>
@@ -289,7 +289,7 @@ function Technology() {
 								{/* IMAGE BLOCK */}
 								<div className="col-md-5 col-lg-6">
 									<div className="img-block left-column wow fadeInRight">
-										<Image className="img-fluid rounded" src="images/blockchain-security.jpg" alt="video-preview" width={611} height={451} />
+										<Image className="img-fluid rounded" src="/images/blockchain-security.jpg" alt="video-preview" width={611} height={451} />
 									</div>
 								</div>
 								{/* TEXT BLOCK */}
@@ -333,9 +333,9 @@ function Technology() {
 							</div>
 							<div className="row">
 								<div className="col">
-									<div className="text-center">
+									<div className="content-9-img video-preview wow fadeInUp">
 										<iframe
-											style={{ borderRadius: '20px' }}
+											className="rounded-20px"
 											width="860"
 											height="515"
 											src="https://www.youtube.com/embed/YQUjE2koNRI"
