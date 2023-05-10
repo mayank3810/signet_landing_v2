@@ -53,6 +53,7 @@ export default function Home() {
 
 				<link rel="canonical" href="https://www.signettags.com/" key="canonical" />
 				<title>Signet Tags: Blockchain-Based Brand Protection Solution</title>
+				<link rel="preconnect" href="https://www.youtube-nocookie.com" />
 			</Head>
 
 			<div id="page" className="page">
@@ -263,6 +264,7 @@ export default function Home() {
 											frameBorder="0"
 											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 											allowFullScreen
+											loading="lazy"
 										></iframe>
 									</div>
 								</div>

@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from 'react-multi-carousel';
 import ReactImageMagnify from 'react-magnify-image';
 import 'react-multi-carousel/lib/styles.css';
+import Image from 'next/image';
 
 const images = [
 	'/images/tamper-proof-seal/7.png',
@@ -50,7 +51,7 @@ function ProductCoursal() {
 					}}
 					className="default-div"
 				>
-					{<img className={active ? 'img_wrap active-product' : 'img_wrap'} src={images[index]} />}
+					{<Image className={active ? 'img_wrap active-product' : 'img_wrap'} src={images[index]} alt="product image" width={60} height={60} />}
 				</button>
 			</li>
 		);
@@ -67,9 +68,10 @@ function ProductCoursal() {
 				infinite={true}
 				deviceType={'desktop'}
 				customDot={<CustomDot />}
+				containerClass="text-center"
 			>
 				{images.map((img, i) => (
-					<img key={i} className="img-fluid" src={img} />
+					<img key={i} className="img-fluid" src={img} alt="product image" width="416" height="416" />
 				))}
 			</Carousel>
 		</>
