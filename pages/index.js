@@ -9,12 +9,17 @@ import Features from '@/components/Home/Features';
 import Hero from '@/components/Home/Hero';
 import { Inter } from '@next/font/google';
 import Link from 'next/link';
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { useInView } from 'react-intersection-observer';
 import Brands from '@/components/Brands';
 import Image from 'next/image';
 const inter = Inter({ subsets: ['latin'] });
-
+// const Hero = dynamic(() => import('@/components/Home/Hero'), {
+// 	ssr: false,
+// });
+// const Brands = dynamic(() => import('@/components/Brands'), {
+// 	ssr: false,
+// });
 export default function Home() {
 	const [headerRef, inHeaderView] = useInView();
 
@@ -27,11 +32,17 @@ export default function Home() {
 	//   const token = await generateAccessToken();
 	//   console.log(token);
 	// };
+	const iframeRef = useRef(null);
+
+	// useEffect(() => {
+	// 	iframeRef.current.src = 'https://www.youtube.com/embed/YQUjE2koNRI';
+	// }, []);
 
 	return (
 		<>
 			<Head>
 				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+
 				<meta name="language" content="English" />
 				<meta name="robots" content="index, follow" />
 				<meta name="title" content="Signet Tags - Blockchain-based authenticity and Brand protection solution" />
@@ -59,6 +70,7 @@ export default function Home() {
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 				<link rel="canonical" href="https://www.signettags.com/" key="canonical" />
 				<title>Signet Tags: Blockchain-Based Brand Protection Solution</title>
+				<link rel="preconnect" href="https://www.youtube-nocookie.com" />
 			</Head>
 
 			<div id="page" className="page">
@@ -264,6 +276,8 @@ export default function Home() {
 								<div className="col">
 									<div className="content-9-img video-preview wow fadeInUp">
 										<iframe
+											id="signet-demo-video"
+											ref={iframeRef}
 											className="rounded-20px"
 											width="860"
 											height="515"

@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import Image from 'next/image';
 // const OwlCarousel = dynamic(() => import('react-owl-carousel'), {
 // 	ssr: false,
 // });
@@ -200,7 +201,7 @@ function Brands() {
 							<div key={mediaName} className="brand-logo mx-4">
 								<Link href={media[mediaName].link} legacyBehavior passHref>
 									<a target="_blank">
-										<img className="img-fluid" src={media[mediaName].image} alt="brand-logo" />
+										<Image className="img-fluid" src={media[mediaName].image} alt="brand-logo" width={268} height={134} />
 									</a>
 								</Link>
 							</div>

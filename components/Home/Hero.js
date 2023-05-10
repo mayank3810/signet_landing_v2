@@ -37,9 +37,9 @@ function Hero() {
 							</div>
 						</div>
 						<div className="col-md-4 col-lg-4">
-							<div className="hero-1-img wow fadeInLeft">
-								{/* <img className="img-fluid" src="images/header-top.png" alt="hero-image" /> */}
-								<Image src="/images/header-top.png" alt="hero-image" width={257} height={998} className="img-fluid" />
+							<div className="hero-1-img wow fadeInLeft text-center">
+								<img className="img-fluid" src="images/header-top.png" alt="hero-image" width="257" height="998" />
+								{/* <Image src="/images/header-top.png" alt="hero-image" width={257} height={998} className="img-fluid" /> */}
 							</div>
 						</div>
 						{/* END HERO TEXT */}
