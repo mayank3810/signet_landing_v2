@@ -53,7 +53,8 @@ function Header({ scroll }) {
 				<div className="wsmobileheader clearfix">
 					<span className="smllogo">
 						<Link href="/">
-							<img src="/images/logo_dark.svg" alt="mobile-logo" />
+							{/* <img src="/images/logo_dark.svg" alt="mobile-logo" /> */}
+							<Image src="/images/logo_dark.svg" alt="mobile-logo" width={120} height={36} />
 						</Link>
 					</span>
 					<div
@@ -72,7 +73,8 @@ function Header({ scroll }) {
 						{/* HEADER LOGO */}
 						<div className="desktoplogo">
 							<Link href="/" className="logo-black">
-								<img src="/images/logo_dark.svg" alt="header-logo" />
+								{/* <img src="/images/logo_dark.svg" alt="header-logo" /> */}
+								<Image src="/images/logo_dark.svg" alt="header-logo" width={184} height={55} />
 							</Link>
 						</div>
 						<div className="desktoplogo">
