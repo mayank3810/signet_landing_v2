@@ -161,7 +161,11 @@ function FoodAndBeverages() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										{/* Image */}
-										<img className="img-fluid rounded" src="/images/industries/brand-protection.jpg" alt="feature-icon" />
+										<img
+											className="img-fluid rounded"
+											src="/images/industries/brand-protection.jpg"
+											alt="signet-tags-brand-protection-industry-image"
+										/>
 										{/* Title */}
 										<h3 className="h3-font mt-4 ">Counterfeit Protection</h3>
 										{/* Text */}
@@ -172,7 +176,7 @@ function FoodAndBeverages() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										{/* Image */}
-										<img className="img-fluid rounded" src="/images/industries/marketing.jpg" alt="feature-icon" />
+										<img className="img-fluid rounded" src="/images/industries/marketing.jpg" alt="signet-tags-marketing-industry-image" />
 										{/* Title */}
 										<h3 className="h3-font mt-4">Marketing Insights</h3>
 										{/* Text */}
@@ -184,7 +188,7 @@ function FoodAndBeverages() {
 								{/* FEATURE BOX #3 */}
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
-										<img className="img-fluid rounded" src="/images/industries/feedback.jpg" alt="feature-icon" />
+										<img className="img-fluid rounded" src="/images/industries/feedback.jpg" alt="signet-tags-feedback-industry-image" />
 										<h3 className="h3-font mt-4 ">Connect directly</h3>
 										{/* Text */}
 										<p className="p-lg">

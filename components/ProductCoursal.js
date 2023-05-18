@@ -5,16 +5,28 @@ import 'react-multi-carousel/lib/styles.css';
 import Image from 'next/image';
 
 const images = [
-	'/images/tamper-proof-seal/7.png',
-	'/images/tamper-proof-seal/2.jpeg',
-	// "/images/tamper-proof-seal/3.jpg",
-	// "/images/tamper-proof-seal/4.webp",
-	'/images/tamper-proof-seal/8.png',
-	'/images/tamper-proof-seal/5.jpg',
-	'/images/tamper-proof-seal/6.jpg',
-
-	'/images/tamper-proof-seal/9.png',
-	'/images/tamper-proof-seal/1.jpeg',
+	{
+		img: '/images/tamper-proof-seal/7.png',
+		altText: 'Tamper-Proof Seal: Safeguarding Brands with Blockchain, NFC, and Anti-Counterfeiting Measures - Signet Tags',
+	},
+	{
+		img: '/images/tamper-proof-seal/2.jpeg',
+		altText: 'Anti-Counterfeiting Solution: Tamper-Proof Seal with Blockchain, NFC, and Brand Protection - Signet Tags',
+	},
+	{
+		img: '/images/tamper-proof-seal/8.png',
+		altText: 'Tamper-Proof Seal: Defending Against Counterfeit with Blockchain, NFC, and Brand Protection - Signet Tags',
+	},
+	{
+		img: '/images/tamper-proof-seal/5.jpg',
+		altText: 'Tamper-Proof Seal: Protecting Brands with Blockchain, NFC, and Anti-Counterfeiting Measures - Signet Tags',
+	},
+	{
+		img: '/images/tamper-proof-seal/6.jpg',
+		altText: 'Advanced Tamper-Proof Seal: Combating Counterfeit with Blockchain, NFC, and Brand Protection - Signet Tags',
+	},
+	{ img: '/images/tamper-proof-seal/9.png', altText: 'Brand Protection: Tamper-Proof Seal for Enhanced Security - Signet Tags' },
+	{ img: '/images/tamper-proof-seal/1.jpeg', altText: 'Brand Protection: Tamper-Proof Seal Ensuring Security and Authenticity - Signet Tags' },
 ];
 
 function ProductCoursal() {
@@ -42,6 +54,7 @@ function ProductCoursal() {
 	};
 
 	const CustomDot = ({ index, onClick, active }) => {
+		console.log(index, images[index].img);
 		return (
 			<li>
 				<button
@@ -51,7 +64,15 @@ function ProductCoursal() {
 					}}
 					className="default-div"
 				>
-					{<Image className={active ? 'img_wrap active-product' : 'img_wrap'} src={images[index]} alt="product image" width={60} height={60} />}
+					{
+						<Image
+							className={active ? 'img_wrap active-product' : 'img_wrap'}
+							src={images[index].img}
+							alt={images[index].altText}
+							width={60}
+							height={60}
+						/>
+					}
 				</button>
 			</li>
 		);
@@ -70,8 +91,8 @@ function ProductCoursal() {
 				customDot={<CustomDot />}
 				containerClass="text-center"
 			>
-				{images.map((img, i) => (
-					<img key={i} className="img-fluid" src={img} alt="product image" width="416" height="416" />
+				{images.map((image, i) => (
+					<img key={i} className="img-fluid" src={image.img} alt={image.altText} width="416" height="416" />
 				))}
 			</Carousel>
 		</>

@@ -156,7 +156,11 @@ function ShoesAndFootwear() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										{/* Image */}
-										<img className="img-fluid rounded" src="/images/industries/brand-protection.jpg" alt="feature-icon" />
+										<img
+											className="img-fluid rounded"
+											src="/images/industries/brand-protection.jpg"
+											alt="signet-tags-brand-protection-industry-image"
+										/>
 										{/* Title */}
 										<h5 className="h5-md mt-4 ">Brand Protection</h5>
 										{/* Text */}
@@ -167,7 +171,7 @@ function ShoesAndFootwear() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										{/* Image */}
-										<img className="img-fluid rounded" src="/images/industries/marketing.jpg" alt="feature-icon" />
+										<img className="img-fluid rounded" src="/images/industries/marketing.jpg" alt="signet-tags-marketing-industry-image" />
 										{/* Title */}
 										<h5 className="h5-md mt-4">Marketing Insights</h5>
 										{/* Text */}
@@ -177,7 +181,7 @@ function ShoesAndFootwear() {
 								{/* FEATURE BOX #3 */}
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
-										<img className="img-fluid rounded" src="/images/industries/feedback.jpg" alt="feature-icon" />
+										<img className="img-fluid rounded" src="/images/industries/feedback.jpg" alt="signet-tags-feedback-industry-image" />
 										<h5 className="h5-md mt-4 ">Connect directly</h5>
 										{/* Text */}
 										<p className="p-lg">
@@ -232,7 +236,7 @@ function ShoesAndFootwear() {
 							{/* IMAGE BLOCK */}
 							<div className="col-md-5 col-lg-6 order-first order-md-2">
 								<div className="rel img-block right-column wow fadeInLeft">
-									<img className="img-fluid" src="/images/signet-mobile-app.jpg" alt="content-image" />
+									<img className="img-fluid" src="/images/signet-mobile-app.jpg" alt="signet-tags-mobile-app-brand-protection" />
 								</div>
 							</div>
 						</div>

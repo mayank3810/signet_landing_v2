@@ -54,7 +54,7 @@ function Header({ scroll }) {
 					<span className="smllogo">
 						<Link href="/">
 							{/* <img src="/images/logo_dark.svg" alt="mobile-logo" /> */}
-							<Image src="/images/logo_dark.svg" alt="mobile-logo" width={120} height={36} />
+							<Image src="/images/logo_dark.svg" alt="Signet Tags Dark Logo" width={120} height={36} />
 						</Link>
 					</span>
 					<div
@@ -74,13 +74,13 @@ function Header({ scroll }) {
 						<div className="desktoplogo">
 							<Link href="/" className="logo-black">
 								{/* <img src="/images/logo_dark.svg" alt="header-logo" /> */}
-								<Image src="/images/logo_dark.svg" alt="header-logo" width={184} height={55} />
+								<Image src="/images/logo_dark.svg" alt="Signet Tags Dark Logo" width={184} height={55} />
 							</Link>
 						</div>
 						<div className="desktoplogo">
 							<Link href="/" className="logo-white">
 								{/* <img src="/images/logo_light.svg" alt="header-logo" /> */}
-								<Image src="/images/logo_light.svg" alt="header-logo" width={184} height={55} />
+								<Image src="/images/logo_light.svg" alt="Signet Tags Light Logo" width={184} height={55} />
 							</Link>
 						</div>
 						{/* MAIN MENU */}

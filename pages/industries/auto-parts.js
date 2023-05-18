@@ -154,7 +154,11 @@ function AutoParts() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										{/* Image */}
-										<img className="img-fluid rounded" src="/images/automotive/brand-protection.jpg" alt="feature-icon" />
+										<img
+											className="img-fluid rounded"
+											src="/images/automotive/brand-protection.jpg"
+											alt="signet-tags-brand-protection-industry-image"
+										/>
 										{/* Title */}
 										<h3 className="h3-font mt-4 ">Brand Protection</h3>
 										{/* Text */}

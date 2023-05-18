@@ -167,7 +167,7 @@ function DocumentSecurity() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										{/* Image */}
-										<img className="img-fluid rounded" src="/images/industries/marketing.jpg" alt="feature-icon" />
+										<img className="img-fluid rounded" src="/images/industries/marketing.jpg" alt="signet-tags-marketing-industry-image" />
 										{/* Title */}
 										<h5 className="h5-md mt-4">Skills in Demand Analytics</h5>
 										{/* Text */}

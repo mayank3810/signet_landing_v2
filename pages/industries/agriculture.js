@@ -166,7 +166,7 @@ function Agriculture() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										{/* Image */}
-										<img className="img-fluid rounded" src="/images/industries/marketing.jpg" alt="feature-icon" />
+										<img className="img-fluid rounded" src="/images/industries/marketing.jpg" alt="signet-tags-marketing-industry-image" />
 										{/* Title */}
 										<h5 className="h5-md mt-4">Marketing Insights</h5>
 										{/* Text */}
@@ -176,7 +176,7 @@ function Agriculture() {
 								{/* FEATURE BOX #3 */}
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
-										<img className="img-fluid rounded" src="/images/industries/feedback.jpg" alt="feature-icon" />
+										<img className="img-fluid rounded" src="/images/industries/feedback.jpg" alt="signet-tags-feedback-industry-image" />
 										<h5 className="h5-md mt-4 ">Connect directly</h5>
 										{/* Text */}
 										<p className="p-lg">

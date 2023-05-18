@@ -128,7 +128,7 @@ function Footer() {
 						<div className="col-lg-4">
 							<div className="footer-info mb-40">
 								{/* Footer Logo */}
-								<Image className="footer-logo mb-25" src="/images/logo_dark.svg" alt="footer-logo" width={184} height={55} />
+								<Image className="footer-logo mb-25" src="/images/logo_dark.svg" alt="Signet Tags Dark Logo" width={184} height={55} />
 								{/* Text */}
 								<p className="p-md">Signet Tags - Blockchain-based authenticity and Brand protection solution. </p>
 								<p></p>

@@ -66,12 +66,19 @@ function Contact() {
 				<meta name="robots" content="noindex, follow" />
 				<meta name="language" content="English" />
 
-				<meta name="title" content="Contact Signet Tags for Support and Assistance" />
+				<meta
+					name="title"
+					content="Contact Signet Tags: Brand Protection & Product Authenticity Solutions & Support
+"
+				/>
 				<meta
 					name="description"
-					content=" Contact Signet Tags for any questions, comments or concerns. We're here to help you with any issues or inquiries you may have."
+					content="Contact Signet Tags for industry-leading product authentication solutions. Our team is dedicated to protecting your brand with advanced technology and anti-counterfeiting measures. Get in touch today!"
 				/>
-				<meta name="keywords" content="Signet Tags, Signet Authenticity, brand protection software, blockchain-proven ownership, " />
+				<meta
+					name="keywords"
+					content="Anti-counterfeit, Anti-counterfeiting, Track & trace, Document Security, Blockchain Technology, Brand protection solution/companies"
+				/>
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
@@ -91,7 +98,7 @@ function Contact() {
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 
 				<link rel="canonical" href="https://www.signettags.com/contact" key="canonical" />
-				<title>Contact Us - Get in Touch with Signet Tags</title>
+				<title>Contact Signet Tags: Secure Product Authentication Solutions</title>
 			</Head>
 			<Header scroll={true} />
 			{/* CONTACTS-2
@@ -103,11 +110,13 @@ function Contact() {
 						<div className="col-md-10 col-lg-8">
 							<div className="section-title title-02 mb-80">
 								{/* Title */}
-								<h1 className="h1-sm">Have a question? Need help? Don't hesitate, drop us a line</h1>
+								<h1 className="h1-sm">
+									Have a question?
+									<br />
+									Need help? Don't hesitate, drop us a line
+								</h1>
 								{/* Text */}
-								{/* <p className="p-xl">
-                  Anything On your Mind. We’ll Be Glad To Assist You!
-                </p> */}
+								<p className="p-xl">Contact Signet Tags for Advanced Product Authentication Solutions</p>
 							</div>
 						</div>
 					</div>
