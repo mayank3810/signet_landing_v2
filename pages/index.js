@@ -45,12 +45,15 @@ export default function Home() {
 
 				<meta name="language" content="English" />
 				<meta name="robots" content="index, follow" />
-				<meta name="title" content="Signet Tags - Blockchain-based authenticity and Brand protection solution" />
+				<meta name="title" content="Blockchain & NFC l Anti-Counterfeiting Solution & customer engagement | Signet Tags" />
 				<meta
 					name="description"
-					content="Signet tags link your products with blockchain-proven ownership. The blockchain solution ensures authenticity and increases customer engagement. "
+					content="Signet Tags offers advanced Blockchain and NFC tags and labels that provide secure and reliable data tracking solutions. Our cutting-edge technology tags are ideal for anti-counterfeiting, brand protection, supply chain management, and more. Contact us to learn how our innovative tagging solutions can benefit your business."
 				/>
-				<meta name="keywords" content="signet, signet tags, signettags, brand protection software, blockchain-proven ownership" />
+				<meta
+					name="keywords"
+					content="Anti-counterfeit, Anti-counterfeiting, Track & trace, Document Security, Blockchain Technology, Brand protection solution/companies"
+				/>
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
@@ -69,7 +72,7 @@ export default function Home() {
 				<meta name="twitter:description" content="Ensure authenticity & engage customers with Signet Tags." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 				<link rel="canonical" href="https://www.signettags.com/" key="canonical" />
-				<title>Signet Tags: Blockchain-Based Brand Protection Solution</title>
+				<title>Revolutionising Authentication with NFC and Blockchain: Signet Tags - The Ultimate Anti-Counterfeiting Solution</title>
 				<link rel="preconnect" href="https://www.youtube-nocookie.com" />
 			</Head>
 

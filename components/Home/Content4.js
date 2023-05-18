@@ -45,7 +45,13 @@ function Content4() {
 								// style={{ animationDuration: '1.75s' }}
 							>
 								{/* <img className="img-fluid" src="/images/digital-experience.jpg" alt="content-image" /> */}
-								<Image className="img-fluid" src="/images/digital-experience.jpg" alt="content-image" width={600} height={999} />
+								<Image
+									className="img-fluid"
+									src="/images/digital-experience.jpg"
+									alt="Counterfeit Protection and Brand Security: Digital Hologram Seal with Blockchain Technology and NFC - Signet Tags"
+									width={600}
+									height={999}
+								/>
 							</div>
 						</div>
 						{/* TEXT BLOCK */}

@@ -38,7 +38,13 @@ function Hero() {
 						</div>
 						<div className="col-md-4 col-lg-4">
 							<div className="hero-1-img wow fadeInLeft text-center">
-								<img className="img-fluid" src="images/header-top.png" alt="hero-image" width="257" height="998" />
+								<img
+									className="img-fluid"
+									src="images/header-top.png"
+									alt="Brand Protection Shield: Countering Counterfeit with Blockchain, NFC, and Tamper-Proof Seals - Signet Tags"
+									width="257"
+									height="998"
+								/>
 								{/* <Image src="/images/header-top.png" alt="hero-image" width={257} height={998} className="img-fluid" /> */}
 							</div>
 						</div>

@@ -107,7 +107,13 @@ function CustomerEngagement() {
               </div> */}
 
 							{/* <img className="img-fluid" src="images/img-20.webp" alt="customers-image" /> */}
-							<Image className="img-fluid" src="/images/img-20.webp" alt="customers-image" width={600} height={999} />
+							<Image
+								className="img-fluid"
+								src="/images/img-20.webp"
+								alt="Enhanced Brand Protection: NFC-enabled Tamper-Proof Seal with Blockchain Technology for Countering Counterfeiting - Signet Tags"
+								width={600}
+								height={999}
+							/>
 						</div>
 					</div>
 				</div>{' '}

@@ -137,7 +137,13 @@ export default function Home() {
 									</div>{' '}
 									<div className="col-md-5 col-lg-6">
 										{/* <img className="img-fluid" src="/images/scanning-theme.png" alt="content-image" /> */}
-										<Image className="img-fluid" src="/images/scanning-theme.png" alt="content-image" width={401} height={454} />
+										<Image
+											className="img-fluid"
+											src="/images/scanning-theme.png"
+											alt="Signet Tags Scanning Theme, product authentication, transparency, scanning process"
+											width={401}
+											height={454}
+										/>
 									</div>
 								</div>
 							</div>{' '}
@@ -178,7 +184,13 @@ export default function Home() {
 											// style={{ animationDuration: '1.75s' }}
 										>
 											{/* <img className="img-fluid" src="/images/digital-experience.jpg" alt="content-image" /> */}
-											<Image className="img-fluid" src="/images/digital-experience.jpg" alt="content-image" width={600} height={999} />
+											<Image
+												className="img-fluid"
+												src="/images/digital-experience.jpg"
+												alt="Counterfeit Protection and Brand Security: Digital Hologram Seal with Blockchain Technology and NFC - Signet Tags"
+												width={600}
+												height={999}
+											/>
 										</div>
 									</div>
 									{/* TEXT BLOCK */}

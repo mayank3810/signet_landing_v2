@@ -30,7 +30,13 @@ function Content2() {
 							// style={{ animationDuration: '1.75s' }}
 						>
 							{/* <img className="img-fluid" src="/images/scanning-theme.png" alt="content-image" /> */}
-							<Image className="img-fluid" src="/images/scanning-theme.png" alt="content-image" width={401} height={487} />{' '}
+							<Image
+								className="img-fluid"
+								src="/images/scanning-theme.png"
+								alt="Signet Tags Scanning Theme, product authentication, transparency, scanning process"
+								width={401}
+								height={487}
+							/>{' '}
 						</div>
 					</div>
 					{/* TEXT BLOCK */}
@@ -45,16 +51,16 @@ function Content2() {
 							<h2 className="h2-xs">Proof of authenticity in seconds</h2>
 							{/* Text */}
 							<p className="p-lg">
-								Signet tags with direct NFC connection provides an easy and quick way to check product authenticity and integrity. Interacting with
-								the product directly grants access to its history, characteristics and sustainability certifications.
+								Use Signet Tags to ensure product authenticity and integrity, and direct NFC connection for quick and easy verification. Through
+								Direct Interaction, reveal the product's history, features, and sustainability certifications.
 							</p>
 							{/* Text */}
 							<p className="p-lg">
-								Using NFC and blockchain technology together provides a powerful tool for verifying the authenticity of physical products. It allows
-								consumers to make more informed purchasing decisions and helps to prevent counterfeit products from entering the market.
+								NFC and Blockchain Technology together bring a stable approach to physical goods authentication. Encourage informed consumer
+								decision-making and prevent the entry of counterfeit goods into the market.
 							</p>
 							<p className="p-lg">
-								Our solution is faster and safer than any solution based on QR code or image recognition. No App download required.
+								Our solution outperforms QR Code and image recognition-based alternatives in speed and security. No need to download any apps.
 							</p>
 
 							<Link href="/onboarding">
