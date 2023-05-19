@@ -53,7 +53,9 @@ function FoodAndBeverages() {
 			<PageTitle
 				image="/images/industries/food_banner.jpg"
 				title={'Ensure Authenticity of Food and Beverages'}
-				subtitle={'Protect & Engage Your Consumers with Signet Tags'}
+				subtitle={
+					'Ensure the Authenticity of Food and Beverages with Counterfeit Protection using Blockchain Technology, NFC tag, and hence protect your Brand with Signet Tags.'
+				}
 			/>
 			<div ref={containerRef}>
 				<section id="content-3" className="content-3 wide-60 content-section division">

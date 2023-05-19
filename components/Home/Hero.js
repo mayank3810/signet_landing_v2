@@ -19,7 +19,11 @@ function Hero() {
 						<div className="col-md-8 col-lg-8">
 							<div className="hero-20-txt white-color">
 								{/* Title */}
-								<h1 className="h1-md white-color">Stop counterfeits & collect insights directly from consumers</h1>
+								<h1 className="h1-md white-color">
+									Empower Your Brand with Authenticity and Consumer Insights.
+									<br />
+									<span class="h1-span">Harnessing the Power of NFC & Blockchain Technology with Signet Tags to Combat Counterfeiting.</span>
+								</h1>
 								{/* Text */}
 								<p className="p-xl">
 									Signet tags links your products with blockchain-proven ownership. The blockchain solution to ensure authenticity and increase
