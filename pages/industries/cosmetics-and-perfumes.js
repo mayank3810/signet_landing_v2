@@ -52,6 +52,7 @@ function CosmeticsAndPerfumes() {
 
 				<link rel="canonical" href="https://www.signettags.com/industries/cosmetics-and-perfumes" key="canonical" />
 				<title>Smart Packaging Solutions for Cosmetics and Perfumes</title>
+				<link rel="preconnect" href="https://www.youtube-nocookie.com" />
 			</Head>
 			<Header scroll={inContainerView} />
 			<PageTitle
@@ -118,7 +119,7 @@ function CosmeticsAndPerfumes() {
 							<div className="col">
 								<div className="content-9-img video-preview wow fadeInUp">
 									<iframe
-										style={{ borderRadius: '20px' }}
+										className="rounded-20px"
 										width="860"
 										height="515"
 										src="https://www.youtube.com/embed/9PPLoy-_Kxs"
@@ -126,6 +127,7 @@ function CosmeticsAndPerfumes() {
 										frameBorder="0"
 										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 										allowFullScreen
+										loading="lazy"
 									></iframe>
 								</div>
 							</div>

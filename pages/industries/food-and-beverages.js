@@ -20,10 +20,11 @@ function FoodAndBeverages() {
 				<meta name="language" content="English" />
 				<meta name="robots" content="index, follow" />
 
-				<meta name="title" content="Protect your Food and Beverages & Engage Your Consumers Signet Tags" />
+				<meta name="title" content="Food & Beverages Industry Solutions | Signet Tags - Secure Product Authentication" />
 				<meta
 					name="description"
-					content="Signet Tags prevents food & beverage counterfeiting using secure seals and tamper-proof tech. Get marketing insights and connect with customers."
+					content="Safeguard your food and beverages with Signet Tags' brand protection solutions. Enhance authenticity and security with tamper-proof seals, blockchain, and NFC technology
+"
 				/>
 				<meta
 					name="keywords"
@@ -47,7 +48,8 @@ function FoodAndBeverages() {
 				<meta name="twitter:description" content="Secure food, drinks with tamper-proof tech." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 				<link rel="canonical" href="https://www.signettags.com/industries/food-and-beverages" key="canonical" />
-				<title>Signet Tags - Authenticity of Food and Beverages</title>
+				<title>Food & Beverages Industry | Signet Tags - Secure Product Authentication</title>
+				<link rel="preconnect" href="https://www.youtube-nocookie.com" />
 			</Head>
 			<Header scroll={inContainerView} />
 			<PageTitle
@@ -124,7 +126,7 @@ function FoodAndBeverages() {
 							<div className="col">
 								<div className="content-9-img video-preview wow fadeInUp">
 									<iframe
-										style={{ borderRadius: '20px' }}
+										className="rounded-20px"
 										width="860"
 										height="515"
 										src="https://www.youtube.com/embed/YQUjE2koNRI"
@@ -132,6 +134,7 @@ function FoodAndBeverages() {
 										frameBorder="0"
 										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 										allowFullScreen
+										loading="lazy"
 									></iframe>
 								</div>
 							</div>

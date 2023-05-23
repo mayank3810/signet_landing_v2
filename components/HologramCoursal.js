@@ -39,7 +39,7 @@ function HologramCoursal() {
 				}}
 				className="default-div"
 			>
-				{<Image className={active ? 'img_wrap active-product' : 'img_wrap'} src={images[index]} width={60} height={60} />}
+				{<Image className={active ? 'img_wrap active-product' : 'img_wrap'} src={images[index]} width={60} height={60} alt="carousel-image" />}
 			</button>
 		);
 	};
@@ -58,7 +58,7 @@ function HologramCoursal() {
 				containerClass="text-center"
 			>
 				{images.map((img, i) => (
-					<img key={i} className="img-fluid" src={img} width="416" height="416" />
+					<img key={i} className="img-fluid" src={img} width="416" height="416" alt="carousel-image" />
 				))}
 			</Carousel>
 		</>
