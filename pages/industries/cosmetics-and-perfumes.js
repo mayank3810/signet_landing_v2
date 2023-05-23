@@ -23,14 +23,18 @@ function CosmeticsAndPerfumes() {
 				<meta name="language" content="English" />
 				<meta name="robots" content="index, follow" />
 
-				<meta name="title" content="Signet Tags - NFC Tag Authentication for Shoes and Footwear" />
+				<meta
+					name="title"
+					content="Cosmetics & Perfumes: Brand Protection Solutions | Signet Tags
+"
+				/>
 				<meta
 					name="description"
-					content="Signet Tags secures cosmetics and perfumes with NFC tag authentication, preventing counterfeiting and enabling easy product tracking and verification."
+					content="NFC tag Tamper seals helps you to secure cosmetics & perfume products for brand protection. Safeguard your brand, build trust, track products & smart packaging."
 				/>
 				<meta
 					name="keywords"
-					content="NFC tags,Anti-counterfeiting,Brand protection,Cosmetics industry,Smart packaging,Marketing insights,Customer engagement,Tamper-proof,Product authentication,Fraud prevention"
+					content="Anti-counterfeit, Anti-counterfeiting, Track & trace, Document Security, Blockchain Technology, Brand protection solution/companies"
 				/>
 
 				{/* <!-- Open Graph / Facebook --> */}
@@ -51,14 +55,16 @@ function CosmeticsAndPerfumes() {
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 
 				<link rel="canonical" href="https://www.signettags.com/industries/cosmetics-and-perfumes" key="canonical" />
-				<title>Smart Packaging Solutions for Cosmetics and Perfumes</title>
+				<title>Cosmetics & Perfumes: Brand Protection Solutions | Signet Tags</title>
 				<link rel="preconnect" href="https://www.youtube-nocookie.com" />
 			</Head>
 			<Header scroll={inContainerView} />
 			<PageTitle
 				image="/images/industries/cosmetics_banner.jpg"
 				title={'Secure Your Cosmetics and Perfumes with Smart Packaging'}
-				subtitle={'Engage your consumers with fun, informative, smart packaging that also protects your brand'}
+				subtitle={
+					'Protect your cosmetics and perfumes from counterfeiting using smart packaging infused with blockchain technology, NFC tag, and enable easy product tracking and verification with Signet Tags. Ensure utmost security and anti-counterfeiting with Signet Tags.'
+				}
 			/>
 			<div ref={containerRef}>
 				<section id="content-3" className="bg-whitesmoke content-3 wide-60 content-section division">

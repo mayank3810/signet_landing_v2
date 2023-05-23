@@ -162,7 +162,11 @@ function Pharmaceuticals() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										{/* Image */}
-										<img className="img-fluid rounded" src="/images/pharma/pharma-authenticity-banner.jpg" alt="feature-icon" />
+										<img
+											className="img-fluid rounded"
+											src="/images/pharma/pharma-authenticity-banner.jpg"
+											alt="Cannabis Brand Protection: Counterfeit Prevention, Blockchain Technology, NFC Verification, Brand Authentication, Anti-Counterfeiting Measures."
+										/>
 										{/* Title */}
 										<h3 className="h3-font mt-4">Anti-counterfeiting</h3>
 										{/* Text */}

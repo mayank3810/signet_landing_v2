@@ -84,7 +84,7 @@ function Blog(props) {
 													<img
 														// className="img-fluid"
 														src={'https://cloud.squidex.io/api/assets/signetblog/' + post?.data?.image?.iv[0]}
-														alt="blog-post-image"
+														alt={post?.data?.MainImgAltText?.iv}
 														width="100%"
 													/>
 												)}

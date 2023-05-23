@@ -9,7 +9,7 @@ function BlogDetail(props) {
 	const post = props.items[0];
 	// console.log({ post });
 	useEffect(() => {
-		// console.log(props.items);
+		console.log(props.items);
 	}, []);
 
 	const getParsedDate = (strDate) => {
@@ -77,7 +77,7 @@ function BlogDetail(props) {
 											<img
 												className="img-fluid"
 												src={'https://cloud.squidex.io/api/assets/signetblog/' + post?.data?.image?.iv[0]}
-												alt="blog-post-image"
+												alt={post?.data?.MainImgAltText?.iv}
 											/>
 										)}
 									</div>

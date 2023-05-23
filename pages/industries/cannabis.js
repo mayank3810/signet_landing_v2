@@ -22,14 +22,17 @@ function Cannabis() {
 				<meta name="language" content="English" />
 				<meta name="robots" content="index, follow" />
 
-				<meta name="title" content="Signet Tags - NFC Tag Authentication for Cannabis" />
+				<meta
+					name="title"
+					content="Secure Cannabis Products with Blockchain Technology | Signet Tags: Protecting from Counterfeit and Ensuring Brand Protection"
+				/>
 				<meta
 					name="description"
-					content="Signet Tags secures cannabis using NFC tag authentication. Prevent counterfeiting and track product history with ease."
+					content="Ensure the authenticity and traceability of cannabis products with Signet Tags. Leverage blockchain technology, NFC, and anti-counterfeiting measures for robust brand protection and consumer trust."
 				/>
 				<meta
 					name="keywords"
-					content="NFC tags,Anti-counterfeiting,Brand protection,Cosmetics industry,Smart packaging,Marketing insights,Customer engagement,Tamper-proof,Product authentication,Fraud prevention"
+					content="Anti-counterfeit, Anti-counterfeiting, Track & trace, Document Security, Blockchain Technology, Brand protection solution/companies"
 				/>
 
 				{/* <!-- Open Graph / Facebook --> */}
@@ -50,7 +53,7 @@ function Cannabis() {
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 
 				<link rel="canonical" href="https://www.signettags.com/industries/cannabis" key="canonical" />
-				<title>Signet Tags - NFC Tag Authentication for Cannabis</title>
+				<title>Secure Cannabis Tracking with Blockchain Technology & NFC Tag | Signet Tags</title>
 			</Head>
 			<Header scroll={inContainerView} />
 			<PageTitle
@@ -67,7 +70,11 @@ function Cannabis() {
 								{/* IMAGE BLOCK */}
 								<div className="col-md-5 col-lg-6">
 									<div className="img-block left-column wow fadeInRight">
-										<img className="img-fluid" src="/images/pharma/cannabis.jpg" alt="content-image" />
+										<img
+											className="img-fluid"
+											src="/images/pharma/cannabis.jpg"
+											alt="Secure Cannabis Products with Signet Tags: Counterfeit Protection, Blockchain Technology, NFC Verification, Brand Authentication, Anti-Counterfeiting Measures."
+										/>
 									</div>
 								</div>
 								{/* TEXT BLOCK */}
@@ -226,7 +233,11 @@ function Cannabis() {
 							{/* IMAGE BLOCK */}
 							<div className="col-md-5 col-lg-6 order-first order-md-2">
 								<div className="rel img-block right-column wow fadeInLeft">
-									<img className="img-fluid" src="/images/pharma/cannabis-mobile-app.jpg" alt="content-image" />
+									<img
+										className="img-fluid"
+										src="/images/pharma/cannabis-mobile-app.jpg"
+										alt="Cannabis Mobile App: Product Verification, NFC Technology, Authenticity Check, Counterfeit Prevention, Brand Protection"
+									/>
 								</div>
 							</div>
 						</div>

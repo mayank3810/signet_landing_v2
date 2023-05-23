@@ -23,12 +23,11 @@ function FoodAndBeverages() {
 				<meta name="title" content="Food & Beverages Industry Solutions | Signet Tags - Secure Product Authentication" />
 				<meta
 					name="description"
-					content="Safeguard your food and beverages with Signet Tags' brand protection solutions. Enhance authenticity and security with tamper-proof seals, blockchain, and NFC technology
-"
+					content="Safeguard your food and beverages with Signet Tags' brand protection solutions. Enhance authenticity and security with tamper-proof seals, blockchain, and NFC technology"
 				/>
 				<meta
 					name="keywords"
-					content="Signet Tags, food and beverages, authenticity solution, counterfeit protection, marketing insights, tamper-proof technology, product traceability, promotions, loyalty programs, fraudulent refilling."
+					content="Anti-counterfeit, Anti-counterfeiting, Track & trace, Document Security, Blockchain Technology, Brand protection solution/companies"
 				/>
 
 				{/* <!-- Open Graph / Facebook --> */}
