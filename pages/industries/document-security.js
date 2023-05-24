@@ -20,14 +20,14 @@ function DocumentSecurity() {
 				<meta name="language" content="English" />
 				<meta name="robots" content="index, follow" />
 
-				<meta name="title" content="Protect Your Certificates and Documents with Signet Tags" />
+				<meta name="title" content=" Secure Documents with Blockchain Technology and Anti-Counterfeiting Measures | Signet Tags" />
 				<meta
 					name="description"
-					content="Signet Tags affordable document security uses tech for tamper-proof certificates, analytics, and fraud detection. Protect your brand and engage customers."
+					content=" Protect sensitive documents from counterfeiting and unauthorized access with Signet Tags' advanced solutions. Our blockchain and NFC technologies ensure secure verification, preventing tampering and enhancing document authenticity. Safeguard your information and maintain confidentiality with our cutting-edge document security solutions. Explore our range of secure and customizable tags for comprehensive protection and peace of mind."
 				/>
 				<meta
 					name="keywords"
-					content="Document security,Tamper-proof certificates,Certificate authentication,Blockchain technology,Smart NFC embedding,Fraud prevention,Digital credentials,Analytics,Brand protection,Counterfeit detection,Supply chain monitoring,Tag tamper detection,Sensitive documents,Legal documents,Official documents,Certificates"
+					content="Anti-counterfeit, Anti-counterfeiting, Track & trace, Document Security, Blockchain Technology, Brand protection solution/companies"
 				/>
 
 				{/* <!-- Open Graph / Facebook --> */}
@@ -48,7 +48,7 @@ function DocumentSecurity() {
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 
 				<link rel="canonical" href="https://www.signettags.com/industries/document-security" key="canonical" />
-				<title>Signet Tags - Document Security Solutions</title>
+				<title>Document Security Solutions using Blockchain Technology & NFC Tag| Signet Tags</title>
 			</Head>
 			<Header scroll={inContainerView} />
 			<PageTitle
@@ -65,7 +65,11 @@ function DocumentSecurity() {
 								{/* IMAGE BLOCK */}
 								<div className="col-md-5 col-lg-6">
 									<div className="img-block left-column wow fadeInRight">
-										<img className="img-fluid" src="/images/document/document-security.jpg" alt="content-image" />
+										<img
+											className="img-fluid"
+											src="/images/document/document-security.jpg"
+											alt="document-security-solution, anti-counterfeiting document tags, blockchain technology for document protection, NFC-enabled document security, secure document verification"
+										/>
 									</div>
 								</div>
 								{/* TEXT BLOCK */}
@@ -153,7 +157,11 @@ function DocumentSecurity() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										{/* Image */}
-										<img className="img-fluid rounded" src="/images/document/tamper-proof.jpg" alt="feature-icon" />
+										<img
+											className="img-fluid rounded"
+											src="/images/document/tamper-proof.jpg"
+											alt="tamper-proof document seals, anti-counterfeiting technology, secure document protection, blockchain-enabled document security, NFC-based document authentication"
+										/>
 										{/* Title */}
 										<h5 className="h5-md mt-4 ">Issue Tamper-Proof Certificates</h5>
 										{/* Text */}
@@ -167,7 +175,7 @@ function DocumentSecurity() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										{/* Image */}
-										<img className="img-fluid rounded" src="/images/industries/marketing.jpg" alt="signet-tags-marketing-industry-image" />
+										<img className="img-fluid rounded" src="/images/industries/marketing.jpg" alt="signet-tags-Tracking-Trace-image" />
 										{/* Title */}
 										<h5 className="h5-md mt-4">Skills in Demand Analytics</h5>
 										{/* Text */}
@@ -180,7 +188,11 @@ function DocumentSecurity() {
 								{/* FEATURE BOX #3 */}
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
-										<img className="img-fluid rounded" src="/images/document/integration.jpg" alt="feature-icon" />
+										<img
+											className="img-fluid rounded"
+											src="/images/document/integration.jpg"
+											alt="document integration, seamless document management, connected document solutions, integrated document systems, streamlined document processes"
+										/>
 										<h5 className="h5-md mt-4 ">API Integration with platforms</h5>
 										{/* Text */}
 										<p className="p-lg">
@@ -234,7 +246,11 @@ function DocumentSecurity() {
 							{/* IMAGE BLOCK */}
 							<div className="col-md-5 col-lg-6 order-first order-md-2">
 								<div className="rel img-block right-column wow fadeInLeft">
-									<img className="img-fluid rounded" src="/images/document/safeguard-using-nfc.jpg" alt="content-image" />
+									<img
+										className="img-fluid rounded"
+										src="/images/document/safeguard-using-nfc.jpg"
+										alt="NFC-enabled document security, secure document protection, safeguarding documents with NFC technology, NFC-powered document security, enhanced document security with NFC"
+									/>
 								</div>
 							</div>
 						</div>

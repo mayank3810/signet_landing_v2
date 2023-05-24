@@ -19,14 +19,14 @@ function AutoParts() {
 				<meta name="language" content="English" />
 				<meta name="robots" content="index, follow" />
 
-				<meta name="title" content="Secure Your Auto Parts Against Fraud with Signet Tags" />
+				<meta name="title" content="Secure Auto Parts Brands: Counterfeit Protection & Brand Safety | Signet Tags" />
 				<meta
 					name="description"
-					content="Signet Tags' tamper-proof packaging for auto parts stops counterfeiting. Our patented NFC tech provides instant authentication."
+					content="Protect your auto parts from counterfeiting and ensure brand integrity with Signet Tags. Our advanced solutions leverage blockchain technology, NFC, and robust brand protection measures to combat counterfeiting and guarantee authenticity. Safeguard your customers and establish trust in your brand with our comprehensive anti-counterfeiting solutions for auto parts."
 				/>
 				<meta
 					name="keywords"
-					content="auto parts, counterfeit, tamper protection, anti-counterfeit, NFC technology, authentication, brand protection, marketing insights, tamper-proof packaging"
+					content="Anti-counterfeit, Anti-counterfeiting, Track & trace, Document Security, Blockchain Technology, Brand protection solution/companies"
 				/>
 
 				{/* <!-- Open Graph / Facebook --> */}
@@ -47,7 +47,7 @@ function AutoParts() {
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 
 				<link rel="canonical" href="https://www.signettags.com/industries/auto-parts" key="canonical" />
-				<title>Signet Tags - Anti-Counterfeit Protection for Auto Parts</title>
+				<title>Secure Auto Parts Brands with Counterfeit Protection: Blockchain, NFC, Brand Protection, Anti-Counterfeiting | Signet Tags</title>
 			</Head>
 			<Header scroll={inContainerView} />
 			<PageTitle
@@ -157,7 +157,7 @@ function AutoParts() {
 										<img
 											className="img-fluid rounded"
 											src="/images/automotive/brand-protection.jpg"
-											alt="signet-tags-brand-protection-industry-image"
+											alt="automotive brand protection, anti-counterfeiting, blockchain technology, NFC, secure auto parts, counterfeit prevention"
 										/>
 										{/* Title */}
 										<h3 className="h3-font mt-4 ">Brand Protection</h3>
@@ -169,7 +169,11 @@ function AutoParts() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										{/* Image */}
-										<img className="img-fluid rounded" src="/images/automotive/marketing-insights.jpg" alt="feature-icon" />
+										<img
+											className="img-fluid rounded"
+											src="/images/automotive/marketing-insights.jpg"
+											alt="automotive marketing insights, industry trends, data analysis, marketing strategies, market research"
+										/>
 										{/* Title */}
 										<h3 className="h3-font mt-4">Marketing Insights</h3>
 										{/* Text */}
@@ -179,7 +183,11 @@ function AutoParts() {
 								{/* FEATURE BOX #3 */}
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
-										<img className="img-fluid rounded" src="/images/automotive/customer-review.jpg" alt="feature-icon" />
+										<img
+											className="img-fluid rounded"
+											src="/images/automotive/customer-review.jpg"
+											alt="automotive customer review, feedback, ratings, testimonials, user experience"
+										/>
 										<h3 className="h3-font mt-4 ">Connect directly</h3>
 										{/* Text */}
 										<p className="p-lg">
@@ -235,7 +243,11 @@ function AutoParts() {
 							{/* IMAGE BLOCK */}
 							<div className="col-md-5 col-lg-6 order-first order-md-2">
 								<div className="rel img-block right-column wow fadeInLeft">
-									<img className="img-fluid rounded" src="/images/automotive/smart-packaging.jpg" alt="content-image" />
+									<img
+										className="img-fluid rounded"
+										src="/images/automotive/smart-packaging.jpg"
+										alt="automotive smart packaging, advanced packaging solutions, technology-enabled packaging, secure packaging, innovative packaging"
+									/>
 								</div>
 							</div>
 						</div>
@@ -291,7 +303,11 @@ function AutoParts() {
 											animationName: 'fadeInLeft',
 										}}
 									>
-										<img className="img-fluid rounded" src="/images/customers/reward-your-customers.jpg" alt="content-image" />
+										<img
+											className="img-fluid rounded"
+											src="/images/customers/reward-your-customers.jpg"
+											alt="customer rewards program, customer loyalty rewards, reward program benefits, customer appreciation rewards, customer incentive program"
+										/>
 									</div>
 								</div>
 							</div>

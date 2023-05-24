@@ -22,14 +22,14 @@ function Pharmaceuticals() {
 				<meta name="robots" content="index, follow" />
 				<meta name="language" content="English" />
 
-				<meta name="title" content="Anti-Counterfeit & Traceability Solutions for Pharmaceuticals with Signet Tags" />
+				<meta name="title" content=" Pharmaceutical Counterfeit Prevention: Blockchain Technology, NFC, Brand Protection | Signet Tags" />
 				<meta
 					name="description"
-					content="Signet Tags provides anti-counterfeit solutions for pharmaceuticals. Secure NFC tags with unique IDs for instant verification, tracking & fraud prevention."
+					content="Protect pharmaceuticals industry with advanced measures against counterfeit. Signet Tags utilizes blockchain & NFC tags for brand protection as technologies to ensure authenticity and combat counterfeiting. Trust our solutions for robust anti-counterfeiting protection."
 				/>
 				<meta
 					name="keywords"
-					content="Signet Tags, secure NFC tags, anti-counterfeit solutions, pharmaceuticals, product traceability, tamper-evident packaging, product authenticity, supply chain tracking, patient engagement, brand protection, fraud detection."
+					content="Anti-counterfeit, Anti-counterfeiting, Track & trace, Document Security, Blockchain Technology, Brand protection solution/companies"
 				/>
 
 				{/* <!-- Open Graph / Facebook --> */}
@@ -50,7 +50,7 @@ function Pharmaceuticals() {
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 
 				<link rel="canonical" href="https://www.signettags.com/industries/pharmaceuticals" key="canonical" />
-				<title>Signet Tags - Secure NFC Tag Solutions for Pharmaceuticals</title>
+				<title>Pharmaceutical Brand Protection: Secure Counterfeit Prevention | Signet Tags</title>
 			</Head>
 			<Header scroll={inContainerView} />
 			<PageTitle
@@ -67,7 +67,7 @@ function Pharmaceuticals() {
 								{/* IMAGE BLOCK */}
 								<div className="col-md-5 col-lg-6">
 									<div className="img-block left-column wow fadeInRight">
-										<img className="img-fluid" src="/images/pharma/pharma-authenticity.jpg" alt="content-image" />
+										<img className="img-fluid" src="/images/pharma/pharma-authenticity.jpg" alt="Pharma-authenticity, Brand protection solution" />
 									</div>
 								</div>
 								{/* TEXT BLOCK */}
@@ -162,11 +162,7 @@ function Pharmaceuticals() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										{/* Image */}
-										<img
-											className="img-fluid rounded"
-											src="/images/pharma/pharma-authenticity-banner.jpg"
-											alt="Cannabis Brand Protection: Counterfeit Prevention, Blockchain Technology, NFC Verification, Brand Authentication, Anti-Counterfeiting Measures."
-										/>
+										<img className="img-fluid rounded" src="/images/pharma/pharma-authenticity-banner.jpg" alt="pharma-authenticity-banner" />
 										{/* Title */}
 										<h3 className="h3-font mt-4">Anti-counterfeiting</h3>
 										{/* Text */}
@@ -179,7 +175,7 @@ function Pharmaceuticals() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										{/* Image */}
-										<img className="img-fluid rounded" src="/images/industries/marketing.jpg" alt="signet-tags-marketing-industry-image" />
+										<img className="img-fluid rounded" src="/images/industries/marketing.jpg" alt="signet-tags-Tracking-Trace-image" />
 										{/* Title */}
 										<h3 className="h3-font mt-4">Tracking</h3>
 										{/* Text */}
@@ -248,7 +244,7 @@ function Pharmaceuticals() {
 							{/* IMAGE BLOCK */}
 							<div className="col-md-5 col-lg-6 order-first order-md-2">
 								<div className="rel img-block right-column wow fadeInLeft">
-									<img className="img-fluid" src="/images/pharma/pharma-added-value.jpg" alt="content-image" />
+									<img className="img-fluid" src="/images/pharma/pharma-added-value.jpg" alt="Pharmaceutical Brand Protection" />
 								</div>
 							</div>
 						</div>

@@ -22,14 +22,14 @@ function Agriculture() {
 				<meta name="language" content="English" />
 				<meta name="robots" content="index, follow" />
 
-				<meta name="title" content="Traceability Solution for Agriculture Industry with Signet Tags" />
+				<meta name="title" content="Protect Your Agriculture: Counterfeit Protection, Blockchain Technology, NFC Tag | Signet Tags" />
 				<meta
 					name="description"
-					content="Signet Tags tracks and authenticates agrochemicals using NFC tags and blockchain. Farmers get instant product info via our app. Protect your brand with us."
+					content="Secure your agricultural products from counterfeiting using Signet Tags' innovative solutions. Leveraging blockchain technology, NFC, and advanced brand protection measures, we ensure authenticity, traceability, and anti-counterfeiting in the agriculture industry. Build trust with your customers and protect your brand."
 				/>
 				<meta
 					name="keywords"
-					content="agriculture industry, traceability solution, NFC tag, blockchain technology, product integrity, product authenticity, brand protection, marketing insights, counterfeit products, tamper detection"
+					content=" Anti-counterfeit, Anti-counterfeiting, Track & trace, Document Security, Blockchain Technology, Brand protection solution/companies"
 				/>
 
 				{/* <!-- Open Graph / Facebook --> */}
@@ -50,7 +50,7 @@ function Agriculture() {
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 
 				<link rel="canonical" href="https://www.signettags.com/industries/agriculture" key="canonical" />
-				<title>Signet Tags - Traceability Solution for Agriculture Industry</title>
+				<title> Counterfeit Prevention, Blockchain, NFC, and Brand Protection for Agriculture | Signet Tags</title>
 			</Head>
 			<Header scroll={inContainerView} />
 			<PageTitle
@@ -155,7 +155,11 @@ function Agriculture() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										{/* Image */}
-										<img className="img-fluid rounded" src="/images/agriculture-protection.jpg" alt="feature-icon" />
+										<img
+											className="img-fluid rounded"
+											src="/images/agriculture-protection.jpg"
+											alt="Agriculture Protection: Counterfeit Prevention, Blockchain Technology, NFC, Brand Protection, Anti-Counterfeiting"
+										/>
 										{/* Title */}
 										<h5 className="h5-md mt-4 ">Brand Protection</h5>
 										{/* Text */}
@@ -166,7 +170,7 @@ function Agriculture() {
 								<div className="col">
 									<div className="fbox-8 mb-40 wow fadeInUp">
 										{/* Image */}
-										<img className="img-fluid rounded" src="/images/industries/marketing.jpg" alt="signet-tags-marketing-industry-image" />
+										<img className="img-fluid rounded" src="/images/industries/marketing.jpg" alt="signet-tags-Tracking-Trace-image" />
 										{/* Title */}
 										<h5 className="h5-md mt-4">Marketing Insights</h5>
 										{/* Text */}

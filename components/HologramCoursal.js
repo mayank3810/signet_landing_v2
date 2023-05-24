@@ -4,7 +4,24 @@ import ReactImageMagnify from 'react-magnify-image';
 import 'react-multi-carousel/lib/styles.css';
 import Image from 'next/image';
 
-const images = ['/images/hologram/3.webp', '/images/hologram/2.webp', '/images/hologram/4.jpg', '/images/hologram/5.webp'];
+const images = [
+	{
+		img: '/images/hologram/3.webp',
+		altText: 'Empowering Your Brand with NFC and QR Code-Enabled Hologram Seals',
+	},
+	{
+		img: '/images/hologram/2.webp',
+		altText: 'Secure Hologram Seal: Advanced Protection with NFC and QR Code Technology - Signet Tags',
+	},
+	{
+		img: '/images/hologram/4.jpg',
+		altText: 'Hologram Seal: Optimal Security Solution for Brand Protection - Signet Tags',
+	},
+	{
+		img: '/images/hologram/5.webp',
+		altText: 'Hologram Seal: Ensuring Brand Protection with Cutting-Edge Security - Signet Tags',
+	},
+];
 
 function HologramCoursal() {
 	// const [img, setImg] = useState();
@@ -39,7 +56,15 @@ function HologramCoursal() {
 				}}
 				className="default-div"
 			>
-				{<Image className={active ? 'img_wrap active-product' : 'img_wrap'} src={images[index]} width={60} height={60} alt="carousel-image" />}
+				{
+					<Image
+						className={active ? 'img_wrap active-product' : 'img_wrap'}
+						src={images[index].img}
+						width={60}
+						height={60}
+						alt={images[index].altText}
+					/>
+				}
 			</button>
 		);
 	};
@@ -58,7 +83,7 @@ function HologramCoursal() {
 				containerClass="text-center"
 			>
 				{images.map((img, i) => (
-					<img key={i} className="img-fluid" src={img} width="416" height="416" alt="carousel-image" />
+					<img key={i} className="img-fluid" src={img.img} width="416" height="416" alt={img.altText} />
 				))}
 			</Carousel>
 		</>

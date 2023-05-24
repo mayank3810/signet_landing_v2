@@ -14,14 +14,18 @@ function Technology() {
 				<meta name="language" content="English" />
 				<meta name="robots" content="index, follow" />
 
-				<meta name="title" content="Authenticity Guaranteed - Secure Product Verification with Signet Tags" />
+				<meta
+					name="title"
+					content="Secure Your Products with Signet Tags: Counterfeit Prevention, Blockchain Technology, NFC, Brand Protection
+"
+				/>
 				<meta
 					name="description"
-					content="Signet Tags use NFC, NFTs, and blockchain to verify products and prevent counterfeiting. Get business intelligence and protect your physical products."
+					content="Discover how Signet Tags utilise cutting-edge technology like blockchain and NFC to safeguard your products against counterfeiting. Enhance brand protection, safeguard against counterfeits, and ensure product authenticity with our state-of-the-art technology. Discover the future of product security and authentication."
 				/>
 				<meta
 					name="keywords"
-					content="Signet Tags, NFC tags, NFTs, blockchain, product authentication, product verification, secure, unclonable, meta verse, business intelligence, IoT, peer-to-peer interaction, transparent, immutable."
+					content="Anti-counterfeit, Anti-counterfeiting, Track & trace, Document Security, Blockchain Technology, Brand protection solution/companies"
 				/>
 
 				{/* <!-- Open Graph / Facebook --> */}
@@ -42,7 +46,7 @@ function Technology() {
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 
 				<link rel="canonical" href="https://www.signettags.com/technology" key="canonical" />
-				<title>Signet Tags - Technology for Authentic Product Verification</title>
+				<title>Protect Your Products with Signet Tags: Counterfeit Prevention, Blockchain, NFC, Brand Protection</title>
 				<link rel="preconnect" href="https://www.youtube-nocookie.com" />
 			</Head>
 			<Header scroll={true} />
@@ -69,15 +73,27 @@ function Technology() {
 							<div className="about-2-images">
 								<div className="row row-cols-1 row-cols-md-2">
 									<div className="col col-md-4">
-										<img className="img-fluid" src="images/security.jpg" alt="about-image" width="416" height="386" />
+										<img className="img-fluid" src="images/security.jpg" alt="Security technology for brand protection" width="416" height="386" />
 									</div>
 
 									<div className="col col-md-4">
-										<img className="img-fluid" src="images/nfc-technology.jpg" alt="about-image" width="416" height="386" />
+										<img
+											className="img-fluid"
+											src="images/nfc-technology.jpg"
+											alt="NFC technology for secure product verification"
+											width="416"
+											height="386"
+										/>
 									</div>
 
 									<div className="col col-md-4">
-										<img className="img-fluid" src="images/blockchain.jpg" alt="about-image" width="416" height="386" />
+										<img
+											className="img-fluid"
+											src="images/blockchain.jpg"
+											alt="Blockchain technology for trusted product authentication"
+											width="416"
+											height="386"
+										/>
 									</div>
 								</div>{' '}
 								{/* End row */}
@@ -277,7 +293,13 @@ function Technology() {
 								{/* IMAGE BLOCK */}
 								<div className="col-md-5 col-lg-6 order-first order-md-2">
 									<div className="img-block left-column wow fadeInLeft">
-										<Image className="img-fluid rounded" src="/images/nfc-technology-banner.jpg" alt="content-image" width={600} height={413} />
+										<Image
+											className="img-fluid rounded"
+											src="/images/nfc-technology-banner.jpg"
+											alt="NFC technology banner for secure product authentication"
+											width={600}
+											height={413}
+										/>
 									</div>
 								</div>
 							</div>
@@ -289,7 +311,13 @@ function Technology() {
 								{/* IMAGE BLOCK */}
 								<div className="col-md-5 col-lg-6">
 									<div className="img-block left-column wow fadeInRight">
-										<Image className="img-fluid rounded" src="/images/blockchain-security.jpg" alt="video-preview" width={611} height={451} />
+										<Image
+											className="img-fluid rounded"
+											src="/images/blockchain-security.jpg"
+											alt="Blockchain security for product authentication"
+											width={611}
+											height={451}
+										/>
 									</div>
 								</div>
 								{/* TEXT BLOCK */}
@@ -349,8 +377,8 @@ function Technology() {
 								</div>
 							</div>
 						</div>
-					</div>{' '}
-				</section>{' '}
+					</div>
+				</section>
 				<CallToAction />
 			</>
 		</>
