@@ -2,14 +2,11 @@ import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import { generateAccessToken } from '@/squidex';
 import Head from 'next/head';
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect } from 'react';
 
 function Blog(props) {
-	useEffect(() => {
-		// console.log(props.items);
-	}, []);
-
 	const getParsedDate = (strDate) => {
 		var strSplitDate = String(strDate).split(' ');
 		var date = new Date(strSplitDate[0]);
