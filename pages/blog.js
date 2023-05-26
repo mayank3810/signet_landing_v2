@@ -75,14 +75,14 @@ function Blog(props) {
 					<div className="posts-wrapper">
 						<div className="row">
 							{props?.items.map((post) => (
-								<div key={post.id} className="col-4">
+								<div key={post.id} className="col-lg-4 col-md-6 col-sm-12">
 									{/* BLOG POST IMAGE */}
 									<div className="blog-post-img">
 										<div className="hover-overlay">
 											<Link href={'/blog/' + post?.data?.slug.iv}>
 												{post?.data?.image?.iv && (
 													<img
-														// className="img-fluid"
+														className="same-height-image"
 														src={'https://cloud.squidex.io/api/assets/signetblog/' + post?.data?.image?.iv[0]}
 														alt={post?.data?.MainImgAltText?.iv}
 														width="100%"
