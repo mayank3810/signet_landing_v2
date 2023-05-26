@@ -39,7 +39,7 @@ export default function Home() {
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
-				<meta property="og:url" content="https://www.signettags.com/" />
+				<meta property="og:url" content="https://www.signettags.com/tamper-proof-seal" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Brand protection and authenticity with Signet Tags " />
 				<meta property="og:description" content="Ensure authenticity & engage customers with Signet Tags." />
@@ -49,12 +49,12 @@ export default function Home() {
 				{/* <!-- Twitter --> */}
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta name="twitter:url" content="https://www.signettags.com/" />
+				<meta name="twitter:url" content="https://www.signettags.com/tamper-proof-seal" />
 				<meta name="twitter:title" content="Brand protection and authenticity with Signet Tags " />
 				<meta name="twitter:description" content="Ensure authenticity & engage customers with Signet Tags." />
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 
-				<link rel="canonical" href="https://www.signettags.com/" key="canonical" />
+				<link rel="canonical" href="https://www.signettags.com/tamper-proof-seal" key="canonical" />
 				<title>Tamper-Proof Seals for Security and Protection | Signet Tags</title>
 				<link rel="preconnect" href="https://www.youtube-nocookie.com" />
 			</Head>
