@@ -175,7 +175,7 @@ function Form1({ setStage, setOrganizationId }) {
 				<div className="col-md-12 form-btn text-right">
 					{apiResp && <span className={apiResp.includes('error') ? 'orange-red-color' : 'green-color'}>{apiResp}</span>}
 					<button onClick={createOrganization} className="btn btn-outline btn-yellow tra-yellow-hover submit">
-						{loading ? 'Submitting' : 'Start 30 Day Free Trial'}
+						{loading ? 'Submitting' : 'Start Free Trial'}
 					</button>
 				</div>
 			</div>

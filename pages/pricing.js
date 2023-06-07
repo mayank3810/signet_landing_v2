@@ -70,19 +70,25 @@ function Pricing() {
 											{/* Plan Title */}
 											<div className="pricing-plan-title">
 												<h5 className="h5-xs">Basic</h5>
-												<h6 className="h6-sm bg-lightgrey">Save 10%</h6>
+												<h6 className="h6-sm bg-lightgrey">Forever Free</h6>
 											</div>
 											{/* Price */}
-											<sup className="dark-color">$</sup>
-											<span className="dark-color">1.99</span>
-											<sup className="validity dark-color">per tag</sup>
-											<p className="p-md">Min: 1000 pieces</p>
+											<sup className="dark-color"></sup>
+											<span className="dark-color">Free</span>
+											<sup className="validity dark-color"></sup>
+											<p className="p-md">Free upto 1000 tag scans</p>
 										</div>
 										{/* Plan Features  */}
 										<ul className="features">
 											<li>
 												<p className="p-md">
 													<span>Basic</span> Features
+												</p>
+											</li>
+
+											<li>
+												<p className="p-md">
+													<span>Static</span> QR code Tags
 												</p>
 											</li>
 											<li>
@@ -95,16 +101,12 @@ function Pricing() {
 													<span>1 year</span> Tag Validity
 												</p>
 											</li>
-											<li>
-												<p className="p-md">
-													<span>Basic</span> Support
-												</p>
-											</li>
+
 										</ul>
 										{/* Pricing Plan Button */}
 										<Link href={'/onboarding'}>
 											<button onClick={() => setPlan('Basic')} className="btn btn-sm btn-tra-grey tra-yellow-hover">
-												30 Day Free Trial
+												Start Free Trial
 											</button>
 										</Link>
 									</div>
@@ -152,7 +154,7 @@ function Pricing() {
 										{/* Pricing Plan Button */}
 										<Link href={'/onboarding'}>
 											<button onClick={() => setPlan('Advanced')} className="btn btn-sm btn-tra-grey tra-yellow-hover">
-												30 Day Free Trial
+												Start Free Trial
 											</button>
 										</Link>
 									</div>
@@ -208,7 +210,7 @@ function Pricing() {
 
 										<Link href={'/onboarding'}>
 											<button onClick={() => setPlan('Enterprise')} className="btn btn-sm btn-yellow tra-yellow-hover">
-												30 Day Free Trial
+												Start Free Trial
 											</button>
 										</Link>
 									</div>

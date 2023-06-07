@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import EnquiryForm from "../Onboarding/EnquiryForm";
 import HologramCoursal from "@/components/HologramCoursal";
+import Link from 'next/link';
 
 function HologramQuote({ open, setOpen }) {
   // const [containerRef, inContainerView] = useInView({ threshold: 0.1 });
@@ -194,14 +195,9 @@ function HologramQuote({ open, setOpen }) {
                     </li>
                   </ul>
 
-                  {/* <Link href="#"> */}
-                  <div
-                    onClick={() => setOpen(true)}
-                    className="btn btn-yellow tra-yellow-hover request-quote-feature color-white mt-15 mb-15"
-                  >
-                    Get Free Samples
-                  </div>
-                  {/* </Link> */}
+                  <Link href="/onboarding">
+                    <div className="btn btn-yellow tra-yellow-hover color-white mr-15">Try Signet Tags for Free</div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -216,12 +212,11 @@ function HologramQuote({ open, setOpen }) {
 
       {!open && (
         <div className="request-quote-footer">
-          <button
-            onClick={() => setOpen(true)}
-            className="btn btn-success btn-lg btn-block"
-          >
-            Get Free Samples
-          </button>
+          <Link href="/onboarding">
+            <button className="btn btn-success btn-lg btn-block">
+              Try Signet Tags for Free
+            </button>
+          </Link>
         </div>
       )}
     </>

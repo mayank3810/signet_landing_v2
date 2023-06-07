@@ -134,9 +134,9 @@ export default function Home() {
 												</div>
 											</div>
 										</div>
-										<div onClick={() => setOpen(true)} className="btn btn-yellow tra-yellow-hover color-white mr-15">
-											Get Free Samples
-										</div>
+										<Link href="/onboarding">
+											<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Try Signet Tags for Free</div>
+										</Link>
 									</div>{' '}
 									<div className="col-md-5 col-lg-6">
 										{/* <img className="img-fluid" src="/images/scanning-theme.png" alt="content-image" /> */}
@@ -181,10 +181,9 @@ export default function Home() {
 									{/* IMAGE BLOCK */}
 									<div className="col-md-5 col-lg-6">
 										<div
-											className={`duration-1.75 ${
-												init ? 'rel img-block left-column animate__animated animate__slideInUp' : 'rel img-block left-column animate__animated'
-											}`}
-											// style={{ animationDuration: '1.75s' }}
+											className={`duration-1.75 ${init ? 'rel img-block left-column animate__animated animate__slideInUp' : 'rel img-block left-column animate__animated'
+												}`}
+										// style={{ animationDuration: '1.75s' }}
 										>
 											{/* <img className="img-fluid" src="/images/digital-experience.jpg" alt="content-image" /> */}
 											<Image
@@ -199,12 +198,11 @@ export default function Home() {
 									{/* TEXT BLOCK */}
 									<div className="col-md-7 col-lg-6">
 										<div
-											className={`duration-1.75 ${
-												init
+											className={`duration-1.75 ${init
 													? 'txt-block right-column left-column animate__animated animate__slideInUp'
 													: 'txt-block right-column left-column animate__animated'
-											}`}
-											// style={{ animationDuration: '1.75s' }}
+												}`}
+										// style={{ animationDuration: '1.75s' }}
 										>
 											<div className="txt-box">
 												<ul className="simple-list">
@@ -237,9 +235,9 @@ export default function Home() {
 														</p>
 													</li>
 												</ul>
-												<div onClick={() => setOpen(true)} className="btn btn-yellow tra-yellow-hover color-white mr-15">
-													Get Free Samples
-												</div>
+												<Link href="/onboarding">
+													<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Try Signet Tags for Free</div>
+												</Link>
 											</div>{' '}
 										</div>
 									</div>{' '}
@@ -260,9 +258,9 @@ export default function Home() {
 										<p className="p-xl">
 											Explore Signet Platform with a Free Trial account to experience the technology yourself before you decide to scale.
 										</p>
-										<div onClick={() => setOpen(true)} className="btn btn-yellow tra-yellow-hover color-white mr-15">
-											Get Free Samples
-										</div>
+										<Link href="/onboarding">
+											<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Try Signet Tags for Free</div>
+										</Link>
 									</div>
 								</div>
 							</div>

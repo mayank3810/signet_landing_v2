@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import EnquiryForm from "../../components/Onboarding/EnquiryForm";
 import ProductCoursal from "@/components/ProductCoursal";
+import Link from 'next/link';
 
 function RequestQuote({ open, setOpen }) {
   // const [containerRef, inContainerView] = useInView({ threshold: 0.1 });
@@ -141,7 +142,7 @@ function RequestQuote({ open, setOpen }) {
             <div className="col-md-8 col-lg-8">
               <div className="hero-20-txt white-color">
                 <h1 className="h1-md white-color text-left">
-                  NFC Tag tamper seals
+                  NFC powered Tag tamper seals
                 </h1>
 
                 {/*                
@@ -194,14 +195,13 @@ function RequestQuote({ open, setOpen }) {
                     </li>
                   </ul>
 
-                  {/* <Link href="#"> */}
+                  <Link href="/onboarding">
                   <div
-                    onClick={() => setOpen(true)}
                     className="btn btn-yellow tra-yellow-hover request-quote-feature color-white mt-15 mb-15"
                   >
-                    Get Free Samples
+                   Try Signet Tags for Free
                   </div>
-                  {/* </Link> */}
+                  </Link>
                 </div>
               </div>
             </div>
@@ -216,12 +216,11 @@ function RequestQuote({ open, setOpen }) {
 
       {!open && (
         <div className="request-quote-footer">
-          <button
-            onClick={() => setOpen(true)}
-            className="btn btn-success btn-lg btn-block"
-          >
-            Get Free Samples
-          </button>
+         <Link href="/onboarding">
+            <button className="btn btn-success btn-lg btn-block">
+              Try Signet Tags for Free
+            </button>
+          </Link>
         </div>
       )}
     </>

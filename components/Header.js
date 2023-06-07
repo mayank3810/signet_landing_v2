@@ -73,13 +73,11 @@ function Header({ scroll }) {
 						{/* HEADER LOGO */}
 						<div className="desktoplogo">
 							<Link href="/" className="logo-black">
-								{/* <img src="/images/logo_dark.svg" alt="header-logo" /> */}
 								<Image src="/images/logo_dark.svg" alt="Signet Tags Dark Logo" width={184} height={55} />
 							</Link>
 						</div>
 						<div className="desktoplogo">
 							<Link href="/" className="logo-white">
-								{/* <img src="/images/logo_light.svg" alt="header-logo" /> */}
 								<Image src="/images/logo_light.svg" alt="Signet Tags Light Logo" width={184} height={55} />
 							</Link>
 						</div>
@@ -102,7 +100,7 @@ function Header({ scroll }) {
 											<Link href={'/tamper-proof-seal'}>NFC Tag Tamper Seals</Link>
 										</li>
 										<li>
-											<Link href={'/digital-hologram-seal'}>QR code Hologram Seals</Link>
+											<Link href={'/digital-hologram-seal'}>Dynamic QR code Seals</Link>
 										</li>
 									</ul>
 								</li>
@@ -145,14 +143,14 @@ function Header({ scroll }) {
 									</Link>
 								</li>
 
-								{/* <li className="nl-simple">
-                  <Link
-                    className={activeRoute === "pricing" ? "active-link" : ""}
-                    href={"/pricing"}
-                  >
-                    Pricing
-                  </Link>
-                </li> */}
+								<li className="nl-simple">
+									<Link
+										className={activeRoute === "pricing" ? "active-link" : ""}
+										href={"/pricing"}
+									>
+										Pricing
+									</Link>
+								</li>
 
 								{/* HEADER BUTTON */}
 								<li className="nl-simple">
