@@ -76,7 +76,7 @@ function Pricing() {
 											<sup className="dark-color"></sup>
 											<span className="dark-color">Free</span>
 											<sup className="validity dark-color"></sup>
-											<p className="p-md">Free upto 1000 tag scans</p>
+											<p className="p-md">Free upto 1000 tag scans per month</p>
 										</div>
 										{/* Plan Features  */}
 										<ul className="features">
@@ -93,12 +93,12 @@ function Pricing() {
 											</li>
 											<li>
 												<p className="p-md">
-													<span>1</span> User Login
+													<span>Unlimited</span> QR codes
 												</p>
 											</li>
 											<li>
 												<p className="p-md">
-													<span>1 year</span> Tag Validity
+													<span>1</span> User Login
 												</p>
 											</li>
 
@@ -124,9 +124,9 @@ function Pricing() {
 											</div>
 											{/* Price */}
 											<sup className="dark-color">$</sup>
-											<span className="dark-color">0.99</span>
-											<sup className="validity dark-color">per tag</sup>
-											<p className="p-md">Min: 10,000 pieces</p>
+											<span className="dark-color">19</span>
+											<sup className="validity dark-color">per month, billed annually</sup>
+											<p className="p-md">upto 5000 tag scans per month</p>
 										</div>
 										{/* Plan Features  */}
 										<ul className="features">
@@ -137,12 +137,12 @@ function Pricing() {
 											</li>
 											<li>
 												<p className="p-md">
-													<span>Unlimited</span> User Login
+													<span>Dynamic</span> QR code Tags
 												</p>
 											</li>
 											<li>
 												<p className="p-md">
-													<span>1 year</span> Tag Validity
+													<span>Unlimited</span> User Login
 												</p>
 											</li>
 											<li>
