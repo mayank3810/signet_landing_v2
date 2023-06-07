@@ -19,7 +19,7 @@ function CallToAction() {
 							<div className="text-end">
 								<div className="cta-4-btn text-center">
 									<Link href={'/onboarding'}>
-										<button className="btn btn-yellow tra-yellow-hover">Get Started</button>
+										<button className="btn btn-yellow tra-yellow-hover">Start Free Trial</button>
 									</Link>
 								</div>
 							</div>

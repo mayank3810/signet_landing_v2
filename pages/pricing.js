@@ -28,7 +28,7 @@ function Pricing() {
 				<meta name="title" content="Signet Pricing - Choose the Right Plan for Your Business" />
 				<meta
 					name="description"
-					content="Explore Signet's pricing packages and choose the right plan for your business needs. Get started with a free trial and enjoy advanced features and VIP support."
+					content="Explore Signet's pricing packages and choose the right plan for your business needs. Start Free Trial with a free trial and enjoy advanced features and VIP support."
 				/>
 				<meta name="keywords" content="Signet pricing,pricing packages,choose the right plan,VIP support,free trial" />
 

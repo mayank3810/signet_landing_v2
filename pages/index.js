@@ -242,7 +242,7 @@ export default function Home() {
 									<div className="content-10-btn">
 										{/* Button */}
 										<Link href="/onboarding">
-											<div className="video-popup2 btn btn-md btn-orange-red tra-grey-hover ico-15 ico-left">Get started</div>
+											<div className="video-popup2 btn btn-md btn-orange-red tra-grey-hover ico-15 ico-left">Start Free Trial</div>
 										</Link>
 										{/* Advantages List */}
 										<ul className="advantages mt-25 clearfix">
@@ -262,13 +262,13 @@ export default function Home() {
 								<div className="col-md-10 col-lg-8">
 									<div className="section-title title-02 mb-60">
 										<h2 className="h2-xs">
-											Get started with a free trial account. <br />
+											Start Free Trial with a free trial account. <br />
 										</h2>
 										<p className="p-xl">
 											Explore Signet Platform with a Free Trial account to experience the technology yourself before you decide to scale.
 										</p>
 										<Link href="/onboarding">
-											<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Get Started</div>
+											<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Start Free Trial</div>
 										</Link>
 										<p> *No Card Required.</p>
 									</div>

@@ -20,9 +20,9 @@ function Hero() {
 							<div className="hero-20-txt white-color">
 								{/* Title */}
 								<h1 className="h1-md white-color">
-									Empower Your Brand with Authenticity and Consumer Insights.
+									Empower your Brand with authenticity and consumer insights.
 									<br />
-									<span className="h1-span">Harnessing the Power of NFC & Blockchain Technology with Signet Tags to Combat Counterfeiting.</span>
+									<span className="h1-span">Harnessing the power of NFC & Blockchain technology with Signet Tags to combat counterfeiting.</span>
 								</h1>
 								{/* Text */}
 								<p className="p-xl">
@@ -32,10 +32,10 @@ function Hero() {
 								{/* Buttons Group */}
 								<div className="btns-group">
 									<Link href="/onboarding">
-										<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Get Started</div>
+										<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Try Signet Tags for Free</div>
 									</Link>
 									<div onClick={() => setOpen(!open)} className="video-popup2 btn btn-md btn-transparent ico-20 ico-left">
-										<span className="flaticon-play" /> See Signet in Action
+										<span className="flaticon-play" /> Watch video
 									</div>
 								</div>
 							</div>

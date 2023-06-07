@@ -80,7 +80,7 @@ function Content3() {
 								</div>
 							</div>
 							<Link href="/onboarding">
-								<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Get Started</div>
+								<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Start Free Trial</div>
 							</Link>
 						</div>{' '}
 						{/* END TEXT BLOCK */}

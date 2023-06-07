@@ -20,7 +20,7 @@ function Onboarding() {
 				<meta name="robots" content="noindex, follow" />
 				<meta name="language" content="English" />
 
-				<meta name="title" content="Get Started For Free with Signet Tags - Tag, Track, and Authenticate Your Products" />
+				<meta name="title" content="Start Free Trial For Free with Signet Tags - Tag, Track, and Authenticate Your Products" />
 				<meta
 					name="description"
 					content="Try Signet Tags' product authentication with our 100% risk-free trial. Get full access to all features, pay nothing for 30 days, and cancel anytime."
@@ -69,7 +69,7 @@ function Onboarding() {
 									/>
 								) : (
 									<LeftText
-										heading={'Get started For Free with Signet Tags'}
+										heading={'Start Free Trial For Free with Signet Tags'}
 										subheading={' Best solution to tag, track and <br /> authenticate your products.'}
 									/>
 								)}

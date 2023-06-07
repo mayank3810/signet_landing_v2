@@ -141,7 +141,7 @@ function RequestQuote({ open, setOpen }) {
             <div className="col-md-8 col-lg-8">
               <div className="hero-20-txt white-color">
                 <h1 className="h1-md white-color text-left">
-                  Digital Security Labels & Stickers
+                  NFC Tag tamper seals
                 </h1>
 
                 {/*                

@@ -103,13 +103,13 @@ function BlogDetail(props) {
 						<div className="col-md-10 col-lg-8">
 							<div className="section-title title-02 mb-60">
 								<h2 className="h2-xs">
-									Get started with a free trial account. <br />
+									Start Free Trial with a free trial account. <br />
 								</h2>
 								<p className="p-xl">
 									Explore Signet Platform with a Free Trial account to experience the technology yourself before you decide to scale.
 								</p>
 								<Link href="/onboarding">
-									<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Get Started</div>
+									<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Start Free Trial</div>
 								</Link>
 							</div>
 						</div>

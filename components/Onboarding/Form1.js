@@ -95,7 +95,7 @@ function Form1({ setStage, setOrganizationId }) {
 				<div className="register-form-title text-center">
 					<h4 className="h4-lg">Start your free trial</h4>
 					<p className="p-xl">
-						Get started in less than 60 seconds with the leading <br /> Authenticity and Brand Protection solution.
+						Start Free Trial in less than 60 seconds with the leading <br /> Authenticity and Brand Protection solution.
 					</p>
 				</div>
 			</div>
