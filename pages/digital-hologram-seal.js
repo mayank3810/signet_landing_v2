@@ -4,7 +4,6 @@ import HologramQuote from '@/components/Home/HologramQuote';
 
 import Features from '@/components/Home/Features';
 import { Inter } from '@next/font/google';
-import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 
 import { useInView } from 'react-intersection-observer';

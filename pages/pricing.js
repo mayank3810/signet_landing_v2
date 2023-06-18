@@ -105,7 +105,7 @@ function Pricing() {
 										</ul>
 										{/* Pricing Plan Button */}
 										<Link href={'/onboarding'}>
-											<button onClick={() => setPlan('Basic')} className="btn btn-sm btn-tra-grey tra-yellow-hover">
+											<button onClick={() => setPlan('Basic')} className="btn btn-sm btn-yellow tra-yellow-hover">
 												Start Free Trial
 											</button>
 										</Link>
@@ -120,12 +120,12 @@ function Pricing() {
 											{/* Plan Title */}
 											<div className="pricing-plan-title">
 												<h5 className="h5-xs">Advanced</h5>
-												<h6 className="h6-sm bg-lightgrey">Save 25%</h6>
+												<h6 className="h6-sm bg-lightgrey">Billed annually</h6>
 											</div>
 											{/* Price */}
 											<sup className="dark-color">$</sup>
 											<span className="dark-color">19</span>
-											<sup className="validity dark-color">per month, billed annually</sup>
+											<sup className="validity dark-color">per month</sup>
 											<p className="p-md">upto 5000 tag scans per month</p>
 										</div>
 										{/* Plan Features  */}
@@ -153,7 +153,7 @@ function Pricing() {
 										</ul>
 										{/* Pricing Plan Button */}
 										<Link href={'/onboarding'}>
-											<button onClick={() => setPlan('Advanced')} className="btn btn-sm btn-tra-grey tra-yellow-hover">
+											<button onClick={() => setPlan('Advanced')} className="btn btn-sm btn-yellow tra-yellow-hover">
 												Start Free Trial
 											</button>
 										</Link>
@@ -187,22 +187,24 @@ function Pricing() {
 										<ul className="features">
 											<li>
 												<p className="p-md">
-													<span>Order</span> Tags on Demand
+													<span>Unlimited</span> Tag Scans
+												</p>
+											</li>
+
+											<li>
+												<p className="p-md">
+													<span>AI Generated</span> QR codes
+												</p>
+											</li>
+
+											<li>
+												<p className="p-md">
+													<span>Embedded NFC</span> Chips
 												</p>
 											</li>
 											<li>
 												<p className="p-md">
-													<span>Unlimited</span> User Login
-												</p>
-											</li>
-											<li>
-												<p className="p-md">
-													<span>50 year</span> Tag Validity
-												</p>
-											</li>
-											<li>
-												<p className="p-md">
-													<span>VIP</span> Support
+													<span>Blockchain</span> Framework
 												</p>
 											</li>
 										</ul>
@@ -237,33 +239,20 @@ function Pricing() {
 												</tr>
 											</thead>
 											<tbody>
-												<tr>
-													<th scope="row" className="text-start">
-														Anti Clone DNA 424 NFC Tags
-													</th>
-													<td className="ico-15 green-color">
-														<span className="flaticon-check" />
-													</td>
-													<td className="ico-15 green-color">
-														<span className="flaticon-check" />
-													</td>
-													<td className="ico-15 green-color">
-														<span className="flaticon-check" />
-													</td>
-												</tr>
 
-												<tr>
+
+											<tr>
 													<th scope="row" className="text-start">
-														Tag Tamper Detection
+														Tags Scans
 													</th>
-													<td className="ico-15 green-color">
-														<span className="flaticon-check" />
+													<td className="ico-15 ">
+														1000 per month
 													</td>
-													<td className="ico-15 green-color">
-														<span className="flaticon-check" />
+													<td className="ico-15 ">
+														5000 per month
 													</td>
-													<td className="ico-15 green-color">
-														<span className="flaticon-check" />
+													<td className="ico-15 ">
+														Unlimited
 													</td>
 												</tr>
 
@@ -360,7 +349,7 @@ function Pricing() {
 													<th scope="row" className="text-start">
 														Insights on Tag Users
 													</th>
-													<td className="ico-10 disabled-option">
+													<td className="ico-10 red-color">
 														<span className="flaticon-cancel" />
 													</td>
 													<td className="ico-15 green-color">
@@ -374,11 +363,11 @@ function Pricing() {
 													<th scope="row" className="text-start">
 														Run Contests and Offers
 													</th>
-													<td className="ico-10 disabled-option">
+													<td className="ico-10 red-color">
 														<span className="flaticon-cancel" />
 													</td>
-													<td className="ico-10 disabled-option">
-														<span className="flaticon-cancel" />
+													<td className="ico-15 green-color">
+														<span className="flaticon-check" />
 													</td>
 													<td className="ico-15 green-color">
 														<span className="flaticon-check" />
@@ -389,7 +378,7 @@ function Pricing() {
 													<th scope="row" className="text-start">
 														Multiple Language Support
 													</th>
-													<td className="ico-10 disabled-option">
+													<td className="ico-10 red-color">
 														<span className="flaticon-cancel" />
 													</td>
 													<td className="ico-15 green-color">
@@ -404,7 +393,7 @@ function Pricing() {
 													<th scope="row" className="text-start">
 														Multiple users
 													</th>
-													<td className="ico-10 disabled-option">
+													<td className="ico-10 red-color">
 														<span className="flaticon-cancel" />
 													</td>
 													<td className="ico-15 green-color">
@@ -417,12 +406,12 @@ function Pricing() {
 
 												<tr>
 													<th scope="row" className="text-start">
-														Priority Support
+														Blockchain Framework
 													</th>
-													<td className="ico-10 disabled-option">
+													<td className="ico-10 red-color">
 														<span className="flaticon-cancel" />
 													</td>
-													<td className="ico-10 disabled-option">
+													<td className="ico-10 red-color">
 														<span className="flaticon-cancel" />
 													</td>
 													<td className="ico-15 green-color">
@@ -432,12 +421,12 @@ function Pricing() {
 
 												<tr>
 													<th scope="row" className="text-start">
-														White label Solution
+														Anti Clone DNA 424 NFC Tags
 													</th>
-													<td className="ico-10 disabled-option">
+													<td className="ico-10 red-color">
 														<span className="flaticon-cancel" />
 													</td>
-													<td className="ico-10 disabled-option">
+													<td className="ico-10 red-color">
 														<span className="flaticon-cancel" />
 													</td>
 													<td className="ico-15 green-color">
@@ -447,27 +436,26 @@ function Pricing() {
 
 												<tr>
 													<th scope="row" className="text-start">
-														Integrate with existing CRM/ERP
+														AI Generated QR codes
 													</th>
-													<td className="ico-10 disabled-option">
+													<td className="ico-10 red-color">
 														<span className="flaticon-cancel" />
 													</td>
-													<td className="ico-10 disabled-option">
+													<td className="ico-10 red-color">
 														<span className="flaticon-cancel" />
 													</td>
 													<td className="ico-15 green-color">
 														<span className="flaticon-check" />
 													</td>
 												</tr>
-
 												<tr>
 													<th scope="row" className="text-start">
 														Single Sign on
 													</th>
-													<td className="ico-10 disabled-option">
+													<td className="ico-10 red-color">
 														<span className="flaticon-cancel" />
 													</td>
-													<td className="ico-10 disabled-option">
+													<td className="ico-10 red-color">
 														<span className="flaticon-cancel" />
 													</td>
 													<td className="ico-15 green-color">
@@ -479,10 +467,10 @@ function Pricing() {
 													<th scope="row" className="text-start">
 														Access to APIs
 													</th>
-													<td className="ico-10 disabled-option">
+													<td className="ico-10 red-color">
 														<span className="flaticon-cancel" />
 													</td>
-													<td className="ico-10 disabled-option">
+													<td className="ico-10 red-color">
 														<span className="flaticon-cancel" />
 													</td>
 													<td className="ico-15 green-color">
@@ -558,7 +546,6 @@ function Pricing() {
 					</div>{' '}
 					{/* End container */}
 				</section>{' '}
-				<CallToAction />
 			</div>
 		</>
 	);
