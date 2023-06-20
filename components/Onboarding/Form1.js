@@ -89,98 +89,82 @@ function Form1({ setStage, setOrganizationId }) {
 		}
 	};
 	return (
-		<form className="row sign-in-form">
-			{/* Title*/}
-			<div className="col-md-12">
-				<div className="register-form-title text-center">
-					<h4 className="h4-lg">Start your free trial</h4>
-					<p className="p-xl">
-						Start Free Trial in less than 60 seconds with the leading <br /> Authenticity and Brand Protection solution.
-					</p>
-				</div>
-			</div>
+		<>
 
-			<div className="col-md-12 ">
-				<div className="row">
-					<div className="col-12">
-						<label>
-							<span className="h5-xxs font-bold">
-								Name <sup className="text-red">*</sup>
-							</span>
-						</label>
-						<input
-							className="form-control text"
-							type="text"
-							placeholder="Jhon Doe"
-							value={name.data ?? ''}
-							onChange={(e) => setName({ data: e.target.value, error: false })}
-						/>
-						{name.error && (
-							<span className="error" htmlFor="name">
-								Name cannot be blank
-							</span>
-						)}
-					</div>
-					<div className="col-12 mt-4">
-						<label>
-							<span className="h5-xxs">
-								Company <sup className="text-red">*</sup>
-							</span>
-						</label>
-						<input
-							className="form-control text"
-							type="text"
-							placeholder="xyz Inc"
-							value={company.data ?? ''}
-							onChange={(e) => setCompany({ data: e.target.value, error: false })}
-						/>
-						{company.error && <span className="error">Company cannot be blank</span>}
+			<form className="row">
+				<div className="col-md-12">
+					<div className="register-form-title text-center">
+						<h4 className="h4-lg">Create your account</h4>
+						<p className="p-xl">
+							Free for upto 1000 tag scans per month.
+						</p>
 					</div>
 				</div>
-			</div>
 
-			<div className="col-12 mt-4">
-				<label>
-					<span className="h5-xxs">
-						Business email <sup className="text-red">*</sup>
-					</span>
-				</label>
-				<input
-					className="form-control email"
-					type="email"
-					placeholder="example@example.com"
-					value={email.data ?? ''}
-					onChange={(e) => setEmail({ data: e.target.value, error: false })}
-				/>
-				{email.error && <span className="error">Email cannot be blank</span>}
-			</div>
-			<div className="col-12 mt-4">
-				<label>
-					<span className="h5-xxs">
-						Contact <sup className="text-red">*</sup>
-					</span>
-				</label>
-				<input
-					className="form-control"
-					type="text"
-					placeholder="+91 8877841523"
-					value={contact.data ?? ''}
-					onChange={(e) => setContact({ data: e.target.value, error: false })}
-				/>
-				{contact.error && <span className="error">Contact cannot be blank</span>}
-			</div>
+				<div className="col-md-12 ">
+					<div className="row">
+						<div className="col-12">
+							<input
+								className="form-control text"
+								type="text"
+								placeholder="Your name"
+								value={name.data ?? ''}
+								onChange={(e) => setName({ data: e.target.value, error: false })}
+							/>
+							{name.error && (
+								<span className="error text-red" htmlFor="name">
+									Required
+								</span>
+							)}
+						</div>
+						<div className="col-12 mt-4">
+							<input
+								className="form-control text"
+								type="text"
+								placeholder="Company name"
+								value={company.data ?? ''}
+								onChange={(e) => setCompany({ data: e.target.value, error: false })}
+							/>
+							{company.error && <span className="error text-red">Required</span>}
+						</div>
+						<div className="col-12 mt-4">
+							<input
+								className="form-control email"
+								type="email"
+								placeholder="Business email"
+								value={email.data ?? ''}
+								onChange={(e) => setEmail({ data: e.target.value, error: false })}
+							/>
+							{email.error && <span className="error text-red">Required</span>}
+						</div>
+						<div className="col-12 mt-4">
+							<input
+								className="form-control"
+								type="text"
+								placeholder="Phone number"
+								value={contact.data ?? ''}
+								onChange={(e) => setContact({ data: e.target.value, error: false })}
+							/>
+							{contact.error && <span className="error text-red">Required</span>}
+						</div>
 
-			{/* Form Submit Button */}
-			<div className="col-md-12 mt-4">
-				<div className="col-md-12 form-btn text-right">
-					{apiResp && <span className={apiResp.includes('error') ? 'orange-red-color' : 'green-color'}>{apiResp}</span>}
-					<button onClick={createOrganization} className="btn btn-outline btn-yellow tra-yellow-hover submit">
-						{loading ? 'Submitting' : 'Start Free Trial'}
-					</button>
+						{/* Form Submit Button */}
+						<div className="col-md-12 mt-4">
+							<div className="col-md-12 form-btn text-right">
+								{apiResp && <span className={apiResp.includes('error') ? 'orange-red-color' : 'green-color'}>{apiResp}</span>}
+								<button onClick={createOrganization} className="btn btn-outline btn-yellow tra-yellow-hover submit">
+									{loading ? 'Submitting' : 'Start Free Trial'}
+								</button>
+							</div>
+						</div>
+
+					</div>
 				</div>
-			</div>
-			{/* Form Data  */}
-		</form>
+
+
+			</form>
+		</>
+
 	);
 }
 

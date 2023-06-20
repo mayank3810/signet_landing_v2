@@ -1,11 +1,10 @@
-import Header from '@/components/Header';
 import Form1 from '@/components/Onboarding/Form1';
 import Form2 from '@/components/Onboarding/Form2';
-import LeftText from '@/components/Onboarding/LeftText';
 import Head from 'next/head';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
+import Image from 'next/image';
 
 function Onboarding() {
 	// { email, name, subject, message }
@@ -56,31 +55,34 @@ function Onboarding() {
 				<link rel="canonical" href="https://www.signettags.com/onboarding" key="canonical" />
 				<title>Signet Tags - Onboarding Process Overview</title>
 			</Head>
-			<div ref={headerRef} id="page" className="page">
-				<Header scroll={inHeaderView} />
-				<section id="login-3" className="login-section division">
-					<div className="container">
-						<div className="row">
-							<div className="col-md-6">
-								{stage == 2 ? (
-									<LeftText
-										heading={'Help us understand your requirements'}
-										subheading={'We will come back with the best <br/> possible solution for your business.'}
-									/>
-								) : (
-									<LeftText
-										heading={'Start Free Trial For Free with Signet Tags'}
-										subheading={' Best solution to tag, track and <br /> authenticate your products.'}
-									/>
-								)}
+			<section id="login-3" className="register-form division">
+				<div className="container">
+
+					<div className="row">
+						<div className="col-md-6">
+						<Image
+								className="img-fluid"
+								src="/images/scanning-theme.png"
+								alt="Signet Tags Scanning Theme, product authentication, transparency, scanning process"
+								width={401}
+								height={487}
+							/>
+						</div>
+
+						<div className='col-md-6'>
+							<div className="row ">
+								<div className="col-md-4">
+									<Image className="footer-logo mb-25" src="/images/logo_dark.svg" alt="Signet Tags Dark Logo" width={184} height={55} />
+								</div>
 							</div>
-							<div className="col-md-6 side-bar">
+							<div className="side-bar">
 								{stage === 1 ? <Form1 setStage={setStage} setOrganizationId={setOrganizationId} /> : <Form2 organizationId={organizationId} />}
 							</div>
 						</div>
+
 					</div>
-				</section>
-			</div>
+				</div>
+			</section>
 		</>
 	);
 }

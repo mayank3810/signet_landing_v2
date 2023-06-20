@@ -28,9 +28,9 @@ function Pricing() {
 				<meta name="title" content="Signet Pricing - Choose the Right Plan for Your Business" />
 				<meta
 					name="description"
-					content="Explore Signet's pricing packages and choose the right plan for your business needs. Start Free Trial with a free trial and enjoy advanced features and VIP support."
+					content="Explore Signet's pricing packages and choose the right plan for your business needs."
 				/>
-				<meta name="keywords" content="Signet pricing,pricing packages,choose the right plan,VIP support,free trial" />
+				<meta name="keywords" content="Signet pricing, pricing packages, choose the right plan" />
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
@@ -53,13 +53,26 @@ function Pricing() {
 				<title>Signet Pricing - Choose the Right Plan for Your Business</title>
 			</Head>
 			<Header scroll={inContainerView} />
-			<PageTitle image="../images/download-page.jpg" title={'Start with a free trial'} subtitle={'Choose a plan that is right for your business'} />
+
 			<div ref={containerRef}>
-				{/* PRICING-2
-			============================================= */}
+
+				
+
+
 				<section id="pricing-2" className="bg-snow pb-60 inner-page-hero pricing-section division">
 					<div className="container">
-						{/* PRICING TABLES */}
+					<div className="row justify-content-center">
+					<div className="col-lg-10 col-xl-8">
+						<div className="section-title title-01 mb-80">
+							{/* Title */}
+							<h2 className="h2-md">Simple And Flexible Pricing</h2>
+							{/* Text */}
+							<p className="p-xl">
+								No credit card required. Change or cancel your plan anytime
+							</p>
+						</div>
+					</div>
+				</div>
 						<div className="pricing-2-row pc-25">
 							<div className="row row-cols-1 row-cols-md-3">
 								{/* BASIC PLAN */}
@@ -76,7 +89,7 @@ function Pricing() {
 											<sup className="dark-color"></sup>
 											<span className="dark-color">Free</span>
 											<sup className="validity dark-color"></sup>
-											<p className="p-md">Free upto 1000 tag scans per month</p>
+											<p className="p-md">Upto 1000 tag scans per month</p>
 										</div>
 										{/* Plan Features  */}
 										<ul className="features">
@@ -126,7 +139,7 @@ function Pricing() {
 											<sup className="dark-color">$</sup>
 											<span className="dark-color">19</span>
 											<sup className="validity dark-color">per month</sup>
-											<p className="p-md">upto 5000 tag scans per month</p>
+											<p className="p-md">Upto 5000 tag scans per month</p>
 										</div>
 										{/* Plan Features  */}
 										<ul className="features">
@@ -210,9 +223,9 @@ function Pricing() {
 										</ul>
 										{/* Pricing Plan Button */}
 
-										<Link href={'/onboarding'}>
+										<Link href={'/contact'}>
 											<button onClick={() => setPlan('Enterprise')} className="btn btn-sm btn-yellow tra-yellow-hover">
-												Start Free Trial
+												Contact us
 											</button>
 										</Link>
 									</div>
@@ -241,7 +254,7 @@ function Pricing() {
 											<tbody>
 
 
-											<tr>
+												<tr>
 													<th scope="row" className="text-start">
 														Tags Scans
 													</th>
