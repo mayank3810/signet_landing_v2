@@ -63,13 +63,14 @@ function Form2({ organizationId }) {
               src="/images/png-icons/verified.svg"
               alt="verified_icon"
             ></img>
-            <h3 className="h3-xl mb-5 mt-30">Signup Complete !</h3>
+            <h5 className="h3-xl mb-5 mt-30">Signup Complete !</h5>
 
-            <h5 className="h5-lg mt-50 mb-30">
+            <h6 className="h5-lg mt-50 mb-30">
               Please Login with the credentials sent on mail
-            </h5>
+            </h6>
             <Link
               href={"https://app.signettags.com"}
+              style={{width: "100% !important"}}
               className="btn  btn-yellow tra-yellow-hover w-50"
             >
               Login to Dashboard
@@ -105,9 +106,9 @@ function Form2({ organizationId }) {
                       </button>
                     </div>
                   </div> */}
-          <div className="col-md-12 pb-3">
+          <div className="col-md-12 mt-4">
             <label>
-              <h5 className="h5-xxs">How many products do you need?</h5>
+              <h6 className="h5-xxs">How many QR codes do you need?</h6>
             </label>
             <select
               className="form-control text"
@@ -118,9 +119,9 @@ function Form2({ organizationId }) {
               onChange={(e) => setRequiredTags(e.target.value)}
             >
               <option value={0} disabled={true}>
-                Select a Value
+                Select 
               </option>
-              <option value={500}>500</option>
+              <option value={500}>1 - 500</option>
               <option value={1000}>1000</option>
               <option value={1250}>1250</option>
               <option value={1500}>1500</option>
@@ -129,9 +130,9 @@ function Form2({ organizationId }) {
               <option value={"more"}>more than 3000</option>
             </select>
           </div>
-          <div className="col-md-12 pb-3">
+          <div className="col-md-12 mt-4">
             <label>
-              <h5 className="h5-xxs">Which industry do you serve?</h5>
+              <h6 className="h5-xxs">Which industry do you serve?</h6>
             </label>
             <select
               className="form-control text"
@@ -162,16 +163,16 @@ function Form2({ organizationId }) {
             </select>
           </div>
 
-          <div className="col-md-12 pb-3">
+          <div className="col-md-12 mt-4">
             <label>
-              <h5 className="h5-xxs">
-                Do you use any existing Brand Protection Solution?
-              </h5>
+              <h6 className="h5-xxs">
+                Do you use any existing solution?
+              </h6>
             </label>
             <div className="row">
               <div className="col-6">
                 <label>
-                  <h5 className="h5-xxs">Yes</h5>
+                  <h6 className="h5-xxs">Yes</h6>
                 </label>
                 <input
                   checked={solution}
@@ -184,7 +185,7 @@ function Form2({ organizationId }) {
               </div>
               <div className="col-6">
                 <label>
-                  <h5 className="h5-xxs">No</h5>
+                  <h6 className="h5-xxs">No</h6>
                 </label>
                 <input
                   checked={!solution}
@@ -199,9 +200,9 @@ function Form2({ organizationId }) {
           </div>
 
           {solution && (
-            <div className="col-md-12 pb-3">
+            <div className="col-md-12 mt-4">
               <label>
-                <h5 className="h5-xxs">What solution do you use?</h5>
+                <h6 className="h5-xxs">What solution do you use?</h6>
               </label>
               <input
                 className="form-control text"
