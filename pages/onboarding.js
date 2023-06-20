@@ -55,22 +55,13 @@ function Onboarding() {
 				<link rel="canonical" href="https://www.signettags.com/onboarding" key="canonical" />
 				<title>Signet Tags - Onboarding Process Overview</title>
 			</Head>
-			<section id="login-3" className="register-form division">
+			<section id="login-3" className="register-form">
 				<div className="container">
 
 					<div className="row">
-						<div className="col-md-6">
-						<Image
-								className="img-fluid"
-								src="/images/scanning-theme.png"
-								alt="Signet Tags Scanning Theme, product authentication, transparency, scanning process"
-								width={401}
-								height={487}
-							/>
-						</div>
 
-						<div className='col-md-6'>
-							<div className="row ">
+						<div className='col-md-8 col-lg-6 offset-md-2 offset-lg-3'>
+							<div className="row justify-content-center">
 								<div className="col-md-4">
 									<Image className="footer-logo mb-25" src="/images/logo_dark.svg" alt="Signet Tags Dark Logo" width={184} height={55} />
 								</div>
