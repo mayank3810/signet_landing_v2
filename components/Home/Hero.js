@@ -19,40 +19,16 @@ function Hero() {
 						<div className="col-md-8 col-lg-8">
 							<div className="hero-20-txt white-color">
 								<h1 className="h1-md white-color">
-									The secret to customer retention and increased sales
-
+									The best brand protection solution
 									<br />
-									<span className="h1-span">
-										<ul className="header-advantages mt-4">
-											<li style={{ width: "auto !important" }}>
-												<img
-													className="check-box-icon"
-													src="/images/icons8-check-48.png"
-													alt="ico-bkg"
-												/>
-												<span>Patented Technology</span>
-											</li>
-											<li style={{ marginLeft: "25px", width: "auto !important" }}>
-												<img
-													className="check-box-icon"
-													src="/images/icons8-check-48.png"
-													alt="ico-bkg"
-												/>
-												<span>
-													Blockchain / NFC / QR codes based
-												</span>
-											</li>
-										</ul>
-
-									</span>
 								</h1>
 								<p className="p-xl">
-									Signet Tags helps you to increase your brand awareness, ensure authenticity, and enhance customer engagement.
+									Signet Tags ensures authenticity of your products using technologies like QR code,  NFC & private blockchain
 								</p>
 								{/* Buttons Group */}
 								<div className="btns-group">
 									<Link href="/onboarding">
-										<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Try for Free</div>
+										<div className="btn btn-orange-red tra-white-hover mr-15">Try for Free</div>
 									</Link>
 									<div onClick={() => setOpen(!open)} className="video-popup2 btn btn-md btn-transparent ico-20 ico-left">
 										<span className="flaticon-play" /> Watch video
@@ -63,11 +39,9 @@ function Hero() {
 						<div className="col-md-4 col-lg-4">
 							<div className="hero-1-img wow fadeInLeft text-center">
 								<img
-									className="img-fluid"
-									src="images/header-top.png"
+									className="img-fluid rounded-20px"
+									src="images/qr-code-scanning.jpg"
 									alt="Brand Protection Shield: Countering Counterfeit with Blockchain, NFC, and Tamper-Proof Seals - Signet Tags"
-									width="257"
-									height="998"
 								/>
 								{/* <Image src="/images/header-top.png" alt="hero-image" width={257} height={998} className="img-fluid" /> */}
 							</div>

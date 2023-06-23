@@ -1869,17 +1869,28 @@ a.btn.btn-yellow.tra-yellow-hover.color-white.mr-15:hover {
 	border-color: #62147e !important;
 }
 
-.btn-orange-red,
-.scroll .btn-orange-red,
+
+.btn-orange-red, 
+.scroll .btn-orange-red, 
 .white-color .btn-orange-red,
-.orange-red-hover:hover,
-.scroll .orange-red-hover:hover,
+.orange-red-hover:hover, 
+.scroll .orange-red-hover:hover, 
 .white-color .orange-red-hover:hover {
-	color: #1d293f !important;
-	background-color: #fbce71 !important;
-	border-color: #fbce71 !important;
+  color: #fff!important;
+  background-color: #ff523d!important;
+  border-color: #ff523d!important;
 }
 
+.btn-tra-orange-red, 
+.scroll .btn-tra-orange-red, 
+.white-color .btn-tra-orange-red,
+.tra-orange-red-hover:hover, 
+.scroll .tra-orange-red-hover:hover, 
+.white-color .tra-orange-red-hover:hover {
+  color: #ff523d!important;
+  background-color: transparent!important;
+  border-color: #ff523d!important;
+}
 .btn-tra-orange-red,
 .scroll .btn-tra-orange-red,
 .white-color .btn-tra-orange-red,
@@ -2051,16 +2062,9 @@ a.btn.btn-yellow.tra-yellow-hover.color-white.mr-15:hover {
 .yellow-hover:hover,
 .scroll .yellow-hover:hover,
 .white-color .yellow-hover:hover {
-	/* color: #1d293f !important;
-  background-color: #d7a241 !important;
-  border-color: #d7a241 !important; */
-
-	background: #fbce71;
-	background: -webkit-linear-gradient(left, #fbce71 0%, #d7a241 100%);
-	background: linear-gradient(to right, #fbce71 0%, #d7a241 100%);
-	border-color: #fbce71;
-	color: #1d293f !important;
-	transition: all 0.3s ease;
+	color: #fff!important;
+	background-color: #ff523d!important;
+	border-color: #ff523d!important;
 }
 
 .btn-tra-yellow,

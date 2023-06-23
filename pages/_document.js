@@ -78,7 +78,7 @@ export default function Document() {
 				<script
 					dangerouslySetInnerHTML={{
 						__html: `</script>
-    <link rel="preload" href="/css/style.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" crossOrigin="anonymous"/>
+    <link rel="preload" href="/css/style2.css" as="style" onLoad="this.onload=null;this.rel='stylesheet'" crossOrigin="anonymous"/>
 <script>`,
 					}}
 				/>

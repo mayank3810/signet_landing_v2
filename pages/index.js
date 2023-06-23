@@ -262,15 +262,14 @@ export default function Home() {
 								<div className="col-md-10 col-lg-8">
 									<div className="section-title title-02 mb-60">
 										<h2 className="h2-xs">
-											Start Free Trial with a free trial account. <br />
+											Get a Free Demo. <br />
 										</h2>
 										<p className="p-xl">
-											Explore Signet Platform with a Free Trial account to experience the technology yourself before you decide to scale.
+											Explore the unique capabilities of Signet Platform.
 										</p>
-										<Link href="/onboarding">
-											<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Start Free Trial</div>
+										<Link href="/request-demo">
+											<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Request a Demo</div>
 										</Link>
-										<p> *No Card Required.</p>
 									</div>
 								</div>
 							</div>
@@ -319,15 +318,7 @@ export default function Home() {
 									<div className="col">
 										<div className="questions-holder pr-15">
 											{/* QUESTION #1 */}
-											<div className="question wow fadeInUp">
-												{/* Question */}
-												<h3 className="h3-font mb-3">Can I see Signet Tags in action before purchasing?</h3>
-												{/* Answer */}
-												<p className="p-lg">
-													Yes, you can resister a free trial account with us. The free trial account can be used to test the digital and
-													authentication experience.
-												</p>
-											</div>
+											
 											{/* QUESTION #2 */}
 											<div className="question wow fadeInUp">
 												{/* Question */}
@@ -360,13 +351,7 @@ export default function Home() {
 									{/* QUESTIONS HOLDER */}
 									<div className="col">
 										<div className="questions-holder pl-15">
-											{/* QUESTION #4 */}
-											<div className="question wow fadeInUp">
-												{/* Question */}
-												<h3 className="h3-font mb-3">Do you have a free trial?</h3>
-												{/* Answer */}
-												<p className="p-lg">Yes, we offer a 30 day free trial for our platform. You get full access to all the platform features.</p>
-											</div>
+										
 											{/* QUESTION #5 */}
 											<div className="question wow fadeInUp">
 												{/* Question */}
@@ -392,17 +377,7 @@ export default function Home() {
 								{/* End row */}
 							</div>
 							{/* END FAQs-2 QUESTIONS */}
-							{/* MORE QUESTIONS BUTTON */}
-							<div className="row">
-								<div className="col">
-									<div className="more-questions">
-										<h3 className="h3-font my-3">
-											Have more questions?
-											<Link href={'/contact'}>Ask your question here</Link>
-										</h3>
-									</div>
-								</div>
-							</div>
+							
 						</div>
 						{/* End container */}
 					</section>

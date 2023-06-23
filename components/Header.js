@@ -93,7 +93,7 @@ function Header({ scroll }) {
 
 								<li>
 									<a href="#" className={activeRoute === 'products' ? 'active-link' : ''}>
-										Products <span className="wsarrow" />
+										Solutions <span className="wsarrow" />
 									</a>
 									<ul className="sub-menu">
 										<li>
@@ -137,25 +137,25 @@ function Header({ scroll }) {
 									</ul>
 								</li>
 
-								<li className="nl-simple">
+								{/* <li className="nl-simple">
 									<Link href={'/technology'} className={activeRoute === 'technology' ? 'active-link' : ''}>
 										Technology
 									</Link>
-								</li>
+								</li> */}
 
-								<li className="nl-simple">
+								{/* <li className="nl-simple">
 									<Link
 										className={activeRoute === "pricing" ? "active-link" : ""}
 										href={"/pricing"}
 									>
 										Pricing
 									</Link>
-								</li>
+								</li> */}
 
 								{/* HEADER BUTTON */}
 								<li className="nl-simple">
 									<Link className="btn btn-tra-white orange-red-hover last-link" href={'/request-demo'}>
-										Schedule a Demo
+										Request a Demo
 									</Link>
 								</li>
 							</ul>
