@@ -8,7 +8,7 @@ import CustomerEngagement from "@/components/Home/CustomerEngagement";
 import Features from "@/components/Home/Features";
 import { Inter } from "@next/font/google";
 import Link from "next/link";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import Brands from "@/components/Brands";
 import Image from "next/image";
@@ -23,9 +23,17 @@ const inter = Inter({ subsets: ["latin"] });
 export default function AntiCounterfeitSolution() {
   const [headerRef, inHeaderView] = useInView();
 
+  const [openPopup, setOpenPopup] = useState(false);
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [company, setCompany] = useState("");
+
   useEffect(() => {
     // token = localStorage.getItem
     // getToken();
+    setTimeout(() => {
+      setOpenPopup(true);
+    }, 300);
   }, []);
 
   // const getToken = async () => {
@@ -37,6 +45,8 @@ export default function AntiCounterfeitSolution() {
   // useEffect(() => {
   // 	iframeRef.current.src = 'https://www.youtube.com/embed/YQUjE2koNRI';
   // }, []);
+
+  const saveEmail = async () => {};
 
   return (
     <>
@@ -100,7 +110,80 @@ export default function AntiCounterfeitSolution() {
 
       <div id="page" className="page">
         <Header scroll={inHeaderView} />
-        <Hero2 />
+
+        {openPopup && (
+          <section
+            id="cta-4"
+            className="cta-section division pt-4 email-popup animate__animated animate__fadeIn"
+          >
+            <div className="container popup-container">
+              <div className="bg-white home-page-popup">
+                <div className="row d-flex align-items-center">
+                  <div className="col-12">
+                    <div className="cta-4-txt">
+                      <h5 className="h5-lg pt-15">Join the pilot programme</h5>
+                      <p className="pb-30">
+                        Only valuable content from us, promised!
+                      </p>
+                      <span
+                        onClick={() => setOpenPopup(!openPopup)}
+                        className="close-btn"
+                      >
+                        x
+                      </span>
+
+                      <form name="contactform" className="row contact-form">
+                        <div className="col-12">
+                          <input
+                            type="text"
+                            name="email"
+                            className="form-control email"
+                            placeholder="Email Address"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                          />
+                        </div>
+
+                        <div className="col-12">
+                          <input
+                            type="text"
+                            name="email"
+                            className="form-control email"
+                            placeholder="Email Address"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                          />
+                        </div>
+
+                        <div className="col-12">
+                          <input
+                            type="text"
+                            name="email"
+                            className="form-control email"
+                            placeholder="Email Address"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                          />
+                        </div>
+
+                        <div className="col-12">
+                          <button
+                            onClick={saveEmail}
+                            className="btn btn-block btn-yellow w-100 tra-yellow-hover submit"
+                          >
+                            Submit
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>{" "}
+            </div>{" "}
+          </section>
+        )}
+
+        <Hero2 open={openPopup} setOpen={setOpenPopup} />
         <div ref={headerRef}>
           <Brands />
 

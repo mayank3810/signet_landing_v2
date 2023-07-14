@@ -3,14 +3,14 @@ import React, { useState } from "react";
 import VideoPopup from "./VideoPopup";
 import Image from "next/image";
 
-function Hero2() {
+function Hero2({ open, setOpen }) {
   // const [containerRef, inContainerView] = useInView({ threshold: 0.1 });
 
-  const [open, setOpen] = useState(false);
+  const [openVideo, setOpenVideo] = useState(false);
 
   return (
     <>
-      {open && (
+      {openVideo && (
         <VideoPopup
           open={open}
           setOpen={setOpen}
@@ -40,7 +40,7 @@ function Hero2() {
                     </div>
                   </Link>
                   <div
-                    onClick={() => setOpen(!open)}
+                    onClick={() => setOpenVideo(!openVideo)}
                     className="video-popup2 btn btn-md btn-transparent ico-20 ico-left"
                   >
                     <span className="flaticon-youtube" /> Youtube
