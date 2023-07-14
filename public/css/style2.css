@@ -1150,8 +1150,9 @@ body {
 }
 
 .bg-01 {
-	/* background-image: url(../images/bg-01.jpg); */
 	background: #000;
+	background-image: url(../images/home-page-banner.jpg);
+	background-size: cover;
 }
 
 .bg-02 {
@@ -3571,12 +3572,15 @@ p.terms-txt a,
 
 #header {
 	width: 100%;
-	display: block;
-	padding-top: 0px;
+    display: block;
+    padding-top: 0px;
+    position: absolute;
+    top: 0px;
+    z-index: 999;
 }
 
 .header-wrapper {
-	background: #000;
+	background: transparent;
 }
 
 .headerwp {
@@ -4774,15 +4778,15 @@ p.terms-txt a,
 /*------------------------------------------*/
 
 #hero-20 {
-	background: #000000;
-	padding-top: 70px;
-	padding-bottom: 100px;
-	
-	/* height:100vh; */
+    background: #000;
+    background-image: url(../images/home-page-banner.jpg);
+    padding-top: 156px;
+    padding-bottom: 100px;
+    background-size: cover;
+    position: relative;
 }
 
 .hero-20-txt {
-	padding-left: 25px;
 	padding-right: 20px;
 }
 
