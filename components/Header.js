@@ -68,7 +68,8 @@ function Header({ scroll }) {
 					</div>
 				</div>
 				{/* NAVIGATION MENU */}
-				<div className={scroll ? 'wsmainfull menu clearfix scroll' : 'wsmainfull menu clearfix'}>
+				{/* <div className={scroll ? 'wsmainfull menu clearfix scroll' : 'wsmainfull menu clearfix'}> */}
+				<div className="wsmainfull menu clearfix">
 					<div className="wsmainwp clearfix">
 						{/* HEADER LOGO */}
 						<div className="desktoplogo">

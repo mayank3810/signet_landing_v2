@@ -8,7 +8,7 @@ html {
 }
 
 body {
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Manrope', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: #6c757d;
 	line-height: 1.6666;
 	font-weight: 400;
@@ -995,7 +995,7 @@ body {
 }
 
 .bg-orange-red {
-	background-color: #ff523d;
+	background-color: #4d30fb;
 }
 
 .bg-pink {
@@ -1019,7 +1019,7 @@ body {
 }
 
 .bg-salmon {
-	background-color: #ff523d;
+	background-color: #4d30fb;
 }
 
 .bg-violet {
@@ -1266,7 +1266,7 @@ h4,
 h5,
 h6 {
 	color: #2f353e;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Manrope', sans-serif;
 	font-weight: 500;
 	letter-spacing: -0.75px;
 }
@@ -1877,8 +1877,8 @@ a.btn.btn-yellow.tra-yellow-hover.color-white.mr-15:hover {
 .scroll .orange-red-hover:hover, 
 .white-color .orange-red-hover:hover {
   color: #fff!important;
-  background-color: #ff523d!important;
-  border-color: #ff523d!important;
+  background-color: #4d30fb!important;
+  border-color: #4d30fb!important;
 }
 
 .btn-tra-orange-red, 
@@ -1887,9 +1887,9 @@ a.btn.btn-yellow.tra-yellow-hover.color-white.mr-15:hover {
 .tra-orange-red-hover:hover, 
 .scroll .tra-orange-red-hover:hover, 
 .white-color .tra-orange-red-hover:hover {
-  color: #ff523d!important;
+  color: #4d30fb!important;
   background-color: transparent!important;
-  border-color: #ff523d!important;
+  border-color: #4d30fb!important;
 }
 .btn-tra-orange-red,
 .scroll .btn-tra-orange-red,
@@ -1897,9 +1897,9 @@ a.btn.btn-yellow.tra-yellow-hover.color-white.mr-15:hover {
 .tra-orange-red-hover:hover,
 .scroll .tra-orange-red-hover:hover,
 .white-color .tra-orange-red-hover:hover {
-	color: #ff523d !important;
+	color: #4d30fb !important;
 	background-color: transparent !important;
-	border-color: #ff523d !important;
+	border-color: #4d30fb !important;
 }
 
 .btn-pink,
@@ -2063,8 +2063,8 @@ a.btn.btn-yellow.tra-yellow-hover.color-white.mr-15:hover {
 .scroll .yellow-hover:hover,
 .white-color .yellow-hover:hover {
 	color: #fff!important;
-	background-color: #ff523d!important;
-	border-color: #ff523d!important;
+	background-color: #4d30fb!important;
+	border-color: #4d30fb!important;
 }
 
 .btn-tra-yellow,
@@ -3065,7 +3065,7 @@ span.os-version {
 .orange-red-color i,
 .orange-red-color span,
 .white-color .orange-red-color {
-	color: #ff523d;
+	color: #4d30fb;
 }
 
 .pink-color,
@@ -3437,7 +3437,7 @@ p.terms-txt a,
 }
 
 .orange-red-loading .object {
-	background-color: #ff523d;
+	background-color: #4d30fb;
 }
 
 .pink-loading .object {
@@ -3575,11 +3575,7 @@ p.terms-txt a,
 }
 
 .header-wrapper {
-	position: fixed;
-	top: 0;
-	right: 0;
-	left: 0;
-	z-index: 1030;
+	background: #000;
 }
 
 .headerwp {
@@ -3822,7 +3818,7 @@ p.terms-txt a,
 }
 
 .wsmenu > .wsmenu-list > li > ul.sub-menu > li > a span {
-	color: #ff523d;
+	color: #4d30fb;
 	font-size: 0.6rem;
 	position: relative;
 	top: -8px;
@@ -4777,9 +4773,10 @@ p.terms-txt a,
 /*------------------------------------------*/
 
 #hero-20 {
-	background-image: url(../images/hero-1.jpg);
+	background: #000000;
 	padding-top: 170px;
 	padding-bottom: 100px;
+	
 	/* height:100vh; */
 }
 
@@ -8674,7 +8671,7 @@ p.forgot-password {
 
 .login-separator-txt {
 	position: relative;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Manrope', sans-serif;
 	font-size: 1.05rem;
 	font-weight: 400;
 }
