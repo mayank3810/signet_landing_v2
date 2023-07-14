@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import EnquiryForm from "../../components/request-demo/EnquiryForm";
+// import EnquiryForm from "../../components/request-demo/EnquiryForm";
 import ProductCoursal from "@/components/ProductCoursal";
 import Link from 'next/link';
 
@@ -116,7 +116,7 @@ function RequestQuote({ open, setOpen }) {
                   >
                     ×
                   </button>
-                  <EnquiryForm />
+                  {/* <EnquiryForm /> */}
                 </div>
               </div>
               <div className="mfp-preloader">Loading...</div>
@@ -199,7 +199,7 @@ function RequestQuote({ open, setOpen }) {
                   <div
                     className="btn btn-yellow tra-yellow-hover request-quote-feature color-white mt-15 mb-15"
                   >
-                   Try Signet Tags for Free
+                   Request a Demo
                   </div>
                   </Link>
                 </div>
@@ -218,7 +218,7 @@ function RequestQuote({ open, setOpen }) {
         <div className="request-quote-footer">
          <Link href="/request-demo">
             <button className="btn btn-success btn-lg btn-block">
-              Try Signet Tags for Free
+              Request a Demo
             </button>
           </Link>
         </div>

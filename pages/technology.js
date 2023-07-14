@@ -52,17 +52,17 @@ function Technology() {
 			<Header scroll={true} />
 			<>
 				<section id="about-2" className="about-section">
-					<div className="bg-inner bg-lightgrey inner-page-hero division">
+					<div className="bg-inner bg-black inner-page-hero division">
 						<div className="container">
 							{/* ABOUT-2 TITLE */}
 							<div className="row justify-content-center">
 								<div className="col-12">
 									<div className="about-2-title">
 										{/* Title */}
-										<h1 className="h1-md">Technology that guarantees product authenticity</h1>
+										<h1 className="h1-md text-white">Technology that guarantees product authenticity</h1>
 										{/* Text */}
-										<p className="p-xl">
-											Pair your physical products, assets & collectibles with NFTs minted on the blockchain, Signet tags digital links & secure
+										<p className="p-xl text-white">
+											Pair your physical products, assets & collectibles with NFTs minted on a private blockchain, Signet tags digital links & secure
 											unclonable NFC tags to enable your products to participate in Web3
 										</p>
 									</div>

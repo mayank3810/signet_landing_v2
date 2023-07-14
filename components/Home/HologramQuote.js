@@ -196,7 +196,7 @@ function HologramQuote({ open, setOpen }) {
                   </ul>
 
                   <Link href="/request-demo">
-                    <div className="btn btn-yellow tra-yellow-hover color-white mr-15">Try Signet Tags for Free</div>
+                    <div className="btn btn-yellow tra-yellow-hover color-white mr-15">Request a Demo</div>
                   </Link>
                 </div>
               </div>
@@ -214,7 +214,7 @@ function HologramQuote({ open, setOpen }) {
         <div className="request-quote-footer">
           <Link href="/request-demo">
             <button className="btn btn-success btn-lg btn-block">
-              Try Signet Tags for Free
+              Request a Demo
             </button>
           </Link>
         </div>

@@ -83,7 +83,7 @@ function Pricing() {
 											{/* Plan Title */}
 											<div className="pricing-plan-title">
 												<h5 className="h5-xs">Basic</h5>
-												<h6 className="h6-sm bg-lightgrey">Forever Free</h6>
+												<h6 className="h6-sm bg-black">Forever Free</h6>
 											</div>
 											{/* Price */}
 											<sup className="dark-color"></sup>
@@ -133,7 +133,7 @@ function Pricing() {
 											{/* Plan Title */}
 											<div className="pricing-plan-title">
 												<h5 className="h5-xs">Advanced</h5>
-												<h6 className="h6-sm bg-lightgrey">Billed annually</h6>
+												<h6 className="h6-sm bg-black">Billed annually</h6>
 											</div>
 											{/* Price */}
 											<sup className="dark-color">$</sup>

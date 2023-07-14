@@ -135,7 +135,7 @@ export default function Home() {
 											</div>
 										</div>
 										<Link href="/request-demo">
-											<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Try Signet Tags for Free</div>
+											<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Request a Demo</div>
 										</Link>
 									</div>{' '}
 									<div className="col-md-5 col-lg-6">
@@ -236,7 +236,7 @@ export default function Home() {
 													</li>
 												</ul>
 												<Link href="/request-demo">
-													<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Try Signet Tags for Free</div>
+													<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Request a Demo</div>
 												</Link>
 											</div>{' '}
 										</div>
@@ -259,7 +259,7 @@ export default function Home() {
 											Explore Signet Platform with a Free Trial account to experience the technology yourself before you decide to scale.
 										</p>
 										<Link href="/request-demo">
-											<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Try Signet Tags for Free</div>
+											<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Request a Demo</div>
 										</Link>
 									</div>
 								</div>

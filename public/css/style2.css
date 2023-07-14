@@ -979,7 +979,7 @@ body {
 }
 
 .bg-yellow {
-	background-color: #fbce71;
+	background-color: #35ca6a;
 }
 
 .bg-stateblue {
@@ -2086,28 +2086,28 @@ a.btn.btn-yellow.tra-yellow-hover.color-white.mr-15:hover {
 
 .white-hover:hover,
 .scroll .white-hover:hover {
-	color: #1d293f !important;
-	background-color: #fff !important;
-	border-color: #fff !important;
+	color: #fff !important;
+	background-color: #35ca6a !important;
+	border-color: #35ca6a !important;
 }
 
 .tra-white-hover:hover,
 .white-color .tra-white-hover:hover {
 	color: #fff !important;
-	background-color: transparent !important;
-	border-color: #fff !important;
+	background-color: #35ca6a !important;
+	border-color: #35ca6a !important;
 }
 
 .scroll .tra-white-hover:hover {
 	color: #1d293f !important;
-	background-color: transparent !important;
+	background-color: #35ca6a !important;
 	border-color: #1d293f !important;
 }
 
 .dark-menu .scroll .tra-white-hover:hover {
 	color: #fff !important;
-	background-color: transparent !important;
-	border-color: #fff !important;
+	background-color: #35ca6a !important;
+	border-color:##35ca6a !important;
 }
 
 .black-hover:hover,
@@ -2146,7 +2146,7 @@ a.btn.btn-yellow.tra-yellow-hover.color-white.mr-15:hover {
 	color: #000 !important;
 	background: transparent !important;
 	background-color: transparent !important;
-	border-color: #fbce71 !important;
+	border-color: #35ca6a !important;
 	transition: all 0.3s ease;
 }
 
@@ -3996,7 +3996,7 @@ p.terms-txt a,
 .wsmenu > .wsmenu-list.nav-orange-red-hover > li > ul.sub-menu > li > a:hover,
 .wsmenu > .wsmenu-list.nav-orange-red-hover > li > .wsmegamenu.w-75 ul.link-list > li > a:hover,
 .wsmenu > .wsmenu-list.nav-orange-red-hover > li > .wsmegamenu.halfmenu ul.link-list > li > a:hover {
-	color: #fbce71 !important;
+	color: #35ca6a !important;
 }
 
 .wsmenu > .wsmenu-list.nav-pink-hover > li > ul.sub-menu > li > a:hover,
@@ -4777,13 +4777,16 @@ p.terms-txt a,
 /*  HERO-20
 /*------------------------------------------*/
 
-#hero-20 {
+#hero-20{
     background: #000;
     background-image: url(../images/home-page-banner.jpg);
     padding-top: 156px;
     padding-bottom: 100px;
     background-size: cover;
     position: relative;
+}
+.bg-black {
+	background-image: url(../images/home-page-banner.jpg);
 }
 
 .hero-20-txt {
@@ -9026,7 +9029,7 @@ nav a#pull {
 }
 
 .active-link {
-	color: #fbce71 !important;
+	color: #35ca6a !important;
 }
 
 .rounded {
@@ -9062,7 +9065,7 @@ nav a#pull {
 }
 
 .tab.active {
-	background: #fbce71;
+	background: #35ca6a;
 }
 
 .tab h5 {
