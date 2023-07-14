@@ -24,16 +24,19 @@ export default function AntiCounterfeitSolution() {
   const [headerRef, inHeaderView] = useInView();
 
   const [openPopup, setOpenPopup] = useState(false);
-  const [email, setEmail] = useState("");
-  const [name, setName] = useState("");
-  const [company, setCompany] = useState("");
+  const [email, setEmail] = useState({ data: "", error: false });
+  const [name, setName] = useState({ data: "", error: false });
+  const [company, setCompany] = useState({ data: "", error: false });
+
+  const [loading, setLoading] = useState(false);
+  const [apiResp, setApiResp] = useState("");
 
   useEffect(() => {
     // token = localStorage.getItem
     // getToken();
     setTimeout(() => {
       setOpenPopup(true);
-    }, 300);
+    }, 2000);
   }, []);
 
   // const getToken = async () => {
@@ -46,7 +49,66 @@ export default function AntiCounterfeitSolution() {
   // 	iframeRef.current.src = 'https://www.youtube.com/embed/YQUjE2koNRI';
   // }, []);
 
-  const saveEmail = async () => {};
+  const createQuote = async (e) => {
+    e.preventDefault();
+    const emailRegex =
+      /[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,8}(.[a-z{2,8}])?/g;
+    const valid = emailRegex.test(email.data);
+    if (name.data === "") {
+      setName({ data: "", error: true });
+    }
+    if (email.data === "" || !valid) {
+      setEmail({ data: "", error: true });
+    }
+    if (company.data === "") {
+      setCompany({ data: "", error: true });
+    }
+    // if (contact.data === "") {
+    //   setContact({ data: "", error: true });
+    // }
+    // if (address.data === "") {
+    //   setAddress({ data: "", error: true });
+    // }
+    // if (country.data === "") {
+    //   setCountry({ data: "", error: true });
+    // }
+
+    if (name.data != "" && company.data != "" && email.data != "" && valid) {
+      setLoading(true);
+      const data = {
+        name: name.data,
+        email: email.data,
+        company: company.data,
+      };
+      const rawResponse = await fetch(
+        process.env.NEXT_PUBLIC_API_URL + "general/saveQuote",
+        {
+          method: "POST",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
+        }
+      );
+      if (rawResponse.ok) {
+        setLoading(false);
+        setApiResp(
+          "Thank you for your Enquiry. We will get back to you within 24-48 hours."
+        );
+
+        setName({ data: "", error: false });
+        setEmail({ data: "", error: false });
+        setCompany({ data: "", error: false });
+        // setQuantity({ data: "", error: false });
+        // setAddress({ data: "", error: false });
+        // setContact({ data: "", error: false });
+      } else {
+        setApiResp("An error occurred. Please retry.");
+        setLoading(false);
+      }
+    }
+  };
 
   return (
     <>
@@ -116,69 +178,125 @@ export default function AntiCounterfeitSolution() {
             id="cta-4"
             className="cta-section division pt-4 email-popup animate__animated animate__fadeIn"
           >
-            <div className="container popup-container">
-              <div className="bg-white home-page-popup">
-                <div className="row d-flex align-items-center">
-                  <div className="col-12">
-                    <div className="cta-4-txt">
-                      <h5 className="h5-lg pt-15">Join the pilot programme</h5>
-                      <p className="pb-30">
-                        Only valuable content from us, promised!
-                      </p>
-                      <span
-                        onClick={() => setOpenPopup(!openPopup)}
-                        className="close-btn"
-                      >
-                        x
-                      </span>
+            <div className="container w-75">
+              <div className="bg-white home-page-popup p-0">
+                <div className="cta-4-txt">
+                  <span
+                    onClick={() => setOpenPopup(!openPopup)}
+                    className="close-btn red-color"
+                  >
+                    x
+                  </span>
+                  <div className="row">
+                    <div
+                      style={{ padding: "24px 24px 24px 36px" }}
+                      className="col-6"
+                    >
+                      <div className="col-12">
+                        <h5 className="h5-lg pt-15 animated-text ">
+                          Join the pilot programme
+                        </h5>
+                        <p className="pb-30">
+                          Only valuable content from us, promised!
+                        </p>
+                      </div>
+                      <form className="row contact-form">
+                        {/* Title*/}
 
-                      <form name="contactform" className="row contact-form">
-                        <div className="col-12">
+                        <div className="col-md-12 ">
+                          <div className="row">
+                            <div className="col-12">
+                              <label className="float-left"> Name * </label>
+                              {name.error && (
+                                <span
+                                  className="error float-right"
+                                  htmlFor="name"
+                                >
+                                  Required
+                                </span>
+                              )}
+                              <input
+                                className="form-control email"
+                                type="text"
+                                value={name.data ?? ""}
+                                onChange={(e) =>
+                                  setName({
+                                    data: e.target.value,
+                                    error: false,
+                                  })
+                                }
+                              />
+                            </div>
+                            <div className="col-12 mt-2">
+                              <label> Company Name * </label>
+                              {company.error && (
+                                <span className="error">Required</span>
+                              )}
+                              <input
+                                className="form-control text"
+                                type="text"
+                                value={company.data ?? ""}
+                                onChange={(e) =>
+                                  setCompany({
+                                    data: e.target.value,
+                                    error: false,
+                                  })
+                                }
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="col-12 mt-2">
+                          <label className="float-left">Email *</label>
+                          {email.error && (
+                            <span className="error">Invalid Email</span>
+                          )}
                           <input
-                            type="text"
-                            name="email"
                             className="form-control email"
-                            placeholder="Email Address"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
+                            type="email"
+                            value={email.data ?? ""}
+                            onChange={(e) =>
+                              setEmail({
+                                data: e.target.value,
+                                error: false,
+                              })
+                            }
                           />
                         </div>
 
-                        <div className="col-12">
-                          <input
-                            type="text"
-                            name="email"
-                            className="form-control email"
-                            placeholder="Email Address"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                          />
-                        </div>
+                        {/* Form Submit Button */}
+                        <div className="col-md-12 mt-4">
+                          {apiResp && (
+                            <div
+                              className={
+                                apiResp.includes("error")
+                                  ? "orange-red-color request-quote-message mb-4  d-block"
+                                  : "green-color mb-4  request-quote-message d-block"
+                              }
+                            >
+                              {apiResp}
+                            </div>
+                          )}
 
-                        <div className="col-12">
-                          <input
-                            type="text"
-                            name="email"
-                            className="form-control email"
-                            placeholder="Email Address"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                          />
+                          <div className="col-md-12 form-btn text-right">
+                            <button
+                              onClick={createQuote}
+                              className="btn btn-orange-red tra-black-hover w-100"
+                            >
+                              {loading ? "Submitting" : "Submit"}
+                            </button>
+                          </div>
                         </div>
-
-                        <div className="col-12">
-                          <button
-                            onClick={saveEmail}
-                            className="btn btn-block btn-yellow w-100 tra-yellow-hover submit"
-                          >
-                            Submit
-                          </button>
-                        </div>
+                        {/* Form Data  */}
                       </form>
+                    </div>
+                    <div className="col-6 bg-image-3">
+                      {/* <img src={"/images/popup-image.png"}></img> */}
                     </div>
                   </div>
                 </div>
-              </div>{" "}
+              </div>
             </div>{" "}
           </section>
         )}
