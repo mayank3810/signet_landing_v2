@@ -93,7 +93,7 @@ function Content4() {
 											<p className="p-lg">Send push notifications and collect feedbacks on your products with our advanced web portal.</p>
 										</li>
 									</ul>
-									<Link href="/onboarding">
+									<Link href="/request-demo">
 										<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Start Free Trial</div>
 									</Link>
 								</div>{' '}

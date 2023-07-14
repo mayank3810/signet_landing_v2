@@ -241,7 +241,7 @@ export default function Home() {
 								<div className="col">
 									<div className="content-10-btn">
 										{/* Button */}
-										<Link href="/onboarding">
+										<Link href="/request-demo">
 											<div className="video-popup2 btn btn-md btn-orange-red tra-grey-hover ico-15 ico-left">Start Free Trial</div>
 										</Link>
 										{/* Advantages List */}

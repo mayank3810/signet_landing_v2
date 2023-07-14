@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import EnquiryForm from "../Onboarding/EnquiryForm";
+import EnquiryForm from "../request-demo/EnquiryForm";
 import HologramCoursal from "@/components/HologramCoursal";
 import Link from 'next/link';
 
@@ -151,7 +151,7 @@ function HologramQuote({ open, setOpen }) {
                     onClick={() => setOpen(!open)}
                     className="video-popup2 btn btn-md btn-transparent ico-20 ico-left"
                   >
-                    <span className="flaticon-play" /> Watch Video
+                    <span className="flaticon-play" /> Youtube
                   </div>
                 </div> */}
                 <div>
@@ -195,7 +195,7 @@ function HologramQuote({ open, setOpen }) {
                     </li>
                   </ul>
 
-                  <Link href="/onboarding">
+                  <Link href="/request-demo">
                     <div className="btn btn-yellow tra-yellow-hover color-white mr-15">Try Signet Tags for Free</div>
                   </Link>
                 </div>
@@ -212,7 +212,7 @@ function HologramQuote({ open, setOpen }) {
 
       {!open && (
         <div className="request-quote-footer">
-          <Link href="/onboarding">
+          <Link href="/request-demo">
             <button className="btn btn-success btn-lg btn-block">
               Try Signet Tags for Free
             </button>

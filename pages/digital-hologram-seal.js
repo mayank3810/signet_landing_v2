@@ -134,7 +134,7 @@ export default function Home() {
 												</div>
 											</div>
 										</div>
-										<Link href="/onboarding">
+										<Link href="/request-demo">
 											<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Try Signet Tags for Free</div>
 										</Link>
 									</div>{' '}
@@ -235,7 +235,7 @@ export default function Home() {
 														</p>
 													</li>
 												</ul>
-												<Link href="/onboarding">
+												<Link href="/request-demo">
 													<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Try Signet Tags for Free</div>
 												</Link>
 											</div>{' '}
@@ -258,7 +258,7 @@ export default function Home() {
 										<p className="p-xl">
 											Explore Signet Platform with a Free Trial account to experience the technology yourself before you decide to scale.
 										</p>
-										<Link href="/onboarding">
+										<Link href="/request-demo">
 											<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Try Signet Tags for Free</div>
 										</Link>
 									</div>

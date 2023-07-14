@@ -79,7 +79,7 @@ function Content3() {
 									</div>
 								</div>
 							</div>
-							<Link href="/onboarding">
+							<Link href="/request-demo">
 								<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Start Free Trial</div>
 							</Link>
 						</div>{' '}

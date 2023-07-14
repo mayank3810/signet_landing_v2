@@ -117,7 +117,7 @@ function Pricing() {
 
 										</ul>
 										{/* Pricing Plan Button */}
-										<Link href={'/onboarding'}>
+										<Link href={'/request-demo'}>
 											<button onClick={() => setPlan('Basic')} className="btn btn-sm btn-yellow tra-yellow-hover">
 												Start Free Trial
 											</button>
@@ -165,7 +165,7 @@ function Pricing() {
 											</li>
 										</ul>
 										{/* Pricing Plan Button */}
-										<Link href={'/onboarding'}>
+										<Link href={'/request-demo'}>
 											<button onClick={() => setPlan('Advanced')} className="btn btn-sm btn-yellow tra-yellow-hover">
 												Start Free Trial
 											</button>

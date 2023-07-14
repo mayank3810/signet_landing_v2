@@ -1,5 +1,5 @@
-import Form1 from '@/components/Onboarding/Form1';
-import Form2 from '@/components/Onboarding/Form2';
+import Form1 from '@/components/request-demo/Form1';
+import Form2 from '@/components/request-demo/Form2';
 import Head from 'next/head';
 import Link from 'next/link';
 import React, { useState } from 'react';
@@ -31,7 +31,7 @@ function Onboarding() {
 
 				{/* <!-- Open Graph / Facebook --> */}
 				<meta property="og:site_name" content="Signet Tags" />
-				<meta property="og:url" content="https://www.signettags.com/onboarding" />
+				<meta property="og:url" content="https://www.signettags.com/request-demo" />
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Free product tagging with Signet solutions" />
 				<meta
@@ -44,7 +44,7 @@ function Onboarding() {
 				{/* <!-- Twitter --> */}
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@SignetTags" />
-				<meta name="twitter:url" content="https://www.signettags.com/onboarding" />
+				<meta name="twitter:url" content="https://www.signettags.com/request-demo" />
 				<meta name="twitter:title" content="Free product tagging with Signet solutions" />
 				<meta
 					name="twitter:description"
@@ -52,7 +52,7 @@ function Onboarding() {
 				/>
 				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 
-				<link rel="canonical" href="https://www.signettags.com/onboarding" key="canonical" />
+				<link rel="canonical" href="https://www.signettags.com/request-demo" key="canonical" />
 				<title>Signet Tags - Onboarding Process Overview</title>
 			</Head>
 			<section id="login-3" className="register-form">

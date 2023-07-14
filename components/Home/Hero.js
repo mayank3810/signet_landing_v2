@@ -27,11 +27,11 @@ function Hero() {
 								</p>
 								{/* Buttons Group */}
 								<div className="btns-group">
-									<Link href="/onboarding">
-										<div className="btn btn-orange-red tra-white-hover mr-15">Try for Free</div>
+									<Link href="/request-demo">
+										<div className="btn btn-orange-red tra-white-hover mr-15">Request a Demo</div>
 									</Link>
 									<div onClick={() => setOpen(!open)} className="video-popup2 btn btn-md btn-transparent ico-20 ico-left">
-										<span className="flaticon-play" /> Watch video
+										<span className="flaticon-youtube" /> Youtube
 									</div>
 								</div>
 							</div>

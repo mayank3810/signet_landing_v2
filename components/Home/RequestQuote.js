@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import EnquiryForm from "../../components/Onboarding/EnquiryForm";
+import EnquiryForm from "../../components/request-demo/EnquiryForm";
 import ProductCoursal from "@/components/ProductCoursal";
 import Link from 'next/link';
 
@@ -151,7 +151,7 @@ function RequestQuote({ open, setOpen }) {
                     onClick={() => setOpen(!open)}
                     className="video-popup2 btn btn-md btn-transparent ico-20 ico-left"
                   >
-                    <span className="flaticon-play" /> Watch Video
+                    <span className="flaticon-play" /> Youtube
                   </div>
                 </div> */}
                 <div>
@@ -195,7 +195,7 @@ function RequestQuote({ open, setOpen }) {
                     </li>
                   </ul>
 
-                  <Link href="/onboarding">
+                  <Link href="/request-demo">
                   <div
                     className="btn btn-yellow tra-yellow-hover request-quote-feature color-white mt-15 mb-15"
                   >
@@ -216,7 +216,7 @@ function RequestQuote({ open, setOpen }) {
 
       {!open && (
         <div className="request-quote-footer">
-         <Link href="/onboarding">
+         <Link href="/request-demo">
             <button className="btn btn-success btn-lg btn-block">
               Try Signet Tags for Free
             </button>

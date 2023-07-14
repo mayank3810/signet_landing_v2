@@ -995,7 +995,7 @@ body {
 }
 
 .bg-orange-red {
-	background-color: #4d30fb;
+	background-color: #650ef2;
 }
 
 .bg-pink {
@@ -1019,7 +1019,7 @@ body {
 }
 
 .bg-salmon {
-	background-color: #4d30fb;
+	background-color: #650ef2;
 }
 
 .bg-violet {
@@ -1150,7 +1150,8 @@ body {
 }
 
 .bg-01 {
-	background-image: url(../images/bg-01.jpg);
+	/* background-image: url(../images/bg-01.jpg); */
+	background: #000;
 }
 
 .bg-02 {
@@ -1877,8 +1878,8 @@ a.btn.btn-yellow.tra-yellow-hover.color-white.mr-15:hover {
 .scroll .orange-red-hover:hover, 
 .white-color .orange-red-hover:hover {
   color: #fff!important;
-  background-color: #4d30fb!important;
-  border-color: #4d30fb!important;
+  background-color: #650ef2!important;
+  border-color: #650ef2!important;
 }
 
 .btn-tra-orange-red, 
@@ -1887,9 +1888,9 @@ a.btn.btn-yellow.tra-yellow-hover.color-white.mr-15:hover {
 .tra-orange-red-hover:hover, 
 .scroll .tra-orange-red-hover:hover, 
 .white-color .tra-orange-red-hover:hover {
-  color: #4d30fb!important;
+  color: #650ef2!important;
   background-color: transparent!important;
-  border-color: #4d30fb!important;
+  border-color: #650ef2!important;
 }
 .btn-tra-orange-red,
 .scroll .btn-tra-orange-red,
@@ -1897,9 +1898,9 @@ a.btn.btn-yellow.tra-yellow-hover.color-white.mr-15:hover {
 .tra-orange-red-hover:hover,
 .scroll .tra-orange-red-hover:hover,
 .white-color .tra-orange-red-hover:hover {
-	color: #4d30fb !important;
+	color: #650ef2 !important;
 	background-color: transparent !important;
-	border-color: #4d30fb !important;
+	border-color: #650ef2 !important;
 }
 
 .btn-pink,
@@ -2063,8 +2064,8 @@ a.btn.btn-yellow.tra-yellow-hover.color-white.mr-15:hover {
 .scroll .yellow-hover:hover,
 .white-color .yellow-hover:hover {
 	color: #fff!important;
-	background-color: #4d30fb!important;
-	border-color: #4d30fb!important;
+	background-color: #650ef2!important;
+	border-color: #650ef2!important;
 }
 
 .btn-tra-yellow,
@@ -2178,7 +2179,7 @@ a.btn.btn-yellow.tra-yellow-hover.color-white.mr-15:hover {
 }
 
 /*------------------------------------------*/
-/*  WATCH VIDEO LINK
+/*  Youtube LINK
 /*------------------------------------------*/
 
 .watch-video {
@@ -3065,7 +3066,7 @@ span.os-version {
 .orange-red-color i,
 .orange-red-color span,
 .white-color .orange-red-color {
-	color: #4d30fb;
+	color: #650ef2;
 }
 
 .pink-color,
@@ -3437,7 +3438,7 @@ p.terms-txt a,
 }
 
 .orange-red-loading .object {
-	background-color: #4d30fb;
+	background-color: #650ef2;
 }
 
 .pink-loading .object {
@@ -3818,7 +3819,7 @@ p.terms-txt a,
 }
 
 .wsmenu > .wsmenu-list > li > ul.sub-menu > li > a span {
-	color: #4d30fb;
+	color: #650ef2;
 	font-size: 0.6rem;
 	position: relative;
 	top: -8px;
@@ -4774,7 +4775,7 @@ p.terms-txt a,
 
 #hero-20 {
 	background: #000000;
-	padding-top: 170px;
+	padding-top: 70px;
 	padding-bottom: 100px;
 	
 	/* height:100vh; */

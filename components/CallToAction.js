@@ -18,7 +18,7 @@ function CallToAction() {
 						<div className="col-lg-4">
 							<div className="text-end">
 								<div className="cta-4-btn text-center">
-									<Link href={'/onboarding'}>
+									<Link href={'/request-demo'}>
 										<button className="btn btn-yellow tra-yellow-hover">Start Free Trial</button>
 									</Link>
 								</div>

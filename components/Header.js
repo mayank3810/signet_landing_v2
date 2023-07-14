@@ -74,11 +74,7 @@ function Header({ scroll }) {
         </div>
         {/* NAVIGATION MENU */}
         <div
-          className={
-            scroll
-              ? "wsmainfull menu clearfix scroll"
-              : "wsmainfull menu clearfix"
-          }
+          className="wsmainfull menu clearfix"
         >
           <div className="wsmainwp clearfix">
             {/* HEADER LOGO */}
@@ -98,7 +94,7 @@ function Header({ scroll }) {
                   src="/images/logo_light.svg"
                   alt="Signet Tags Light Logo"
                   width={184}
-                  height={55}
+                  height={46}
                 />
               </Link>
             </div>

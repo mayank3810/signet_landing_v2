@@ -63,7 +63,7 @@ function Content2() {
 								Our solution outperforms QR Code and image recognition-based alternatives in speed and security. No need to download any apps.
 							</p>
 
-							<Link href="/onboarding">
+							<Link href="/request-demo">
 								<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Start Free Trial</div>
 							</Link>
 						</div>

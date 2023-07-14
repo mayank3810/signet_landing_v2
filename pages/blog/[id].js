@@ -108,7 +108,7 @@ function BlogDetail(props) {
 								<p className="p-xl">
 									Explore Signet Platform with a Free Trial account to experience the technology yourself before you decide to scale.
 								</p>
-								<Link href="/onboarding">
+								<Link href="/request-demo">
 									<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Start Free Trial</div>
 								</Link>
 							</div>
