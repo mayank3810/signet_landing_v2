@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import EnquiryForm from "../request-demo/EnquiryForm";
 import HologramCoursal from "@/components/HologramCoursal";
-import Link from 'next/link';
+import Link from "next/link";
+import EnquiryForm from "../Onboarding/EnquiryForm";
 
 function HologramQuote({ open, setOpen }) {
   // const [containerRef, inContainerView] = useInView({ threshold: 0.1 });
@@ -196,7 +196,9 @@ function HologramQuote({ open, setOpen }) {
                   </ul>
 
                   <Link href="/request-demo">
-                    <div className="btn btn-yellow tra-yellow-hover color-white mr-15">Request a Demo</div>
+                    <div className="btn btn-yellow tra-yellow-hover color-white mr-15">
+                      Request a Demo
+                    </div>
                   </Link>
                 </div>
               </div>
