@@ -36,7 +36,7 @@ export default function AntiCounterfeitSolution() {
     // getToken();
     setTimeout(() => {
       setOpenPopup(true);
-    }, 2000);
+    }, 5000);
   }, []);
 
   // const getToken = async () => {
@@ -183,9 +183,9 @@ export default function AntiCounterfeitSolution() {
                 <div className="cta-4-txt">
                   <span
                     onClick={() => setOpenPopup(!openPopup)}
-                    className="close-btn red-color"
+                    className="close-btn white-color "
                   >
-                    x
+                    ×
                   </span>
                   <div className="row">
                     <div
@@ -304,6 +304,7 @@ export default function AntiCounterfeitSolution() {
         <Hero2 open={openPopup} setOpen={setOpenPopup} />
         <div ref={headerRef}>
           <Brands />
+          <hr className="divider" />
 
           <Features />
           <hr className="divider" />

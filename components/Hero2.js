@@ -12,8 +12,8 @@ function Hero2({ open, setOpen }) {
     <>
       {openVideo && (
         <VideoPopup
-          open={open}
-          setOpen={setOpen}
+          open={openVideo}
+          setOpen={setOpenVideo}
           link={"https://www.youtube.com/embed/YQUjE2koNRI"}
         />
       )}
@@ -25,7 +25,7 @@ function Hero2({ open, setOpen }) {
             <div className="col-md-8 col-lg-8">
               <div className="hero-20-txt white-color">
                 <h1 className="h1-md white-color">
-                  The best anti counterfeit solution
+                  Complete Anti Counterfeit Solution
                   <br />
                 </h1>
                 <p className="p-xl">
