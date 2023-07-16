@@ -34,9 +34,12 @@ export default function AntiCounterfeitSolution() {
   useEffect(() => {
     // token = localStorage.getItem
     // getToken();
-    setTimeout(() => {
-      setOpenPopup(true);
-    }, 5000);
+
+    if (window.innerWidth > 600) {
+      setTimeout(() => {
+        setOpenPopup(true);
+      }, 5000);
+    }
   }, []);
 
   // const getToken = async () => {
@@ -173,6 +176,13 @@ export default function AntiCounterfeitSolution() {
       <div id="page" className="page">
         <Header scroll={inHeaderView} />
 
+        {/* <button
+          onClick={() => setOpenPopup(!openPopup)}
+          className="btn-popup btn btn-orange-red tra-grey-hover"
+        >
+          Free Trial
+        </button> */}
+
         {openPopup && (
           <section
             id="cta-4"
@@ -190,14 +200,15 @@ export default function AntiCounterfeitSolution() {
                   <div className="row">
                     <div
                       style={{ padding: "24px 24px 24px 36px" }}
-                      className="col-6"
+                      className="col-6 "
                     >
                       <div className="col-12">
                         <h5 className="h5-lg pt-15 animated-text ">
-                          Join the pilot programme
+                          Join Free Trial
                         </h5>
                         <p className="pb-30">
-                          Only valuable content from us, promised!
+                          Register for a free trial to evaluate the capabilities
+                          of signet tabs.
                         </p>
                       </div>
                       <form className="row contact-form">
@@ -291,7 +302,7 @@ export default function AntiCounterfeitSolution() {
                         {/* Form Data  */}
                       </form>
                     </div>
-                    <div className="col-6 bg-image-3">
+                    <div className="col-6  bg-image-3">
                       {/* <img src={"/images/popup-image.png"}></img> */}
                     </div>
                   </div>
@@ -542,7 +553,7 @@ export default function AntiCounterfeitSolution() {
                     {/* Button */}
                     <Link href="/request-demo">
                       <div className="video-popup2 btn btn-md btn-orange-red tra-grey-hover ico-15 ico-left">
-                        Start Free Trial
+                        Request a Demo
                       </div>
                     </Link>
                     {/* Advantages List */}

@@ -21,7 +21,7 @@ function Onboarding() {
 
         <meta
           name="title"
-          content="Start Free Trial For Free with Signet Tags - Tag, Track, and Authenticate Your Products"
+          content="Request a Demo For Free with Signet Tags - Tag, Track, and Authenticate Your Products"
         />
         <meta
           name="description"

@@ -9414,3 +9414,18 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(100,14,241,1) 35%, rg
     /* outline: 1px solid #000; */
     border-radius: 0 15px 15px 0;
 }
+
+.btn-popup{
+		z-index: 9999;
+		left: 50%;
+		top: 8px;
+		position: absolute;
+	
+}
+
+.calendly-iframe {
+    width: 1000px;
+    height: 700px;
+    border-radius: 15px;
+    /* background: #000; */
+}

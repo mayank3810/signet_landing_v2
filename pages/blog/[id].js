@@ -31,93 +31,123 @@ function BlogDetail(props) {
 	};
 
 	return (
-		<>
-			<Head>
-				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-				<meta name="language" content="English" />
-				<meta name="robots" content="index, follow" />
+    <>
+      <Head>
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="English" />
+        <meta name="robots" content="index, follow" />
 
-				<meta name="title" content={post?.data?.metaTitle.iv} />
-				<meta name="description" content={post?.data?.metaDesc.iv} />
-				<meta name="keywords" content={post?.data?.keywords.iv} />
+        <meta name="title" content={post?.data?.metaTitle.iv} />
+        <meta name="description" content={post?.data?.metaDesc.iv} />
+        <meta name="keywords" content={post?.data?.keywords.iv} />
 
-				{/* <!-- Open Graph / Facebook --> */}
-				<meta property="og:site_name" content="Signet Tags" />
-				<meta property="og:url" content={`https://www.signettags.com/blog/${post?.data?.slug.iv}`} />
-				<meta property="og:type" content="article" />
-				<meta property="og:title" content={post?.data?.ogTitle.iv} />
-				<meta property="og:description" content={post.data.ogDesc.iv} />
-				<meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
-				<meta property="og:locale" content="en_US" />
+        {/* <!-- Open Graph / Facebook --> */}
+        <meta property="og:site_name" content="Signet Tags" />
+        <meta
+          property="og:url"
+          content={`https://www.signettags.com/blog/${post?.data?.slug.iv}`}
+        />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={post?.data?.ogTitle.iv} />
+        <meta property="og:description" content={post.data.ogDesc.iv} />
+        <meta property="og:image" content="/assets/images/Twitter-card.jpeg" />
+        <meta property="og:locale" content="en_US" />
 
-				{/* <!-- Twitter --> */}
-				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:site" content="@SignetTags" />
-				<meta name="twitter:url" content={`https://www.signettags.com/blog/${post?.data?.slug.iv}`} />
-				<meta name="twitter:title" content={post?.data?.twtTitle.iv} />
-				<meta name="twitter:description" content={post?.data?.twtDesc.iv} />
-				<meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
+        {/* <!-- Twitter --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@SignetTags" />
+        <meta
+          name="twitter:url"
+          content={`https://www.signettags.com/blog/${post?.data?.slug.iv}`}
+        />
+        <meta name="twitter:title" content={post?.data?.twtTitle.iv} />
+        <meta name="twitter:description" content={post?.data?.twtDesc.iv} />
+        <meta name="twitter:image" content="/assets/images/Twitter-card.jpeg" />
 
-				<link rel="canonical" href={`https://www.signettags.com/blog/${post?.data?.slug.iv}`} key="canonical" />
-				<title>{post?.data?.pageTitle.iv}</title>
-			</Head>
-			<Header scroll={true} />
-			<section id="single-post" className="wide-100 inner-page-hero single-post-section division">
-				<div className="container">
-					<div className="row">
-						<div className="col-lg-10 offset-lg-1">
-							<div className="single-post-wrapper">
-								<div className="single-post-title">
-									<h2 className="p-sm post-tag txt-500 txt-upcase h4-font mb-4">
-										{post?.data?.postType.iv + ' | Posted On: ' + getParsedDate(post.created)}
-									</h2>
-									<h1 className="h1-md">{post?.data?.title.iv}</h1>
-									<div className="post-inner-img">
-										{post?.data?.image?.iv && (
-											<img
-												className="img-fluid"
-												src={'https://cloud.squidex.io/api/assets/signetblog/' + post?.data?.image?.iv[0]}
-												alt={post?.data?.MainImgAltText?.iv}
-											/>
-										)}
-									</div>
-								</div>
+        <link
+          rel="canonical"
+          href={`https://www.signettags.com/blog/${post?.data?.slug.iv}`}
+          key="canonical"
+        />
+        <title>{post?.data?.pageTitle.iv}</title>
+      </Head>
+      <Header scroll={true} />
+      <section
+        id="single-post"
+        className="wide-100 inner-page-hero single-post-section division"
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-10 offset-lg-1">
+              <div className="single-post-wrapper">
+                <div className="single-post-title">
+                  <h2 className="p-sm post-tag txt-500 txt-upcase h4-font mb-4">
+                    {post?.data?.postType.iv +
+                      " | Posted On: " +
+                      getParsedDate(post.created)}
+                  </h2>
+                  <h1 className="h1-md">{post?.data?.title.iv}</h1>
+                  <div className="post-inner-img">
+                    {post?.data?.image?.iv && (
+                      <img
+                        className="img-fluid"
+                        src={
+                          "https://cloud.squidex.io/api/assets/signetblog/" +
+                          post?.data?.image?.iv[0]
+                        }
+                        alt={post?.data?.MainImgAltText?.iv}
+                      />
+                    )}
+                  </div>
+                </div>
 
-								<div className="single-post-txt p-lg mb-60" dangerouslySetInnerHTML={{ __html: post?.data?.text?.iv }}></div>
-								{post?.data.subContent.iv.map((item) => (
-									<div className="mb-60" key={item.subTitle}>
-										<div className="single-post-subTitle">
-											<h2 className="h1-md">{item?.subTitle}</h2>
-										</div>
-										<div className="single-post-txt p-lg blog-test" dangerouslySetInnerHTML={{ __html: item?.subText }}></div>
-									</div>
-								))}
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section id="content-9" className="content-9 bg-01 pt-100 content-section division">
-				<div className="container white-color">
-					<div className="row justify-content-center">
-						<div className="col-md-10 col-lg-8">
-							<div className="section-title title-02 mb-60">
-								<h2 className="h2-xs">
-									Start Free Trial with a free trial account. <br />
-								</h2>
-								<p className="p-xl">
-									Explore Signet Platform with a Free Trial account to experience the technology yourself before you decide to scale.
-								</p>
-								<Link href="/request-demo">
-									<div className="btn btn-yellow tra-yellow-hover color-white mr-15">Start Free Trial</div>
-								</Link>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</>
-	);
+                <div
+                  className="single-post-txt p-lg mb-60"
+                  dangerouslySetInnerHTML={{ __html: post?.data?.text?.iv }}
+                ></div>
+                {post?.data.subContent.iv.map((item) => (
+                  <div className="mb-60" key={item.subTitle}>
+                    <div className="single-post-subTitle">
+                      <h2 className="h1-md">{item?.subTitle}</h2>
+                    </div>
+                    <div
+                      className="single-post-txt p-lg blog-test"
+                      dangerouslySetInnerHTML={{ __html: item?.subText }}
+                    ></div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="content-9"
+        className="content-9 bg-01 pt-100 content-section division"
+      >
+        <div className="container white-color">
+          <div className="row justify-content-center">
+            <div className="col-md-10 col-lg-8">
+              <div className="section-title title-02 mb-60">
+                <h2 className="h2-xs">
+                  Request a Demo with a free trial account. <br />
+                </h2>
+                <p className="p-xl">
+                  Explore Signet Platform with a Free Trial account to
+                  experience the technology yourself before you decide to scale.
+                </p>
+                <Link href="/request-demo">
+                  <div className="btn btn-yellow tra-yellow-hover color-white mr-15">
+                    Request a Demo
+                  </div>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }
 
 export default BlogDetail;
