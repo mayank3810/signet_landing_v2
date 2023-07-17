@@ -99,7 +99,7 @@ export default function Document() {
 					}}
 				/>
 
-				<Script
+				<script
 					dangerouslySetInnerHTML={{
 						__html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -107,18 +107,8 @@ export default function Document() {
                 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
               })(window,document,'script','dataLayer','GTM-TBXWNQL');`,
 					}}
-					async
 				/>
-				<Script
-					dangerouslySetInnerHTML={{
-						__html: `(function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "h9zsifz74k");`,
-					}}
-					async
-				/>
+
 			</Head>
 			<body>
 				<Main />
