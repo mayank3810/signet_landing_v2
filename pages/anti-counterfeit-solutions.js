@@ -35,7 +35,10 @@ export default function AntiCounterfeitSolution() {
     // token = localStorage.getItem
     // getToken();
 
-    if (window.innerWidth > 600) {
+    if(window.location.href.indexOf("free-trial") > -1) {
+      setOpenPopup(true);
+    }
+    else if (window.innerWidth > 600) {
       setTimeout(() => {
         setOpenPopup(true);
       }, 5000);
@@ -208,7 +211,7 @@ export default function AntiCounterfeitSolution() {
                         </h5>
                         <p className="pb-30">
                           Register for a free trial to evaluate the capabilities
-                          of signet tabs.
+                          of signet tags.
                         </p>
                       </div>
                       <form className="row contact-form">
