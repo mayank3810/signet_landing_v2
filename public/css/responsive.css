@@ -1,3 +1,14 @@
+.show-desktop {
+  display: block !important;
+}
+@media (min-width: 992px) {
+  .hide-desktop {
+    display: none !important;
+  }
+  .show-desktop {
+    display: block !important;
+  }
+}
 @media (min-width: 992px) and (max-width: 1199.95px) {
   .title-01 p,
   .txt-block .btn,
@@ -22,6 +33,14 @@
   .pb-150 {
     padding-bottom: 130px;
   }
+  .hide-desktop {
+    display: none !important;
+  }
+  .trial-popup-container{
+    width: 100%;
+  }
+ 
+
   .form-check .form-check-label,
   .highlight-badge h6,
   .pricing-plan-title h6,
@@ -1180,6 +1199,15 @@
   .hero-7-txt {
     text-align: center;
   }
+  .show-desktop {
+    display: none !important;
+  }
+  .btn-popup {
+    left: 73%;
+    top: 21px;
+    padding: 13px;
+    font-size: 15px;
+}
   .wow {
     animation-name: none !important;
     visibility: visible !important;
@@ -3087,6 +3115,9 @@
   iframe.rounded-20px {
     width: 100%;
   }
+  .show-desktop {
+    display: none !important;
+  }
   .wow {
     animation-name: none !important;
     visibility: visible !important;
@@ -3097,6 +3128,10 @@
   .mt-100 {
     margin-top: 80px;
   }
+  .btn-popup {
+    left: 169px;
+    top: 14px;
+}
   .content-9,
   .mb-100 {
     margin-bottom: 80px;
@@ -4172,6 +4207,9 @@
   .watch-video-link {
     width: 50px;
     height: 50px;
+  }
+  .show-desktop {
+    display: none !important;
   }
   iframe.rounded-20px {
     width: 100%;
@@ -5344,6 +5382,9 @@
   #hero-9-form {
     margin-left: 0;
     text-align: center;
+  }
+  .show-desktop {
+    display: none !important;
   }
   .cta-ico,
   .cta-txt,
@@ -7095,6 +7136,9 @@
   .title-04,
   .txt-block-rating {
     text-align: center;
+  }
+  .show-desktop {
+    display: none !important;
   }
 
   #cta-4 .container {
@@ -8915,6 +8959,9 @@
   .cbox-2-ico,
   .cbox-3-txt {
     display: block !important;
+  }
+  .show-desktop {
+    display: none !important;
   }
   #hero-4-form,
   #hero-9-form,

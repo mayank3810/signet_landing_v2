@@ -16,11 +16,12 @@ function Footer() {
 		const routeBlackList = ['/tamper-proof-seal', '/digital-hologram-seal'];
 		const isDisabled = routeBlackList.indexOf(router.pathname.toLowerCase()) > -1;
 
-		setTimeout(() => {
-			if (localStorage.getItem('showPopup') === null && !isDisabled) {
-				setSaveEmailPopup(true);
-			}
-		}, 3000);
+    // commenting out this popup because it vreated troubles in running paid ads
+		// setTimeout(() => {
+		// 	if (localStorage.getItem('showPopup') === null && !isDisabled) {
+		// 		setSaveEmailPopup(true);
+		// 	}
+		// }, 3000);
 	}, [router.pathname]);
 
 	const saveEmail = async (e) => {

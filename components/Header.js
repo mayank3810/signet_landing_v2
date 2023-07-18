@@ -3,50 +3,50 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 
-function Header({ scroll }) {
-	const [activeRoute, setActiveRoute] = useState();
-	const [mobNav, setMobNav] = useState(true);
+function Header({ scroll, openTrailPopup, setOpenTrialPopup }) {
+  const [activeRoute, setActiveRoute] = useState();
+  const [mobNav, setMobNav] = useState(true);
 
-	const router = useRouter();
+  const router = useRouter();
 
-	useEffect(() => {
-		fetchActiveRoute();
-		// console.log(router.pathname);
-		// console.log(router.pathname.includes("feed"));
-		// window.scrollTo(0, 0);
+  useEffect(() => {
+    fetchActiveRoute();
+    // console.log(router.pathname);
+    // console.log(router.pathname.includes("feed"));
+    // window.scrollTo(0, 0);
 
-		toggleNav();
-	}, [router.pathname]);
+    toggleNav();
+  }, [router.pathname]);
 
-	function fetchActiveRoute() {
-		if (router.pathname.includes('blog')) {
-			setActiveRoute('blog');
-		} else if (router.pathname.includes('industries')) {
-			setActiveRoute('industries');
-		} else if (router.pathname.includes('technology')) {
-			setActiveRoute('technology');
-		} else if (router.pathname.includes('pricing')) {
-			setActiveRoute('pricing');
-		} else if (router.pathname.includes('tamper-proof-seal')) {
-			setActiveRoute('products');
-		} else if (router.pathname.includes('digital-hologram-seal')) {
-			setActiveRoute('products');
-		} else {
-			setActiveRoute('home');
-		}
-	}
+  function fetchActiveRoute() {
+    if (router.pathname.includes('blog')) {
+      setActiveRoute('blog');
+    } else if (router.pathname.includes('industries')) {
+      setActiveRoute('industries');
+    } else if (router.pathname.includes('technology')) {
+      setActiveRoute('technology');
+    } else if (router.pathname.includes('pricing')) {
+      setActiveRoute('pricing');
+    } else if (router.pathname.includes('tamper-proof-seal')) {
+      setActiveRoute('products');
+    } else if (router.pathname.includes('digital-hologram-seal')) {
+      setActiveRoute('products');
+    } else {
+      setActiveRoute('home');
+    }
+  }
 
-	const toggleNav = () => {
-		if (mobNav) {
-			document.body.classList.remove('wsactive');
-			setMobNav(false);
-		} else {
-			document.body.classList.add('wsactive');
-			setMobNav(true);
-		}
-	};
+  const toggleNav = () => {
+    if (mobNav) {
+      document.body.classList.remove('wsactive');
+      setMobNav(false);
+    } else {
+      document.body.classList.add('wsactive');
+      setMobNav(true);
+    }
+  };
 
-	return (
+  return (
     <header id="header" className="header tra-menu navbar-light">
       <div className="header-wrapper">
         {/* MOBILE HEADER */}
@@ -207,13 +207,15 @@ function Header({ scroll }) {
 
                 {/* HEADER BUTTON */}
                 <li className="nl-simple">
-                  <Link
-                    className="btn btn-tra-white orange-red-hover last-link"
-                    href={"/request-demo"}
+                  <button
+                    style={{margin: "14px"}}
+                    onClick={() => setOpenTrialPopup(!openTrailPopup)}
+                    className="show-desktop btn btn-sm btn-green green-red-hover last-link"
                   >
-                    Request a Demo
-                  </Link>
+                    Free Trial offer
+                  </button>
                 </li>
+                
               </ul>
             </nav>{" "}
             {/* END MAIN MENU */}

@@ -35,7 +35,7 @@ export default function AntiCounterfeitSolution() {
     // token = localStorage.getItem
     // getToken();
 
-    if(window.location.href.indexOf("free-trial") > -1) {
+    if (window.location.href.indexOf("free-trial") > -1) {
       setOpenPopup(true);
     }
     else if (window.innerWidth > 600) {
@@ -177,21 +177,21 @@ export default function AntiCounterfeitSolution() {
       </Head>
 
       <div id="page" className="page">
-        <Header scroll={inHeaderView} />
+        <Header openTrailPopup={openPopup} setOpenTrialPopup={setOpenPopup} scroll={inHeaderView} />
 
-        {/* <button
+        <button
           onClick={() => setOpenPopup(!openPopup)}
-          className="btn-popup btn btn-orange-red tra-grey-hover"
+          className="hide-desktop btn-popup badge badge-primary bg-green"
         >
-          Free Trial
-        </button> */}
+          Free Trial offer
+        </button>
 
         {openPopup && (
           <section
             id="cta-4"
             className="cta-section division pt-4 email-popup animate__animated animate__fadeIn"
           >
-            <div className="container w-75">
+            <div className="container trial-popup-container">
               <div className="bg-white home-page-popup p-0">
                 <div className="cta-4-txt">
                   <span
@@ -206,12 +206,12 @@ export default function AntiCounterfeitSolution() {
                       className="col-6 "
                     >
                       <div className="col-12">
-                        <h5 className="h5-lg pt-15 animated-text ">
+                        <span className="badge badge-primary bg-01">Limited period offer</span>
+                        <h1 className="h5-lg pt-15 ">
                           Join Free Trial
-                        </h5>
+                        </h1>
                         <p className="pb-30">
-                          Register for a free trial to evaluate the capabilities
-                          of signet tags.
+                          Please fill the form below to participate in the free trial program.
                         </p>
                       </div>
                       <form className="row contact-form">

@@ -23,8 +23,8 @@ function Brands() {
 		},
 		mobile: {
 			breakpoint: { max: 464, min: 0 },
-			items: 1,
-			slidesToSlide: 1,
+			items: 2,
+			slidesToSlide: 2,
 		},
 	};
 
@@ -57,10 +57,10 @@ function Brands() {
 				items: 2,
 			},
 			400: {
-				items: 2,
+				items: 3,
 			},
 			600: {
-				items: 2,
+				items: 3,
 			},
 			700: {
 				items: 3,
