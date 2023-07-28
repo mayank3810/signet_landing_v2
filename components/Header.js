@@ -206,7 +206,7 @@ function Header({ scroll, openTrailPopup, setOpenTrialPopup }) {
 								</li> */}
 
                 {/* HEADER BUTTON */}
-                <li className="nl-simple">
+                {/* <li className="nl-simple">
                   <button
                     style={{margin: "14px"}}
                     onClick={() => setOpenTrialPopup(!openTrailPopup)}
@@ -214,7 +214,7 @@ function Header({ scroll, openTrailPopup, setOpenTrialPopup }) {
                   >
                     Free Trial offer
                   </button>
-                </li>
+                </li> */}
                 
               </ul>
             </nav>{" "}

@@ -16,14 +16,18 @@ function Hero() {
 				<div className="container">
 					<div className="row d-flex align-items-center">
 						{/* HERO TEXT */}
-						<div className="col-md-8 col-lg-8">
+						<div className="col-md-12">
 							<div className="hero-20-txt white-color">
-								<h1 className="h1-md white-color">
-									The best brand protection solution
+								<h1 className="h1-md white-color text-center">
+									Connecting brands and consumers
+									<br/>
+									 with unique <br/>
+									 Digital user experience
 									<br />
 								</h1>
-								<p className="p-xl">
-									Signet Tags ensures authenticity of your products using technologies like QR code,  NFC & private blockchain
+								<p className="p-xl text-center">
+									Signet Tags enables digital identity on your
+									products using QR Code, NFC & private blockchain
 								</p>
 								{/* Buttons Group */}
 								<div className="btns-group">
@@ -36,17 +40,7 @@ function Hero() {
 								</div>
 							</div>
 						</div>
-						<div className="col-md-4 col-lg-4">
-							<div className="hero-1-img wow fadeInLeft text-center">
-								<img
-									className="img-fluid rounded-20px"
-									src="images/qr-code-scanning.jpg"
-									alt="Brand Protection Shield: Countering Counterfeit with Blockchain, NFC, and Tamper-Proof Seals - Signet Tags"
-								/>
-								{/* <Image src="/images/header-top.png" alt="hero-image" width={257} height={998} className="img-fluid" /> */}
-							</div>
-						</div>
-						{/* END HERO TEXT */}
+						
 					</div>
 					{/* End row */}
 				</div>

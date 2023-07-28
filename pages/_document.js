@@ -14,7 +14,7 @@ export default function Document() {
 				<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
 				<link rel="icon" href="/images/apple-touch-icon.png" type="image/x-icon" />
 				{/* GOOGLE FONTS */}
-				<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+				<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
 				<script
 					dangerouslySetInnerHTML={{
 						__html: `</script>
