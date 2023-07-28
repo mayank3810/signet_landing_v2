@@ -94,7 +94,7 @@ function Header({ scroll, openTrailPopup, setOpenTrialPopup }) {
                   src="/images/logo_light.svg"
                   alt="Signet Tags Light Logo"
                   width={184}
-                  height={46}
+                  height={36}
                 />
               </Link>
             </div>
@@ -111,7 +111,7 @@ function Header({ scroll, openTrailPopup, setOpenTrialPopup }) {
                   </Link>
                 </li>
 
-                <li>
+                {/* <li>
                   <a
                     href="#"
                     className={activeRoute === "products" ? "active-link" : ""}
@@ -130,7 +130,7 @@ function Header({ scroll, openTrailPopup, setOpenTrialPopup }) {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
 
                 <li className="nl-simple">
                   <Link
@@ -196,14 +196,17 @@ function Header({ scroll, openTrailPopup, setOpenTrialPopup }) {
 									</Link>
 								</li> */}
 
-                {/* <li className="nl-simple">
-									<Link
-										className={activeRoute === "pricing" ? "active-link" : ""}
-										href={"/pricing"}
-									>
-										Pricing
-									</Link>
-								</li> */}
+                <li className="nl-simple">
+                  <Link
+                    className={activeRoute === "pricing" ? "active-link" : ""}
+                    href={"/contact"}
+                  >
+                    <button
+                       className="btn btn-sm btn-green green-red-hover last-link">
+                      Contact us
+                    </button>
+                  </Link>
+                </li>
 
                 {/* HEADER BUTTON */}
                 {/* <li className="nl-simple">
@@ -215,7 +218,7 @@ function Header({ scroll, openTrailPopup, setOpenTrialPopup }) {
                     Free Trial offer
                   </button>
                 </li> */}
-                
+
               </ul>
             </nav>{" "}
             {/* END MAIN MENU */}

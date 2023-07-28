@@ -4784,6 +4784,7 @@ p.terms-txt a,
     padding-bottom: 100px;
     background-size: cover;
     position: relative;
+	height: 95vh;
 }
 .bg-black {
 	background-image: url(../images/home-page-banner.jpg);
