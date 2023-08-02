@@ -179,12 +179,12 @@ export default function AntiCounterfeitSolution() {
       <div id="page" className="page">
         <Header openTrailPopup={openPopup} setOpenTrialPopup={setOpenPopup} scroll={inHeaderView} />
 
-        <button
+        {/* <button
           onClick={() => setOpenPopup(!openPopup)}
           className="hide-desktop btn-popup badge badge-primary bg-green"
         >
           Free Trial offer
-        </button>
+        </button> */}
 
         {openPopup && (
           <section

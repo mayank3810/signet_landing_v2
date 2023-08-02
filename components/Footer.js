@@ -209,11 +209,11 @@ function Footer() {
                       <Link href={"/blog"}>Our Blog</Link>
                     </p>
                   </li>
-                  <li>
+                  {/* <li>
                     <p className="p-md">
                       <Link href={"/pricing"}>Plans &amp; Pricing</Link>
                     </p>
-                  </li>
+                  </li> */}
                   <li>
                     <p className="p-md">
                       <Link

@@ -7998,10 +7998,18 @@
   .hero-20-txt h1 {
     font-size: 2.1rem !important;
     margin-bottom: 15px;
+    line-height: 1.7 !important;
+
   }
-  #hero-20 {
-    background-image: none !important;
+  .team-member {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 30px !important;
   }
+  .team-member .btn {
+    width: 100% !important;
+  }
+ 
   .hero-20-txt h2 {
     font-size: 1.85rem;
     padding: 0 3%;

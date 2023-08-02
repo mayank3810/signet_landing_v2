@@ -16,48 +16,57 @@ function Hero() {
 				<div className="container d-flex">
 					<div className="row d-flex align-items-center">
 						{/* HERO TEXT */}
-						<div className="col-md-12">
+						<div className="col-md-12 col-12">
 							<div className="hero-20-txt white-color">
 								<h1 className="h1-md white-color text-center">
 									Connecting brands and consumers
-									<br/>
-									<span style={{"fontSize" : "30px", color:"#35ca6a !important"}}>
-									 with unique 
+									<br />
+									<span style={{ "fontSize": "30px", color: "#35ca6a !important" }}>
+										with unique
 									</span>
-									 <br/>
-									 Digital user experience
+									<br />
+									Digital user experience
 									<br />
 								</h1>
 								<p className="p-xl text-center">
 									Signet Tags enables digital identity on your
 									products using QR Code, NFC & private Blockchain
 								</p>
-								<div className="btns-group d-flex justify-content-center mt-100">
-									<Link href="/anti-counterfeit-solutions">
-										<div className="btn btn-orange-red tra-white-hover mr-45">
-										<img src='/images/icons8-verified-account-50.png' style={{width: "30px", marginRight: "10px"}}  />
+								<div className="mt-100">
+									<div className='row'>
+										<div className='col-md-4 col-lg-4 col-sm-4 col-12 team-member '>
+											<Link href="/anti-counterfeit-solutions">
+												<div className="btn btn-orange-red tra-white-hover">
+													<img src='/images/icons8-verified-account-50.png' style={{ width: "30px", marginRight: "10px" }} />
 
-											Product Authenticity </div>
-									</Link>
+													Product Authenticity </div>
+											</Link>
+										</div>
+										<div className='col-md-4 col-lg-4 col-sm-4 col-12 team-member'>
+											<Link href="https://connected.signettags.com/phygital-merchandise.html" target='_blank'>
+												<div className="btn btn-orange-red tra-white-hover">
+													<img src='/images/icons8-tshirt-50.png' style={{ width: "30px", marginRight: "10px" }} />
+													Fan Merchandise</div>
+											</Link>
+										</div>
+										<div className='col-md-4 col-lg-4 col-sm-4 col-12 team-member'>
+											<Link href="/request-demo">
+												<div className="btn btn-orange-red tra-white-hover">
+													<img src='/images/icons8-movie-ticket-50.png' style={{ width: "30px", marginRight: "10px" }} />
+													Events & Ticketing</div>
+											</Link>
+										</div>
+									</div>
 
-									<Link href="https://connected.signettags.com/phygital-merchandise.html" target='_blank'>
-										<div className="btn btn-orange-red tra-white-hover mr-45 ml-45">
-										<img src='/images/icons8-tshirt-50.png' style={{width: "30px", marginRight: "10px"}}  />
-											
-											Fan Merchandise</div>
-									</Link>
 
-									<Link href="/request-demo">
-										<div className="btn btn-orange-red tra-white-hover ml-45">
-										<img src='/images/icons8-movie-ticket-50.png' style={{width: "30px", marginRight: "10px"}}  />
 
-											Events & Ticketing</div>
-									</Link>
-									
+
+
+
 								</div>
 							</div>
 						</div>
-						
+
 					</div>
 					{/* End row */}
 				</div>
