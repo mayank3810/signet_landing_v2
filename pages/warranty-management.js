@@ -12,7 +12,7 @@ import { useEffect, useRef, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import Brands from "@/components/Brands";
 import Image from "next/image";
-import Hero2 from "@/components/Hero2";
+import WarrantyManagementHero from "@/components/WarrantyManagementHero";
 const inter = Inter({ subsets: ["latin"] });
 // const Hero = dynamic(() => import('@/components/Home/Hero'), {
 // 	ssr: false,
@@ -179,7 +179,143 @@ export default function AntiCounterfeitSolution() {
       <div id="page" className="page">
         <Header openTrailPopup={openPopup} setOpenTrialPopup={setOpenPopup} scroll={inHeaderView} />
 
-        <Hero2 open={openPopup} setOpen={setOpenPopup} />
+        {/* <button
+          onClick={() => setOpenPopup(!openPopup)}
+          className="hide-desktop btn-popup badge badge-primary bg-green"
+        >
+          Free Trial offer
+        </button> */}
+
+        {openPopup && (
+          <section
+            id="cta-4"
+            className="cta-section division pt-4 email-popup animate__animated animate__fadeIn"
+          >
+            <div className="container trial-popup-container">
+              <div className="bg-white home-page-popup p-0">
+                <div className="cta-4-txt">
+                  <span
+                    onClick={() => setOpenPopup(!openPopup)}
+                    className="close-btn white-color "
+                  >
+                    ×
+                  </span>
+                  <div className="row">
+                    <div
+                      style={{ padding: "24px 24px 24px 36px" }}
+                      className="col-6 "
+                    >
+                      <div className="col-12">
+                        <span className="badge badge-primary bg-01">Limited period offer</span>
+                        <h1 className="h5-lg pt-15 ">
+                          Join Free Trial
+                        </h1>
+                        <p className="pb-30">
+                          Please fill the form below to participate in the free trial program.
+                        </p>
+                      </div>
+                      <form className="row contact-form">
+                        {/* Title*/}
+
+                        <div className="col-md-12 ">
+                          <div className="row">
+                            <div className="col-12">
+                              <label className="float-left"> Name * </label>
+                              {name.error && (
+                                <span
+                                  className="error float-right"
+                                  htmlFor="name"
+                                >
+                                  Required
+                                </span>
+                              )}
+                              <input
+                                className="form-control email"
+                                type="text"
+                                value={name.data ?? ""}
+                                onChange={(e) =>
+                                  setName({
+                                    data: e.target.value,
+                                    error: false,
+                                  })
+                                }
+                              />
+                            </div>
+                            <div className="col-12 mt-2">
+                              <label> Company Name * </label>
+                              {company.error && (
+                                <span className="error">Required</span>
+                              )}
+                              <input
+                                className="form-control text"
+                                type="text"
+                                value={company.data ?? ""}
+                                onChange={(e) =>
+                                  setCompany({
+                                    data: e.target.value,
+                                    error: false,
+                                  })
+                                }
+                              />
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="col-12 mt-2">
+                          <label className="float-left">Email *</label>
+                          {email.error && (
+                            <span className="error">Invalid Email</span>
+                          )}
+                          <input
+                            className="form-control email"
+                            type="email"
+                            value={email.data ?? ""}
+                            onChange={(e) =>
+                              setEmail({
+                                data: e.target.value,
+                                error: false,
+                              })
+                            }
+                          />
+                        </div>
+
+                        {/* Form Submit Button */}
+                        <div className="col-md-12 mt-4">
+                          {apiResp && (
+                            <div
+                              className={
+                                apiResp.includes("error")
+                                  ? "orange-red-color request-quote-message mb-4  d-block"
+                                  : "green-color mb-4  request-quote-message d-block"
+                              }
+                            >
+                              {apiResp}
+                            </div>
+                          )}
+
+                          <div className="col-md-12 form-btn text-right">
+                            <button
+                              onClick={createQuote}
+                              className="btn btn-orange-red tra-black-hover w-100"
+                            >
+                              {loading ? "Submitting" : "Submit"}
+                            </button>
+                          </div>
+                        </div>
+                        {/* Form Data  */}
+                      </form>
+                    </div>
+                    <div className="col-6  bg-image-3">
+                      {/* <img src={"/images/popup-image.png"}></img> */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>{" "}
+          </section>
+        )}
+
+        <WarrantyManagementHero open={openPopup} setOpen={setOpenPopup} />
         <div ref={headerRef}>
           <Brands />
           <hr className="divider" />

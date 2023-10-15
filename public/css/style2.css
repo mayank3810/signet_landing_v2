@@ -7963,18 +7963,17 @@ h5.posts-category {
 }
 
 #contacts-2 .contact-form p {
-	color: #333;
 	line-height: 1;
-	font-weight: 500;
-	margin-bottom: 10px;
-	padding-left: 10px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 14px;
 }
 
 #contacts-2 .contact-form .col-md-12 span {
 	display: block;
 	font-size: 17px;
 	line-height: 1;
-	font-weight: 300;
+	font-weight: 500;
 	margin-bottom: 25px;
 	padding-left: 10px;
 }
@@ -7985,7 +7984,7 @@ h5.posts-category {
 
 .contact-form .form-control,
 .contact-form .form-select {
-	height: 60px;
+	height: 44px;
 	background-color: #fff;
 	border: 1px solid #ccc;
 	box-shadow: 0 0 0 0;
@@ -7993,7 +7992,6 @@ h5.posts-category {
 	font-size: 1.1rem;
 	font-weight: 400;
 	padding: 0 15px;
-	margin-bottom: 30px;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
@@ -8014,7 +8012,7 @@ h5.posts-category {
 /*------------------------------------------*/
 
 .contact-form textarea {
-	min-height: 220px;
+	min-height: 120px;
 }
 
 .contact-form textarea.form-control {
@@ -8077,10 +8075,8 @@ h5.posts-category {
 
 .contact-form .error {
 	color: #e74c3c;
-	font-size: 16px;
-	font-weight: 400;
-	margin-bottom: 20px;
-	padding-left: 10px;
+	font-size: 14px;
+	font-weight: 500;
 }
 
 /* ==========================================================================
@@ -8133,7 +8129,7 @@ h5.posts-category {
 img.footer-logo {
 	width: auto;
 	max-width: inherit;
-	max-height: 55px;
+	max-height: 35px;
 }
 
 /*------------------------------------------*/
@@ -9436,4 +9432,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(100,14,241,1) 35%, rg
     height: 700px;
     border-radius: 15px;
     /* background: #000; */
+}
+.append-select {
+	border-top-right-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	-webkit-appearance: auto !important;
 }

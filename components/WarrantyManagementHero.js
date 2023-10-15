@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import VideoPopup from "./VideoPopup";
 import Image from "next/image";
 
-function Hero2({ open, setOpen }) {
+function WarrantyManagementHero({ open, setOpen }) {
   // const [containerRef, inContainerView] = useInView({ threshold: 0.1 });
 
   const [openVideo, setOpenVideo] = useState(false);
@@ -25,27 +25,19 @@ function Hero2({ open, setOpen }) {
             <div className="col-md-8 col-lg-8">
               <div className="hero-20-txt white-color">
                 <h1 className="h1-md white-color">
-                  Better & Affordable Anti Counterfeit Solution
-                  <br />
+                  Shift to the best warranty management solution
                 </h1>
                 <p className="p-xl">
-                  Signet Tags ensures authenticity of your products using
-                  technologies like QR code, NFC & private blockchain. Signet Tags used its <u>patented</u> unclonable anti-counterfeit technology, to put an end to your counterfeiting issues.
- 
+                  Simplest QR based onboarding to increase registration by 300%. Unlock exceptional warranty customer support, enhance product quality and increase customer retention rate with our all-in-one digital manufacturer, repairer, and consumer warranty management platform
                 </p>
+               
                 {/* Buttons Group */}
                 <div className="btns-group">
                   <Link href="/request-demo">
                     <div className="btn btn-orange-red tra-white-hover mr-15">
-                      Request a Demo
+                      Get a Free Live Demo
                     </div>
                   </Link>
-                  <div
-                    onClick={() => setOpenVideo(!openVideo)}
-                    className="video-popup2 btn btn-md btn-transparent ico-20 ico-left"
-                  >
-                    <span className="flaticon-youtube" /> Youtube
-                  </div>
                 </div>
               </div>
             </div>
@@ -69,4 +61,4 @@ function Hero2({ open, setOpen }) {
   );
 }
 
-export default Hero2;
+export default WarrantyManagementHero;
