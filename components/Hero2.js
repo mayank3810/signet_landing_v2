@@ -25,12 +25,12 @@ function Hero2({ open, setOpen }) {
             <div className="col-md-8 col-lg-8">
               <div className="hero-20-txt white-color">
                 <h1 className="h1-md white-color">
-                  Better & Affordable Anti Counterfeit Solution
+                  Scalable & Traceable Anti Counterfeit Solution
                   <br />
                 </h1>
                 <p className="p-xl">
                   Signet Tags ensures authenticity of your products using
-                  technologies like QR code, NFC & private blockchain. Signet Tags used its <u>patented</u> unclonable anti-counterfeit technology, to put an end to your counterfeiting issues.
+                  technologies like QR code, NFC & private blockchain. Signet Tags uses its <u>patented</u> unclonable anti-counterfeit technology, to put an end to your counterfeiting issues.
  
                 </p>
                 {/* Buttons Group */}
