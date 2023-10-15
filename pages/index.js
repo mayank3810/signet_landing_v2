@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import dynamic from 'next/dynamic';
 import Header from '@/components/Header';
 import Content2 from '@/components/Home/Content2';
 import Content3 from '@/components/Home/Content3';
@@ -14,29 +13,11 @@ import { useInView } from 'react-intersection-observer';
 import Brands from '@/components/Brands';
 import Image from 'next/image';
 const inter = Inter({ subsets: ['latin'] });
-// const Hero = dynamic(() => import('@/components/Home/Hero'), {
-// 	ssr: false,
-// });
-// const Brands = dynamic(() => import('@/components/Brands'), {
-// 	ssr: false,
-// });
+
 export default function Home() {
 	const [headerRef, inHeaderView] = useInView();
 
-	useEffect(() => {
-		// token = localStorage.getItem
-		// getToken();
-	}, []);
-
-	// const getToken = async () => {
-	//   const token = await generateAccessToken();
-	//   console.log(token);
-	// };
 	const iframeRef = useRef(null);
-
-	// useEffect(() => {
-	// 	iframeRef.current.src = 'https://www.youtube.com/embed/YQUjE2koNRI';
-	// }, []);
 
 	return (
     <>

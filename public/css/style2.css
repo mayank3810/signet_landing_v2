@@ -7967,6 +7967,7 @@ h5.posts-category {
     font-weight: 500;
     margin-bottom: 5px;
     font-size: 14px;
+	text-align: left;
 }
 
 #contacts-2 .contact-form .col-md-12 span {
@@ -8077,6 +8078,7 @@ h5.posts-category {
 	color: #e74c3c;
 	font-size: 14px;
 	font-weight: 500;
+	text-align: left;
 }
 
 /* ==========================================================================

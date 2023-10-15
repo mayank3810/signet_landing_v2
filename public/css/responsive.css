@@ -8495,7 +8495,9 @@
   }
   #contacts-2 .contact-form p,
   .payment-methods h6 {
-    margin-bottom: 10px;
+    text-align: left;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
   }
   .payment-icons li {
     padding-right: 3px;
@@ -8789,10 +8791,10 @@
   }
   .contact-form .form-control,
   .contact-form .form-select {
-    height: 52px;
+    height: 40px;
   }
   .contact-form textarea {
-    min-height: 170px;
+    min-height: 100px;
   }
   .footer {
     padding-top: 80px;
@@ -10303,7 +10305,9 @@
   }
   #contacts-2 .contact-form p,
   .payment-methods h6 {
-    margin-bottom: 10px;
+    text-align: left;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
   .rtl-direction .pricing-plan-title {
     text-align: right;

@@ -15,7 +15,6 @@ function Contact() {
   const submitForm = async (e) => {
     e.preventDefault();
     setApiResp("");
-    debugger;
     if (name.data === "") {
       setName({ data: "", error: true });
     }
@@ -952,6 +951,7 @@ function Contact() {
             </div>
           </div>
           {/* END CONTACT FORM */}
+
         </div>
         {/* End container */}
       </section>
