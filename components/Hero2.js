@@ -25,8 +25,9 @@ function Hero2({ open, setOpen }) {
             <div className="col-md-8 col-lg-8">
               <div className="hero-20-txt white-color">
                 <h1 className="h1-md white-color">
-                  Scalable & Traceable Anti Counterfeit Solution
+                Identify fake products.
                   <br />
+                  Recover Your Revenue.
                 </h1>
                 <p className="p-xl">
                   Signet Tags ensures authenticity of your products using

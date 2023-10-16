@@ -4780,11 +4780,10 @@ p.terms-txt a,
 #hero-20{
     background: #000;
     background-image: url(../images/home-page-banner.jpg);
-    padding-top: 156px;
-    padding-bottom: 100px;
+    padding-top: 165px;
+    padding-bottom: 125px;
     background-size: cover;
     position: relative;
-	height: 95vh;
 }
 .bg-black {
 	background-image: url(../images/home-page-banner.jpg);
