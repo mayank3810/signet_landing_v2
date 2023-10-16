@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import VideoPopup from "./VideoPopup";
 import Image from "next/image";
 
-function Hero2({ open, setOpen }) {
+function Hero2({ open, setOpen, leftContent }) {
   // const [containerRef, inContainerView] = useInView({ threshold: 0.1 });
 
   const [openVideo, setOpenVideo] = useState(false);
@@ -24,7 +24,7 @@ function Hero2({ open, setOpen }) {
             {/* HERO TEXT */}
             <div className="col-md-8 col-lg-8">
               <div className="hero-20-txt white-color">
-                <h1 className="h1-md white-color">
+                { leftContent?? <><h1 className="h1-md white-color">
                 Identify fake products.
                   <br />
                   Recover Your Revenue.
@@ -33,7 +33,7 @@ function Hero2({ open, setOpen }) {
                   Signet Tags ensures authenticity of your products using
                   technologies like QR code, NFC & private blockchain. Signet Tags uses its <u>patented</u> unclonable anti-counterfeit technology, to put an end to your counterfeiting issues.
  
-                </p>
+                </p></>}
                 {/* Buttons Group */}
                 <div className="btns-group">
                   <Link href="/request-demo">
