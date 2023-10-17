@@ -1,17 +1,7 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
-// import { Popup } from 'react-magnific-popup';
 
 export const WhoWeAre = () => {
-	const [showModal, setShowModal] = useState(false);
-
-	const openModal = () => {
-		setShowModal(true);
-	};
-
-	const closeModal = () => {
-		setShowModal(false);
-	};
 	return (
 		<section className="who_we_are_section position-relative">
 			<div className="container-fluid">
