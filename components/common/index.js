@@ -15,6 +15,7 @@ import { Statistics } from './Statistics';
 import { Testimonials } from './Testimonials';
 import { WhoWeAre } from './WhoWeAre';
 import { Services } from './Services';
+import { RGBCard } from './RGBCard';
 
 export {
 	Banner,
@@ -34,4 +35,5 @@ export {
 	Testimonials,
 	WhoWeAre,
 	Services,
+	RGBCard,
 };

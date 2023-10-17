@@ -178,7 +178,8 @@
 		line-height: 48px;
 	}
 	.services_section .services_box {
-		padding: 40px 20px;
+		/* padding: 40px 20px; */
+		padding: 12px;
 	}
 	.services_section .services_box figure {
 		margin-bottom: 30px;
@@ -888,7 +889,7 @@
 		margin-top: -5px;
 	}
 	.banner-section-outer .banner-section .banner_image .banner_main_image img {
-		width: 220px;
+		/* width: 220px; */
 	}
 	.banner-section-outer .banner-section .banner_image .banner_image_top_shape {
 		top: -60px;

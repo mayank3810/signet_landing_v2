@@ -14,7 +14,7 @@ export const Header = () => {
 					<nav className="navbar navbar-expand-lg navbar-light">
 						<Link className="navbar-brand" href="/">
 							<figure className="mb-0">
-								<img src="/images/immersive-ai_logo.png" alt="" className="img-fluid" />
+								<img src="/images/signet/logo.png" alt="" className="img-fluid" />
 							</figure>
 						</Link>
 						<button
@@ -71,7 +71,7 @@ export const Header = () => {
 								<NavLink title="Contact" route="/contact" />
 								<li className="nav-item">
 									<Link className="nav-link talk_btn" href="/contact">
-										Let’s Talk <i className="fa-solid fa-angle-right"></i>
+										Request Quote <i className="fa-solid fa-angle-right"></i>
 									</Link>
 								</li>
 							</ul>
@@ -82,19 +82,55 @@ export const Header = () => {
 			{/* <!-- BANNER SECTION --> */}
 			{
 				pathname === '/' ? (
-					<HomeBanner />
+					<Banner
+						subtitle="LED wristbands enhancing live performances"
+						desc="Wearable tech that creates a stunning light show at any event, from live music shows and festivals to product launches, corporate & sports events."
+						imgUrl="/images/signet/wrist-bands.png"
+						requestQuote
+						scrollDown
+					/>
 				) : pathname === '/about' ? (
-					<Banner title="About Us" desc="Huis autem vel eum iure reprehender esse ruam nihil molestiae." pageName="About" />
+					<Banner
+						title="About Us"
+						desc="Huis autem vel eum iure reprehender esse ruam nihil molestiae."
+						pageName="About"
+						imgUrl="/images/banner_left_image.jpg"
+					/>
 				) : pathname === '/services' ? (
-					<Banner title="Services" desc="Huis autem vel eum iure reprehender esse ruam nihil molestiae." pageName="Services" />
+					<Banner
+						title="Services"
+						desc="Huis autem vel eum iure reprehender esse ruam nihil molestiae."
+						pageName="Services"
+						imgUrl="/images/banner_left_image.jpg"
+					/>
 				) : pathname === '/faqs' ? (
-					<Banner title="FAQS" desc="Huis autem vel eum iure reprehender esse ruam nihil molestiae." pageName="Faq's" />
+					<Banner
+						title="FAQS"
+						desc="Huis autem vel eum iure reprehender esse ruam nihil molestiae."
+						pageName="Faq's"
+						imgUrl="/images/banner_left_image.jpg"
+					/>
 				) : pathname === '/projects' ? (
-					<Banner title="Projects" desc="Huis autem vel eum iure reprehender esse ruam nihil molestiae." pageName="Projects" />
+					<Banner
+						title="Projects"
+						desc="Huis autem vel eum iure reprehender esse ruam nihil molestiae."
+						pageName="Projects"
+						imgUrl="/images/banner_left_image.jpg"
+					/>
 				) : pathname === '/teams' ? (
-					<Banner title="Teams" desc="Huis autem vel eum iure reprehender esse ruam nihil molestiae." pageName="Teams" />
+					<Banner
+						title="Teams"
+						desc="Huis autem vel eum iure reprehender esse ruam nihil molestiae."
+						pageName="Teams"
+						imgUrl="/images/banner_left_image.jpg"
+					/>
 				) : pathname === '/contact' ? (
-					<Banner title="Contact Us" desc="Huis autem vel eum iure reprehender esse ruam nihil molestiae." pageName="Contact" />
+					<Banner
+						title="Contact Us"
+						desc="Huis autem vel eum iure reprehender esse ruam nihil molestiae."
+						pageName="Contact"
+						imgUrl="/images/banner_left_image.jpg"
+					/>
 				) : null // Fallback when none of the conditions match
 			}
 		</div>
