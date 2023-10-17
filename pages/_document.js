@@ -39,10 +39,10 @@ export default function Document() {
 				{/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" /> */}
 
 				{/* <!-- Latest compiled JavaScript --> */}
-				<script async src="/js/jquery-3.6.0.min.js"></script>
-				<script async src="/js/popper.min.js"></script>
-				<script async src="/js/video-popup.js"></script>
-				<script async src="/js/bootstrap.min.js"></script>
+				<script defer src="/js/popper.min.js"></script>
+				<script defer src="/js/video-popup.js"></script>
+				<script defer src="/js/jquery-3.6.0.min.js"></script>
+				<script defer src="/js/bootstrap.min.js"></script>
 				{/* <script async src="https://unpkg.com/aos@2.3.1/dist/aos.js" /> */}
 				{/* <script async src="/js/owl.carousel.js"></script> */}
 				{/* <script async src="/js/carousel.js" /> */}
