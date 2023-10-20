@@ -6,7 +6,7 @@ const Thankyou = () => {
 	return (
 		<>
 			<Header scroll={true} />
-			<section id="contacts-2" className="bg-black content-3 wide-60 content-section division">
+			<section id="contacts-2" className="bg-black content-3 wide-60 content-section division thankyou-wrapper">
 				<div className="container">
 					<div className="row justify-content-center">
 						<div className="col-md-10 col-lg-8">
