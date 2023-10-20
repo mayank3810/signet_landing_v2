@@ -137,3 +137,10 @@ a {
 		transform: translateX(200%);
 	}
 }
+
+@media screen and (max-width: 575px) {
+	.banner-subtitle {
+		font-size: 46px !important;
+		line-height: 60px !important;
+	}
+}

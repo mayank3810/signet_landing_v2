@@ -9,7 +9,7 @@ export const About = () => {
 					<div className="col-lg-6 col-md-12 col-sm-12 col-xs-12">
 						<div className="aboutus_image">
 							<figure className="aboutus_main_image mb-0">
-								<img src="/images/aboutus_image.jpg" alt="" className="img-fluid" />
+								<img src="/images/signet/home-about-us.png" alt="" className="img-fluid" />
 							</figure>
 							<figure className="aboutus_image_shape position-absolute mb-0 left_right_shape">
 								<img src="/images/aboutus_image_shape.png" alt="" className="img-fluid" />
