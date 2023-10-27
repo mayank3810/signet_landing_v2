@@ -72,7 +72,7 @@ function Patent() {
 										</div>
 
 										<a
-											href="https://ipindiaservices.gov.in/PatentSearch/PatentSearch/ViewApplicationStatus"
+											href="https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/ApplicationStatus"
 											className="btn btn-yellow tra-yellow-hover release-download"
 											target="_blank"
 										>
@@ -125,7 +125,7 @@ function Patent() {
 															</th>
 															<td className="ico-10 disabled-option"></td>
 															<td className="ico-15 green-color"></td>
-															<td className="ico-15 green-color">{/* <span className="flaticon-check" /> */}</td>
+															<td className="ico-15 green-color"><span className="flaticon-check" /></td>
 														</tr>
 														<tr>
 															<th scope="row" className="text-start">
@@ -133,7 +133,7 @@ function Patent() {
 															</th>
 															<td className="ico-15 green-color"></td>
 															<td className="ico-15 green-color"></td>
-															<td className="ico-15 green-color">{/* <span className="flaticon-check" /> */}</td>
+															<td className="ico-15 green-color"><span className="flaticon-check" /></td>
 														</tr>
 													</tbody>
 												</table>
