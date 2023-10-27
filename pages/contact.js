@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Head from "next/head";
 import React, { useState } from "react";
+import { ReCaptchaProvider } from "next-recaptcha-v3";
 
 function Contact() {
   const [email, setEmail] = useState({ data: "", error: false });
@@ -142,8 +143,7 @@ function Contact() {
         </title>
       </Head>
       <Header scroll={true} />
-      {/* CONTACTS-2
-			============================================= */}
+      <ReCaptchaProvider>
       <section
         id="contacts-2"
         className="bg-black content-3 wide-60 content-section division"
@@ -955,6 +955,7 @@ function Contact() {
         </div>
         {/* End container */}
       </section>
+      </ReCaptchaProvider>
       <hr className="divider" />
     </>
   );
