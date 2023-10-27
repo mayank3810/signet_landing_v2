@@ -124,8 +124,7 @@ function Contact() {
 				<title>Contact Signet Tags: Secure Product Authentication Solutions</title>
 			</Head>
 			<Header scroll={true} />
-			{/* CONTACTS-2
-			============================================= */}
+			<ReCaptchaProvider>
 			<section id="contacts-2" className="bg-black content-3 wide-60 content-section division">
 				<div className="container">
 					{/* SECTION TITLE */}
@@ -899,6 +898,7 @@ function Contact() {
 				</div>
 				{/* End container */}
 			</section>
+			</ReCaptchaProvider>
 			<hr className="divider" />
 		</>
 	);
