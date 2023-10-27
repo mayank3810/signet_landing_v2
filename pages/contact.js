@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import React, { useState } from 'react';
+import { ReCaptchaProvider } from "next-recaptcha-v3";
 
 function Contact() {
 	const [email, setEmail] = useState({ data: '', error: false });
@@ -124,6 +125,7 @@ function Contact() {
 				<title>Contact Signet Tags: Secure Product Authentication Solutions</title>
 			</Head>
 			<Header scroll={true} />
+
 			<ReCaptchaProvider>
 			<section id="contacts-2" className="bg-black content-3 wide-60 content-section division">
 				<div className="container">
